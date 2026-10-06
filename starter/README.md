@@ -1,5 +1,7 @@
 # Starter: a film drawn by code
 
+**English** · [简体中文](README.zh-CN.md)
+
 A complete 15-second film (picture, music, titles): about 350 lines of JavaScript for the film, plus a 150-line renderer. Copy this folder to start your own.
 
 ![Contact sheet: one frame per second](../docs/media/starter-sheet.jpg)

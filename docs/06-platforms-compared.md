@@ -1,5 +1,7 @@
 # 6 · Six AI video platforms compared
 
+**English** · [简体中文](zh-CN/06-platforms-compared.md)
+
 即梦 · 小云雀 · LibTV · LiblibAI · TapNow · Flova, researched on **5 October 2026** from official sites, news coverage and GitHub. Prices on these platforms change almost weekly and are often promotional, so treat every number here as a snapshot and check before you buy.
 
 > **Names.** *LibTV* (哩布TV) is LiblibAI's video studio, a separate product from LiblibAI itself. *Flova* (flova.ai) is the AI video agent; don't confuse it with *Flowva*, an unrelated brainstorming canvas without video generation.

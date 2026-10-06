@@ -1,5 +1,7 @@
 # 3 · Path B: draw every frame with code
 
+**English** · [简体中文](zh-CN/03-path-b-code.md)
+
 An AI assistant (Claude, in these projects) writes a program that **draws** the film, and a browser renders it frame by frame. Use this path for **explainers, data, maths, science, timelines, titles and motion graphics**: anything where the picture is shapes, light, text and numbers rather than people.
 
 What you get in return: every frame is exact and repeatable, text is always spelled right, a change is one edit plus a re-render, and rendering costs nothing.

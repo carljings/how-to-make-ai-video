@@ -1,5 +1,7 @@
 # Examples
 
+**English** · [简体中文](README.zh-CN.md)
+
 Real projects made with the methods in this guide. Repos marked *private* are visible only to their owner.
 
 | Film | Path | Spec | How it was made | Where |

@@ -1,5 +1,7 @@
 # 1 · The pipeline
 
+**English** · [简体中文](zh-CN/01-pipeline.md)
+
 Every video in this repo, generated or code-drawn, went through the same ten steps. The tools change between the two paths; the steps don't.
 
 ```mermaid

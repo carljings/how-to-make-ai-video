@@ -1,6 +1,8 @@
 # 7 · Tools like Toonflow: open source and closed
 
-"Like Toonflow" here means a **production studio for AI series**. You put in a story; it builds the **assets** (characters, scenes, props), breaks the script into a **storyboard**, generates **shots** (keyframes → video) that stay consistent across episodes, and **assembles** them, usually on an infinite canvas with an agent alongside. Researched on **5 October 2026** from GitHub, official sites and news coverage. I read the READMEs and articles but have not installed or paid for these tools; numbers are snapshots.
+**English** · [简体中文](zh-CN/07-tools-like-toonflow.md)
+
+"Like Toonflow" here means a **production studio for AI series**. You put in a story; it builds the **assets** (characters, scenes, props), breaks the script into a **storyboard**, generates **shots** (keyframes → video) that stay consistent across episodes, and **assembles** them, usually on an infinite canvas with an agent alongside. Researched on **5 October 2026** from GitHub, official sites and news coverage. These tools were assessed from their READMEs, licences and articles, not installed or paid for, and every number is a snapshot.
 
 ## First choice: open source or closed?
 
@@ -67,7 +69,7 @@
 | **[OiiOii](https://www.oiioii.ai/)** | **Animation** agent: seven AI roles (art director, screenwriter, character / scene / prop designers, storyboard artist, sound); fully automatic or step by step; 160+ styles; turns comic panels into animation | From about ¥133/month; launched in the US in July 2026 |
 | **巨日禄 Jurilu** | 漫剧 factory for long series (100+ episodes): script parsing, storyboards, character locking (reference sheets + LoRA + turnarounds), voice, music, export | Seedance 2.0 through a Volcano Engine partnership (April 2026) |
 
-Also in roundups: 漫聚星球 and 幻舟 (both from 北京先知先行科技). I found only promotional coverage of them, so they aren't assessed here.
+Also in roundups: 漫聚星球 and 幻舟 (both from 北京先知先行科技). Only promotional coverage of them turned up, so they aren't assessed here.
 
 ### Global canvas studios (English)
 

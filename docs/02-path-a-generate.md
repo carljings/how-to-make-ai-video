@@ -1,5 +1,7 @@
 # 2 · Path A: generate the shots with a video model
 
+**English** · [简体中文](zh-CN/02-path-a-generate.md)
+
 You describe a shot, and a video model paints it. Use this path for anything with **people, places, weather, animals, live-action or anime looks**: short dramas, ads, music videos, B-roll.
 
 ## What the models can take as input

@@ -1,5 +1,7 @@
 # How to Make AI Video · 如何制作 AI 视频
 
+**English** · [简体中文](README.zh-CN.md)
+
 A practical guide to making videos with AI, built from finished projects. It covers both ways it's done today, with templates, tested ffmpeg scripts and a starter film you can build in about a minute.
 
 [![The starter film: 610 seeds on the golden angle gather into a title](docs/media/starter-preview.gif)](https://github.com/carljings/how-to-make-ai-video/releases/download/v0.1/starter-film.mp4)
