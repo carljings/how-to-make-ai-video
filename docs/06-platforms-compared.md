@@ -11,7 +11,7 @@
 | **Maker** | ByteDance (剪映 / CapCut team) | ByteDance (剪映 team) | LiblibAI | LiblibAI | Tamar AI | Flova AI |
 | **What it is** | Generation platform: image, video, digital humans, infinite canvas + agent | Content-creation agent: one sentence → finished video | Video production studio: infinite canvas + node workflow | Model community + online generation + LoRA training | "Creative OS" for commercial visuals | All-in-one AI video agent |
 | **Own models** | Yes: **Seedance** (video), **Seedream** (image) | ByteDance's (Seedance) | No, aggregator | **Star-3** image model, thousands of community LoRAs | No, aggregator | No, aggregator |
-| **Video models** | Seedance 2.0, 2.5 | Seedance 2.0, 2.5 | 20+: Kling 3.0/O3, Seedance 2.0/2.5, Wan 3.0, MiniMax H3, Vidu, PixVerse… | Aggregated models (e.g. Kling) | Seedance 2.0/2.5, Kling O3, Wan 3.0, Veo, Sora… | Seedance 2.5/2.0, MiniMax H3, Sora 2, Veo 3.1, Kling; Suno for music |
+| **Video models** | Seedance 2.0, 2.5 | Seedance 2.0, 2.5 | 20+: Kling 3.0/O3, Seedance 2.0/2.5, Wan 3.0, MiniMax H3, Vidu, PixVerse… | Aggregated models (e.g. Kling) | Seedance 2.0/2.5, Kling O3, Wan 3.0, Veo… | Seedance 2.5/2.0, MiniMax H3, Veo 3.1, Kling; Suno for music |
 | **How you work** | Canvas + agent chat, or single generations | Chat with the agent; canvas, 3D director stage, shot previs | Canvas + nodes (script → 9/25-grid storyboard → shots → edit), LibTV Agent, 3D-BOX | Web UI, ComfyUI-style workflows | Tapflow node canvas, storyboard extraction from reference footage, TapTV templates | Conversational agent as "executive director": script → storyboard → shots → audio → edit |
 | **Agent / API access** | **Official CLI** `dreamina` (uses your account's credits) | None found | **Official agent skills** + OpenAPI key, CLI | Open API (liblib.art/apis), image-focused | None public | None public |
 | **Price signal** | Standard ¥199/mo for 4,000 credits (first month ¥119); 66 free credits/day | First month ¥39; daily free credits | Seedance 2.0 720p from **¥0.46/s** (annual plan); 100 credits on sign-up | Cheapest in a 7-tool test (below) | $15 / $60 / $115 / $360 per month (1,500–36,000 "Tapies"); $1 ≈ 100 Tapies | Starter–Pro plans; Seedance 2.5 720p from **$0.045/s** on an annual promo |
@@ -29,7 +29,7 @@
 
 **TapNow** (Tamar AI, 2025) targets commercial work: ads, TVCs, e-commerce. Its standout feature is **reverse storyboarding**: upload a reference ad and it breaks it into editable shots and prompts. TapTV has remixable templates. It's priced in US dollars and aimed at teams (up to 100 members, invoices, concurrency limits). At the listed rates, Seedance 2.0 720p costs 24 Tapies per second, about $0.24/s at the base top-up rate.
 
-**Flova** is the most "agent-first" of the six: you talk to a director-agent and it runs script → storyboard → shots → music/voice → edit, choosing models per scene (Seedance 2.5, MiniMax H3, Sora 2, Veo 3.1, Kling, Suno). Plans include watermark-free export and commercial use, and the current Seedance 2.5 promo is among the cheapest per second. No public API exists; a community Claude Code plugin drives the website through a browser.
+**Flova** is the most "agent-first" of the six: you talk to a director-agent and it runs script → storyboard → shots → music/voice → edit, choosing models per scene (Seedance 2.5, MiniMax H3, Veo 3.1, Kling, Suno). Plans include watermark-free export and commercial use, and the current Seedance 2.5 promo is among the cheapest per second. No public API exists; a community Claude Code plugin drives the website through a browser.
 
 ## Cost per second
 
@@ -69,7 +69,7 @@ Whichever you pick, the shots it produces go through the same review and assembl
 
 | Repo | ★ | What it is |
 |---|---|---|
-| [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | 16.5k | Open-source short-drama canvas (README states MIT): desktop/Docker, connects to any model API or local ComfyUI, MCP, plugins, character turnarounds, 3D previs. The tool used for 《半仙下山》 in [`examples/`](../examples/README.md) |
+| [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | 16.5k | Open-source short-drama canvas (MIT): desktop/Docker, connects to any model API or local ComfyUI, MCP, plugins, character turnarounds, 3D previs. The tool used for 《半仙下山》 in [`examples/`](../examples/README.md) |
 | [ArcReel/ArcReel](https://github.com/ArcReel/ArcReel) | 5.3k | Self-hosted agent workbench: novel/script → characters, scenes, props → storyboard → video → 剪映 draft, with cost tracking |
 | [ZeroLu/open-canvas](https://github.com/ZeroLu/open-canvas) | 270 | Local-first, bring-your-own-key canvas, explicitly "an open alternative to LibTV and TapNow" (alpha) |
 | [MaLunan/AIGCCanvasFlow](https://github.com/MaLunan/AIGCCanvasFlow) | 119 | Vue 3 + VueFlow node canvas editor, for building your own |
@@ -77,6 +77,8 @@ Whichever you pick, the shots it produces go through the same review and assembl
 **3. Prompt know-how is being packaged as agent skills:** [LearnPrompt/awesome-seedance](https://github.com/LearnPrompt/awesome-seedance) (1.7k★, 600+ sourced Seedance cases), [liyue-aigc/seedance-2-5-video-director](https://github.com/liyue-aigc/seedance-2-5-video-director) (532★), [jnMetaCode/ai-shortfilm-prompts](https://github.com/jnMetaCode/ai-shortfilm-prompts) (457★), [cclank/lanshu-awesome-ai-video-kit](https://github.com/cclank/lanshu-awesome-ai-video-kit) (412★, 411 prompts, 15 models), [A-cat-with-carrots/OnlyShot](https://github.com/A-cat-with-carrots/OnlyShot) (304★, one sentence → script → storyboard → video → edit with 即梦/Seedance). Most have **no licence**, so read and learn from them, but ask before copying.
 
 **4. Avoid the "free API" proxies.** Repos such as `jimeng-free-api-all` and `iptag/jimeng-api` (hundreds to 1k★) reverse-engineer the website and run your logged-in session outside the official channels. They break whenever the site changes and can get the account banned. Use the official CLI or API instead. The same goes for watermark-removal tools: platform watermarks and AI labels are part of the terms, and in China labelling AI content is a legal requirement.
+
+For many more studios like Toonflow, open source and closed, see [Chapter 7](07-tools-like-toonflow.md).
 
 ## Sources
 

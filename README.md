@@ -10,7 +10,7 @@ A practical guide to making videos with AI, built from finished projects. It cov
 
 | | **Path A: Generate** | **Path B: Code** |
 |---|---|---|
-| How | Describe each shot; a video model (Sora, Veo, Kling, Hailuo, Seedance, Runway, Wan…) paints it | An AI assistant writes a program that draws every frame; a browser renders it; ffmpeg encodes it |
+| How | Describe each shot; a video model (Seedance, Kling, Hailuo, Vidu, Veo, Runway, Wan…) paints it | An AI assistant writes a program that draws every frame; a browser renders it; ffmpeg encodes it |
 | Best for | People, places, stories, short dramas, ads, live-action or anime looks | Explainers, data, maths and science, timelines, titles, motion graphics |
 | Strengths | Photoreal or stylized footage from a sentence; native audio | Exact, repeatable, text always correct, a change costs one re-render, free to render |
 | Weak spots | Consistency between clips, on-screen text, hands, cost per take | No real people or places, no photorealism |
@@ -60,6 +60,7 @@ tools/stitch.sh shots.txt episode.mp4 --size 1080x1920 --srt episode.srt
 | [4 · Sound](docs/04-sound.md) | Voice, music, effects, −14 LUFS, ducking, finding clicks, subtitles |
 | [5 · Edit and export](docs/05-edit-and-export.md) | The scripts, tested ffmpeg recipes, export settings, pre-upload checklist |
 | [6 · Platforms compared](docs/06-platforms-compared.md) | 即梦, 小云雀, LibTV, LiblibAI, TapNow and Flova side by side: models, workflow, agent access, cost per second, what GitHub shows |
+| [7 · Tools like Toonflow](docs/07-tools-like-toonflow.md) | ~30 AI drama studios, open source (with licences) and closed: Toonflow, 火宝短剧, DramaClaw, ArcReel, 可灵, Seko, 天工, OiiOii, LTX Studio… and which to try |
 | [`templates/`](templates/) | [Brief](templates/brief.md) · [storyboard](templates/storyboard.md) · [shot prompt](templates/shot-prompt.md) · [production log](templates/production-log.md) · [`shots.txt`](templates/shots.txt) |
 | [`tools/`](tools/) | [`stitch.sh`](tools/stitch.sh) (assemble and master) · [`review.sh`](tools/review.sh) (contact sheets) |
 | [`starter/`](starter/) | A complete code-drawn film to copy: timeline, scenes, synthesized score, renderer |
