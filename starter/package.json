@@ -1,0 +1,18 @@
+{
+  "name": "code-rendered-video-starter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A 15-second film drawn by code: render(t) on a canvas, captured by headless Chrome, encoded with ffmpeg",
+  "scripts": {
+    "studio": "node render.mjs --serve",
+    "sheet": "node render.mjs --range=0:15:1 --cols=4",
+    "frames": "node render.mjs --frames",
+    "audio": "node render.mjs --audio",
+    "encode": "node render.mjs --encode",
+    "build": "node render.mjs --frames && node render.mjs --audio && node render.mjs --encode"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.0.0"
+  }
+}

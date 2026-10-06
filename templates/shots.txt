@@ -1,0 +1,6 @@
+# Edit list for tools/stitch.sh: one clip per line: <path> [start-seconds] [end-seconds]
+# Paths are relative to this file. Clips are joined in this order with hard cuts.
+clips/01.mp4
+clips/02.mp4 0.4
+clips/03.mp4 0 9.2
+clips/04.mp4
