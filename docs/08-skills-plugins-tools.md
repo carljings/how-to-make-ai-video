@@ -8,7 +8,7 @@ What GitHub offers for making AI video with an agent like Claude Code: what to i
 
 | Kind | What it is | How it's installed in Claude Code |
 |---|---|---|
-| **Skill** | A folder with a `SKILL.md`: instructions and scripts the agent loads when a task matches | `npx skills add <owner/repo>` |
+| **Skill** | A folder with a `SKILL.md`: instructions and scripts the agent loads when a task matches | `npx skills add <owner/repo>` (the `skills` tool needs Node.js 22+; on older Node, copy the skill folder into `~/.claude/skills/` instead) |
 | **Plugin** | A package of skills, commands and sometimes MCP servers, with updates | `claude plugin marketplace add <owner/repo>`, then `claude plugin install <name>@<marketplace>` |
 | **MCP server** | A connector that gives the agent tools for an app or API (a video model, ComfyUI, an editor) | `claude mcp add <name> -e KEY=value -- <command>` |
 | **CLI** | A command-line program the agent runs like any other command | `npm install -g …`, or the vendor's install script |
@@ -21,7 +21,7 @@ These are the industrial versions of this guide's [`starter/`](../starter/README
 
 | Project | ★ | Licence | What it gives you |
 |---|---|---|---|
-| **[HyperFrames](https://github.com/heygen-com/hyperframes)** (HeyGen) | 57.4k | Apache-2.0 | HTML + CSS + seekable animations → deterministic MP4. **Official Claude Code plugin** with 21 skills: a `/hyperframes` router plus workflows such as product-launch video, faceless explainer and PR-to-video. Plan → write HTML → lint → preview → render |
+| **[HyperFrames](https://github.com/heygen-com/hyperframes)** (HeyGen) | 57.4k | Apache-2.0 | HTML + CSS + seekable animations → deterministic MP4. **Official Claude Code plugin** with 21 skills: a `/hyperframes` router plus workflows such as product-launch video, faceless explainer and PR-to-video. Plan → write HTML → lint → preview → render. **Needs Node.js 22+** |
 | **[Remotion](https://github.com/remotion-dev/remotion)** + **[remotion-dev/skills](https://github.com/remotion-dev/skills)** | 62.1k · 4.9k | Remotion licence: free for individuals, non-profits and companies of up to 3 people; larger companies need a paid licence | Video as React components; the official agent skills cover creating, markup, studio preview and rendering |
 | **[video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)** | 10.4k | Apache-2.0 | Claude Code / Codex skill for cinematic product videos on Remotion: 157 shot recipe cards, 214 styles, beat-synced cuts, sound effects, and a browser workbench for edits after delivery. Sister project **video-talkcraft** does narration videos |
 | **[brag](https://github.com/latent-spaces/brag)** | 13.7k | MIT | `/brag` turns the project you just built into a short launch video with music and share copy (built on HyperFrames) |
@@ -35,7 +35,7 @@ These are the industrial versions of this guide's [`starter/`](../starter/README
 
 | Project | ★ | Licence | What it gives you |
 |---|---|---|---|
-| **[MiniMax CLI `mmx`](https://github.com/MiniMax-AI/cli)** (official) | 2.2k | none stated | Text, image, **video**, speech and music from the terminal or an agent. Supports **MiniMax-H3** with a start image, `--reference-image` and `--reference-video`. Install as an agent skill (`npx skills add MiniMax-AI/cli -y -g`) or `npm install -g mmx-cli`. Needs a MiniMax Token Plan; China accounts use `api.minimaxi.com` |
+| **[MiniMax CLI `mmx`](https://github.com/MiniMax-AI/cli)** (official) | 2.2k | none stated | Text, image, **video**, speech and music from the terminal or an agent. Supports **MiniMax-H3** with a start image, `--reference-image` and `--reference-video`. Ships two skills, `mmx-cli` and an H3-specific `mmx-h3-video`. Install with `npx skills add MiniMax-AI/cli -y -g`, plus `npm install -g mmx-cli` for the program. Text, image and speech use a Token Plan, but **H3 video needs a pay-as-you-go (credit) API key**. China accounts use `api.minimaxi.com` |
 | **[MiniMax-MCP](https://github.com/MiniMax-AI/MiniMax-MCP)** (official) | 1.6k | MIT | The same MiniMax capabilities as MCP tools. MiniMax now recommends the CLI above |
 | **即梦 CLI** `dreamina` (official) | — | — | Seedance from the command line; see [Chapter 6](06-platforms-compared.md) |
 | **[libtv-skills](https://github.com/libtv-labs/libtv-skills)** (official) | 1.1k | MIT (README) | LibTV's 20+ models from an agent; see [Chapter 6](06-platforms-compared.md) |
@@ -101,8 +101,8 @@ If you make both kinds of video with Claude Code, these four cover most of the w
 
 | Need | Install | Command |
 |---|---|---|
-| Code-drawn video | HyperFrames plugin | `claude plugin marketplace add heygen-com/hyperframes` then `claude plugin install hyperframes@hyperframes` |
-| Generate MiniMax H3 shots from the agent | MiniMax CLI skill | `npx skills add MiniMax-AI/cli -y -g` (needs a Token Plan and API key) |
+| Code-drawn video | HyperFrames plugin (needs Node.js 22+ to render) | `claude plugin marketplace add heygen-com/hyperframes` then `claude plugin install hyperframes@hyperframes` |
+| Generate MiniMax H3 shots from the agent | MiniMax CLI skills + `mmx` | `npx skills add MiniMax-AI/cli -y -g` and `npm install -g mmx-cli`, then `mmx auth login` with a pay-as-you-go API key |
 | Direct H3 performances | h3-storyboard skill | `npx skills add https://github.com/phileiny/h3-storyboard-skill --skill h3-storyboard` |
 | Edit and finish locally | ffmpeg-skill | `npx ffmpeg-skill` |
 
