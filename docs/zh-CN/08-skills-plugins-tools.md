@@ -8,7 +8,7 @@
 
 | 类型 | 是什么 | 在 Claude Code 里怎么装 |
 |---|---|---|
-| **技能（Skill）** | 一个带 `SKILL.md` 的文件夹：任务匹配时，AI 助手会加载其中的说明和脚本 | `npx skills add <owner/repo>` |
+| **技能（Skill）** | 一个带 `SKILL.md` 的文件夹：任务匹配时，AI 助手会加载其中的说明和脚本 | `npx skills add <owner/repo>`（`skills` 工具需要 Node.js 22 及以上；Node 版本较旧时，把技能文件夹直接复制到 `~/.claude/skills/` 即可） |
 | **插件（Plugin）** | 打包好的技能、命令，有时还带 MCP 服务器，可自动更新 | `claude plugin marketplace add <owner/repo>`，再 `claude plugin install <名称>@<市场>` |
 | **MCP 服务器** | 连接器，让 AI 助手能操作某个应用或 API（视频模型、ComfyUI、剪辑软件） | `claude mcp add <名称> -e KEY=value -- <命令>` |
 | **命令行工具（CLI）** | 一个命令行程序，AI 助手像运行其他命令一样运行它 | `npm install -g …`，或厂商提供的安装脚本 |
@@ -21,7 +21,7 @@
 
 | 项目 | ★ | 许可证 | 提供什么 |
 |---|---|---|---|
-| **[HyperFrames](https://github.com/heygen-com/hyperframes)**（HeyGen） | 57.4k | Apache-2.0 | HTML + CSS + 可拖动的动画 → 确定性的 MP4。**官方 Claude Code 插件**，含 21 个技能：`/hyperframes` 总入口，加上产品发布视频、无真人讲解视频、PR 转视频等工作流。规划 → 写 HTML → 检查 → 预览 → 渲染 |
+| **[HyperFrames](https://github.com/heygen-com/hyperframes)**（HeyGen） | 57.4k | Apache-2.0 | HTML + CSS + 可拖动的动画 → 确定性的 MP4。**官方 Claude Code 插件**，含 21 个技能：`/hyperframes` 总入口，加上产品发布视频、无真人讲解视频、PR 转视频等工作流。规划 → 写 HTML → 检查 → 预览 → 渲染。**需要 Node.js 22 及以上** |
 | **[Remotion](https://github.com/remotion-dev/remotion)** + **[remotion-dev/skills](https://github.com/remotion-dev/skills)** | 62.1k · 4.9k | Remotion 许可证：个人、非营利组织和 3 人以内的公司免费；更大的公司需付费 | 把视频写成 React 组件；官方技能覆盖新建、编写、Studio 预览和渲染 |
 | **[video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)** | 10.4k | Apache-2.0 | 用 Remotion 做电影感产品视频的 Claude Code / Codex 技能：157 张镜头配方卡、214 种风格、卡点剪辑、音效，交付后还能在浏览器工作台里继续改。姊妹项目 **video-talkcraft** 做口播/旁白视频 |
 | **[brag](https://github.com/latent-spaces/brag)** | 13.7k | MIT | `/brag` 把你刚做好的项目变成一支带音乐和分享文案的短发布视频（基于 HyperFrames） |
@@ -35,7 +35,7 @@
 
 | 项目 | ★ | 许可证 | 提供什么 |
 |---|---|---|---|
-| **[MiniMax CLI `mmx`](https://github.com/MiniMax-AI/cli)**（官方） | 2.2k | 未注明 | 在终端或 AI 助手里生成文本、图片、**视频**、语音和音乐。支持 **MiniMax-H3**，可传首帧、`--reference-image` 和 `--reference-video`。作为技能安装（`npx skills add MiniMax-AI/cli -y -g`）或 `npm install -g mmx-cli`。需要 MiniMax Token Plan；国内账号用 `api.minimaxi.com` |
+| **[MiniMax CLI `mmx`](https://github.com/MiniMax-AI/cli)**（官方） | 2.2k | 未注明 | 在终端或 AI 助手里生成文本、图片、**视频**、语音和音乐。支持 **MiniMax-H3**，可传首帧、`--reference-image` 和 `--reference-video`。附带两个技能：`mmx-cli` 和专门用于 H3 的 `mmx-h3-video`。用 `npx skills add MiniMax-AI/cli -y -g` 安装技能，再用 `npm install -g mmx-cli` 安装程序本身。文本、图片和语音使用 Token Plan，但 **H3 视频需要按量付费（Credit）的 API 密钥**。国内账号用 `api.minimaxi.com` |
 | **[MiniMax-MCP](https://github.com/MiniMax-AI/MiniMax-MCP)**（官方） | 1.6k | MIT | 以 MCP 工具形式提供同样的 MiniMax 能力。MiniMax 现在更推荐上面的 CLI |
 | **即梦 CLI** `dreamina`（官方） | — | — | 在命令行里用 Seedance；见[第 6 章](06-platforms-compared.md) |
 | **[libtv-skills](https://github.com/libtv-labs/libtv-skills)**（官方） | 1.1k | MIT（README 标注） | 让 AI 助手调用 LibTV 的 20 多个模型；见[第 6 章](06-platforms-compared.md) |
@@ -101,8 +101,8 @@
 
 | 需求 | 安装 | 命令 |
 |---|---|---|
-| 用代码画视频 | HyperFrames 插件 | `claude plugin marketplace add heygen-com/hyperframes`，再 `claude plugin install hyperframes@hyperframes` |
-| 让 AI 助手生成 MiniMax H3 镜头 | MiniMax CLI 技能 | `npx skills add MiniMax-AI/cli -y -g`（需要 Token Plan 和 API 密钥） |
+| 用代码画视频 | HyperFrames 插件（渲染需要 Node.js 22 及以上） | `claude plugin marketplace add heygen-com/hyperframes`，再 `claude plugin install hyperframes@hyperframes` |
+| 让 AI 助手生成 MiniMax H3 镜头 | MiniMax CLI 技能 + `mmx` | `npx skills add MiniMax-AI/cli -y -g` 和 `npm install -g mmx-cli`，然后用按量付费的 API 密钥运行 `mmx auth login` |
 | 指导 H3 的表演 | h3-storyboard 技能 | `npx skills add https://github.com/phileiny/h3-storyboard-skill --skill h3-storyboard` |
 | 在本地剪辑和成片 | ffmpeg-skill | `npx ffmpeg-skill` |
 
