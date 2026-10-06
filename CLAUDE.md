@@ -21,3 +21,4 @@ A guide to making AI video, with templates, ffmpeg tools and a code-rendered sta
 
 - Every command shown in `docs/` must have been run. If you add a recipe, test it on a generated clip first (`ffmpeg -f lavfi -i testsrc2=…`).
 - Model names change often: describe capabilities to compare, not rankings or version numbers.
+- Every page in `docs/`, `README.md`, `examples/README.md`, `starter/README.md` and `templates/` has a Simplified Chinese counterpart (`docs/zh-CN/`, `*.zh-CN.md`, `templates/zh-CN/`). When you change one language, update the other in the same commit.

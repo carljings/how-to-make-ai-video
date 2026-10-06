@@ -1,5 +1,7 @@
 # 4 · Sound
 
+**English** · [简体中文](zh-CN/04-sound.md)
+
 Viewers forgive a soft picture long before they forgive bad sound. Every film needs three layers, and a target loudness.
 
 | Layer | Path A (generated) | Path B (code) |

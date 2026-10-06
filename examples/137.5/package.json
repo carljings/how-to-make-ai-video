@@ -1,0 +1,16 @@
+{
+  "name": "golden-angle-film",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "137.5°: an original code-drawn film about the golden angle",
+  "scripts": {
+    "sheet": "node render.mjs --sheet",
+    "frames": "node render.mjs --frames",
+    "audio": "node render.mjs --audio",
+    "encode": "node render.mjs --encode"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.0.0"
+  }
+}

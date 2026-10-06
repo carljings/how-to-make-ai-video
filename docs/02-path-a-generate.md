@@ -1,5 +1,7 @@
 # 2 · Path A: generate the shots with a video model
 
+**English** · [简体中文](zh-CN/02-path-a-generate.md)
+
 You describe a shot, and a video model paints it. Use this path for anything with **people, places, weather, animals, live-action or anime looks**: short dramas, ads, music videos, B-roll.
 
 ## What the models can take as input
@@ -16,7 +18,7 @@ One generation is usually **5–15 seconds**. A longer film is many clips joined
 
 ## Choosing a model
 
-Commonly used families include Sora (OpenAI), Veo (Google), Kling (Kuaishou), Hailuo (MiniMax), Seedance (ByteDance), Runway and Luma, plus open-weight models such as Wan and HunyuanVideo that you can run yourself on a GPU. Versions change every few months, so compare on what you need rather than on a ranking:
+Commonly used families include Seedance (ByteDance), Kling (Kuaishou), Hailuo (MiniMax), Vidu (Shengshu), Veo (Google), Runway and Luma, plus open-weight models such as Wan and HunyuanVideo that you can run yourself on a GPU. (OpenAI's Sora was discontinued in 2026: the app on 26 April, the API on 24 September.) Versions change every few months, so compare on what you need rather than on a ranking. For the Chinese platforms where you use these models (即梦, 小云雀, LibTV, LiblibAI, TapNow, Flova), see [Chapter 6](06-platforms-compared.md).
 
 | Check | Why it matters |
 |---|---|

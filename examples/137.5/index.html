@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>137.5° · studio</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  html, body { margin: 0; background: #0b0c10; color: #d8d4cc; font: 13px/1.4 system-ui, sans-serif; }
+  #stage { display: block; width: min(100vw, calc((100vh - 48px) * 16 / 9)); height: auto; margin: 0 auto; background: #000; }
+  .bar { display: flex; gap: 10px; align-items: center; padding: 10px 14px; max-width: 1400px; margin: 0 auto; }
+  .bar input[type=range] { flex: 1; }
+  .bar output { font-variant-numeric: tabular-nums; min-width: 150px; }
+  body.render .bar { display: none; }
+  body.render #stage { width: 1920px; }
+</style>
+</head>
+<body>
+<canvas id="stage" width="1920" height="1080"></canvas>
+<div class="bar">
+  <button id="play" type="button">Play</button>
+  <input id="scrub" type="range" min="0" max="170" step="0.0333333" value="0" aria-label="Time">
+  <output id="tc">0.00 s</output>
+</div>
+<script type="module">
+import { init, renderAt } from './src/film.js';
+import { DUR, FPS } from './src/timeline.js';
+
+const render = location.search.includes('render');
+if (render) document.body.classList.add('render');
+const canvas = document.getElementById('stage');
+
+await Promise.all([...document.fonts].map(f => f.load()));
+await init(canvas);
+
+window.DUR = DUR;
+window.frame = (t, q = 0.95) => { renderAt(t); return canvas.toDataURL('image/jpeg', q); };
+
+// Contact sheet: several times tiled into one image, each labelled with its time
+window.sheet = (times, cols = 4, w = 480) => {
+  const h = Math.round(w * 9 / 16), rows = Math.ceil(times.length / cols), pad = 4;
+  const s = document.createElement('canvas');
+  s.width = cols * (w + pad) + pad; s.height = rows * (h + pad) + pad;
+  const g = s.getContext('2d');
+  g.fillStyle = '#222'; g.fillRect(0, 0, s.width, s.height);
+  const ms = [];
+  times.forEach((t, i) => {
+    const t0 = performance.now(); renderAt(t); ms.push(performance.now() - t0);
+    const x = pad + (i % cols) * (w + pad), y = pad + Math.floor(i / cols) * (h + pad);
+    g.drawImage(canvas, x, y, w, h);
+    g.font = '600 15px monospace'; g.fillStyle = 'rgba(0,0,0,.65)'; g.fillRect(x, y, 66, 22);
+    g.fillStyle = '#ffd36b'; g.fillText(t.toFixed(2) + 's', x + 5, y + 16);
+  });
+  return { url: s.toDataURL('image/jpeg', 0.9), ms };
+};
+
+// Soundtrack: rendered offline from the same timeline, then saved through the local server
+window.renderAudio = async (path) => {
+  const { renderScore, toWav } = await import('./src/score.js');
+  const buf = await renderScore();
+  const wav = toWav(buf);
+  await fetch('/save?path=' + encodeURIComponent(path), { method: 'POST', body: wav });
+  let peak = 0, sum = 0;
+  for (let c = 0; c < buf.numberOfChannels; c++) { const d = buf.getChannelData(c); for (let i = 0; i < d.length; i++) { const v = Math.abs(d[i]); if (v > peak) peak = v; sum += v * v; } }
+  const rms = Math.sqrt(sum / (buf.length * buf.numberOfChannels));
+  return { seconds: buf.duration, peakDb: 20 * Math.log10(peak || 1e-9), rmsDb: 20 * Math.log10(rms || 1e-9) };
+};
+
+window.READY = true;
+
+if (!render) {
+  const scrub = document.getElementById('scrub'), tc = document.getElementById('tc'), play = document.getElementById('play');
+  scrub.max = DUR;
+  let t = 0, playing = false, startAt = 0, audio = null, src = null;
+  const show = () => { renderAt(t); tc.value = `${t.toFixed(2)} s · f${Math.round(t * FPS)}`; scrub.value = t; };
+  scrub.addEventListener('input', () => { t = +scrub.value; if (playing) stop(); show(); });
+  async function start() {
+    if (!audio) { try { const r = await fetch('out/mix.wav'); if (r.ok) { const ac = new AudioContext(); audio = { ac, buf: await ac.decodeAudioData(await r.arrayBuffer()) }; } } catch { audio = null; } }
+    playing = true; play.textContent = 'Pause';
+    startAt = performance.now() / 1000 - t;
+    if (audio) { src = audio.ac.createBufferSource(); src.buffer = audio.buf; src.connect(audio.ac.destination); src.start(0, t); }
+    const tick = () => { if (!playing) return; t = performance.now() / 1000 - startAt; if (t >= DUR) { t = 0; stop(); } show(); requestAnimationFrame(tick); };
+    requestAnimationFrame(tick);
+  }
+  function stop() { playing = false; play.textContent = 'Play'; if (src) { try { src.stop(); } catch {} src = null; } }
+  play.addEventListener('click', () => (playing ? stop() : start()));
+  const hash = parseFloat(location.hash.slice(1)); if (!Number.isNaN(hash)) t = hash;
+  show();
+}
+</script>
+</body>
+</html>

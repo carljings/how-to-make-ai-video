@@ -1,0 +1,99 @@
+1
+00:00:01,200 --> 00:00:03,700
+一颗种子。
+One seed.
+
+2
+00:00:04,000 --> 00:00:08,600
+转 137.5°，再长一颗。
+Turn 137.5°. Grow another.
+
+3
+00:00:09,000 --> 00:00:13,600
+就这一条规则，一遍又一遍。
+Just this one rule, again and again.
+
+4
+00:00:21,600 --> 00:00:28,600
+34 条螺旋朝一边，55 条朝另一边。
+34 spirals one way, 55 the other.
+
+5
+00:00:29,200 --> 00:00:34,800
+从中心往外数：8、13、21、34、55、89……
+Count outward from the centre: 8, 13, 21, 34, 55, 89…
+
+6
+00:00:35,000 --> 00:00:40,600
+每个数都是前两个数之和：斐波那契数列。
+Each is the sum of the two before it: the Fibonacci sequence.
+
+7
+00:00:41,200 --> 00:00:46,400
+相邻两个数的比，越来越接近 φ。
+The ratio of neighbours closes in on φ.
+
+8
+00:00:46,800 --> 00:00:52,200
+用 φ 把一整圈分开，小的那份就是 137.5°。
+Split a full turn by φ, and the smaller part is 137.5°.
+
+9
+00:00:52,600 --> 00:00:57,400
+换一个角度试试。
+Try a different angle.
+
+10
+00:00:57,800 --> 00:01:03,800
+简单的分数都会重复：种子排成直线，中间留下空隙。
+Simple fractions repeat: the seeds line up and leave gaps.
+
+11
+00:01:06,800 --> 00:01:12,400
+φ 是最难被分数逼近的数：它的连分数全是 1。
+φ is the number fractions approximate worst: its continued fraction is all ones.
+
+12
+00:01:12,600 --> 00:01:17,200
+所以黄金角永远不会对齐。
+So the golden angle never lines up.
+
+13
+00:01:18,000 --> 00:01:23,600
+每一颗都挤得下，一点空间都不浪费。
+Every seed fits, and no space is wasted.
+
+14
+00:01:24,400 --> 00:01:29,800
+同一个角度，长在许多植物上。
+The same angle grows in many plants.
+
+15
+00:01:38,400 --> 00:01:44,400
+叶子这样错开，很少正好挡在彼此上方。
+Leaves set this way rarely sit right above one another.
+
+16
+00:01:48,400 --> 00:01:53,600
+可是，植物怎么知道 137.5°？
+But how does a plant know 137.5°?
+
+17
+00:01:54,000 --> 00:02:00,400
+它不知道。每颗新芽只是长在最有空间的地方。
+It doesn't. Each new bud simply grows where there is the most room.
+
+18
+00:02:01,000 --> 00:02:07,400
+就这样，角度自己落到了 137.5° 附近。
+And the angle settles near 137.5° by itself.
+
+19
+00:02:12,000 --> 00:02:17,600
+自然不会计算。它只是一直在长。
+Nature doesn't calculate. It just keeps growing.
+
+20
+00:02:18,400 --> 00:02:27,200
+137.5° · 一个角度
+137.5° · One angle

@@ -1,5 +1,7 @@
 # 5 · Edit and export
 
+**English** · [简体中文](zh-CN/05-edit-and-export.md)
+
 For most AI films the edit is simple: hard cuts in storyboard order, subtitles, a title, sound mastered. That fits in a script, which means an assistant can do it and you can re-run it after every change. Open a timeline editor (CapCut/剪映, DaVinci Resolve, Premiere) when you need hand-timed cuts to music, or effects across many shots.
 
 ## The scripts
