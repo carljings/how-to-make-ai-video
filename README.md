@@ -59,6 +59,7 @@ tools/stitch.sh shots.txt episode.mp4 --size 1080x1920 --srt episode.srt
 | [3 · Path B: code](docs/03-path-b-code.md) | `render(t)`, frame-pure rules, working with an assistant, performance, sound and fonts |
 | [4 · Sound](docs/04-sound.md) | Voice, music, effects, −14 LUFS, ducking, finding clicks, subtitles |
 | [5 · Edit and export](docs/05-edit-and-export.md) | The scripts, tested ffmpeg recipes, export settings, pre-upload checklist |
+| [6 · Platforms compared](docs/06-platforms-compared.md) | 即梦, 小云雀, LibTV, LiblibAI, TapNow and Flova side by side: models, workflow, agent access, cost per second, what GitHub shows |
 | [`templates/`](templates/) | [Brief](templates/brief.md) · [storyboard](templates/storyboard.md) · [shot prompt](templates/shot-prompt.md) · [production log](templates/production-log.md) · [`shots.txt`](templates/shots.txt) |
 | [`tools/`](tools/) | [`stitch.sh`](tools/stitch.sh) (assemble and master) · [`review.sh`](tools/review.sh) (contact sheets) |
 | [`starter/`](starter/) | A complete code-drawn film to copy: timeline, scenes, synthesized score, renderer |
