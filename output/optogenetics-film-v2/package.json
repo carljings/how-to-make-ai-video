@@ -1,0 +1,16 @@
+{
+  "name": "optogenetics-film-v2",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "75-second portrait optogenetics film with Mandarin narration and cinematic code animation",
+  "scripts": {
+    "studio": "node render.mjs --serve",
+    "sheet": "node render.mjs --sheet=1.4,7,16,26,36,45,53,62,69,73 --cols=5 --w=270",
+    "build": "node render.mjs --frames --workers=4 && node render.mjs --audio && node render.mjs --encode --out=out/optogenetics-v2.mp4 --grain=2",
+    "verify": "node verify.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "24.43.1"
+  }
+}

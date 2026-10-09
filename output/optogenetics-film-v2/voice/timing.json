@@ -1,0 +1,145 @@
+[
+  {
+    "index": 1,
+    "key": "7e84f622f8dfda6d80bde8927cb95ebc1685736fc93d47efa90ee42d3e573c90",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": -3,
+    "start": 0.08,
+    "end": 4.088,
+    "caption": "给神经元装一个光开关，会发生什么？",
+    "spoken": "给神经元装一个光开关，会发生什么？",
+    "file": "01.mp3"
+  },
+  {
+    "index": 2,
+    "key": "37337bb62ffadee6cea452663495f95c5f680a34210f269d3e34f4744d965bb4",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": -3,
+    "start": 5.08,
+    "end": 9.832,
+    "caption": "关键，是先让特定细胞拥有光敏蛋白。",
+    "spoken": "关键，是先让特定细胞拥有光敏蛋白。",
+    "file": "02.mp3"
+  },
+  {
+    "index": 3,
+    "key": "29161afff8fa093dbb3092bfabd44d8186db6e03f20914d97e3ba607defbd302",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": -3,
+    "start": 12.08,
+    "end": 16.04,
+    "caption": "一些微生物的蛋白，本来就能响应光。",
+    "spoken": "一些微生物的蛋白，本来就能响应光。",
+    "file": "03.mp3"
+  },
+  {
+    "index": 4,
+    "key": "ee8bf084079fcae777f470a6bc5ad25fee1fe878b59f0b3d8ed3308c081fad9c",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": 0,
+    "start": 16.88,
+    "end": 20.768,
+    "caption": "把这类蛋白的编码，引入目标细胞。",
+    "spoken": "把这类蛋白的编码，引入目标细胞。",
+    "file": "04.mp3"
+  },
+  {
+    "index": 5,
+    "key": "c53d04deeaef2cc9c8d649225ed58ee4e2ebfe6b582ad6d6a9f119b763c3ce26",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": -3,
+    "start": 21.08,
+    "end": 24.631999999999998,
+    "caption": "光敏通道表达在神经元膜上。",
+    "spoken": "光敏通道表达在神经元膜上。",
+    "file": "05.mp3"
+  },
+  {
+    "index": 6,
+    "key": "7a8981ed306a5a494afa7ab311f861e6e660ee14bca52d35976b9101931bebf5",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": -3,
+    "start": 26.279999999999998,
+    "end": 30.023999999999997,
+    "caption": "光改变离子流，也就影响了膜电位。",
+    "spoken": "光改变离子流，也就影响了膜电位。",
+    "file": "06.mp3"
+  },
+  {
+    "index": 7,
+    "key": "6a463fbcab2a14e642173e2799028dec0c5e916ff0b93e8ac2a41a46f497f93a",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": -3,
+    "start": 32.08,
+    "end": 36.736,
+    "caption": "合适的光脉冲，能调节这些细胞的放电节奏。",
+    "spoken": "合适的光脉冲，能调节这些细胞的放电节奏。",
+    "file": "07.mp3"
+  },
+  {
+    "index": 8,
+    "key": "d2754d0684bb05559e012b009cc628ea16d486c45372742ad65358bf40d957d3",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": -3,
+    "start": 41.08,
+    "end": 45.784,
+    "caption": "换用另一类光敏工具，也能压低特定细胞的活动。",
+    "spoken": "换用另一类光敏工具，也能压低特定细胞的活动。",
+    "file": "08.mp3"
+  },
+  {
+    "index": 9,
+    "key": "d03b69e2317ef7299cd8b5f5f95286dec3cf367cbd82e62911b0c99d3acbe580",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": -3,
+    "start": 49.08,
+    "end": 53.903999999999996,
+    "caption": "在实验条件下，研究者能追问这组细胞的作用。",
+    "spoken": "在实验条件下，研究者能追问这组细胞的作用。",
+    "file": "09.mp3"
+  },
+  {
+    "index": 10,
+    "key": "0ea59b772d1840c3e75ddc41b5f4a99c251ba6709340e56e3d40b20a0435637d",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": 0,
+    "start": 57.08,
+    "end": 60.751999999999995,
+    "caption": "2021年，出现了一个早期临床案例。",
+    "spoken": "二零二一年，出现了一个早期临床案例。",
+    "file": "10.mp3"
+  },
+  {
+    "index": 11,
+    "key": "70db807705b746e24a913cb615ce2fd1158b6b511cb50aba44e01ecbc076fe69",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": -3,
+    "start": 61.08,
+    "end": 65.75999999999999,
+    "caption": "配合光刺激眼镜，部分恢复了辨识物体的能力。",
+    "spoken": "配合光刺激眼镜，部分恢复了辨识物体的能力。",
+    "file": "11.mp3"
+  },
+  {
+    "index": 12,
+    "key": "a28446225ee19a502aaff88f4cac1aa30806eb6eae34b1d14cb8b6b0239794fa",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": -3,
+    "start": 66.08,
+    "end": 69.968,
+    "caption": "把光，变成探索神经回路的工具。",
+    "spoken": "把光，变成探索神经回路的工具。",
+    "file": "12.mp3"
+  },
+  {
+    "index": 13,
+    "key": "20826db7f7f7ae64273fd7aad28d88d00b617707dc0438c0a087e1bed6320bc9",
+    "voice": "zh-CN-YunxiNeural",
+    "rate": -3,
+    "start": 70.88,
+    "end": 74.384,
+    "caption": "一束光，照见回路中的因果。",
+    "spoken": "一束光，照见回路中的因果。",
+    "file": "13.mp3"
+  }
+]

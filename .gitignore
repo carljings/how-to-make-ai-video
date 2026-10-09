@@ -1,8 +1,11 @@
 node_modules/
 out/
 .DS_Store
+.omx/
+.venv/
+__pycache__/
+output/reference-next-film-20261009/
+output/optogenetics-film-v2/tools/opus-benchmark/
+output/optogenetics-film-v2/voice/sample.*
 
 .agent/
-.omx/
-__pycache__/
-.venv/

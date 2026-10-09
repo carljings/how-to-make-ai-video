@@ -1,0 +1,16 @@
+{
+  "name": "optogenetics-film",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Original 75-second vertical optogenetics explainer",
+  "scripts": {
+    "studio": "node render.mjs --serve",
+    "sheet": "node render.mjs --sheet=1.4,7,16,26,36,45,53,62,69,73 --cols=5 --w=270",
+    "build": "node render.mjs --frames --workers=4 && node render.mjs --audio && node render.mjs --encode --out=out/optogenetics.mp4 --grain=2",
+    "verify": "node verify.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "24.43.1"
+  }
+}

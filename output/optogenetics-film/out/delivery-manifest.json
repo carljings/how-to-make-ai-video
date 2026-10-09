@@ -1,0 +1,16 @@
+{
+  "file": "optogenetics.mp4",
+  "sha256": "a8469fd897993bdd4155cb4d990e0234505060c00c18847559b13c3060539e0d",
+  "bytes": 9907491,
+  "duration": 75,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "LUFS": -14.01,
+  "true_peak_dBTP": -2.62,
+  "captions": "optogenetics.srt",
+  "poster": "poster.jpg",
+  "source_archive": "optogenetics-v1-source.zip"
+}

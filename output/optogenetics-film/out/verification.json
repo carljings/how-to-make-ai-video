@@ -1,0 +1,72 @@
+{
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "duration": 75,
+  "timeline": true,
+  "deterministic": true,
+  "textBounds": true,
+  "frames": [
+    {
+      "scene": "hook",
+      "t": 1.4,
+      "hash": "f0f0101c70a2c51f6adb4b0b1b3056b5e274c2d355f212416c425e5c4641d71d",
+      "textCount": 11
+    },
+    {
+      "scene": "target",
+      "t": 6.4,
+      "hash": "3d32ff48653f3b8974c3319285a47db58dad16b7e8f04c220c9963eca659386f",
+      "textCount": 9
+    },
+    {
+      "scene": "algae",
+      "t": 13.4,
+      "hash": "94b42061bd94b2db269b28daeb60cb8b188b1befbd5cb0df7441e3c0347ee48f",
+      "textCount": 11
+    },
+    {
+      "scene": "membrane",
+      "t": 22.4,
+      "hash": "d8ea7e2969ca8698d5143693d29d65d7f82881f130ea4bdbcd668e92e0da4aae",
+      "textCount": 15
+    },
+    {
+      "scene": "rhythm",
+      "t": 33.4,
+      "hash": "713623adba233c423ad6ee252d84b83016f9ed17fe4879b661b550a0e9d76b33",
+      "textCount": 11
+    },
+    {
+      "scene": "inhibit",
+      "t": 42.4,
+      "hash": "1681304c51ccf3d841edf3b7633edaf4399d208b0475042686e651b043f280e9",
+      "textCount": 10
+    },
+    {
+      "scene": "research",
+      "t": 50.4,
+      "hash": "5ca7d92aa96b828df7cba3ba83f5a88c0c525f7cda21ee1ed6abadb65722155b",
+      "textCount": 11
+    },
+    {
+      "scene": "vision",
+      "t": 58.4,
+      "hash": "2a9d21a47d64e28b6523e005e69e3e7f09c4faa6e9f744bcab9136463dfb52b2",
+      "textCount": 10
+    },
+    {
+      "scene": "nobel",
+      "t": 67.4,
+      "hash": "4c9dac20bcdb0182bb3633e99b30e55fea446da7567022ab09ab351cbab9c8bd",
+      "textCount": 8
+    },
+    {
+      "scene": "ending",
+      "t": 73.4,
+      "hash": "be8c6778aaf28904f0bdb687af2e00d1a67ef71f1106897f9b208d1b018fb1fb",
+      "textCount": 7
+    }
+  ]
+}
