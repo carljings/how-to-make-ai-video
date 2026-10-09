@@ -1,15 +1,16 @@
 import {spawn} from 'node:child_process';
 import {createHash} from 'node:crypto';
-import {writeFileSync} from 'node:fs';
+import {existsSync,writeFileSync} from 'node:fs';
 import puppeteer from 'puppeteer-core';
 import {ACTS,CAPTIONS,W,H,DUR} from './src/timeline.js';
 const port=8137,server=spawn(process.execPath,['render.mjs','--serve','--port='+port],{stdio:'ignore'});
 const hash=s=>createHash('sha256').update(s).digest('hex');
+const chrome=process.env.CHROME_PATH||['/usr/bin/google-chrome','/usr/bin/chromium','/usr/bin/chromium-browser','/Applications/Google Chrome.app/Contents/MacOS/Google Chrome','C:/Program Files/Google/Chrome/Application/chrome.exe'].find(p=>existsSync(p));
 const errors=[],report={dimensions:[W,H],duration:DUR,timeline:true,deterministic:true,textBounds:true,frames:[]};
 let browser;
 try{
   for(let i=0;i<60;i++){try{const r=await fetch('http://localhost:'+port);if(r.ok)break;}catch{}await new Promise(r=>setTimeout(r,100));}
-  browser=await puppeteer.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader','--force-device-scale-factor=1'],protocolTimeout:0});
+  browser=await puppeteer.launch({executablePath:chrome,headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader','--force-device-scale-factor=1'],protocolTimeout:0});
   const page=await browser.newPage();await page.setViewport({width:W,height:H});page.on('pageerror',e=>errors.push(e.message));
   await page.goto('http://localhost:'+port+'/index.html?render');await page.waitForFunction('window.READY===true');
   if(ACTS[0].a!==0||ACTS.at(-1).b!==DUR||ACTS.some((s,i)=>i&&ACTS[i-1].b!==s.a))throw new Error('Timeline gap');
