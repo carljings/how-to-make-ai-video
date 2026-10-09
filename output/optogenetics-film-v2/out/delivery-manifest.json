@@ -1,0 +1,18 @@
+{
+  "file": "optogenetics-v2.mp4",
+  "sha256": "dc23e760b2800299dff5827557cb950e20781d950b91f9e06f838eb46e95c1b0",
+  "bytes": 24190375,
+  "duration": 75,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "LUFS": -14.15,
+  "true_peak_dBTP": -2.47,
+  "captions": "optogenetics-v2.srt",
+  "poster": "poster.jpg",
+  "narration": "../voice/narration.wav",
+  "source_archive": "optogenetics-v2-source.zip",
+  "qualityReview": "pending user audiovisual review"
+}

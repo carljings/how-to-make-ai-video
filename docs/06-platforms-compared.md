@@ -6,6 +6,8 @@
 
 > **Names.** *LibTV* (哩布TV) is LiblibAI's video studio, a separate product from LiblibAI itself. *Flova* (flova.ai) is the AI video agent; don't confuse it with *Flowva*, an unrelated brainstorming canvas without video generation.
 
+> **Newer verification.** This page retains the 5 October snapshot and was not rechecked item by item in this round. See [Chapter 7](07-tools-like-toonflow.md) for studio features, automation, licences and price conditions verified on 8 October. Do not treat the old versions, prices or “no interface found” statements below as current conclusions.
+
 ## At a glance
 
 | | **即梦 Jimeng** (Dreamina) | **小云雀 Xiaoyunque** | **LibTV** | **LiblibAI 哩布哩布** | **TapNow** | **Flova** |
