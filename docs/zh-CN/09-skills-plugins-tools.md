@@ -1,6 +1,6 @@
-# 8 · GitHub 上的技能、插件与工具
+# 9 · GitHub 上的技能、插件与工具
 
-[English](../08-skills-plugins-tools.md) · **简体中文**
+[English](../09-skills-plugins-tools.md) · **简体中文**
 
 用 Claude Code 这类 AI 助手做 AI 视频，GitHub 上有什么可用：装什么、读什么，以及这些项目能教会我们什么。调研时间 **2026 年 10 月 6 日**，星数和许可证均为当天在 GitHub 上核对；这里列出的东西都没有在编写本指南的机器上安装过。
 
