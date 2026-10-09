@@ -4,10 +4,12 @@ import { PULSES } from './timeline.js';
 export const BLUE=[74,182,255], ICE=[184,231,255], GOLD=[255,174,81], GREEN=[128,213,134];
 const R=rng(200517);
 export const dust=Array.from({length:360},()=>({x:(R()-.5)*2100,y:(R()-.5)*2400,z:(R()-.5)*1900,r:.7+R()*2,p:R()*TAU}));
+// Douyin draws the account name and description over the bottom of the frame, so the picture and labels sit this much higher.
+export const LIFT=140;
 
 export function camera(t,options={}) {
   return {d:options.d||1250,f:820,rx:options.rx??(.08+Math.sin(t*.08)*.07),ry:options.ry??(-.12+t*.008),
-    rz:options.rz||0,x:options.x||0,y:options.y||0,cx:options.cx||540,cy:options.cy||960};
+    rz:options.rz||0,x:options.x||0,y:options.y||0,cx:options.cx||540,cy:(options.cy||960)-LIFT};
 }
 export function project(p,c) {
   let [x,y,z]=p; x-=c.x;y-=c.y;
@@ -19,7 +21,7 @@ export function project(p,c) {
 }
 export function atmosphere(g,c,t,color=BLUE,alpha=1) {
   for(const p of dust){const q=project([p.x+Math.sin(t*.1+p.p)*14,p.y,p.z],c);g.dof(q,p.r,color,(.22+.1*Math.sin(p.p+t*.1))*alpha,c.d,18);}
-  g.glow(620,920,850,color,.055*alpha,'halo');
+  g.glow(620,920-LIFT,850,color,.055*alpha,'halo');
 }
 function surface(n) {
   return Array.from({length:n},(_,i)=>{

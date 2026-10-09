@@ -7,11 +7,12 @@
     "codec_type": "video",
     "codec_tag_string": "avc1",
     "codec_tag": "0x31637661",
-    "mime_codec_string": "avc1.640032",
     "width": 1080,
     "height": 1920,
     "coded_width": 1088,
     "coded_height": 1920,
+    "closed_captions": 0,
+    "film_grain": 0,
     "has_b_frames": 2,
     "sample_aspect_ratio": "1:1",
     "display_aspect_ratio": "9:16",
@@ -19,7 +20,9 @@
     "level": 50,
     "color_range": "tv",
     "color_space": "bt709",
-    "chroma_location": "left",
+    "color_transfer": "bt709",
+    "color_primaries": "bt709",
+    "chroma_location": "center",
     "field_order": "progressive",
     "refs": 5,
     "is_avc": "true",
@@ -32,7 +35,7 @@
     "start_time": "0.000000",
     "duration_ts": 1152000,
     "duration": "75.000000",
-    "bit_rate": "2379177",
+    "bit_rate": "2371952",
     "bits_per_raw_sample": "8",
     "nb_frames": "2250",
     "nb_read_frames": "2250",
@@ -55,19 +58,14 @@
       "descriptions": 0,
       "metadata": 0,
       "dependent": 0,
-      "still_image": 0,
-      "multilayer": 0
+      "still_image": 0
     },
     "tags": {
       "language": "und",
       "handler_name": "VideoHandler",
-      "encoder": "Lavc62.28.100 libx264"
-    },
-    "side_data_list": [
-      {
-        "side_data_type": "ICC Profile"
-      }
-    ]
+      "vendor_id": "[0][0][0][0]",
+      "encoder": "Lavc60.31.102 libx264"
+    }
   },
   "audio": {
     "index": 1,
@@ -77,7 +75,6 @@
     "codec_type": "audio",
     "codec_tag_string": "mp4a",
     "codec_tag": "0x6134706d",
-    "mime_codec_string": "mp4a.40.2",
     "sample_fmt": "fltp",
     "sample_rate": "48000",
     "channels": 2,
@@ -92,7 +89,7 @@
     "start_time": "0.000000",
     "duration_ts": 3600000,
     "duration": "75.000000",
-    "bit_rate": "192063",
+    "bit_rate": "192573",
     "nb_frames": "3517",
     "nb_read_frames": "3516",
     "extradata_size": 5,
@@ -114,40 +111,39 @@
       "descriptions": 0,
       "metadata": 0,
       "dependent": 0,
-      "still_image": 0,
-      "multilayer": 0
+      "still_image": 0
     },
     "tags": {
       "language": "und",
-      "handler_name": "SoundHandler"
+      "handler_name": "SoundHandler",
+      "vendor_id": "[0][0][0][0]"
     }
   },
   "format": {
     "filename": "out/optogenetics-v2.mp4",
     "nb_streams": 2,
     "nb_programs": 0,
-    "nb_stream_groups": 0,
     "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
     "format_long_name": "QuickTime / MOV",
     "start_time": "0.000000",
     "duration": "75.000000",
-    "size": "24190375",
-    "bit_rate": "2580306",
+    "size": "24126980",
+    "bit_rate": "2573544",
     "probe_score": 100,
     "tags": {
       "major_brand": "isom",
       "minor_version": "512",
       "compatible_brands": "isomiso2avc1mp41",
-      "encoder": "Lavf62.12.100"
+      "encoder": "Lavf60.16.100"
     }
   },
   "loudness": {
-    "input_i": "-14.15",
-    "input_tp": "-2.47",
+    "input_i": "-14.16",
+    "input_tp": "-2.44",
     "input_lra": "16.00",
-    "input_thresh": "-26.71",
+    "input_thresh": "-26.72",
     "output_i": "-15.76",
-    "output_tp": "-1.83",
+    "output_tp": "-1.79",
     "output_lra": "8.80",
     "output_thresh": "-26.83",
     "normalization_type": "dynamic",
