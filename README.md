@@ -62,7 +62,8 @@ tools/stitch.sh shots.txt episode.mp4 --size 1080x1920 --srt episode.srt
 | [4 · Sound](docs/04-sound.md) | Voice, music, effects, −14 LUFS, ducking, finding clicks, subtitles |
 | [5 · Edit and export](docs/05-edit-and-export.md) | The scripts, tested ffmpeg recipes, export settings, pre-upload checklist |
 | [6 · Platforms compared](docs/06-platforms-compared.md) | 即梦, 小云雀, LibTV, LiblibAI, TapNow and Flova side by side: models, workflow, agent access, cost per second, what GitHub shows |
-| [7 · Tools like Toonflow](docs/07-tools-like-toonflow.md) | ~30 AI drama studios, open source (with licences) and closed: Toonflow, 火宝短剧, DramaClaw, ArcReel, 可灵, Seko, 天工, OiiOii, LTX Studio… and which to try |
+| [7 · AI video tools compared](docs/07-tools-like-toonflow.md) | Open-source story studios, AI editing, local generation and coded animation; special licences and hosted tools separately, with prices and an Inventor Cat trial plan |
+| [8 · Douyin science growth experiments](docs/08-douyin-science-growth.md) | New-film topics, opening structure, science sources and measurements toward a million views; advice separated from official rules |
 | [`templates/`](templates/) | [Brief](templates/brief.md) · [storyboard](templates/storyboard.md) · [shot prompt](templates/shot-prompt.md) · [production log](templates/production-log.md) · [`shots.txt`](templates/shots.txt) |
 | [`tools/`](tools/) | [`stitch.sh`](tools/stitch.sh) (assemble and master) · [`review.sh`](tools/review.sh) (contact sheets) |
 | [`starter/`](starter/) | A complete code-drawn film to copy: timeline, scenes, synthesized score, renderer |

@@ -62,7 +62,8 @@ tools/stitch.sh shots.txt episode.mp4 --size 1080x1920 --srt episode.srt
 | [4 · 声音](docs/zh-CN/04-sound.md) | 人声、音乐、音效、−14 LUFS、闪避、查找爆音、字幕 |
 | [5 · 剪辑与导出](docs/zh-CN/05-edit-and-export.md) | 脚本、实测过的 ffmpeg 命令、导出设置、上传前检查清单 |
 | [6 · 平台对比](docs/zh-CN/06-platforms-compared.md) | 即梦、小云雀、LibTV、LiblibAI、TapNow、Flova 横向对比：模型、工作方式、Agent 接入、每秒成本、GitHub 上的发现 |
-| [7 · 类似 Toonflow 的工具](docs/zh-CN/07-tools-like-toonflow.md) | 约 30 个 AI 短剧工作台，开源（附许可证说明）与闭源：Toonflow、火宝短剧、DramaClaw、ArcReel、可灵、Seko、天工、OiiOii、LTX Studio……以及该试哪个 |
+| [7 · AI 视频工具比较](docs/zh-CN/07-tools-like-toonflow.md) | 开源故事工作台、自动剪辑、本地生成与代码动画；特殊许可和闭源平台另列，附价格快照与发明家猫样片测试方法 |
+| [8 · 抖音科普增长测试](docs/zh-CN/08-douyin-science-growth.md) | 面向百万播放的新片选题、开场结构、科学来源与首轮数据测试；建议和官方规则分别说明 |
 | [`templates/zh-CN/`](templates/zh-CN/) | [简报](templates/zh-CN/brief.md) · [分镜](templates/zh-CN/storyboard.md) · [镜头提示词](templates/zh-CN/shot-prompt.md) · [制作日志](templates/zh-CN/production-log.md) · [`shots.txt`](templates/shots.txt) |
 | [`tools/`](tools/) | [`stitch.sh`](tools/stitch.sh)（拼接与母带） · [`review.sh`](tools/review.sh)（抽帧拼图） |
 | [`starter/`](starter/README.zh-CN.md) | 一部可直接复制的代码绘制短片：时间线、场景、合成配乐、渲染器 |
