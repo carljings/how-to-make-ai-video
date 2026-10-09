@@ -1,6 +1,6 @@
-# 8 · Skills, plugins and tools from GitHub
+# 9 · Skills, plugins and tools from GitHub
 
-**English** · [简体中文](zh-CN/08-skills-plugins-tools.md)
+**English** · [简体中文](zh-CN/09-skills-plugins-tools.md)
 
 What GitHub offers for making AI video with an agent like Claude Code: what to install, what to read, and what these projects teach. Researched on **6 October 2026**. Stars and licences were checked on GitHub that day; nothing here has been installed on the machine this guide was written on.
 
