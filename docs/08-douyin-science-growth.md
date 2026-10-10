@@ -45,7 +45,7 @@ On 9 October the user explicitly requested lasting adherence to the title, tags 
 
 | Item | Check before publishing |
 |---|---|
-| Title | A concrete question or surprising phenomenon understandable to viewers; the film delivers, with correct units and truthful trends/causality |
+| Title | A concrete question or surprising phenomenon understandable to viewers; the film delivers, with correct units and truthful trends/causality. Douyin's title field holds at most 20 characters (the user's check of the publish page, 9 October 2026): put the longer version in the description |
 | Cover | One readable subject and short question; legible as a phone thumbnail, consistent with the opening and body |
 | Tags | Relevant topic and subtopic tags; trends only when actually related; no irrelevant tag stuffing |
 | First frame and seconds | Picture, narration and captions establish the question together; provide an initial payoff promptly, without an introductory background lesson; no prior knowledge required |
