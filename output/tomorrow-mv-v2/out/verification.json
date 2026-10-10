@@ -1,0 +1,87 @@
+{
+  "checked": "2026-10-10",
+  "pass": [
+    "124 sung syllables in 16 bars, each on the half-pulse grid (年 in bar 6 within 0.12 s)",
+    "syllables are in order and each starts inside its bar (火 closes bar 11 on the next downbeat)",
+    "lyrics read as the song (two verses)",
+    "full: 16 bars, contiguous, every cut on a downbeat, 51.2 s = 1536 frames (loops on the beat): 16 × 3.1998 s = 51.197 s",
+    "short: 12 bars, contiguous, every cut on a downbeat, 38.4 s = 1152 frames (loops on the beat): 12 × 3.1998 s = 38.398 s",
+    "fonts cover every character used",
+    "full: frames are pure functions of time: 12 frames rendered twice in different orders",
+    "full: the last frame leads straight back into the first (loop): PSNR 30.630082 dB",
+    "short: frames are pure functions of time: 11 frames rendered twice in different orders",
+    "short: the last frame leads straight back into the first (loop): PSNR 30.630082 dB",
+    "full: music cut 51.2 s, 48 kHz stereo: 51.200000 s",
+    "full: video 1080×1920, 30 fps, 1536 frames: 1080×1920 30/1 1536",
+    "full: H.264 High, yuv420p, BT.709 limited range; AAC 48 kHz stereo: High yuv420p bt709",
+    "full: audio and video start together and last 51.2 s: 51.200 s",
+    "full: decodes end to end without errors",
+    "full: loudness about −11.7 LUFS (gain only, as loud as the true-peak limit allows): -11.6 LUFS, range 0.6 LU",
+    "full: true peak at or under −1.5 dBTP: -1.6 dBTP",
+    "full: the film's audio is its music cut, in sync with the picture (start, middle, end): r 0.9999 @ 0.00 ms; r 0.9999 @ 0.00 ms; r 0.9999 @ 0.00 ms",
+    "short: music cut 38.4 s, 48 kHz stereo: 38.400000 s",
+    "short: after the splice it plays song bar 13 onward, on the beat: r = 0.9728 at -0.08 ms",
+    "short: video 1080×1920, 30 fps, 1152 frames: 1080×1920 30/1 1152",
+    "short: H.264 High, yuv420p, BT.709 limited range; AAC 48 kHz stereo: High yuv420p bt709",
+    "short: audio and video start together and last 38.4 s: 38.400 s",
+    "short: decodes end to end without errors",
+    "short: loudness about −11.7 LUFS (gain only, as loud as the true-peak limit allows): -11.7 LUFS, range 0.8 LU",
+    "short: true peak at or under −1.5 dBTP: -1.6 dBTP",
+    "short: the film's audio is its music cut, in sync with the picture (start, middle, end): r 0.9999 @ 0.00 ms; r 0.9998 @ 0.00 ms; r 0.9999 @ 0.00 ms"
+  ],
+  "fail": [],
+  "media": {
+    "full": {
+      "frames": 1536,
+      "duration": 51.2,
+      "video": "h264 High yuv420p bt709",
+      "audio": "aac 48000 Hz 2 ch",
+      "sizeMB": 37.4,
+      "loudness": {
+        "I": -11.6,
+        "TP": -1.6,
+        "LRA": 0.6
+      }
+    },
+    "short": {
+      "frames": 1152,
+      "duration": 38.4,
+      "video": "h264 High yuv420p bt709",
+      "audio": "aac 48000 Hz 2 ch",
+      "sizeMB": 27.8,
+      "loudness": {
+        "I": -11.7,
+        "TP": -1.6,
+        "LRA": 0.8
+      }
+    }
+  },
+  "frameHashes": {
+    "full": {
+      "0": "f35145dc83e95c72af968b1f5b8803014f5937e6dab67015ea3c55cef95871f5",
+      "26": "d14f14d29cd8565b48c3719d547a7289c3661a879f2737fffc4d7a0775b8dbcb",
+      "99": "a654d551e5bd97a55cc3ebc7beeaa78c5feb20a21da5d268c3d46e4bfae1a947",
+      "290": "2981d39e73be1492a7ccf2bcdace04023c9ef865beb276e2bf4334a99425ccb4",
+      "600": "5df792d7834717b8ecf55ec5fb000644a4eef2b56e955e71307fe7b7e5c69eae",
+      "770": "4553eaf8ef83be9aa203c8b8067efb7dddfae4dd9d2d476606b9ac06387deaff",
+      "1000": "b8c059a35ffc8e0c498e53036b696bfee87124f81a13be0bf0b58fdd6b7847ce",
+      "1230": "3ebc0e5c29989eb4dc99359f13ddcb0da08a401ed332255f6df19337e88b1ea6",
+      "1300": "ef7e04e3e6ac183b621548247466a299cf19ec8da8aff59ba90e63974831999e",
+      "1450": "1fa6338479652ee1728f6d5eb5b4699287d2af9244c5e8af12d2e6d60919e66b",
+      "1520": "799af5b67dd23bcbb8af295339d84c25e8737a65970987cc81a8141de42ca3bf",
+      "1535": "f4cafe946f523d6fa412d8d2388630d1fe0cc89d7fcb6f85e0c3cd5a1ccfb618"
+    },
+    "short": {
+      "0": "f35145dc83e95c72af968b1f5b8803014f5937e6dab67015ea3c55cef95871f5",
+      "26": "d14f14d29cd8565b48c3719d547a7289c3661a879f2737fffc4d7a0775b8dbcb",
+      "99": "a654d551e5bd97a55cc3ebc7beeaa78c5feb20a21da5d268c3d46e4bfae1a947",
+      "290": "2981d39e73be1492a7ccf2bcdace04023c9ef865beb276e2bf4334a99425ccb4",
+      "600": "5df792d7834717b8ecf55ec5fb000644a4eef2b56e955e71307fe7b7e5c69eae",
+      "767": "dcbcd63cb088bc51e3edb4bb22be641e9db58e64f98d427a8e17a6ee7bfedea6",
+      "770": "aa00acab5717e54d9f109eabe0c8a1a87dcabf9f51df1e5868ad1b1ba1b3a02a",
+      "1000": "9ab8e01daa71116f878539624db95cedfad669e761a637f49171546d304cf43e",
+      "1140": "5369a768e2ec9545495e4b982c9394d5dff269919dd99d9b862970b5d03b70a2",
+      "1151": "f4cafe946f523d6fa412d8d2388630d1fe0cc89d7fcb6f85e0c3cd5a1ccfb618"
+    }
+  }
+}
