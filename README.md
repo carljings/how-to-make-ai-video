@@ -64,7 +64,7 @@ tools/stitch.sh shots.txt episode.mp4 --size 1080x1920 --srt episode.srt
 | [6 · Platforms compared](docs/06-platforms-compared.md) | 即梦, 小云雀, LibTV, LiblibAI, TapNow and Flova side by side: models, workflow, agent access, cost per second, what GitHub shows |
 | [7 · AI video tools compared](docs/07-tools-like-toonflow.md) | Open-source story studios, AI editing, local generation and coded animation; special licences and hosted tools separately, with prices and an Inventor Cat trial plan |
 | [8 · Douyin science growth experiments](docs/08-douyin-science-growth.md) | New-film topics, opening structure, science sources and measurements toward a million views; advice separated from official rules |
-| [Production results](output/README.md) | Inventor Cat avatars, optogenetics V1/V2 films, editable source packages, narration, captions and production records |
+| [Production results](output/README.md) | Inventor Cat avatars, optogenetics V1–V3 films (V3 built in Remotion), editable sources, narration, captions and production records |
 | [`templates/`](templates/) | [Brief](templates/brief.md) · [storyboard](templates/storyboard.md) · [shot prompt](templates/shot-prompt.md) · [production log](templates/production-log.md) · [`shots.txt`](templates/shots.txt) |
 | [`tools/`](tools/) | [`stitch.sh`](tools/stitch.sh) (assemble and master) · [`review.sh`](tools/review.sh) (contact sheets) |
 | [`starter/`](starter/) | A complete code-drawn film to copy: timeline, scenes, synthesized score, renderer |
