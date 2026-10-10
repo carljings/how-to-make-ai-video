@@ -10,7 +10,7 @@
     "score": "node scripts/score.mjs",
     "sheet": "node scripts/sheet.mjs",
     "render": "remotion render Film out/optogenetics-v3.mp4",
-    "cover": "remotion still Cover out/cover.jpg",
+    "cover": "remotion still Cover out/cover.jpg && remotion still Cover34 out/cover-3x4.jpg && remotion still Cover43 out/cover-4x3.jpg",
     "verify": "node scripts/verify.mjs",
     "typecheck": "tsc --noEmit",
     "build": "npm run score && npm run render && npm run cover && npm run verify"

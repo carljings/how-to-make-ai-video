@@ -8,7 +8,7 @@ GitHub用于制作成果归档。抖音发布是独立动作，须按实际上�
 |---|---|
 | 10月18–25日近期归档：魔方r4及历史迭代、音乐科普、特斯拉影片、AI刷分片、封面与发布文案 | [归档索引与成片下载](archive-20261025/README.zh-CN.md) · [媒体校验和](archive-20261025/MEDIA_SHA256SUMS) |
 | 配套魔方训练试作 · 仅源码归档，未部署 | [试作源码与能力边界](../experiments/cube-trainer-20261022/README.md) |
-| 光遗传学V3 · 64秒竖屏、无旁白、Remotion制作 | [MP4](optogenetics-film-v3/out/optogenetics-v3.mp4) · [封面](optogenetics-film-v3/out/cover.jpg) · [拼图](optogenetics-film-v3/out/optogenetics-v3.sheet.jpg) |
+| 光遗传学V3 · 70秒竖屏、无旁白、Remotion制作 | [MP4](optogenetics-film-v3/out/optogenetics-v3.mp4) · [封面](optogenetics-film-v3/out/cover.jpg) · [拼图](optogenetics-film-v3/out/optogenetics-v3.sheet.jpg) |
 | V3可编辑源码和制作记录 | [项目说明](optogenetics-film-v3/README.zh-CN.md) · [发布工作稿](optogenetics-film-v3/publish-copy.md) · [科学来源](optogenetics-film-v3/scientific-sources.md) · [制作日志](optogenetics-film-v3/production-log.md) |
 | 光遗传学V2 · 75秒竖屏、中文旁白 | [MP4](optogenetics-film-v2/out/optogenetics-v2.mp4) · [源码包](optogenetics-film-v2/out/optogenetics-v2-source.zip) · [字幕](optogenetics-film-v2/out/optogenetics-v2.srt) · [封面](optogenetics-film-v2/out/poster.jpg) |
 | V2可编辑源码和制作记录 | [项目说明](optogenetics-film-v2/README.zh-CN.md) · [发布工作稿](optogenetics-film-v2/publish-copy.md) · [科学来源](optogenetics-film-v2/scientific-sources.md) |

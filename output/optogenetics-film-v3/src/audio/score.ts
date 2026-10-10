@@ -4,7 +4,7 @@
 import {
   DUR, BEAT, BAR, HOOK_LIGHT, PAY_LIGHT, TITLE_FIRE, COUNT, SCAN, ELECTRODE_IN, ZAP, ELECTRODE_OUT, QUIZ_CARDS, COUNTDOWN,
   REVEAL, MAGNIFY, ALGA_OPEN, GATE_LIGHT, GATE_OPEN, GATE_SPIKES, PACK, FLY, DROP, CHANNEL_TIMES, PULSES, AMBER_ON,
-  GOGGLES_ON, RETINA_ON, OBJECTS, END_FIRE, CTA,
+  GOGGLES_ON, RETINA_ON, OBJECTS, LEGACY, END_FIRE, CTA,
 } from '../timeline';
 import {rng} from '../lib/math';
 import {FOOTSTEPS} from '../art/mouse';
@@ -18,7 +18,7 @@ const PENTA = [50, 53, 55, 57, 60, 62, 65, 67, 69, 72, 74, 77]; // D minor penta
 
 // How busy the music is in each stretch of the film
 type Kick = 'four' | 'half' | 'quiz' | 'soft' | null;
-interface Section { a: number; b: number; kick: Kick; hats: 0 | 8 | 16; bass: 'sub' | 'drive' | 'eighths' | 'growl' | 'bounce' | null; arp: 0 | 8 | 16; pad: number; clap?: boolean; stabs?: boolean; shaker?: boolean; arpAmp?: number }
+interface Section { a: number; b: number; kick: Kick; hats: 0 | 8 | 16; bass: 'sub' | 'drive' | 'eighths' | 'growl' | 'bounce' | null; arp: 0 | 8 | 16; pad: number; clap?: boolean; stabs?: boolean; soft?: boolean; arpAmp?: number }
 const SECTIONS: Section[] = [
   {a: 0, b: 2, kick: 'four', hats: 8, bass: 'drive', arp: 16, pad: 0.05},
   {a: 2, b: 3.5, kick: 'four', hats: 0, bass: 'sub', arp: 0, pad: 0.05},          // light off: muffled
@@ -35,12 +35,13 @@ const SECTIONS: Section[] = [
   {a: 36, b: 37, kick: 'four', hats: 8, bass: 'eighths', arp: 16, pad: 0.05},      // build, filter opening
   {a: 37, b: 38, kick: null, hats: 0, bass: null, arp: 16, pad: 0.05},             // one bar without drums before the drop
   {a: 38, b: 48, kick: 'four', hats: 16, bass: 'growl', arp: 16, pad: 0.05, clap: true, stabs: true},
-  {a: 51, b: 56, kick: 'four', hats: 16, bass: 'drive', arp: 16, pad: 0.05, clap: true, shaker: true},
-  {a: 56, b: 60, kick: 'soft', hats: 0, bass: 'sub', arp: 8, pad: 0.09},          // warm
-  {a: 60, b: 64, kick: 'half', hats: 8, bass: 'sub', arp: 8, pad: 0.08, clap: true},
+  // from 51 s to the end: soft (triangle) pads, an eighth-note arpeggio, nothing that hisses or buzzes
+  {a: 51, b: 56, kick: 'four', hats: 8, bass: 'drive', arp: 8, pad: 0.05, clap: true, soft: true},
+  {a: 56, b: 60, kick: 'soft', hats: 0, bass: 'sub', arp: 8, pad: 0.06, soft: true, arpAmp: 0.08},
+  {a: 60, b: 64, kick: 'soft', hats: 0, bass: 'sub', arp: 8, pad: 0.07, soft: true, arpAmp: 0.07},          // where it started
+  {a: 64, b: 70, kick: 'half', hats: 0, bass: 'sub', arp: 8, pad: 0.06, clap: true, soft: true, arpAmp: 0.08},  // title and debate
 ];
 const sectionAt = (t: number) => SECTIONS.find((s) => t >= s.a - 1e-6 && t < s.b - 1e-6);
-const inLight = (t: number, w: [number, number][]) => w.some(([a, b]) => t >= a && t < b);
 
 export async function renderScore() {
   const ctx = new OfflineAudioContext(2, Math.ceil(DUR * SR), SR), R = rng(2026);
@@ -51,11 +52,12 @@ export async function renderScore() {
     p.exponentialRampToValueAtTime(0.0001, t + atk + hold + dec); p.setValueAtTime(0, t + atk + hold + dec + 0.01);
   };
   // ---- buses ----
-  const master = gain(0.85), clip = ctx.createWaveShaper();
-  // gentle saturation on the master: unity gain at normal levels, rounding off only the loudest peaks
-  clip.curve = Float32Array.from({length: 2049}, (_, i) => Math.tanh((i - 1024) / 1024));
+  const master = gain(0.85), clip = ctx.createWaveShaper(), half = gain(0.5);
+  // gentle saturation on the master: unity gain at normal levels, rounding off only the loudest peaks.
+  // A WaveShaper hard-clips inputs beyond ±1, so the signal is halved first and the curve is tanh(2x): tanh up to ±2.
+  clip.curve = Float32Array.from({length: 4097}, (_, i) => Math.tanh(((i - 2048) / 2048) * 2));
   clip.oversample = '4x';
-  master.connect(clip); clip.connect(ctx.destination);
+  master.connect(half); half.connect(clip); clip.connect(ctx.destination);
   master.gain.setValueAtTime(0.85, DUR - 0.3); master.gain.linearRampToValueAtTime(0, DUR - 0.01);
   // drums go through their own soft saturation, which rounds off the kick's peaks and keeps the crest factor down
   const fx = gain(1), drums = gain(1), drive = ctx.createWaveShaper();
@@ -116,7 +118,6 @@ export async function renderScore() {
     const n = noise(t, open ? 0.3 : 0.06, 'highpass', open ? 7000 : 8500), g = gain(0); n.connect(g); g.connect(pan(((t * 7.3) % 1) * 0.6 - 0.3, drums));
     env(g.gain, t, amp, 0.001, open ? 0.22 : 0.04);
   }
-  function shaker(t: number, amp: number) { const n = noise(t, 0.08, 'bandpass', 5200, 1.4), g = gain(0); n.connect(g); g.connect(pan(0.25, drums)); env(g.gain, t, amp, 0.008, 0.05); }
   function pluck(t: number, n: number, amp: number, p: number, bright = 5200) {
     const f = ctx.createBiquadFilter(), g = gain(0), g2 = gain(0.35);
     const o1 = osc('triangle', midi(n), t, t + 0.5, true), o2 = osc('sine', midi(n) * 2, t, t + 0.5, true);
@@ -140,9 +141,9 @@ export async function renderScore() {
     } else f.frequency.value = kind === 'bounce' ? 900 : 520;
     env(g.gain, t, amp, 0.006, len);
   }
-  function pad(t: number, notes: number[], len: number, amp: number, cutoff = 1500) {
+  function pad(t: number, notes: number[], len: number, amp: number, cutoff = 1500, soft = false) {
     const f = ctx.createBiquadFilter(), g = gain(0); f.type = 'lowpass'; f.frequency.value = cutoff; f.connect(g); g.connect(section); g.connect(revIn);
-    for (const n of notes) for (const d of [-7, 7]) { const o = osc('sawtooth', midi(n), t, t + len + 0.9, true); o.detune.value = d; o.connect(pan(d < 0 ? -0.4 : 0.4, f)); }
+    for (const n of notes) for (const d of [-7, 7]) { const o = osc(soft ? 'triangle' : 'sawtooth', midi(n), t, t + len + 0.9, true); o.detune.value = d; o.connect(pan(d < 0 ? -0.4 : 0.4, f)); }
     g.gain.setValueAtTime(0, t); g.gain.linearRampToValueAtTime(amp, t + 0.35); g.gain.setValueAtTime(amp, t + len); g.gain.linearRampToValueAtTime(0, t + len + 0.8);
   }
   function stab(t: number, notes: number[], amp: number) {
@@ -152,7 +153,7 @@ export async function renderScore() {
   }
   function bell(t: number, n: number, amp: number, len = 1.4, to: AudioNode = fx) {
     const c = osc('sine', midi(n), t, t + len + 0.1), m = osc('sine', midi(n) * 3.5, t, t + len + 0.1), mg = gain(0), g = gain(0);
-    m.connect(mg); mg.connect(c.frequency); mg.gain.setValueAtTime(midi(n) * 2.2, t); mg.gain.exponentialRampToValueAtTime(1, t + len * 0.6);
+    m.connect(mg); mg.connect(c.frequency); mg.gain.setValueAtTime(midi(n) * 1.0, t); mg.gain.exponentialRampToValueAtTime(1, t + len * 0.35);
     c.connect(g); g.connect(to); g.connect(revIn); g.connect(dlyIn); env(g.gain, t, amp, 0.003, len);
   }
   // ---- sound effects ----
@@ -160,7 +161,16 @@ export async function renderScore() {
     const o = osc('sine', 82, t, t + 1.5), g = gain(0); o.frequency.exponentialRampToValueAtTime(30, t + 1.2); o.connect(g); g.connect(fx); env(g.gain, t, amp, 0.003, 1.3);
     const n = noise(t, 0.5, 'lowpass', 1500), ng = gain(0); n.connect(ng); ng.connect(fx); ng.connect(revIn); env(ng.gain, t, amp * 0.55, 0.002, 0.4);
   }
-  function crash(t: number, amp: number) { const n = noise(t, 2.2, 'highpass', 5000), g = gain(0); n.connect(g); g.connect(fx); g.connect(revIn); env(g.gain, t, amp, 0.002, 1.9); }
+  function crash(t: number, amp: number) {
+    const n = noise(t, 1.3, 'highpass', 4000), lp = ctx.createBiquadFilter(), g = gain(0); lp.type = 'lowpass'; lp.frequency.value = 9000;
+    n.connect(lp); lp.connect(g); g.connect(fx); g.connect(revIn); env(g.gain, t, amp * 0.7, 0.002, 1.1);
+  }
+  // a tonal swell with no hiss, for the gentle end of the film
+  function softRise(a: number, b: number, amp: number) {
+    const f = ctx.createBiquadFilter(), g = gain(0); f.type = 'lowpass'; f.frequency.setValueAtTime(500, a); f.frequency.exponentialRampToValueAtTime(2400, b); f.connect(g); g.connect(fx); g.connect(revIn);
+    for (const n of [62, 69, 74]) { const o = osc('triangle', midi(n - 12), a, b + 0.05); o.frequency.exponentialRampToValueAtTime(midi(n), b); o.connect(f); }
+    g.gain.setValueAtTime(0, a); g.gain.linearRampToValueAtTime(amp, b - 0.03); g.gain.linearRampToValueAtTime(0, b);
+  }
   function riser(a: number, b: number, amp: number) {
     const n = noise(a, b - a, 'highpass', 300), g = gain(0); n.frequency.exponentialRampToValueAtTime(7000, b); n.connect(g); g.connect(fx); g.connect(revIn);
     g.gain.setValueAtTime(0, a); g.gain.linearRampToValueAtTime(amp, b - 0.02); g.gain.linearRampToValueAtTime(0, b);
@@ -214,10 +224,9 @@ export async function renderScore() {
       else if (s.kick === 'soft' && inBar === 0) kick(t, 0.5);
     }
     if (s.kick === 'quiz' && (inBar === 0 || inBar === 6 || inBar === 8 || inBar === 11)) kick(t, 0.72);
-    if (s.clap && (inBar === 4 || inBar === 12)) clap(t, 0.4);
+    if (s.clap && (inBar === 4 || inBar === 12)) clap(t, s.soft ? 0.24 : 0.4);
     if (s.hats === 16) hat(t, eighth ? 0.045 : 0.075, inBar === 14);
     if (s.hats === 8 && !eighth) hat(t, 0.075);
-    if (s.shaker && !(inLight(t, [[53.5, 54.5]]))) shaker(t, eighth ? 0.05 : 0.08);
     if (s.bass) {
       if (s.bass === 'sub' && inBar % 8 === 0) bass(t, c[0] - 24, BEAT * 2 - 0.05, 0.36, 'sub');
       // driving basses sit on the offbeats, between the kicks, so the two pump against each other instead of stacking
@@ -234,7 +243,7 @@ export async function renderScore() {
     }
     if (s.stabs && (inBar === 2 || inBar === 6 || inBar === 10 || inBar === 14)) stab(t, c, 0.07);
     // pads start on each bar, or straight away when a section starts mid-bar
-    if ((inBar === 0 || Math.abs(t - s.a) < 1e-6) && s.pad > 0) pad(t, c, Math.min(BAR - (t % BAR), s.b - t), s.pad * 1.6, t >= 56 && t < 60 ? 2600 : 1500);
+    if ((inBar === 0 || Math.abs(t - s.a) < 1e-6) && s.pad > 0) pad(t, c, Math.min(BAR - (t % BAR), s.b - t), s.pad * 1.6, s.soft ? 1700 : 1500, s.soft);
   }
   // build into the drop: a snare roll that speeds up
   for (let t = 36; t < DROP - 0.01;) { snare(t, 0.08 + 0.18 * ((t - 36) / 2)); t += t < 37 ? BEAT / 2 : t < 37.5 ? BEAT / 4 : BEAT / 8; }
@@ -304,16 +313,19 @@ export async function renderScore() {
   // the brake: tape stop on everything musical
   impact(AMBER_ON, 0.45);
   swell(50.2, 51.0, 0.2);
-  impact(51.0, 0.95); crash(51.0, 0.1);
+  impact(51.0, 0.95); crash(51.0, 0.06);
   // clinic and end
   whoosh(56.0, 0.15, 0.5);
   { const o = osc('sine', 200, GOGGLES_ON, GOGGLES_ON + 0.8), g = gain(0); o.frequency.exponentialRampToValueAtTime(800, GOGGLES_ON + 0.5); o.connect(g); g.connect(fx); g.connect(revIn); env(g.gain, GOGGLES_ON, 0.04, 0.2, 0.5); }
   for (const [n, d] of [[77, 0], [81, 0.1], [84, 0.2], [89, 0.3]] as const) bell(RETINA_ON + d, n, 0.03, 1.6);
   OBJECTS.forEach((t, i) => { bell(t, 86 + i * 3, 0.04, 1.4); });
-  riser(59.0, 60.0, 0.12);
-  impact(60.0, 0.9); crash(60.0, 0.09); for (const [n, a] of [[77, 0.05], [81, 0.04], [86, 0.03]] as const) bell(60.0, n, a, 2.6);
+  // where it started: each milestone on the timeline rings one step higher, then a soft swell into the title
+  whoosh(60.0, 0.1, 0.5);
+  LEGACY.forEach((t, i) => { bell(t, [74, 77, 81, 86][i], 0.05, 1.8); blip(t, midi([74, 77, 81, 86][i]), 0.03, 1.0); });
+  softRise(63.0, 64.0, 0.07);
+  impact(64.0, 0.8); crash(64.0, 0.04); for (const [n, a] of [[77, 0.05], [81, 0.04], [86, 0.03]] as const) bell(64.0, n, a, 2.6);
   for (const t of END_FIRE.slice(1)) { tick(t, 0.1, 2400); blip(t, 900, 0.04, 1.6); }
-  pop(CTA.at, 520, 0.14); CTA.chips.forEach((_, i) => pop(CTA.at + 0.5 + i * BEAT, 600 + i * 120, 0.09));
+  pop(CTA.at, 520, 0.14); CTA.options.forEach((_, i) => pop(CTA.at + 0.5 + i * BEAT, 640 + i * 160, 0.1));
 
   // ---- automation, applied in time order ----
   // section gain: a one-beat silence after the zap; the tape stop fades the music out
