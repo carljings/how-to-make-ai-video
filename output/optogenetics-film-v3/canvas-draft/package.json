@@ -1,0 +1,16 @@
+{
+  "name": "optogenetics-film-v3",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "64-second portrait optogenetics film: line-art diagrams, on-screen story text and an original rhythmic score",
+  "scripts": {
+    "studio": "node render.mjs --serve",
+    "sheet": "node render.mjs --sheet=0.8,4,7,10.6,13,17,21,26.5,32.5,37,41,45,50,58.5,61 --cols=5 --w=270",
+    "build": "node render.mjs --frames --workers=4 && node render.mjs --audio && node render.mjs --encode --out=out/optogenetics-v3.mp4 --grain=2",
+    "verify": "node verify.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "24.43.1"
+  }
+}
