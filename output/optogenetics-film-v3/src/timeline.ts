@@ -1,10 +1,10 @@
 // timeline.ts: the single source of truth for timing. Scenes, on-screen text and the score all read from here.
 // Times are in seconds. 120 BPM, so a beat is 0.5 s and a bar is 2 s; cuts and hits sit on that grid.
-export const W = 1080, H = 1920, FPS = 30, DUR = 64, BPM = 120;
+export const W = 1080, H = 1920, FPS = 30, DUR = 70, BPM = 120;
 export const BEAT = 60 / BPM, BAR = 4 * BEAT;
 export const FRAMES = Math.round(DUR * FPS);
 
-export type SceneId = 'hook' | 'brain' | 'quiz' | 'alga' | 'gate' | 'control' | 'payoff' | 'clinic' | 'end';
+export type SceneId = 'hook' | 'brain' | 'quiz' | 'alga' | 'gate' | 'control' | 'payoff' | 'clinic' | 'legacy' | 'end';
 // a..b: when the scene owns the screen. Neighbouring scenes overlap by OVERLAP s around each cut so a transition
 // can show both; the cut itself is at b (= the next scene's a).
 export const SCENES: {id: SceneId; a: number; b: number; name: string}[] = [
@@ -16,15 +16,16 @@ export const SCENES: {id: SceneId; a: number; b: number; name: string}[] = [
   {id: 'control', a: 36, b: 51, name: '05 2005, rhythm and the brake'},
   {id: 'payoff', a: 51, b: 56, name: '06 Back to the mouse'},
   {id: 'clinic', a: 56, b: 60, name: '07 2021 clinical report'},
-  {id: 'end', a: 60, b: 64, name: '08 Title and question'},
+  {id: 'legacy', a: 60, b: 64, name: '08 Where it started: curiosity'},
+  {id: 'end', a: 64, b: 70, name: '09 Title and the debate'},
 ];
 export const OVERLAP = 0.5;
 export type CutKind = 'zoom' | 'glitch' | 'iris' | 'whip' | 'slam' | 'leak' | 'flash';
-export const CUTS: Record<number, CutKind> = {6: 'zoom', 18: 'glitch', 22.4: 'iris', 30: 'zoom', 36: 'whip', 51: 'slam', 56: 'leak', 60: 'flash'};
+export const CUTS: Record<number, CutKind> = {6: 'zoom', 18: 'glitch', 22.4: 'iris', 30: 'zoom', 36: 'whip', 51: 'slam', 56: 'leak', 60: 'leak', 64: 'flash'};
 
 // Chapter strip at the top: where the viewer is in the story. Hidden during the two title lockups.
 export const CHAPTERS: [number, number, string][] = [
-  [0, 6, '现象'], [10, 18, '难题'], [18, 30, '发现'], [30, 36, '原理'], [36, 42, '改造'], [42, 51, '控制'], [51, 56, '验证'], [56, 60, '应用'],
+  [0, 6, '现象'], [10, 18, '难题'], [18, 30, '发现'], [30, 36, '原理'], [36, 42, '改造'], [42, 51, '控制'], [51, 56, '验证'], [56, 60, '应用'], [60, 64, '意义'],
 ];
 
 // Colour carries meaning: blue = light that switches cells on, amber = the brake, orange = the clinical light, green = the alga
@@ -67,10 +68,12 @@ export const TEXTS: Cue[] = [
   {a: 51, b: 53.5, kicker: '回到开头 · 小鼠实验', lines: ['光打开的，', '是管**跑**的神经元'], sub: '中脑运动区的一类神经元', subAt: 51.6, key: 'blue'},
   {a: 53.5, b: 56, lines: ['开灯就跑，关灯就慢：', '**因果**，直接验证'], key: 'blue'},
   {a: 56, b: 60, kicker: '2021 · 单例临床报告', lines: ['几乎失明的人，', '重新**感知**到物体'], sub: '基因治疗 + 光刺激眼镜 · 部分恢复，并非正常视力', subAt: 57, key: 'orange'},
-  {a: 60, b: 64, style: 'title', kicker: NOBEL, lines: ['一束光，', '照见大脑的**因果**'], sub: 'Deisseroth · Hegemann · Nagel', subAt: 60.6, key: 'blue'},
+  {a: 60, b: 64, kicker: '从好奇心，到诺贝尔奖', lines: ['起点，只是一个好奇：', '绿藻为什么**追光**？'], sub: '没人想到：近二十年后，它帮一位盲人重新感知到物体', subAt: 61.0, key: 'green'},
+  {a: 64, b: 70, style: 'title', kicker: NOBEL, lines: ['一束光，', '照见大脑的**因果**'], sub: 'Deisseroth · Hegemann · Nagel', subAt: 64.6, key: 'blue'},
 ];
-// The closing question: a real discussion prompt after the film has paid off, not a request for likes
-export const CTA = {at: 61.2, question: ['你最想用“光开关”，', '研究大脑的什么？'], chips: ['记忆', '睡眠', '情绪', '……'], call: '评论区聊聊'};
+// The closing question: a two-sided debate with a personal stake, asked after the film has paid off. Not a request
+// for likes. The note keeps it honest: changing emotions with light has only been done in animals.
+export const CTA = {at: 65.6, question: ['如果有一天，光能调节情绪，', '你愿意用在自己身上吗？'], options: ['愿意', '不愿意'], note: '目前只在动物实验中做到', call: '评论区说说理由'};
 
 // ---- story cues ----
 // Hook and payoff: the fibre light on the mouse's head. [on, off) windows.
@@ -101,8 +104,10 @@ export const RATE_STEPS: [number, number][] = [[42, 2], [44, 4], [46, 8]];
 export const AMBER_ON = 48.0;
 // Clinic
 export const GOGGLES_ON = 56.5, RETINA_ON = 57.0, OBJECTS: [number, number] = [57.6, 58.4];
+// Legacy: a pulse of light runs along a timeline and lights 2002, 2005, 2021 and 2026 in turn
+export const LEGACY = [60.5, 61.5, 62.5, 63.5];
 // End
-export const END_FIRE = [60.0, 61.0, 62.0, 63.0];
+export const END_FIRE = [64.0, 65.0, 66.0, 67.0, 68.0, 69.0];
 
 // ---- helpers ----
 export const sceneAt = (t: number) => SCENES.find((s) => t >= s.a && t < s.b) ?? SCENES[SCENES.length - 1];
@@ -117,5 +122,5 @@ export const pulse = (t: number, times: number[], k = 0.25) => {
 // Every visual hit that also gets a flash and a camera kick: [time, strength 0..1, colour]
 export const HITS: [number, number, Key][] = [
   [0, 0.35, 'blue'], [3.5, 0.45, 'blue'], [6, 0.9, 'blue'], [14.5, 1, 'white'], [21.5, 0.25, 'green'], [31, 0.7, 'blue'],
-  [33.5, 0.5, 'blue'], [38, 0.9, 'blue'], [48, 0.6, 'amber'], [51, 0.9, 'blue'], [51.5, 0.4, 'blue'], [54.5, 0.4, 'blue'], [60, 0.8, 'blue'],
+  [33.5, 0.5, 'blue'], [38, 0.9, 'blue'], [48, 0.6, 'amber'], [51, 0.9, 'blue'], [51.5, 0.4, 'blue'], [54.5, 0.4, 'blue'], [64, 0.8, 'blue'],
 ];

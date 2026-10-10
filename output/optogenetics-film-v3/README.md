@@ -2,17 +2,17 @@
 
 **English** · [简体中文](README.zh-CN.md)
 
-A 64-second portrait optogenetics film for Douyin, rebuilt in [Remotion](https://www.remotion.dev/). There is no voiceover: kinetic on-screen text and a synthesized score tell the story. The first frame shows the phenomenon: the light on a mouse's head switches on and it runs, off and it slows. The film then asks what switch is in its brain and answers at 51 seconds. V1 and V2 are in the neighbouring directories.
+A 70-second portrait optogenetics film for Douyin, rebuilt in [Remotion](https://www.remotion.dev/). There is no voiceover: kinetic on-screen text and a synthesized score tell the story. The first frame shows the phenomenon: the light on a mouse's head switches on and it runs, off and it slows. The film then asks what switch is in its brain and answers at 51 seconds. V1 and V2 are in the neighbouring directories.
 
 | Artifact | Purpose |
 |---|---|
-| [out/optogenetics-v3.mp4](out/optogenetics-v3.mp4) | 1080×1920, 30 fps, 64 s, H.264/BT.709, AAC 48 kHz stereo, −10 LUFS |
-| [out/cover.jpg](out/cover.jpg) | Douyin cover; the title sits inside the 3:4 crop used by profile grids |
+| [out/optogenetics-v3.mp4](out/optogenetics-v3.mp4) | 1080×1920, 30 fps, 70 s, H.264/BT.709, AAC 48 kHz stereo, −10 LUFS |
+| [out/cover.jpg](out/cover.jpg) · [3:4](out/cover-3x4.jpg) · [4:3](out/cover-4x3.jpg) | Douyin covers: 9:16 like the video, plus 3:4 and 4:3 for the cover slots the upload page may ask for |
 | [out/optogenetics-v3.sheet.jpg](out/optogenetics-v3.sheet.jpg) | One frame per second of the encoded film |
 | [out/verification.json](out/verification.json) | Results of `npm run verify` |
 | [out/score-spectrum.png](out/score-spectrum.png) | Spectrogram of the soundtrack: the sections, the drop at 38 s, the brake at 48 s |
 | [storyboard.md](storyboard.md) · [brief.md](brief.md) | The plan (Chinese) |
-| [publish-copy.md](publish-copy.md) | Title, cover, tags, description and comment prompts (Chinese) |
+| [publish-copy.md](publish-copy.md) | What to put in each field of Douyin's publish page: title, cover, topics, description, AI declaration (Chinese) |
 | [scientific-sources.md](scientific-sources.md) | A source for every claim on screen (Chinese) |
 | [production-log.md](production-log.md) | Decisions, checks, and what was and wasn't reviewed (Chinese) |
 
@@ -24,8 +24,8 @@ Needs Node 18+ and ffmpeg. Remotion downloads its own Chrome Headless Shell the 
 npm ci
 npm run studio                             # Remotion Studio: scrub, play with sound, each scene on the timeline
 npm run score                              # synthesize the soundtrack → public/score.wav, mastered to −10 LUFS
-npm run render                             # → out/optogenetics-v3.mp4 (about 4.5 minutes on 4 cores, no GPU)
-npm run cover                              # → out/cover.jpg
+npm run render                             # → out/optogenetics-v3.mp4 (about 5 minutes on 4 cores, no GPU)
+npm run cover                              # → out/cover.jpg, cover-3x4.jpg, cover-4x3.jpg
 npm run verify                             # 15 technical checks → out/verification.json
 node scripts/sheet.mjs --range=0:6:0.5     # contact sheet of any time range → out/sheet.jpg
 ```
@@ -51,7 +51,8 @@ Every frame is a pure function of time: no `Math.random()` (use `rng(seed)`), no
 
 - **The first second:** the phenomenon, the news (a gold "2026 Nobel Prize" kicker) and the question all arrive together on frame 0. The title card waits until 6 s.
 - **An open question:** "what switch is in its brain?" at 4.5 s is answered at 51 s ("back to the start"), when the same mouse is shown in X-ray.
-- **Interaction:** a three-way "guess" at 18–22 s (firefly, jellyfish or green alga?) and a closing discussion card with concrete options. No requests for likes, follows or shares.
+- **Interaction:** a three-way "guess" at 18–22 s (firefly, jellyfish or green alga?), and a closing debate with a personal stake: if light could one day adjust emotions, would you use it on yourself? A yes / B no, with an honest note that this has only been done in animals. No requests for likes, follows or shares.
+- **Meaning:** at 60 s the film steps back to where it started: curiosity about why an alga swims toward light, which nearly twenty years later helped a blind man perceive objects and then won a Nobel Prize.
 - **Title and cover:** say the same thing as the first frame: *灯一亮它就跑，灯一灭它就慢？* See [publish-copy.md](publish-copy.md).
 - **Loop:** the last beat leads back into the opening hit.
 

@@ -6,7 +6,7 @@ GitHub archives the production work. Douyin is the intended audience platform; t
 
 | Result | Files |
 |---|---|
-| Optogenetics V3 · 64 seconds, portrait, no voiceover, built in Remotion | [MP4](optogenetics-film-v3/out/optogenetics-v3.mp4) · [cover](optogenetics-film-v3/out/cover.jpg) · [contact sheet](optogenetics-film-v3/out/optogenetics-v3.sheet.jpg) |
+| Optogenetics V3 · 70 seconds, portrait, no voiceover, built in Remotion | [MP4](optogenetics-film-v3/out/optogenetics-v3.mp4) · [cover](optogenetics-film-v3/out/cover.jpg) · [contact sheet](optogenetics-film-v3/out/optogenetics-v3.sheet.jpg) |
 | V3 editable source and production records | [Project](optogenetics-film-v3/README.md) · [publishing draft](optogenetics-film-v3/publish-copy.md) · [science sources](optogenetics-film-v3/scientific-sources.md) · [production log](optogenetics-film-v3/production-log.md) |
 | Optogenetics V2 · 75 seconds, portrait, Mandarin narration | [MP4](optogenetics-film-v2/out/optogenetics-v2.mp4) · [source ZIP](optogenetics-film-v2/out/optogenetics-v2-source.zip) · [captions](optogenetics-film-v2/out/optogenetics-v2.srt) · [poster](optogenetics-film-v2/out/poster.jpg) |
 | V2 editable source and production records | [Project](optogenetics-film-v2/README.md) · [publishing draft](optogenetics-film-v2/publish-copy.md) · [science sources](optogenetics-film-v2/scientific-sources.md) |

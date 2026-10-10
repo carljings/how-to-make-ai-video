@@ -10,7 +10,7 @@ import {dirname, join, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const TARGET = -10, CEILING = -1.5, LIMIT = -2.4; // the limiter sits under the ceiling: resampling to 48 kHz and AAC encoding add a few tenths
+const TARGET = -10, CEILING = -1.5, LIMIT = -2.4; // starting limiter ceiling; lowered further below if the AAC test copy needs it
 const CHROME = process.env.CHROME_PATH || [join(ROOT, 'node_modules/.remotion/chrome-headless-shell/linux64/chrome-headless-shell-linux64/chrome-headless-shell'),
   '/usr/bin/google-chrome', '/usr/bin/chromium', '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'].find((p) => existsSync(p));
 if (!CHROME) throw new Error('No Chrome found: run `npx remotion browser ensure` or set CHROME_PATH');
@@ -40,12 +40,28 @@ const measure = (f) => {
 };
 const run = (args) => new Promise((ok, bad) => { const p = spawn('ffmpeg', args, {stdio: 'inherit'}); p.on('close', (c) => (c ? bad(new Error('ffmpeg ' + c)) : ok())); });
 const src = measure(raw);
-let gain = TARGET - src.I, fin;
-const limit = (10 ** (LIMIT / 20)).toFixed(4);
-for (let k = 0; k < 6; k++) {
-  await run(['-y', '-hide_banner', '-loglevel', 'error', '-i', raw, '-af', `volume=${gain.toFixed(2)}dB,aresample=192000,alimiter=limit=${limit}:attack=2:release=60:level=disabled,aresample=48000`, '-c:a', 'pcm_s16le', out]);
-  fin = measure(out);
-  if (Math.abs(fin.I - TARGET) < 0.2 && fin.TP <= CEILING + 0.05) break;
-  gain += TARGET - fin.I;
+// Master at a given limiter ceiling: adjust gain until the loudness is within 0.2 LU of the target
+async function master(limitDb) {
+  let gain = TARGET - src.I, fin;
+  const limit = (10 ** (limitDb / 20)).toFixed(4);
+  for (let k = 0; k < 6; k++) {
+    await run(['-y', '-hide_banner', '-loglevel', 'error', '-i', raw, '-af', `volume=${gain.toFixed(2)}dB,aresample=192000,alimiter=limit=${limit}:attack=2:release=60:level=disabled,aresample=48000`, '-c:a', 'pcm_s16le', out]);
+    fin = measure(out);
+    if (Math.abs(fin.I - TARGET) < 0.2) break;
+    gain += TARGET - fin.I;
+  }
+  return fin;
 }
-console.log(`mastered ${src.I.toFixed(1)} → ${fin.I.toFixed(1)} LUFS, true peak ${fin.TP.toFixed(1)} dBTP, loudness range ${fin.LRA.toFixed(1)} LU → public/score.wav`);
+// The film's soundtrack is AAC, which adds a few tenths of a dB of overshoot: encode a test copy the way Remotion
+// does (AAC, 256 kb/s) and lower the limiter until even the encoded version stays under the ceiling, with 0.2 dB to spare.
+const aacPeak = () => {
+  const m4a = join(ROOT, 'out/.score-test.m4a');
+  spawnSync('ffmpeg', ['-y', '-v', 'error', '-i', out, '-c:a', 'aac', '-b:a', '256k', m4a]);
+  return measure(m4a).TP;
+};
+let limitDb = LIMIT, fin = await master(limitDb), tp = aacPeak();
+for (let k = 0; k < 4 && tp > CEILING - 0.2; k++) {
+  limitDb -= tp - (CEILING - 0.2) + 0.05;
+  fin = await master(limitDb); tp = aacPeak();
+}
+console.log(`mastered ${src.I.toFixed(1)} → ${fin.I.toFixed(1)} LUFS, true peak ${fin.TP.toFixed(1)} dBTP (${tp.toFixed(1)} after AAC), limiter at ${limitDb.toFixed(1)} dB, loudness range ${fin.LRA.toFixed(1)} LU → public/score.wav`);

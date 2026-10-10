@@ -8,8 +8,9 @@ import {Gate} from './Gate';
 import {Control} from './Control';
 import {Payoff} from './Payoff';
 import {Clinic} from './Clinic';
+import {Legacy} from './Legacy';
 import {End} from './End';
 
 export const SCENE_COMPONENTS: Record<SceneId, React.FC<{t: number}>> = {
-  hook: Hook, brain: Brain, quiz: Quiz, alga: Alga, gate: Gate, control: Control, payoff: Payoff, clinic: Clinic, end: End,
+  hook: Hook, brain: Brain, quiz: Quiz, alga: Alga, gate: Gate, control: Control, payoff: Payoff, clinic: Clinic, legacy: Legacy, end: End,
 };
