@@ -1,6 +1,6 @@
 import { rng,TAU,seg,smooth,lerp } from './lib.js';
 import { pulse,PULSES,WARM } from './timeline.js';
-import { BLUE,ICE,GOLD,GREEN,camera,project,atmosphere,neuron,beam,pointCloud,sphere,volume } from './world.js';
+import { BLUE,ICE,GOLD,GREEN,LIFT,camera,project,atmosphere,neuron,beam,pointCloud,sphere,volume } from './world.js';
 
 const R=rng(202110),ions=Array.from({length:56},()=>({x:(R()-.5)*1200,y:-460-R()*340,z:(R()-.5)*340,p:R()}));
 const lipids=Array.from({length:25},(_,i)=>Array.from({length:8},(_,j)=>[(i-12)*51,(j-3.5)*63])).flat();
@@ -12,7 +12,7 @@ for(const [cx,cy,cz,rx,ry,rz] of [[-45,35,0,275,135,100],[210,-35,0,115,95,78],[
 }
 for(let i=0;i<200;i++){const u=i/199;mouse.push([-288-u*285,42+Math.sin(u*4)*95,-10+u*90]);}
 const field=Array.from({length:16},(_,i)=>({p:[(i%4-1.5)*620+(R()-.5)*170,(Math.floor(i/4)-1.5)*630+(R()-.5)*140,(R()-.5)*950],s:.58+R()*.28,id:i%3,target:[5,6,9].includes(i)}));
-const label=(value,x,y,size=32,color='#b5c6d6',a=1,align='left',weight=400)=>({value,x,y,size,color,a,align,weight});
+const label=(value,x,y,size=32,color='#b5c6d6',a=1,align='left',weight=400)=>({value,x,y:y-LIFT,size,color,a,align,weight});
 function network(g,t,u,hero=true){
   const c=camera(t,{d:lerp(hero?1030:1100,hero?1180:1420,smooth(u)),ry:-.2+u*.3,rx:.07+u*.11,cy:hero?990:950});
   atmosphere(g,c,t);
@@ -20,7 +20,7 @@ function network(g,t,u,hero=true){
     neuron(g,c,t,{offset:[-570,-420,380],scale:1.15,color:BLUE,activity:.09,alpha:.28,model:1,signalTimes:[]});
     neuron(g,c,t,{offset:[640,400,650],scale:1.2,color:BLUE,activity:.08,alpha:.25,model:2,signalTimes:[]});
     const n=neuron(g,c,t,{scale:2.05,activity:.25+pulse(t)*.72,channels:true});
-    if(n)beam(g,-90,250,n.x,n.y,BLUE,.1+pulse(t)*.65,175);
+    if(n)beam(g,-90,250-LIFT,n.x,n.y,BLUE,.1+pulse(t)*.65,175);
   }else{
     for(const f of field)neuron(g,c,t,{offset:f.p,scale:f.s,color:f.target?BLUE:ICE,activity:f.target?.32+pulse(t)*.55:.09,channels:f.target,model:f.id,alpha:f.target?.9:.22,signalTimes:f.target?PULSES:[]});
   }
@@ -57,7 +57,7 @@ function membrane(g,t,u){
   }
   protein(g,c,t,.92);
   const opening=seg(t,26.1,26.5),activity=pulse(t,PULSES,.45)*opening;
-  const core=project([0,0,0],c);if(core){g.glow(core.x,core.y,110,BLUE,.09+activity*.38,'halo');beam(g,65,260,core.x,core.y,BLUE,.12+activity*.72,100);}
+  const core=project([0,0,0],c);if(core){g.glow(core.x,core.y,110,BLUE,.09+activity*.38,'halo');beam(g,65,260-LIFT,core.x,core.y,BLUE,.12+activity*.72,100);}
   for(const v of ions){
     const moving=seg(t,26.2,27.3),phase=(t*.3+v.p)%1,route=Math.sin(v.p*TAU)*55;
     const x=lerp(v.x,route,moving),y=lerp(v.y,-430+phase*850,moving),z=lerp(v.z,Math.cos(v.p*TAU)*45,moving),p=project([x,y,z],c);
@@ -75,10 +75,10 @@ function research(g,t,u){
   const c=camera(t,{d:1000-u*100,ry:.35-u*.42,rx:-.08,cy:1000});atmosphere(g,c,t);
   for(const [p,r] of [[[210,-35,0],[115,95,78]],[[194,-125,-35],[42,53,18]],[[164,-126,43],[44,57,18]],[[-45,35,0],[275,135,100]]])volume(g,c,p.map(v=>v*1.2),r.map(v=>v*1.2),ICE,.46);
   pointCloud(g,c,mouse.map(([x,y,z])=>[x*1.2,y*1.2,z*1.2]),ICE,.46,1.4);
-  const brain=project([176,-66,0],c);if(brain){g.glow(brain.x,brain.y,52,BLUE,.38);beam(g,brain.x-50,560,brain.x,brain.y,BLUE,.34,33);g.glowArc(brain.x,brain.y,37,BLUE,.6,1.2);}
+  const brain=project([176,-66,0],c);if(brain){g.glow(brain.x,brain.y,52,BLUE,.38);beam(g,brain.x-50,560-LIFT,brain.x,brain.y,BLUE,.34,33);g.glowArc(brain.x,brain.y,37,BLUE,.6,1.2);}
   const p=project([294,-48,-40],c);if(p)g.glow(p.x,p.y,6,GOLD,.7);
   neuron(g,c,t,{offset:[-220,-400,0],scale:.41,activity:.3+pulse(t,[50.2,52,54.3])*.5,channels:true,signalTimes:[50.2,52,54.3]});
-  if(brain)g.glowLine([[brain.x,brain.y-70],[brain.x-32,760],[375,730]],BLUE,.22,1.7);
+  if(brain)g.glowLine([[brain.x,brain.y-70],[brain.x-32,760-LIFT],[375,730-LIFT]],BLUE,.22,1.7);
   return [label('选定回路 · 光刺激 · 观察行为',85,1400,38,'#c1dcea'),label('示意实验，不能替代对照与数据',85,1460,29)];
 }
 function eye(g,t,u){
@@ -89,11 +89,12 @@ function eye(g,t,u){
   for(let j=0;j<38;j++){const a=j/38*TAU,pts=[];for(let i=0;i<=12;i++){const r=58+i/12*79;const p=project([Math.cos(a)*r,Math.sin(a)*r,-326],c);if(p)pts.push([p.x,p.y]);}g.glowLine(pts,BLUE,.3,1.3);}
   for(let i=0;i<360;i++){const r=rng(i+951),a=r()*TAU,z=.15+r()*.83,rr=Math.sqrt(1-z*z),p=project([Math.cos(a)*rr*310,Math.sin(a)*rr*310,z*310],c);if(p)g.glow(p.x,p.y,2.5,GOLD,.29+seg(t,61.3,62.3)*.4);}
   const arrival=seg(t,61.4,62.5);
-  if(arrival>0){const p=project([0,0,240],c);if(p)beam(g,25,855,p.x,p.y,GOLD,.35*arrival,90);}
+  if(arrival>0){const p=project([0,0,240],c);if(p)beam(g,25,855-LIFT,p.x,p.y,GOLD,.35*arrival,90);}
   const ctx=g.add(),visible=seg(t,63,64.2);
-  // A limited object-recognition illustration; normal vision is not restored.
-  ctx.strokeStyle=`rgba(255,182,106,${visible*.52})`;ctx.globalAlpha=1;ctx.lineWidth=2.5;ctx.beginPath();ctx.moveTo(452,1260);ctx.lineTo(452,1196);ctx.lineTo(471,1161);ctx.lineTo(471,1117);ctx.lineTo(518,1117);ctx.lineTo(518,1161);ctx.lineTo(539,1196);ctx.lineTo(539,1260);ctx.closePath();ctx.stroke();
-  return [label('2021 · 早期单例报告',85,625,38,'#eabd86'),label('视网膜基因治疗 + 光刺激眼镜',85,1360,34,'#c7dfea'),label('部分物体辨识，仍非正常视力',85,1430,33,'#eabd86',arrival)];
+  // A limited object-perception illustration; normal vision is not restored.
+  ctx.strokeStyle=`rgba(255,182,106,${visible*.52})`;ctx.globalAlpha=1;ctx.lineWidth=2.5;ctx.beginPath();
+  [[452,1260],[452,1196],[471,1161],[471,1117],[518,1117],[518,1161],[539,1196],[539,1260]].forEach(([x,y],i)=>ctx[i?'lineTo':'moveTo'](x,y-LIFT));ctx.closePath();ctx.stroke();
+  return [label('2021 · 早期单例报告',85,625,38,'#eabd86'),label('视网膜基因治疗 + 光刺激眼镜',85,1360,34,'#c7dfea'),label('能感知、定位物体，仍非正常视力',85,1430,33,'#eabd86',arrival)];
 }
 export function drawScene(g,t,s){
   const u=seg(t,s.a,s.b);
@@ -110,14 +111,14 @@ export function drawScene(g,t,s){
     case 'membrane':return membrane(g,t,u);
     case 'rhythm':{
       const c=camera(t,{d:1120-u*160,ry:-.26+u*.3,cy:940});atmosphere(g,c,t);
-      const p=neuron(g,c,t,{scale:1.65,activity:.24+pulse(t)*.68,channels:true});if(p)beam(g,85,340,p.x,p.y,BLUE,.1+pulse(t)*.6,100);
-      trace(g,t,32,41,1380);return[label('光脉冲',85,654,32,'#a6dfff'),label('放电节奏 · 轨迹为示意',85,1450,32)];
+      const p=neuron(g,c,t,{scale:1.65,activity:.24+pulse(t)*.68,channels:true});if(p)beam(g,85,340-LIFT,p.x,p.y,BLUE,.1+pulse(t)*.6,100);
+      trace(g,t,32,41,1380-LIFT);return[label('光脉冲',85,654,32,'#a6dfff'),label('放电节奏 · 轨迹为示意',85,1450,32)];
     }
     case 'inhibit':{
       const c=camera(t,{d:1130,ry:-.18+u*.25,cy:972});atmosphere(g,c,t,GOLD);
       const p=neuron(g,c,t,{scale:1.6,color:GOLD,activity:lerp(.62,.1,smooth(u)),channels:true,signalTimes:[41.3,42.1]});
       neuron(g,c,t,{offset:[-620,-420,500],scale:.9,activity:.18,alpha:.28,signalTimes:[43.2,45.4,47.6]});
-      if(p)beam(g,80,320,p.x,p.y,GOLD,.13+pulse(t,WARM,.45)*.45,110);
+      if(p)beam(g,80,320-LIFT,p.x,p.y,GOLD,.13+pulse(t,WARM,.45)*.45,110);
       return[label('换用抑制型光敏工具',85,1360,36,'#eabd86'),label('降低特定细胞活动，其他细胞仍在工作',85,1430,31)];
     }
     case 'research':return research(g,t,u);

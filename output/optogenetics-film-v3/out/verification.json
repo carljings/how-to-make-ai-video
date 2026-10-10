@@ -1,0 +1,48 @@
+{
+  "checked": "2026-10-10",
+  "pass": [
+    "scenes cover 0–70 s without gaps",
+    "text blocks cover 0–70 s without gaps",
+    "every text block stays at least 1 s",
+    "headline lines are at most 10 characters: longest 10",
+    "every cut sits on a scene boundary",
+    "the hook shows the phenomenon on frame 0",
+    "fonts cover every character used",
+    "frames are pure functions of time: 10 frames rendered twice in different orders",
+    "video 1080×1920, 30 fps, 2100 frames: 1080×1920 30/1 2100",
+    "H.264 High, yuv420p, BT.709 limited range: h264 High yuv420p bt709 tv",
+    "AAC 48 kHz stereo",
+    "audio and video start together and last 70 s: 70.016 s",
+    "decodes end to end without errors",
+    "loudness about −10 LUFS (the user's target for this film): -10.2 LUFS, range 3.8 LU",
+    "true peak at or under −1.5 dBTP: -2.1 dBTP"
+  ],
+  "fail": [],
+  "media": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 2100,
+    "duration": 70.016,
+    "video": "h264 High yuv420p bt709",
+    "audio": "aac 48000 Hz 2 ch",
+    "sizeMB": 45.6,
+    "loudness": {
+      "I": -10.2,
+      "TP": -2.1,
+      "LRA": 3.8
+    }
+  },
+  "frameHashes": {
+    "0": "2b82328b24c32bfa5c5590f8917bd4982c1687d276ff1575f85c11c10f1921d1",
+    "435": "b57391ceeb091c15a5a6e2af34cee2b3f6bd01974075d1675664230b67dc4edc",
+    "660": "08497a564b352fceeef6945da5f3ff662fc76103f68a77c1806e695ea5c14095",
+    "1000": "1f634e958cc98ee575600fa7eb5f4cf3af435a6d00b702755e3f54d79a76d7d3",
+    "1290": "802a59fc778fbfba07c57ff58ed836a65b0b77ce65b01285e67480ca124f914b",
+    "1440": "b1e9fb6bdc51613ab5f5e9fc45038da6d3307c021c3ac8d6d32fa455940a7875",
+    "1560": "37e6d7ee7c99815cd7667892d8dbe073c838232012d4f3118798ee79cb62db3c",
+    "1850": "f8569348b8472c90c09145cf1a362bf0401e27b873d8678a6f862ff27f6bdf7f",
+    "1920": "4bccfad91a68c9cfd46d2aada97130cf83f74ac454a5684776f4b057ce306d90",
+    "2070": "ca9a6ab4e8a08d98922c31b40d1910c23ad4d7c2712d4bb301d0b4a5fa72e225"
+  }
+}
