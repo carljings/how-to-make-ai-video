@@ -1,0 +1,52 @@
+{
+  "checked": "2026-10-10",
+  "pass": [
+    "the film is six bars long, so it loops on the beat: 6 × 3.2010 s = 19.206 s; film 19.2 s, 576 frames",
+    "scenes cover the film without gaps and each cut is on a downbeat",
+    "47 sung syllables, each on the half-pulse grid (年 within 0.12 s)",
+    "syllables are in order and each stays inside its bar",
+    "lyrics read as the song: 轻轻敲醒沉睡的心灵 … 吹动少年的心",
+    "fonts cover every character used",
+    "frames are pure functions of time: 12 frames rendered twice in different orders",
+    "the last frame leads straight back into the first (loop): PSNR 30.334922 dB between frame 575 and frame 0",
+    "music cut: 19.2 s, 48 kHz stereo: 19.200000 s",
+    "video 1080×1920, 30 fps, 576 frames: 1080×1920 30/1 576",
+    "H.264 High, yuv420p, BT.709 limited range: h264 High yuv420p bt709 tv",
+    "AAC 48 kHz stereo",
+    "audio and video start together and last 19.2 s: 19.200 s",
+    "decodes end to end without errors",
+    "loudness about −12 LUFS (the user chose gain only, as loud as the true-peak limit allows): -11.9 LUFS, range 1.4 LU",
+    "true peak at or under −1.5 dBTP: -1.7 dBTP",
+    "the film's audio is the music cut, in sync with the picture: r = 0.9999 at 0.00 ms"
+  ],
+  "fail": [],
+  "media": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 576,
+    "duration": 19.2,
+    "video": "h264 High yuv420p bt709",
+    "audio": "aac 48000 Hz 2 ch",
+    "sizeMB": 14.7,
+    "loudness": {
+      "I": -11.9,
+      "TP": -1.7,
+      "LRA": 1.4
+    }
+  },
+  "frameHashes": {
+    "0": "642168f5a858dd26082390c5bdd106dd6eaecbcf1da82d7dd9ec1fae913ad8cd",
+    "14": "f112197c0179fee634806effc634b06e414ca3014b784e09666ffc5342a57581",
+    "90": "c0796d9a813dff29374e89b7b3677e42e40dda1f47063cb593d99bfc42223041",
+    "99": "5e7571698ecc0e0d612a1f23c4d18346de9ee7fa7e422b7fb6c59130333b93c2",
+    "200": "96aa8d1390311ac899991414f44ef70bd21f1d0426b83f2da492913b44ab9c4d",
+    "290": "fa8a23001aa1bb937e5684f2a7b3bee530db9aa1144c475cff43c970066d7200",
+    "300": "9317f6aa60e2a620d2bf2377c5a966d7d11cbd9d06fdc9bee779a51a61f9969b",
+    "380": "bc8778a133ac3304cecacbc09cf9b3553b233c23557e4c66ab26e1ec66c18e23",
+    "470": "819d8c5e7bea7b9f598710f754368f5f6d8e2441ce9f11bb32ed93a317a1918c",
+    "487": "2279b01c991d9a40e94bd11b287072bd63c916019ea2b4988129bec7e4fc1870",
+    "560": "0cc41b881782bcec616d0d03afc456fbba940c9e443aa42488c026f7b29a1c33",
+    "575": "0fef2b1ff139f3c7c4342a5b997b6ceb14938740bd57f0b9a145a3c8403a423a"
+  }
+}
