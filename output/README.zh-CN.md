@@ -8,6 +8,8 @@ GitHub用于制作成果归档。抖音发布是独立动作，须按实际上�
 |---|---|
 | 10月18–25日近期归档：魔方r4及历史迭代、音乐科普、特斯拉影片、AI刷分片、封面与发布文案 | [归档索引与成片下载](archive-20261025/README.zh-CN.md) · [媒体校验和](archive-20261025/MEDIA_SHA256SUMS) |
 | 配套魔方训练试作 · 仅源码归档，未部署 | [试作源码与能力边界](../experiments/cube-trainer-20261022/README.md) |
+| Claude MV ·《明天会更好》V2 · 两段主歌：51.2秒完整版和38.4秒版，竖屏，唱到的字逐字卡点，drop 闪白，巨大的心收尾，首尾无缝循环，Remotion制作 | [完整版MP4](tomorrow-mv-v2/out/tomorrow-mv-full.mp4) · [40秒MP4](tomorrow-mv-v2/out/tomorrow-mv-40s.mp4) · [封面](tomorrow-mv-v2/out/cover.jpg) |
+| MV V2可编辑源码和制作记录 | [项目说明](tomorrow-mv-v2/README.zh-CN.md) · [发布工作稿](tomorrow-mv-v2/publish-copy.md) · [制作日志](tomorrow-mv-v2/production-log.md) |
 | Claude MV ·《明天会更好》· 19.2秒竖屏：像素小AI随歌醒来，唱到的字逐字卡点，首尾无缝循环，Remotion制作 | [MP4](tomorrow-mv/out/tomorrow-mv.mp4) · [封面](tomorrow-mv/out/cover.jpg) · [拼图](tomorrow-mv/out/tomorrow-mv.sheet.jpg) |
 | MV可编辑源码和制作记录 | [项目说明](tomorrow-mv/README.zh-CN.md) · [发布工作稿](tomorrow-mv/publish-copy.md) · [制作日志](tomorrow-mv/production-log.md) |
 | 光遗传学V2 · 75秒竖屏、中文旁白 | [MP4](optogenetics-film-v2/out/optogenetics-v2.mp4) · [源码包](optogenetics-film-v2/out/optogenetics-v2-source.zip) · [字幕](optogenetics-film-v2/out/optogenetics-v2.srt) · [封面](optogenetics-film-v2/out/poster.jpg) |

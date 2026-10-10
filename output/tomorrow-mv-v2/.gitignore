@@ -1,0 +1,7 @@
+node_modules
+out/.sheet/
+out/.timeline.mjs
+# The song is a commercial recording taken from a screen recording: rebuild it locally with `npm run music`.
+public/music*.wav
+out/.first.png
+out/.last.png
