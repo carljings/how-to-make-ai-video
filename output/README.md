@@ -2,10 +2,12 @@
 
 **English** · [简体中文](README.zh-CN.md)
 
-GitHub archives the production work. Douyin is the intended audience platform; neither the optogenetics film nor the Claude MV has been published there.
+GitHub archives the production work. Douyin is the intended audience platform; neither the optogenetics film nor the Claude MVs have been published there.
 
 | Result | Files |
 |---|---|
+| Claude MV · 明天会更好 V2 · both verses: a 51.2-second full cut and a 38.4-second cut, portrait, every sung word on the beat, beat drops, giant-heart finale, seamless loop, built in Remotion | [Full MP4](tomorrow-mv-v2/out/tomorrow-mv-full.mp4) · [40 s MP4](tomorrow-mv-v2/out/tomorrow-mv-40s.mp4) · [cover](tomorrow-mv-v2/out/cover.jpg) |
+| MV V2 editable source and production records | [Project](tomorrow-mv-v2/README.md) · [publishing draft](tomorrow-mv-v2/publish-copy.md) · [production log](tomorrow-mv-v2/production-log.md) |
 | Claude MV · 明天会更好 · 19.2 seconds, portrait: a pixel AI wakes to the song, every sung word lands on the beat, seamless loop, built in Remotion | [MP4](tomorrow-mv/out/tomorrow-mv.mp4) · [cover](tomorrow-mv/out/cover.jpg) · [contact sheet](tomorrow-mv/out/tomorrow-mv.sheet.jpg) |
 | MV editable source and production records | [Project](tomorrow-mv/README.md) · [publishing draft](tomorrow-mv/publish-copy.md) · [production log](tomorrow-mv/production-log.md) |
 | Optogenetics V2 · 75 seconds, portrait, Mandarin narration | [MP4](optogenetics-film-v2/out/optogenetics-v2.mp4) · [source ZIP](optogenetics-film-v2/out/optogenetics-v2-source.zip) · [captions](optogenetics-film-v2/out/optogenetics-v2.srt) · [poster](optogenetics-film-v2/out/poster.jpg) |
