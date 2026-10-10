@@ -2,7 +2,7 @@
 
 **English** · [简体中文](README.zh-CN.md)
 
-Two portrait lyric MVs for Douyin and TikTok, built in [Remotion](https://www.remotion.dev/), cut to the same remix of 《明天会更好》 (高压电工 Remix). The music comes from a longer screen recording, two verses at 75 BPM with one sung line per bar. Every one of the 120 sung syllables appears on screen as it is sung. V1, the 19-second first draft, is in [`../tomorrow-mv`](../tomorrow-mv).
+Two portrait lyric MVs for Douyin and TikTok, built in [Remotion](https://www.remotion.dev/), cut to the same remix of 《明天会更好》 (高压电工 Remix). The music comes from a longer screen recording, two verses at 75 BPM with one sung line per bar. Every one of the 124 sung syllables appears on screen as it is sung. V1, the 19-second first draft, is in [`../tomorrow-mv`](../tomorrow-mv).
 
 - **Verse 1:** a pixel AI is tapped awake, opens its eyes at dawn, sees a busy world, spins alone on a small planet, and sheds a tear that the wind dries.
 - **Verse 2:** a beat drop. It sprouts wings, flies with a V of migrating birds, and hears news of a far-away kitten with an empty bowl under a storm. Its heart catches fire, melts into music notes, and the notes fly across the world to fill the kitten's bowl with hearts.
