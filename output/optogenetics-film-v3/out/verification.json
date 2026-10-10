@@ -1,0 +1,46 @@
+{
+  "checked": "2026-10-10",
+  "pass": [
+    "scenes cover 0–64 s without gaps",
+    "text blocks cover 0–64 s without gaps",
+    "every text block stays at least 1 s",
+    "headline lines are at most 10 characters: longest 10",
+    "every cut sits on a scene boundary",
+    "the hook shows the phenomenon on frame 0",
+    "fonts cover every character used",
+    "frames are pure functions of time: 8 frames rendered twice in different orders",
+    "video 1080×1920, 30 fps, 1920 frames: 1080×1920 30/1 1920",
+    "H.264 High, yuv420p, BT.709 limited range: h264 High yuv420p bt709 tv",
+    "AAC 48 kHz stereo",
+    "audio and video start together and last 64 s: 64.000 s",
+    "decodes end to end without errors",
+    "loudness about −10 LUFS (the user's target for this film): -10.1 LUFS, range 2.5 LU",
+    "true peak at or under −1.5 dBTP: -1.5 dBTP"
+  ],
+  "fail": [],
+  "media": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1920,
+    "duration": 64,
+    "video": "h264 High yuv420p bt709",
+    "audio": "aac 48000 Hz 2 ch",
+    "sizeMB": 43.3,
+    "loudness": {
+      "I": -10.1,
+      "TP": -1.5,
+      "LRA": 2.5
+    }
+  },
+  "frameHashes": {
+    "0": "c17fc08fdc343d4e9722b68fd7fe6f1bbde58c8fa76901a1a17074069f549e1d",
+    "435": "e08ec4a9158a8d309da613b23a0cac7365bfa10b241af36f11fef525851559d5",
+    "660": "e967a7acc5815c67b276764c5c9134b45ba634fcc45eef6887d55e2024bc551d",
+    "1000": "4a9ce65c445b327d29953d7b6ed4d737bafa8103add0d67ddd5d46329b6e20b1",
+    "1290": "c7cf464d5fe290ccacd43cb70e85cf8cc2988e7541a3e17b7a174f117da6e70d",
+    "1440": "018d4b870b92206c4c589a8c523f2e34c3716e6732de7f67048f0f2ea0a25d50",
+    "1560": "bde9d90a18a975034fa7a2f262686718c3b8806c478292fc19ff790ccadd0fad",
+    "1850": "9476c41a8635f4af06be76f6ce6a03e65a4f3a4ac292d18a20b00e9d15a19cea"
+  }
+}

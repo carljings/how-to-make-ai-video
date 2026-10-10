@@ -1,0 +1,5 @@
+node_modules/
+canvas-draft/node_modules/
+out/.sheet/
+out/.timeline.mjs
+out/score-raw.wav

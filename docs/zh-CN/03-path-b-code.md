@@ -93,7 +93,7 @@ flowchart LR
 | 工具 | 语言 | 说明 |
 |---|---|---|
 | 本仓库的 `starter/` | JavaScript + Canvas 2D | 不依赖框架，总共约 500 行，AI 助手可以一次读完 |
-| Remotion | React | 把视频写成 React 组件；生态很大 |
+| Remotion | React | 把视频写成 React 组件；生态很大。示例：[光遗传学V3](../../output/optogenetics-film-v3/README.zh-CN.md)，每幕一块发光的 canvas，上面叠 React 文字和面板 |
 | Motion Canvas / Revideo | TypeScript | 用生成器写动画时间线 |
 | Manim | Python | 为数学讲解而生 |
 | Python + Playwright + ffmpeg | Python | [*The History of AI in 120 seconds*](https://github.com/carljings/ai-history-video) 用的就是这一套 |
