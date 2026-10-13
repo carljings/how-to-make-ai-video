@@ -1,0 +1,37 @@
+{
+  "name": "nobel-econ-2026-v3",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "一句话，让整个小镇破产了 V3: the 2026 economics Nobel as a clay-town fable for Douyin. Seedance 2.5 footage with its native Chinese narration, music and sound effects, assembled in Remotion with the hook text, subtitles and a closing poll",
+  "scripts": {
+    "studio": "remotion studio",
+    "prep": "node scripts/prep.mjs",
+    "fonts": "python3 scripts/fonts.py",
+    "mix": "node scripts/mix.mjs",
+    "sheet": "node scripts/sheet.mjs",
+    "render": "remotion render Film out/nobel-econ-2026-v3.mp4",
+    "cover": "remotion still Cover out/cover.jpg && remotion still Cover34 out/cover-3x4.jpg && remotion still Cover43 out/cover-4x3.jpg",
+    "verify": "node scripts/verify.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run mix && npm run render && npm run cover && npm run verify"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/fonts": "4.0.534",
+    "@remotion/media": "4.0.534",
+    "@remotion/noise": "4.0.534",
+    "@remotion/paths": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "remotion": "4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.12",
+    "esbuild": "0.25.10",
+    "puppeteer-core": "24.43.1",
+    "typescript": "5.9.3"
+  }
+}

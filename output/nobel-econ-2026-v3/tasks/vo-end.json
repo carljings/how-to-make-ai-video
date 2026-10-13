@@ -1,0 +1,42 @@
+{
+  "id": "cgt-20261013165938-ww19s",
+  "name": "vo-end",
+  "draft": true,
+  "prompt": "@图片1 提供黏土微缩世界的风格和面馆老板的外貌。@音频1 只提供旁白的音色、语气和语速，不参考它说的内容。\n画面：一个镜头。温暖灯光下热闹的黏土面馆，戴白色厨师帽的面馆老板端着一碗热腾腾的面，对着镜头微笑。镜头缓慢推近。\n声音：只有旁白，没有背景音乐，没有音效，没有人群声。\n旁白：画外音，与@音频1同一个声音：低沉、讲故事的年轻男声，普通话，语速稍快，带一点笑意，吐字清楚。旁白在第0秒立刻开口，不要先停顿。\n旁白：{下次再听到“日子要不好过了”，你会先省钱吗？}\n画面中不要出现任何文字。总时长5秒。",
+  "first_frame": null,
+  "images": [
+    "refs/first-a.jpg"
+  ],
+  "audios": [
+    "refs/narrator.mp3"
+  ],
+  "duration": 5,
+  "created": "2026-10-13 03:59:44",
+  "status": "succeeded",
+  "result": {
+    "id": "cgt-20261013165938-ww19s",
+    "model": "doubao-seedance-2-5-260628",
+    "status": "succeeded",
+    "content": {
+      "video_url": "(expired download link removed)"
+    },
+    "usage": {
+      "completion_tokens": 48437,
+      "total_tokens": 48437
+    },
+    "created_at": 1791881984,
+    "updated_at": 1791882176,
+    "seed": 39462,
+    "resolution": "480p",
+    "ratio": "9:16",
+    "duration": 5,
+    "framespersecond": 24,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": true,
+    "priority": 0,
+    "output_format": "mp4"
+  },
+  "finished": "2026-10-13 04:02:56"
+}

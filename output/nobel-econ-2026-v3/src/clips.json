@@ -1,0 +1,23 @@
+{
+  "source": "1080p",
+  "clips": [
+    {
+      "id": "clipA",
+      "file": "clips/clipA.mp4",
+      "src": "clips/clipA-1080p.mp4",
+      "dur": 15.0417
+    },
+    {
+      "id": "clipB",
+      "file": "clips/clipB.mp4",
+      "src": "clips/clipB-1080p.mp4",
+      "dur": 15.0417
+    },
+    {
+      "id": "clipC",
+      "file": "clips/clipC.mp4",
+      "src": "clips/clipC-1080p.mp4",
+      "dur": 22.0417
+    }
+  ]
+}
