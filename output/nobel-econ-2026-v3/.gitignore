@@ -1,0 +1,16 @@
+node_modules
+# Seedance clips, separated stems and the files built from them stay local (regenerate with scripts/ark.py, prep.mjs, mix.mjs)
+clips/
+audio/
+public/clips/
+public/mix.wav
+refs/first-a.png
+out/.sheet/
+out/.timeline.mjs
+out/.mix-test.m4a
+out/seedance.wav
+out/review-sheet.jpg
+out/*.log
+tasks/*.log
+tasks/*.asr.txt
+scripts/__pycache__/

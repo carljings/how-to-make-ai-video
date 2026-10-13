@@ -1,0 +1,49 @@
+{
+  "checked": "2026-10-13",
+  "pass": [
+    "the film uses the 1080p Seedance finals: clips/clipA-1080p.mp4, clips/clipB-1080p.mp4, clips/clipC-1080p.mp4",
+    "frame 0 shows the whole hook (both lines) and it stays at least 3 s: 一句话， / 让整个小镇破产了",
+    "clip C's last line is the re-recorded one (a transcription of the mix hears it): 钱了。下次再听到,日子要不好过了,你会先省钱吗?",
+    "every subtitle stays at least 0.5 s",
+    "subtitle lines are at most 15 characters: longest 15",
+    "subtitles stay inside the film",
+    "headline lines are at most 12 characters: longest 9",
+    "the laureates are named on screen and in the subtitles",
+    "the fable is labelled as one: 寓言示意 · 非真实事件",
+    "fonts cover every character used",
+    "frames are pure functions of time: 9 frames rendered twice in different orders",
+    "video 1080×1920, 24 fps, 1251 frames: 1080×1920 24/1 1251",
+    "H.264 High, yuv420p, BT.709: h264 High yuv420p bt709 tv",
+    "AAC 48 kHz stereo",
+    "audio and video start together and last 52.13 s: 52.139 s",
+    "decodes end to end without errors",
+    "loudness about −10 LUFS (the user's target): -10.4 LUFS, range 3.3 LU",
+    "true peak at or under −1.5 dBTP: -2.1 dBTP",
+    "sound starts on frame 0 (first 200 ms not silent): -12.279034 dB RMS"
+  ],
+  "fail": [],
+  "media": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "24/1",
+    "frames": 1251,
+    "duration": 52.139,
+    "sizeMB": 37.3,
+    "loudness": {
+      "I": -10.4,
+      "TP": -2.1,
+      "LRA": 3.3
+    }
+  },
+  "frameHashes": {
+    "0": "182f637e5525a71cba37adf832b11df8488fd7fc7eedc6e725113085bfc48442",
+    "30": "e920c52bbfcc99a7db85410809822ad9ef5b975915f4ba8372102296a988e418",
+    "80": "1fc74fcf10005f385f02469a1f7e9be58328385149ede69f6d1a99de090b2247",
+    "250": "b2dfeeefa6aad04a8a81bd3b8beb045417b9c6869dd2715461fe9748f2d620f3",
+    "400": "90da93005e5424593fce8881a9df0c8192b08e9fded40c133dcdbac9e20e5ea2",
+    "640": "ee0c14f177ba0b025d111be67a617e01f9468d4ad402d5a3a69c767ba656e24b",
+    "900": "0519a5ff344df4bf6a510c7a7a973ab987f87a423dee229540dec16df90bba94",
+    "1100": "f13849c6eb02b01519cabff191832be37871b653b883d41a4be1e1e8346f43dc",
+    "1239": "1437a1bdb52eb0fe412dd61794694b65793cd487ff7adbee3a1fe835a8395c79"
+  }
+}
