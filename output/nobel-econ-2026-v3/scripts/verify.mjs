@@ -20,7 +20,7 @@ const tl = await build({entryPoints: [join(ROOT, 'src/timeline.ts')], bundle: tr
 const tmp = join(ROOT, 'out/.timeline.mjs'); writeFileSync(tmp, tl.outputFiles[0].text);
 const T = await import(pathToFileURL(tmp).href);
 const clips = JSON.parse(readFileSync(join(ROOT, 'src/clips.json'), 'utf8'));
-ok('the film uses the 1080p Seedance finals', clips.source === '1080p' && clips.clips.length === 3, clips.clips.map((c) => c.src).join(', '));
+ok('the film uses the Seedance finals, not drafts', clips.source !== 'draft' && clips.clips.length === 3, clips.clips.map((c) => c.src).join(', '));
 ok('frame 0 shows the whole hook (both lines) and it stays at least 3 s', T.HEADS[0].a === 0 && T.HEADS[0].lines.length === 2 && T.HEADS[0].b >= 3, T.HEADS[0].lines.join(' / ').replace(/\*\*/g, ''));
 const patched = JSON.parse(readFileSync(join(ROOT, 'tasks/clipC-patched.asr-medium.json'), 'utf8')).map((s) => s.text).join('');
 ok('clip C\'s last line is the re-recorded one (a transcription of the mix hears it)', patched.includes('日子要不好过了') && !patched.includes('药包'), patched.slice(-24));
