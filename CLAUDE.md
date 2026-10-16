@@ -18,6 +18,19 @@ A guide to making AI video, with templates, ffmpeg tools and a code-rendered sta
 - Reuse character pictures between episodes instead of generating new ones.
 - How Seedance is billed on Volcengine Ark: tokens = width × height × (24 × seconds + 1) / 1024. About ¥70 per million tokens at 480p and 720p (≈ ¥1.5 a second at 720p) and ¥77 at 1080p, at October 2026 list prices. The real charge is in the Volcengine console. `scripts/ark.py cost 15 15` in `output/nobel-econ-2026-v3/` prints the estimate.
 
+## Seedance 2.5 prompts (15 October 2026)
+
+From ByteDance's official Seedance 2.5 prompt guide (Volcengine document 82379/2607689, 7 August 2026) and the craft in Emily2040/seedance-2.0, checked against what went wrong in the Nobel V3 clips.
+
+- Prompt order: first bind every asset in words ("图片1是面馆老板，旁白使用音频1的音色", and say which part to borrow), then one line on subject, place, event and style, then the timed shots, then one closing line on what holds throughout (camera, setting, sound, mood). Don't rely on names written inside pictures.
+- Timestamps in whole, continuous seconds ("0-3秒…3-7秒…"): no half seconds and no gaps. Seedance 2.0 ignores timestamps; 2.5 follows them.
+- Keep each clip light: aim for 2–3 seconds or more per beat, where a spoken line adds one beat per 12 Chinese characters and a change of place adds two. Denser clips cut too fast and garble speech (Nobel V3's 22-second clip C garbled its last line); split them instead.
+- One action per shot, and people in the background keep doing something; "不动" freezes them like mannequins. End every shot with the same lock line: the light, each character's look, and where each one stands. The model forgets these at every cut, which is how two characters end up with one face.
+- Describe a feeling in plain words plus one physical sign, not an idiom: "脸沉下来" renders as a face turning grey.
+- Exclusions work only for subtitles and sound ("不要字幕", "无bgm，只生成环境音和动作音"). They don't stop made-up lettering on signs: keep signs and screens out of shot, or remove the text with an edit.
+- To fix one line, one action or stray text, edit the clip instead of generating it again: "仅编辑视频1中旁白的台词，修改为「…」，其余不变" (duration -1, ratio adaptive, clips under 20 seconds work best). Quote the edit's cost before running it.
+- Guides and skills written for Seedance 2.0 (for example dexhunter/seedance2-skill and Emily2040/seedance-2.0) carry useful craft, but their limits (15 seconds, 12 files) and timing rules don't apply to 2.5.
+
 ## Code-rendered films (starter/)
 
 - Every frame is a pure function of `t`: no `Math.random()` (use `rng(seed)` from `src/lib.js`), no clock reads, no state carried between frames. Precompute simulations at load time.
