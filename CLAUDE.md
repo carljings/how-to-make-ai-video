@@ -9,6 +9,15 @@ A guide to making AI video, with templates, ffmpeg tools and a code-rendered sta
 - Keep a production log (`templates/production-log.md`) for generated work. Before re-running a generation that timed out, check whether its output already exists.
 - Master to −14 LUFS, true peak ≤ −1.5 dBTP (`render.mjs --encode` and `tools/stitch.sh` do this).
 
+## Budget for generated video (the user's rules, 15 October 2026)
+
+- Generate at 720p at most, never 1080p. Remotion or ffmpeg upscales the picture, and on-screen text is drawn at full resolution anyway.
+- No 480p test drafts. Once the user approves the storyboard, generate each shot straight at 720p, review it (contact sheet, transcription of any speech) and redo only the shot that fails.
+- Before spending anything, show a line-by-line budget (each shot's length and cost, the pictures, an allowance for one redo) and get it approved. Ask again before going past it.
+- Targets: a 30-second film costs about ¥50–55 (about ¥45 of video at 720p, ¥3–8 of pictures). Redoing one 10–11 second shot costs about ¥15–17.
+- Reuse character pictures between episodes instead of generating new ones.
+- How Seedance is billed on Volcengine Ark: tokens = width × height × (24 × seconds + 1) / 1024. About ¥70 per million tokens at 480p and 720p (≈ ¥1.5 a second at 720p) and ¥77 at 1080p, at October 2026 list prices. The real charge is in the Volcengine console. `scripts/ark.py cost 15 15` in `output/nobel-econ-2026-v3/` prints the estimate.
+
 ## Code-rendered films (starter/)
 
 - Every frame is a pure function of `t`: no `Math.random()` (use `rng(seed)` from `src/lib.js`), no clock reads, no state carried between frames. Precompute simulations at load time.
