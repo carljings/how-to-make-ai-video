@@ -1,6 +1,7 @@
 // prep.mjs: turn the Seedance clips into what the film plays, and measure them.
 //   node scripts/prep.mjs [--draft]
-// Each clips/<id>-1080p.mp4 (10-bit HEVC from Seedance) becomes public/clips/<id>.mp4: H.264 8-bit 1080×1920 24 fps,
+// Each Seedance clip (clips/<id>-720p.mp4 since 2026-10-15; this film's are <id>-1080p.mp4) becomes public/clips/<id>.mp4:
+// H.264 8-bit, scaled to 1080×1920, 24 fps,
 // silent (the sound goes through scripts/mix.mjs). Durations go to src/clips.json, which timeline.ts reads.
 // --draft uses the 480p drafts, scaled up, to build and check the film before the finals exist.
 //
@@ -19,10 +20,10 @@ const IDS = ['clipA', 'clipB', 'clipC'];
 const SIGN_BLUR = {clipA: {from: 9.875, to: 13.125, solid: 440, feather: 180}, clipB: {from: 2.333, to: 4.75, solid: 170, feather: 90}};
 
 mkdirSync(join(ROOT, 'public/clips'), {recursive: true});
-const out = {source: draft ? 'draft' : '1080p', clips: []};
+const out = {source: draft ? 'draft' : 'final', clips: []};
 for (const id of IDS) {
-  const src = join(ROOT, 'clips', draft ? `${id}-draft.mp4` : `${id}-1080p.mp4`);
-  if (!existsSync(src)) throw new Error(`missing ${src}`);
+  const src = (draft ? [`${id}-draft.mp4`] : [`${id}-720p.mp4`, `${id}-1080p.mp4`]).map((f) => join(ROOT, 'clips', f)).find((f) => existsSync(f));
+  if (!src) throw new Error(`missing clips/${id}-${draft ? 'draft' : '720p'}.mp4`);
   const dst = join(ROOT, 'public/clips', `${id}.mp4`);
   const base = 'scale=1080:1920:flags=lanczos,format=yuv420p,fps=24';
   const b = SIGN_BLUR[id];
