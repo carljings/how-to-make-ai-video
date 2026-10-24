@@ -59,6 +59,7 @@ tools/stitch.sh shots.txt episode.mp4 --size 1080x1920 --srt episode.srt
 | [1 · 制作流程](docs/zh-CN/01-pipeline.md) | 从创意到上传的十个步骤，以及最省时间的习惯 |
 | [2 · 路线 A：生成](docs/zh-CN/02-path-a-generate.md) | 选模型、参考图、镜头提示词、连贯性、常见问题、版权与标识 |
 | [3 · 路线 B：代码](docs/zh-CN/03-path-b-code.md) | `render(t)`、纯函数帧的规则、与 AI 助手协作、性能、声音与字体 |
+| [Opus 代码视频制作方法](docs/zh-CN/opus-video-production-method.md) | 导演思路、解释性动效、统一音乐落点、Chrome／Web Audio 渲染，以及保留已选原片审美的修订方式 |
 | [4 · 声音](docs/zh-CN/04-sound.md) | 人声、音乐、音效、−14 LUFS、闪避、查找爆音、字幕 |
 | [5 · 剪辑与导出](docs/zh-CN/05-edit-and-export.md) | 脚本、实测过的 ffmpeg 命令、导出设置、上传前检查清单 |
 | [6 · 平台对比](docs/zh-CN/06-platforms-compared.md) | 即梦、小云雀、LibTV、LiblibAI、TapNow、Flova 横向对比：模型、工作方式、Agent 接入、每秒成本、GitHub 上的发现 |

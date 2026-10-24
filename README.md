@@ -59,6 +59,7 @@ tools/stitch.sh shots.txt episode.mp4 --size 1080x1920 --srt episode.srt
 | [1 · The pipeline](docs/01-pipeline.md) | Ten steps from idea to upload, and the habits that save the most time |
 | [2 · Path A: generate](docs/02-path-a-generate.md) | Choosing a model, reference sheets, shot prompts, continuity, common failures, rights and labels |
 | [3 · Path B: code](docs/03-path-b-code.md) | `render(t)`, frame-pure rules, working with an assistant, performance, sound and fonts |
+| [Opus code-video production method](docs/opus-video-production-method.md) | Direction, explanatory motion, shared music cues, Chrome/Web Audio rendering and preserving an approved film’s aesthetic |
 | [4 · Sound](docs/04-sound.md) | Voice, music, effects, −14 LUFS, ducking, finding clicks, subtitles |
 | [5 · Edit and export](docs/05-edit-and-export.md) | The scripts, tested ffmpeg recipes, export settings, pre-upload checklist |
 | [6 · Platforms compared](docs/06-platforms-compared.md) | 即梦, 小云雀, LibTV, LiblibAI, TapNow and Flova side by side: models, workflow, agent access, cost per second, what GitHub shows |
