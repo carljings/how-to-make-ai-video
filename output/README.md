@@ -8,6 +8,8 @@ GitHub archives the production work. Douyin publication is a separate action and
 |---|---|
 | Recent archive · 18–25 October: Rubik's Cube r4, earlier film iterations, music explainers, Roadster films, AI reward-hacking film, covers and publishing copy | [Archive index and downloads](archive-20261025/README.md) · [media checksums](archive-20261025/MEDIA_SHA256SUMS) |
 | Companion cube trainer experiment · source archive, not deployed | [Trial source and limitations](../experiments/cube-trainer-20261022/README.md) |
+| 一跃 · One Leap · 36 seconds, portrait: a kitten leaps through six worlds built from its room; Seedance 2.5 + Remotion, original synthesised score, no narration | [MP4, −10 LUFS](cat-leap/out/one-leap-10.mp4) · [MP4, −14 LUFS](cat-leap/out/one-leap-14.mp4) · [cover](cat-leap/out/cover.jpg) · [contact sheet](cat-leap/out/one-leap.sheet.jpg) |
+| One Leap source and production records | [Project](cat-leap/README.md) · [storyboard](cat-leap/storyboard.md) · [production log](cat-leap/production-log.md) |
 | Optogenetics V2 · 75 seconds, portrait, Mandarin narration | [MP4](optogenetics-film-v2/out/optogenetics-v2.mp4) · [source ZIP](optogenetics-film-v2/out/optogenetics-v2-source.zip) · [captions](optogenetics-film-v2/out/optogenetics-v2.srt) · [poster](optogenetics-film-v2/out/poster.jpg) |
 | V2 editable source and production records | [Project](optogenetics-film-v2/README.md) · [publishing draft](optogenetics-film-v2/publish-copy.md) · [science sources](optogenetics-film-v2/scientific-sources.md) |
 | Optogenetics V1 · original version | [MP4](optogenetics-film/out/optogenetics.mp4) · [source ZIP](optogenetics-film/out/optogenetics-v1-source.zip) |

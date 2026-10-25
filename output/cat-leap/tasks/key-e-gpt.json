@@ -1,0 +1,25 @@
+{
+  "cmd": "edit",
+  "model": "gpt-image-2.5-flare-vip",
+  "size": "1152x2048",
+  "quality": "high",
+  "images": [
+    "refs/kitten-sheet.png"
+  ],
+  "prompt": "Inside a giant snow globe. The curved glass dome is visible near the edges of the frame with soft reflections and highlights. Inside: a tiny snowy village with warm glowing windows, little pine trees, a frozen pond, and big soft snowflakes swirling everywhere in a spiral; a green and violet aurora glows across the inside of the dome. The kitten sits in the snow on a little hill in the foreground, one white front paw raised to bat a large sparkling snowflake, snowflakes caught on its whiskers and ears, eyes wide with wonder. Outside the glass, far behind and blurred, a huge warm cosy room with fairy lights, making it clear the whole world is inside a snow globe. Cool white-teal light with warm window glows.\n\nThe kitten is exactly the kitten in the reference image: a ten-week-old ginger tabby kitten with fluffy orange fur and soft darker stripes, white chest, four white socks, a narrow white blaze from forehead to nose, white muzzle, pink nose, very big round amber-gold eyes, a thin red collar with one small gold bell. Same face, same markings, same proportions.\nPhotorealistic cinematic still from a big-budget fantasy film, real fur with every hair visible, real light, shallow depth of field, rich colour grade, sharp focus on the kitten. Vertical 9:16 frame. No text, no letters, no logos, no people.",
+  "seconds": 31.9,
+  "usage": {
+    "input_tokens": 1052,
+    "input_tokens_details": {
+      "image_tokens": 560,
+      "text_tokens": 492
+    },
+    "output_tokens": 1413,
+    "output_tokens_details": {
+      "image_tokens": 1413,
+      "text_tokens": 0
+    },
+    "total_tokens": 2465
+  },
+  "created": "2026-10-16 04:04:21"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "cgt-20261016172055-1ff25",
+  "name": "H2",
+  "draft": false,
+  "resolution": "720p",
+  "prompt": "图片1为首帧。\n清晨，橘色小奶猫趴在猫窝里，一只蓝色蝴蝶停在它粉色的鼻尖上。写实电影质感，柔和晨光，可爱搞笑。\n0-2秒：小猫盯着鼻尖上的蝴蝶，两只眼睛慢慢向中间对在一起，鼻子轻轻抽动了两下。\n2-3秒：小猫打了一个可爱的小喷嚏，头往前一点，蝴蝶被吹得飞了起来。\n3-6秒：蝴蝶向画面右上方的窗口飞去，小猫抬起头，睁大眼睛一直盯着它看。\n全程：同一只小猫（橘色虎斑、白胸、白爪、红色项圈和金色小铃铛），镜头固定不动，光线不变。\n声音：小猫打喷嚏的声音，铃铛叮的一声，清晨轻轻的鸟叫声；无bgm，只生成环境音和动作音。不要字幕。",
+  "first_frame": "refs/key-h2.jpg",
+  "images": [],
+  "audios": [],
+  "duration": 6,
+  "created": "2026-10-16 04:20:56",
+  "status": "succeeded",
+  "result": {
+    "id": "cgt-20261016172055-1ff25",
+    "model": "doubao-seedance-2-5-260628",
+    "status": "succeeded",
+    "content": {
+      "video_url": "(expired download link removed)"
+    },
+    "usage": {
+      "completion_tokens": 130500,
+      "total_tokens": 130500
+    },
+    "created_at": 1792142456,
+    "updated_at": 1792142625,
+    "seed": 95179,
+    "resolution": "720p",
+    "ratio": "9:16",
+    "duration": 6,
+    "framespersecond": 24,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4"
+  },
+  "finished": "2026-10-16 04:23:51"
+}

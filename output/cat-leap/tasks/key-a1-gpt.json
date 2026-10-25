@@ -1,0 +1,25 @@
+{
+  "cmd": "edit",
+  "model": "gpt-image-2.5-flare-vip",
+  "size": "1152x2048",
+  "quality": "high",
+  "images": [
+    "refs/kitten-sheet.png"
+  ],
+  "prompt": "Extreme close-up of the kitten's face filling the whole vertical frame, at the kitten's eye level: the two huge amber-gold eyes side by side across the upper middle of the frame, sharp and glossy, pupils medium-sized, each eye holding a tiny clear reflection of a glowing blue butterfly and warm golden fairy lights. Whiskers glinting, fur detail on the white blaze and pink nose in the lower part of the frame, ear tips just cut off at the top. Dusk: warm amber lamplight from the left, cool blue window light from the right, a soft blue glow from the butterfly on the fur. Expression: utterly fascinated, frozen, focused. Background: none visible except soft dark bokeh at the edges.\n\nThe kitten is exactly the kitten in the reference image: a ten-week-old ginger tabby kitten with fluffy orange fur and soft darker stripes, white chest, four white socks, a narrow white blaze from forehead to nose, white muzzle, pink nose, very big round amber-gold eyes, a thin red collar with one small gold bell. Same face, same markings, same proportions.\nPhotorealistic cinematic still from a big-budget fantasy film, real fur with every hair visible, real light, shallow depth of field, rich colour grade, sharp focus on the kitten. Vertical 9:16 frame. No text, no letters, no logos, no people.",
+  "seconds": 45.7,
+  "usage": {
+    "input_tokens": 1044,
+    "input_tokens_details": {
+      "image_tokens": 560,
+      "text_tokens": 484
+    },
+    "output_tokens": 1413,
+    "output_tokens_details": {
+      "image_tokens": 1413,
+      "text_tokens": 0
+    },
+    "total_tokens": 2457
+  },
+  "created": "2026-10-16 04:01:35"
+}

@@ -1,0 +1,14 @@
+submitted cgt-20261016172055-1ff25
+running … 0 s
+running … 16 s
+running … 32 s
+running … 48 s
+running … 64 s
+running … 79 s
+running … 95 s
+running … 111 s
+running … 127 s
+running … 143 s
+running … 159 s
+saved clips/H2-720p.mp4 (6900 KB)
+usage: {"completion_tokens": 130500, "total_tokens": 130500} seconds: 6 resolution: 720p

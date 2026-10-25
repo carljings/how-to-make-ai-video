@@ -1,0 +1,39 @@
+{
+  "id": "cgt-20261016172059-t6u5u",
+  "name": "F",
+  "draft": false,
+  "resolution": "720p",
+  "prompt": "图片1为首帧。\n太空中，橘色小奶猫在毛线球做成的星球之间失重漂浮。写实电影质感，紫蓝色星云。\n0-4秒：小猫伸出白色的前爪，轻轻拍了一下右边的粉色毛线球星球，毛线球星球慢慢旋转起来，松开的粉色毛线像光带一样飘散开；小猫的身体在失重中轻轻翻转，尾巴慢慢卷起；蓝色蝴蝶从旁边飞过，星尘闪烁；镜头缓慢推近。\n全程：同一只小猫（橘色虎斑、白胸、白爪、红色项圈和金色小铃铛），星云的光不变。\n声音：轻柔的太空嗡鸣，毛线摩擦的细微声，铃铛声；无bgm，只生成环境音和动作音。不要字幕。",
+  "first_frame": "refs/key-f.jpg",
+  "images": [],
+  "audios": [],
+  "duration": 4,
+  "created": "2026-10-16 04:21:00",
+  "status": "succeeded",
+  "result": {
+    "id": "cgt-20261016172059-t6u5u",
+    "model": "doubao-seedance-2-5-260628",
+    "status": "succeeded",
+    "content": {
+      "video_url": "(expired download link removed)"
+    },
+    "usage": {
+      "completion_tokens": 87300,
+      "total_tokens": 87300
+    },
+    "created_at": 1792142460,
+    "updated_at": 1792142613,
+    "seed": 2397,
+    "resolution": "720p",
+    "ratio": "9:16",
+    "duration": 4,
+    "framespersecond": 24,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4"
+  },
+  "finished": "2026-10-16 04:23:38"
+}

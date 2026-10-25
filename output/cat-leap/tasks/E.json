@@ -1,0 +1,39 @@
+{
+  "id": "cgt-20261016172045-pdfbe",
+  "name": "E",
+  "draft": false,
+  "resolution": "720p",
+  "prompt": "图片1为首帧。\n一个巨大的雪花水晶球里面，有小小的雪村和极光，橘色小奶猫坐在雪地上玩雪花。写实电影质感。\n0-2秒：雪花在玻璃球里旋转飘落，小猫抬起白色的前爪去拍一片大雪花。\n2-4秒：一片雪花落在小猫粉色的鼻尖上，小猫眨了眨眼，开心地抖了抖耳朵；极光在玻璃球顶部缓缓流动；镜头缓慢绕着小猫转动。\n全程：同一只小猫（橘色虎斑、白胸、白爪、红色项圈和金色小铃铛），冷白色雪光和暖色窗光不变。\n声音：轻柔的风声，雪花落下的细碎沙沙声，铃铛声；无bgm，只生成环境音和动作音。不要字幕。",
+  "first_frame": "refs/key-e.jpg",
+  "images": [],
+  "audios": [],
+  "duration": 4,
+  "created": "2026-10-16 04:20:46",
+  "status": "succeeded",
+  "result": {
+    "id": "cgt-20261016172045-pdfbe",
+    "model": "doubao-seedance-2-5-260628",
+    "status": "succeeded",
+    "content": {
+      "video_url": "(expired download link removed)"
+    },
+    "usage": {
+      "completion_tokens": 87300,
+      "total_tokens": 87300
+    },
+    "created_at": 1792142446,
+    "updated_at": 1792142603,
+    "seed": 46038,
+    "resolution": "720p",
+    "ratio": "9:16",
+    "duration": 4,
+    "framespersecond": 24,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4"
+  },
+  "finished": "2026-10-16 04:23:23"
+}

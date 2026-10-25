@@ -1,0 +1,14 @@
+submitted cgt-20261016172050-vt4ep
+running … 0 s
+running … 16 s
+running … 31 s
+running … 48 s
+running … 64 s
+running … 80 s
+running … 96 s
+running … 111 s
+running … 128 s
+running … 144 s
+running … 160 s
+saved clips/C-720p.mp4 (6398 KB)
+usage: {"completion_tokens": 87300, "total_tokens": 87300} seconds: 4 resolution: 720p

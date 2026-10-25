@@ -1,0 +1,25 @@
+{
+  "cmd": "edit",
+  "model": "gpt-image-2.5-flare-vip",
+  "size": "1152x2048",
+  "quality": "high",
+  "images": [
+    "refs/kitten-sheet.png"
+  ],
+  "prompt": "Low angle at floor level on a wide old wooden windowsill at dusk, side view: the kitten crouched in a hunting pose facing right toward the open window, front low, bottom raised, back legs bunched, tail straight out behind, eyes locked on the target, about to pounce. The kitten fills the lower middle of the frame. Through the open window on the right: a deep blue twilight sky with the first stars, and a blue morpho butterfly with softly glowing wings fluttering just outside, leaving a faint trail of light dust. Warm fairy lights strung along the window frame. On the sill beside the kitten: a small snow globe and a round goldfish bowl with one goldfish, both catching the light. Behind, out of focus: a cosy attic room with a glowing round paper lamp. Warm interior light against the cool blue night.\n\nThe kitten is exactly the kitten in the reference image: a ten-week-old ginger tabby kitten with fluffy orange fur and soft darker stripes, white chest, four white socks, a narrow white blaze from forehead to nose, white muzzle, pink nose, very big round amber-gold eyes, a thin red collar with one small gold bell. Same face, same markings, same proportions.\nPhotorealistic cinematic still from a big-budget fantasy film, real fur with every hair visible, real light, shallow depth of field, rich colour grade, sharp focus on the kitten. Vertical 9:16 frame. No text, no letters, no logos, no people.",
+  "seconds": 72.5,
+  "usage": {
+    "input_tokens": 1075,
+    "input_tokens_details": {
+      "image_tokens": 560,
+      "text_tokens": 515
+    },
+    "output_tokens": 1413,
+    "output_tokens_details": {
+      "image_tokens": 1413,
+      "text_tokens": 0
+    },
+    "total_tokens": 2488
+  },
+  "created": "2026-10-16 04:02:36"
+}

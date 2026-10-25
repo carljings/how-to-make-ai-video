@@ -1,0 +1,39 @@
+{
+  "id": "cgt-20261016172050-vt4ep",
+  "name": "C",
+  "draft": false,
+  "resolution": "720p",
+  "prompt": "图片1为首帧。\n夜空中，一条巨大的金色锦鲤驮着橘色小奶猫在漫天红灯笼之间游向右上方，下方是江南水乡。写实电影质感。\n0-4秒：锦鲤摆动身体和长长的透明鳍，像在水里一样在夜空中向右上方游去；小猫趴在锦鲤背上紧紧抓住，耳朵被风吹向后方，兴奋地睁大眼睛望着前方的蓝色蝴蝶；周围的红灯笼缓缓上升，下方运河里倒映着灯光；镜头跟着锦鲤缓缓向右上方移动。\n全程：同一只小猫（橘色虎斑、白胸、白爪、红色项圈和金色小铃铛），红金色灯笼光照在毛发上，夜色不变。\n声音：风声，锦鲤摆尾的水声，远处轻轻的水滴声，铃铛声；无bgm，只生成环境音和动作音。不要字幕。",
+  "first_frame": "refs/key-c.jpg",
+  "images": [],
+  "audios": [],
+  "duration": 4,
+  "created": "2026-10-16 04:20:51",
+  "status": "succeeded",
+  "result": {
+    "id": "cgt-20261016172050-vt4ep",
+    "model": "doubao-seedance-2-5-260628",
+    "status": "succeeded",
+    "content": {
+      "video_url": "(expired download link removed)"
+    },
+    "usage": {
+      "completion_tokens": 87300,
+      "total_tokens": 87300
+    },
+    "created_at": 1792142451,
+    "updated_at": 1792142614,
+    "seed": 59651,
+    "resolution": "720p",
+    "ratio": "9:16",
+    "duration": 4,
+    "framespersecond": 24,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4"
+  },
+  "finished": "2026-10-16 04:23:47"
+}

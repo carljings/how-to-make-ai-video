@@ -1,0 +1,39 @@
+{
+  "checked": "2026-10-25",
+  "method": "ffprobe and ffmpeg ebur128 (true peak) on the encoded files; picture checked from a 1 fps contact sheet and 4–8 fps strips around the 28 s transition and the 30 s wake-up",
+  "media": {
+    "one-leap-10.mp4": {
+      "duration_s": 36.0,
+      "bytes": 55703814,
+      "video": "h264 1080×1920 24 fps yuv420p bt709",
+      "frames": 864,
+      "audio": "aac 48000 Hz 2 ch",
+      "integrated_lufs": -10.3,
+      "lra_lu": 4.0,
+      "true_peak_dbtp": -2.1
+    },
+    "one-leap-14.mp4": {
+      "duration_s": 36.0,
+      "bytes": 55701608,
+      "video": "h264 1080×1920 24 fps yuv420p bt709",
+      "frames": 864,
+      "audio": "aac 48000 Hz 2 ch",
+      "integrated_lufs": -14.1,
+      "lra_lu": 5.6,
+      "true_peak_dbtp": -3.0
+    }
+  },
+  "pass": [
+    "both masters are 36.000 s, 864 frames, 1080×1920 at 24 fps",
+    "one-leap-10: -10.3 LUFS, true peak -2.1 dBTP (target −10, ≤ −1.5)",
+    "one-leap-14: -14.1 LUFS, true peak -3.0 dBTP (target −14, ≤ −1.5)",
+    "the same kitten (ginger tabby, white blaze, amber eyes, red collar, gold bell) in every one of the ten shots",
+    "every world in storyboard.md appears in order: eyes, windowsill pounce, clouds, koi and lanterns, milk wave, snow globe, yarn galaxy, moon catch, waking in the basket, butterfly on the nose",
+    "no generated lettering, logos or people in any frame of the sheet"
+  ],
+  "not_checked": [
+    "sound: I cannot hear it; the score's structure and the mix levels come from scripts/score.py and mix.py, not from listening",
+    "motion between the sampled frames (Seedance limb or fur glitches shorter than a quarter second)",
+    "the wake-up at 29.9–30.1 s is a three-frame head pop with motion blur; it reads as the storyboard's jolt in stills, but needs a look at full speed"
+  ]
+}

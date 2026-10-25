@@ -1,0 +1,23 @@
+{
+  "cmd": "gen",
+  "model": "gpt-image-2.5-flare-vip",
+  "size": "1536x1024",
+  "quality": "high",
+  "images": [],
+  "prompt": "Photorealistic character reference sheet of ONE kitten, shown four times on a seamless soft light-grey studio background, evenly lit with soft key light and gentle rim light, shot on a 100mm macro lens, ultra-detailed real fur.\n\nThe kitten: a ten-week-old ginger tabby kitten with fluffy orange fur and soft darker orange tabby stripes, a pure white chest bib, four white paws like little socks, a narrow white blaze running from the forehead down the nose to a white muzzle, a small pink nose, very big round amber-gold eyes with clear catch-lights, slightly oversized ears with pale fluffy ear tufts, a long fluffy striped tail. It wears a thin red fabric collar with one small shiny gold bell at the throat.\n\nLayout, left to right, same kitten, same size, standing on the same floor line: (1) sitting facing the camera, head slightly tilted, curious; (2) full side profile walking to the left, tail up; (3) three-quarter back view looking over its shoulder; (4) a close-up portrait of the face, front on, eyes wide.\n\nNatural kitten proportions (big head, big eyes, short legs), adorable but real, like a top pet photographer's studio shot. No text, no labels, no frames, no props, no people.",
+  "seconds": 32.0,
+  "usage": {
+    "input_tokens": 461,
+    "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 461
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+    },
+    "total_tokens": 1833
+  },
+  "created": "2026-10-16 03:58:42"
+}

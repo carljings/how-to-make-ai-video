@@ -1,0 +1,25 @@
+{
+  "cmd": "edit",
+  "model": "gpt-image-2.5-flare-vip",
+  "size": "1152x2048",
+  "quality": "high",
+  "images": [
+    "refs/kitten-sheet.png"
+  ],
+  "prompt": "The kitten bounding joyfully across the top of a sea of soft fluffy clouds at sunset, high above the world, caught in mid-stride with front paws stretched forward and back paws pushing off, the cloud surface puffing up softly where its paws touch like a duvet. It moves from left to right. Ahead and above to the right, the glowing blue morpho butterfly leaves a trail of sparkling light dust. Huge golden-pink sunset, sun low on the horizon behind the clouds, god rays, cloud tops glowing peach, pink and gold, deep blue sky with a few early stars at the top of the frame. Camera low, at cloud level, slightly behind and beside the kitten. Warm backlight rims the fur gold.\n\nThe kitten is exactly the kitten in the reference image: a ten-week-old ginger tabby kitten with fluffy orange fur and soft darker stripes, white chest, four white socks, a narrow white blaze from forehead to nose, white muzzle, pink nose, very big round amber-gold eyes, a thin red collar with one small gold bell. Same face, same markings, same proportions.\nPhotorealistic cinematic still from a big-budget fantasy film, real fur with every hair visible, real light, shallow depth of field, rich colour grade, sharp focus on the kitten. Vertical 9:16 frame. No text, no letters, no logos, no people.",
+  "seconds": 86.9,
+  "usage": {
+    "input_tokens": 1042,
+    "input_tokens_details": {
+      "image_tokens": 560,
+      "text_tokens": 482
+    },
+    "output_tokens": 1413,
+    "output_tokens_details": {
+      "image_tokens": 1413,
+      "text_tokens": 0
+    },
+    "total_tokens": 2455
+  },
+  "created": "2026-10-16 04:03:49"
+}

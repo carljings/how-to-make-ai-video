@@ -1,0 +1,25 @@
+{
+  "cmd": "edit",
+  "model": "gpt-image-2.5-flare-vip",
+  "size": "1152x2048",
+  "quality": "high",
+  "images": [
+    "refs/kitten-sheet.png"
+  ],
+  "prompt": "Bright summer day. The kitten surfs down the face of a towering curling wave made of pure white milk, standing on a giant chocolate-chip cookie used as a surfboard, crouched low with paws spread for balance, ears back, eyes wide, half thrilled and half wobbling. The milk is glossy, creamy and thick, translucent and glowing where the sun shines through the curling lip above; droplets and splashes of milk frozen in the air around the kitten; the white collar of the curl arches over the top of the frame. Deep blue sky, the sun high behind the lip. The glowing blue morpho butterfly flutters just above the lip of the wave. Camera low on the wave face, in front and to the side, the kitten moving left to right.\n\nThe kitten is exactly the kitten in the reference image: a ten-week-old ginger tabby kitten with fluffy orange fur and soft darker stripes, white chest, four white socks, a narrow white blaze from forehead to nose, white muzzle, pink nose, very big round amber-gold eyes, a thin red collar with one small gold bell. Same face, same markings, same proportions.\nPhotorealistic cinematic still from a big-budget fantasy film, real fur with every hair visible, real light, shallow depth of field, rich colour grade, sharp focus on the kitten. Vertical 9:16 frame. No text, no letters, no logos, no people.",
+  "seconds": 56.8,
+  "usage": {
+    "input_tokens": 1051,
+    "input_tokens_details": {
+      "image_tokens": 560,
+      "text_tokens": 491
+    },
+    "output_tokens": 1413,
+    "output_tokens_details": {
+      "image_tokens": 1413,
+      "text_tokens": 0
+    },
+    "total_tokens": 2464
+  },
+  "created": "2026-10-16 04:03:19"
+}

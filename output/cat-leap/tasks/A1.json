@@ -1,0 +1,39 @@
+{
+  "id": "cgt-20261016170728-owx1a",
+  "name": "A1",
+  "draft": false,
+  "resolution": "720p",
+  "prompt": "图片1为首帧。\n一只橘色小奶猫的面部特写，它盯着一只发光的蓝色蝴蝶，看得入了迷。写实电影质感，左边暖黄台灯光，右边冷蓝窗光。\n0-2秒：镜头缓慢向小猫的眼睛推近，小猫的瞳孔慢慢放大、变得又黑又圆，眼睛里倒映的蓝色蝴蝶轻轻扇动翅膀。\n2-4秒：小猫的两只耳朵向前竖起，胡须轻轻颤动，头随着蝴蝶微微向右转一点，眼睛一眨不眨。\n全程：同一只小猫（橘色虎斑、白色鼻梁、琥珀色大眼睛、红色项圈和金色小铃铛），画面稳定，光线不变。\n声音：金色小铃铛轻轻响一下，小猫轻微的呼吸声；无bgm，只生成环境音和动作音。不要字幕。",
+  "first_frame": "refs/key-a1.jpg",
+  "images": [],
+  "audios": [],
+  "duration": 4,
+  "created": "2026-10-16 04:07:30",
+  "status": "succeeded",
+  "result": {
+    "id": "cgt-20261016170728-owx1a",
+    "model": "doubao-seedance-2-5-260628",
+    "status": "succeeded",
+    "content": {
+      "video_url": "(expired download link removed)"
+    },
+    "usage": {
+      "completion_tokens": 87300,
+      "total_tokens": 87300
+    },
+    "created_at": 1792141649,
+    "updated_at": 1792141804,
+    "seed": 42851,
+    "resolution": "720p",
+    "ratio": "9:16",
+    "duration": 4,
+    "framespersecond": 24,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4"
+  },
+  "finished": "2026-10-16 04:10:12"
+}
