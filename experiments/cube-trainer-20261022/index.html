@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#070a12">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="可交互的 3D 魔方教学：层先法、CFOP、桥式（Roux）三种方法分阶段演示。每一步都是真实魔方状态，并用 cubing.js 逐阶段验算。">
+  <title>魔方训练室 · Codex 独立试作</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1020'/%3E%3Cg transform='translate(12 12)'%3E%3Crect width='12' height='12' rx='3' fill='%23ffd23f'/%3E%3Crect x='14' width='12' height='12' rx='3' fill='%2316b46c'/%3E%3Crect x='28' width='12' height='12' rx='3' fill='%23ff7a1a'/%3E%3Crect y='14' width='12' height='12' rx='3' fill='%23e1322f'/%3E%3Crect x='14' y='14' width='12' height='12' rx='3' fill='%23f4f6fb'/%3E%3Crect x='28' y='14' width='12' height='12' rx='3' fill='%231f6fe0'/%3E%3Crect y='28' width='12' height='12' rx='3' fill='%2316b46c'/%3E%3Crect x='14' y='28' width='12' height='12' rx='3' fill='%23ffd23f'/%3E%3Crect x='28' y='28' width='12' height='12' rx='3' fill='%23e1322f'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body data-method="cfop" data-mode="example">
+  <a class="skip-link" href="#panel">跳到讲解面板</a>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="魔方三法 3D 首页">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="brand-text">魔方训练室<small>Codex 独立试作</small></span>
+    </a>
+    <nav class="modes" role="tablist" aria-label="模式">
+      <button type="button" role="tab" data-mode="example" aria-selected="true">示例教学</button>
+      <button type="button" role="tab" data-mode="free" aria-selected="false">自由探索</button>
+      <button type="button" role="tab" data-mode="solve" aria-selected="false">通用求解</button>
+      <button type="button" role="tab" data-mode="library" aria-selected="false">公式库</button>
+      <button type="button" role="tab" data-mode="training" aria-selected="false">十字训练</button>
+    </nav>
+    <a class="nav-back" href="https://carljings.top/cube/" target="_blank" rel="noopener noreferrer">线上原版 ↗</a>
+  </header>
+
+  <main>
+    <section class="app" aria-label="3D 魔方演示">
+      <div class="player">
+        <div class="viewport" id="viewport">
+          <div class="hud hud-top">
+            <span class="chip chip-method" id="hud-method">CFOP</span>
+            <span class="chip chip-stage" id="hud-stage">准备</span>
+          </div>
+          <div class="hud hud-tools">
+            <button type="button" class="tool" id="btn-view" title="视角复位" aria-label="视角复位"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5a7 7 0 1 1-6.6 4.7" /><path d="M5 4v5h5" /></svg></button>
+            <button type="button" class="tool" id="btn-highlight" aria-pressed="true" title="只给本阶段相关块着色" aria-label="阶段高亮"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.5 6.7 19.4l1.2-6L3.4 9.3l6-.7z" /></svg></button>
+            <button type="button" class="tool" id="btn-follow" aria-pressed="true" title="镜头跟随阶段" aria-label="镜头跟随"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3" /><path d="M3 12h3M18 12h3M12 3v3M12 18v3" /></svg></button>
+          </div>
+          <div class="hud hud-move" aria-live="polite">
+            <span class="move-big" id="hud-move">·</span>
+            <span class="move-desc" id="hud-move-desc">拖动魔方可旋转视角</span>
+          </div>
+          <div class="hud hud-done" id="hud-done" hidden></div>
+          <div class="loading" id="loading">正在加载 3D 场景…</div>
+          <noscript><p class="noscript">这个页面需要开启 JavaScript 才能显示 3D 魔方。</p></noscript>
+        </div>
+        <div class="transport" id="transport">
+          <div class="controls" role="group" aria-label="播放控制">
+            <button type="button" class="ctl" id="btn-reset" title="复位到打乱状态（Home）" aria-label="复位"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5v14" /><path d="M19 6l-9 6 9 6z" /></svg></button>
+            <button type="button" class="ctl" id="btn-prev-stage" title="上一阶段（↑）" aria-label="上一阶段"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6l-7 6 7 6z" /><path d="M20 6l-7 6 7 6z" /></svg></button>
+            <button type="button" class="ctl" id="btn-prev" title="上一步（←）" aria-label="上一步"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-7 6 7 6" /></svg></button>
+            <button type="button" class="ctl ctl-play" id="btn-play" title="播放 / 暂停（空格）" aria-label="播放"><svg viewBox="0 0 24 24" aria-hidden="true" class="i-play"><path d="M8 5l12 7-12 7z" /></svg><svg viewBox="0 0 24 24" aria-hidden="true" class="i-pause"><path d="M7 5h4v14H7zM14 5h4v14h-4z" /></svg></button>
+            <button type="button" class="ctl" id="btn-next" title="下一步（→）" aria-label="下一步"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l7 6-7 6" /></svg></button>
+            <button type="button" class="ctl" id="btn-next-stage" title="下一阶段（↓）" aria-label="下一阶段"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6l7 6-7 6z" /><path d="M4 6l7 6-7 6z" /></svg></button>
+          </div>
+          <div class="progress"><span id="progress-text">0 / 0</span></div>
+          <label class="speed">速度
+            <select id="speed" aria-label="播放速度">
+              <option value="0.5">0.5×</option>
+              <option value="1" selected>1×</option>
+              <option value="2">2×</option>
+              <option value="4">4×</option>
+            </select>
+          </label>
+          <label class="pause-at" title="每个阶段结束时自动暂停"><input type="checkbox" id="pause-at-stage" checked> 阶段末暂停</label>
+          <div class="timeline" id="timeline" role="slider" tabindex="0" aria-label="解法进度" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0"></div>
+        </div>
+      </div>
+
+      <aside class="panel" id="panel" aria-label="讲解">
+        <div id="learning" hidden></div>
+        <div class="mode-pane" data-pane="example">
+          <p class="eyebrow">示例教学 · 构建时已验算</p>
+          <h1 class="title">同一个打乱，<span>三种解法</span></h1>
+          <p class="lede">下面三个示例都是随机状态打乱。每个示例分别用层先法、CFOP、桥式完整还原，切换方法就能对比。</p>
+          <div class="seg seg-examples" id="example-picker" role="tablist" aria-label="选择示例"></div>
+        </div>
+        <div class="mode-pane" data-pane="free" hidden>
+          <p class="eyebrow">自由探索 · 你来拧</p>
+          <h2 class="title">随便拧，<span>随时看进度</span></h2>
+          <p class="lede">点按钮或键盘字母（Shift 为逆时针）转动，也可以直接在魔方贴纸上拖动；拖动空白处旋转视角。</p>
+          <div class="pad" id="free-pad" role="group" aria-label="转动按钮"></div>
+          <div class="row-actions">
+            <button type="button" class="btn" id="free-scramble">随机打乱</button>
+            <button type="button" class="btn" id="free-undo">撤销</button>
+            <button type="button" class="btn" id="free-reset">复原</button>
+          </div>
+          <p class="free-moves" id="free-moves">当前：已还原</p>
+          <div class="free-progress" id="free-progress"></div>
+          <div class="row-actions solve-from-here">
+            <span>从当前状态接着解：</span>
+            <button type="button" class="btn btn-accent" data-free-solve="lbl">层先法</button>
+            <button type="button" class="btn btn-accent" data-free-solve="cfop">CFOP</button>
+            <button type="button" class="btn btn-accent" data-free-solve="roux">桥式</button>
+          </div>
+        </div>
+        <div class="mode-pane" data-pane="solve" hidden>
+          <p class="eyebrow">通用求解 · 浏览器内计算</p>
+          <h2 class="title">任意打乱，<span>分阶段解开</span></h2>
+          <label class="field-label" for="scramble-input">打乱公式（只接受 U D L R F B 面转动，可用 ' 和 2）</label>
+          <textarea id="scramble-input" rows="2" spellcheck="false" autocomplete="off" placeholder="例如：R U R' U' F2 D L2 B' U2 R'"></textarea>
+          <div class="row-actions">
+            <button type="button" class="btn" id="solve-random">随机打乱</button>
+            <button type="button" class="btn btn-accent" id="solve-go">求解</button>
+          </div>
+          <p class="hint" id="solve-msg" role="status"></p>
+        </div>
+
+        <div class="methods" id="methods" role="tablist" aria-label="选择方法"></div>
+        <p class="method-summary" id="method-summary"></p>
+        <ol class="stage-list" id="stage-list"></ol>
+        <div class="verify" id="verify-box" role="status"></div>
+        <details class="full-solution" id="full-solution">
+          <summary>整段解法（点击任一步跳转）</summary>
+          <div class="moves-all" id="moves-all"></div>
+          <p class="twizzle-row"><a id="twizzle-link" target="_blank" rel="noopener noreferrer">在 Twizzle（cubing.js 官方应用）中打开核对 ↗</a></p>
+        </details>
+      </aside>
+    </section>
+
+    <section class="section compare" aria-labelledby="compare-title">
+      <h2 id="compare-title">三种方法，一眼看懂</h2>
+      <p class="section-lede">三者都是把“还原”拆成几个能看见的阶段目标。层先法和 CFOP 都按层推进，桥式先搭两侧的块。下表步数来自本页求解器，不代表人类选手的平均水平。</p>
+      <div class="compare-grid" id="compare-grid"></div>
+      <p class="fine">步数按本页记号逐个计：M、r 等中层 / 双层转动各计 1 步。上帝之数 20 用的是另一种计步法（HTM，只数面转动），两者不能直接比较。</p>
+    </section>
+
+    <section class="section truth" aria-labelledby="truth-title">
+      <h2 id="truth-title">怎么确认每一步都是真的？</h2>
+      <div class="truth-grid">
+        <div class="truth-card"><b>同一套群运算</b><p>所有转动的置换与朝向数据直接取自 cubing.js 的 3x3x3 KPuzzle 定义，求解器只把它整理成查表数组。</p></div>
+        <div class="truth-card"><b>逐阶段独立复核</b><p>每个解法都在 cubing.js 中从打乱开始逐步重算：每个阶段结束时检查它和之前所有阶段的目标，最后检查整体还原。</p></div>
+        <div class="truth-card"><b>画面与状态一致</b><p>3D 小块的位置和朝向，由一个与 cubing.js 逐块对照过的几何模型确定，3000 组随机转动序列全部一致。</p></div>
+        <div class="truth-card"><b>大规模抽检</b><p id="truth-stats">发布前，三种方法各在 1000 个均匀随机状态上求解并复核，零失败。</p></div>
+      </div>
+      <p class="fine">验算记录可下载：<a href="./verification-random-states.json">随机状态抽检</a> · <a href="./verification-examples.json">示例逐步复核</a> · <a href="./verification-algs.json">公式表覆盖检查</a></p>
+      <p class="fine">能力边界：本页的求解器是教学演示，按各方法的阶段目标分段计算。十字、F2L 槽位、桥式两块和 LSE 用搜索；OLL、PLL、CMLL 查公式表。它不追求全局最少步，也不是任何选手的实拧记录。</p>
+    </section>
+
+    <section class="section numbers" aria-labelledby="numbers-title">
+      <h2 id="numbers-title">魔方的几个数字</h2>
+      <div class="numbers-grid">
+        <div class="num-card"><span class="num">43,252,003,274,<wbr>489,856,000</span><p>普通三阶魔方的合法状态数（固定中心、不计整体朝向）= <span class="nowrap">8!·3⁷·12!·2¹⁰</span>。</p></div>
+        <div class="num-card"><span class="num">20</span><p>上帝之数：90° 和 180° 的面转动各算 1 步时，任何状态都能在 20 步内还原。2010 年由 Rokicki 等四人证明。<a href="https://www.cube20.org/" target="_blank" rel="noopener noreferrer">cube20.org ↗</a></p></div>
+        <div class="num-card"><span class="num">2.51<small> 秒</small></span><p>WCA 三阶单次世界纪录，耿暄一，Guangzhou Grand Open 2026。<a href="https://www.worldcubeassociation.org/persons/2023GENG02" target="_blank" rel="noopener noreferrer">WCA ↗</a></p></div>
+        <div class="num-card"><span class="num">3.51<small> 秒</small></span><p>WCA 三阶平均世界纪录（五次去掉最快最慢后取均值），王艺衡，Hefei Cubing League 3x3 III 2026。<a href="https://www.worldcubeassociation.org/persons/2019WANY36" target="_blank" rel="noopener noreferrer">WCA ↗</a></p></div>
+      </div>
+      <p class="fine">纪录数据核验于 2026-10-21（美国中部时间），以 WCA 官网实时数据为准。纪录是当时最好的官方成绩，不等于人类极限。</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>魔方三法 3D · <a href="/nav/">CarlJings 服务导航</a></p>
+    <p>开源组件：<a href="https://github.com/cubing/cubing.js" target="_blank" rel="noopener noreferrer">cubing.js</a> 0.66.1（MPL-2.0 或 GPL-3.0-or-later）· three.js 0.170.0（MIT）· Space Grotesk、JetBrains Mono（OFL-1.1）。<a href="./licenses.txt">许可与源码说明</a>。桥式方法由 Gilles Roux 提出（<a href="http://grrroux.free.fr/method/Intro.html" target="_blank" rel="noopener noreferrer">原作者页 ↗</a>）。</p>
+  </footer>
+  <script type="module" src="/src/boot.js"></script>
+</body>
+</html>

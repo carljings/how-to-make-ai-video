@@ -1,0 +1,413 @@
+{
+ "generatedAt": "2026-10-22T03:22:21.749Z",
+ "tool": "tools/gen-examples.mjs",
+ "checker": "cubing@0.66.1 KPuzzle（独立复算每一步）",
+ "goals": {
+  "cross": "十字",
+  "firstLayer": "第一层",
+  "f2l": "前两层",
+  "llEdgesOriented": "顶层十字",
+  "oll": "顶面同色",
+  "llCorners": "顶层角归位",
+  "solved": "全部还原",
+  "fb": "第一块",
+  "sb": "第二块",
+  "cmll": "顶层四角",
+  "rouxSolved": "全部还原（含中心）"
+ },
+ "examples": [
+  {
+   "id": "ex1",
+   "scramble": "F2 B' R' D' B2 R B2 U' L B2 D F2 B2 U R2 U F2 D2 L2 D F",
+   "totals": {
+    "lbl": 122,
+    "cfop": 51,
+    "roux": 44
+   },
+   "evidence": {
+    "lbl": {
+     "stages": [
+      {
+       "stage": "cross",
+       "moves": 8,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "corners",
+       "moves": 30,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "middle",
+       "moves": 32,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "llcross",
+       "moves": 7,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "llface",
+       "moves": 23,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "llcorners",
+       "moves": 11,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "lledges",
+       "moves": 11,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      }
+     ],
+     "finalSolvedByKPuzzle": true
+    },
+    "cfop": {
+     "stages": [
+      {
+       "stage": "cross",
+       "moves": 5,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "f2l",
+       "moves": 28,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "oll",
+       "moves": 8,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "pll",
+       "moves": 10,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      }
+     ],
+     "finalSolvedByKPuzzle": true
+    },
+    "roux": {
+     "stages": [
+      {
+       "stage": "fb",
+       "moves": 8,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "sb",
+       "moves": 13,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "cmll",
+       "moves": 11,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "lse",
+       "moves": 12,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      }
+     ],
+     "finalSolvedByKPuzzle": true
+    }
+   }
+  },
+  {
+   "id": "ex2",
+   "scramble": "F R' U' D2 F R L2 F B2 L' B2 L D2 F2 U2 D2 L' F2 R2 B2 D",
+   "totals": {
+    "lbl": 125,
+    "cfop": 49,
+    "roux": 44
+   },
+   "evidence": {
+    "lbl": {
+     "stages": [
+      {
+       "stage": "cross",
+       "moves": 8,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "corners",
+       "moves": 28,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "middle",
+       "moves": 32,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "llcross",
+       "moves": 13,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "llface",
+       "moves": 22,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "llcorners",
+       "moves": 11,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "lledges",
+       "moves": 11,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      }
+     ],
+     "finalSolvedByKPuzzle": true
+    },
+    "cfop": {
+     "stages": [
+      {
+       "stage": "cross",
+       "moves": 6,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "f2l",
+       "moves": 26,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "oll",
+       "moves": 9,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "pll",
+       "moves": 8,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      }
+     ],
+     "finalSolvedByKPuzzle": true
+    },
+    "roux": {
+     "stages": [
+      {
+       "stage": "fb",
+       "moves": 8,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "sb",
+       "moves": 12,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "cmll",
+       "moves": 10,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "lse",
+       "moves": 14,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      }
+     ],
+     "finalSolvedByKPuzzle": true
+    }
+   }
+  },
+  {
+   "id": "ex3",
+   "scramble": "R B' U2 F L B L D R2 U L2 U' F2 L2 D' F2 U' B2 D2 R' U",
+   "totals": {
+    "lbl": 118,
+    "cfop": 54,
+    "roux": 46
+   },
+   "evidence": {
+    "lbl": {
+     "stages": [
+      {
+       "stage": "cross",
+       "moves": 7,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "corners",
+       "moves": 35,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "middle",
+       "moves": 32,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "llcross",
+       "moves": 6,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "llface",
+       "moves": 16,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "llcorners",
+       "moves": 11,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "lledges",
+       "moves": 11,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      }
+     ],
+     "finalSolvedByKPuzzle": true
+    },
+    "cfop": {
+     "stages": [
+      {
+       "stage": "cross",
+       "moves": 6,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "f2l",
+       "moves": 26,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "oll",
+       "moves": 14,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "pll",
+       "moves": 8,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      }
+     ],
+     "finalSolvedByKPuzzle": true
+    },
+    "roux": {
+     "stages": [
+      {
+       "stage": "fb",
+       "moves": 5,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "sb",
+       "moves": 16,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "cmll",
+       "moves": 10,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      },
+      {
+       "stage": "lse",
+       "moves": 15,
+       "goalBefore": false,
+       "goalAfter": true,
+       "earlierGoalsKept": true
+      }
+     ],
+     "finalSolvedByKPuzzle": true
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,2256 @@
+[
+  {
+    "set": "F2L",
+    "id": "F2L 1",
+    "group": "Free Pairs",
+    "alg": "U R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_1",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "F R' F' R",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 2",
+    "group": "Free Pairs",
+    "alg": "F R' F' R",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_2",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R' F R F'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 3",
+    "group": "Free Pairs",
+    "alg": "F' U' F",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_3",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "F' U F",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 4",
+    "group": "Free Pairs",
+    "alg": "R U R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_4",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 5",
+    "group": "Disconnected Pairs",
+    "alg": "U' R U R' U2 R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_5",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U R' U2' R U' R' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 6",
+    "group": "Disconnected Pairs",
+    "alg": "U' r U' R' U R U r'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_6",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "F' U' F U2' F' U F U'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 7",
+    "group": "Disconnected Pairs",
+    "alg": "U' R U2 R' U' R U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_7",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U R' U2' R U2' R' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 8",
+    "group": "Disconnected Pairs",
+    "alg": "r' U2 R2 U R2 U r",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_8",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "r' U' R2 U' R2' U2' r",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 9",
+    "group": "Disconnected Pairs",
+    "alg": "U' R U' R' U F' U' F",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_9",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "F' U F U' R U R' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 10",
+    "group": "Disconnected Pairs",
+    "alg": "U' R U R' U R U R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_10",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U' R' U' R U' R' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 11",
+    "group": "Connected Pairs",
+    "alg": "U' R U2 R' U F' U' F",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_11",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "F' U F U' R U2' R' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 12",
+    "group": "Connected Pairs",
+    "alg": "R U' R' U R U' R' U2 R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_12",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U R' U2' R U R' U' R U R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 13",
+    "group": "Connected Pairs",
+    "alg": "y' U R' U R U' R' U' R",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_13",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "r U2' R' U R U' R' U M",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 14",
+    "group": "Connected Pairs",
+    "alg": "U' R U' R' U R U R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_14",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U' R' U' R U R' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 15",
+    "group": "Connected Pairs",
+    "alg": "M U r U' r' U' M'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_15",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U R' U' R U R' U2' R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 16",
+    "group": "Connected Pairs",
+    "alg": "R U' R' U2 F' U' F",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_16",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "F' U F U2' R U R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 17",
+    "group": "Connected Pairs",
+    "alg": "R U2 R' U' R U R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_17",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U' R' U R U2' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 18",
+    "group": "Connected Pairs",
+    "alg": "y' R' U2 R U R' U' R",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_18",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U R' U' R U R' F R' F' R",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 19",
+    "group": "Disconnected Pairs",
+    "alg": "U R U2 R' U R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_19",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U R' U' R U2' R' U'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 20",
+    "group": "Disconnected Pairs",
+    "alg": "y' U' R' U2 R U' R' U R",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_20",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U R' F R' F' R2' U R' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 21",
+    "group": "Disconnected Pairs",
+    "alg": "U2 R U R' U R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_21",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U' R' U2' R U R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 22",
+    "group": "Disconnected Pairs",
+    "alg": "r U' r' U2 r U r'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_22",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "F' L' U2' L F",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 23",
+    "group": "Connected Pairs",
+    "alg": "U R U' R' U' R U' R' U R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_23",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U' R' U R U' R' U2' R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 24",
+    "group": "Connected Pairs",
+    "alg": "F U R U' R' F' R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_24",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U R' F R U R' U' F'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 25",
+    "group": "Corner In Slot",
+    "alg": "U' R' F R F' R U R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_25",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "F' R U R' U' R' F R",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 26",
+    "group": "Corner In Slot",
+    "alg": "U R U' R' F R' F' R",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_26",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "F' U' F U R U R' U'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 27",
+    "group": "Corner In Slot",
+    "alg": "R U' R' U R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_27",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U R' U' R U R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 28",
+    "group": "Corner In Slot",
+    "alg": "R U R' U' F R' F' R",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_28",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R' F R F' U R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 29",
+    "group": "Corner In Slot",
+    "alg": "R' F R F' U R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_29",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "F R' F' R F R' F' R",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 30",
+    "group": "Corner In Slot",
+    "alg": "R U R' U' R U R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_30",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U' R' U R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 31",
+    "group": "Edge In Slot",
+    "alg": "U' R' F R F' R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_31",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U R' F R' F' R U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 32",
+    "group": "Edge In Slot",
+    "alg": "U R U' R' U R U' R' U R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_32",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U' R' U R U' R' U R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 33",
+    "group": "Edge In Slot",
+    "alg": "U' R U' R' U2 R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_33",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U R' U2' R U R' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 34",
+    "group": "Edge In Slot",
+    "alg": "U R U R' U2 R U R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_34",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U' R' U2' R U' R' U'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 35",
+    "group": "Edge In Slot",
+    "alg": "U' R U R' U F' U' F",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_35",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "F' U F U' R U' R' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 36",
+    "group": "Edge In Slot",
+    "alg": "U F' U' F U' R U R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_36",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U' R' U2' F R' F' R U2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 37",
+    "group": "Pieces In Slot",
+    "alg": "R2 U2 F R2 F' U2 R' U R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_37",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U' R U2' F R2' F' U2' R2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 38",
+    "group": "Pieces In Slot",
+    "alg": "R U' R' U' R U R' U2 R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_38",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U' R' U R U2' R' U R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 39",
+    "group": "Pieces In Slot",
+    "alg": "R U' R' U R U2 R' U R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_39",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U' R' U' R U R' U2' R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 40",
+    "group": "Pieces In Slot",
+    "alg": "r U' r' U2 r U r' R U R'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_40",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R U R' F U R U' R' F' R U R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "F2L",
+    "id": "F2L 41",
+    "group": "Pieces In Slot",
+    "alg": "R U' R' r U' r' U2 r U r'",
+    "url": "https://www.speedcubedb.com/a/3x3/F2L/F2L_41",
+    "note": "Source first listed Front Right orientation formula. Source default active tab Front Right; data-crosscolor=white, data-setup=z2; verify own U/D palette before matching.",
+    "source_setup": "R F U R U' R' F' U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "f2l"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 1",
+    "group": "Dot Case",
+    "alg": "R U2 R2 F R F' U2 R' F R F'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_1",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R' F' R U2' F R' F' R2' U2' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 2",
+    "group": "Dot Case",
+    "alg": "y' R U' R2 D' r U r' D R2 U R'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_2",
+    "note": "Source first listed community formula.",
+    "source_setup": "f U R U' R' f' F U R U' R' F'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 3",
+    "group": "Dot Case",
+    "alg": "y' f R U R' U' f' U' F R U R' U' F'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_3",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R U' R' F' U f U R U' R' f' y",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 4",
+    "group": "Dot Case",
+    "alg": "y' R' F2 R2 U2 R' F' R U2 R2 F2 R",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_4",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R U' R' F' U' f U R U' R' f' y",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 5",
+    "group": "Square Shapes",
+    "alg": "r' U2 R U R' U r",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_5",
+    "note": "Source first listed community formula.",
+    "source_setup": "r' U' R U' R' U2' r",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 6",
+    "group": "Square Shapes",
+    "alg": "r U2 R' U' R U' r'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_6",
+    "note": "Source first listed community formula.",
+    "source_setup": "r U R' U R U2' r'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 7",
+    "group": "Lightning Shapes",
+    "alg": "r U R' U R U2 r'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_7",
+    "note": "Source first listed community formula.",
+    "source_setup": "r U2' R' U' R U' r'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 8",
+    "group": "Lightning Shapes",
+    "alg": "y2 r' U' R U' R' U2 r",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_8",
+    "note": "Source first listed community formula.",
+    "source_setup": "r' U2' R U R' U r y2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 9",
+    "group": "Fish Shapes",
+    "alg": "y R U R' U' R' F R2 U R' U' F'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_9",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R U' R2' F' R U R U' R' y'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 10",
+    "group": "Fish Shapes",
+    "alg": "R U R' U R' F R F' R U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_10",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U2' R' F R' F' R U' R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 11",
+    "group": "Lightning Shapes",
+    "alg": "r' R2 U R' U R U2 R' U M'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_11",
+    "note": "Source first listed community formula.",
+    "source_setup": "M U' R U2' R' U' R U' R2' r",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 12",
+    "group": "Lightning Shapes",
+    "alg": "y' M' R' U' R U' R' U2 R U' M",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_12",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R U' R' F' U' F U R U' R' F'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 13",
+    "group": "Knight Move Shapes",
+    "alg": "F U R U2 R' U' R U R' F'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_13",
+    "note": "Source first listed community formula.",
+    "source_setup": "F' U' F r U' r' U r U r'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 14",
+    "group": "Knight Move Shapes",
+    "alg": "R' F R U R' F' R F U' F'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_14",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U F' R' F R U' R' F' R",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 15",
+    "group": "Knight Move Shapes",
+    "alg": "r' U' r R' U' R U r' U r",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_15",
+    "note": "Source first listed community formula.",
+    "source_setup": "r' U' r U' R' U R r' U r",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 16",
+    "group": "Knight Move Shapes",
+    "alg": "r U r' R U R' U' r U' r'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_16",
+    "note": "Source first listed community formula.",
+    "source_setup": "r U r' U R U' R' r U' r'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 17",
+    "group": "Dot Case",
+    "alg": "R U R' U R' F R F' U2 R' F R F'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_17",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R' F' R U2' F R' F' R U' R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 18",
+    "group": "Dot Case",
+    "alg": "y R U2 R2 F R F' U2 M' U R U' r'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_18",
+    "note": "Source first listed community formula.",
+    "source_setup": "r' U2' R U R' U r2' U2' R' U' R U' r'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 19",
+    "group": "Dot Case",
+    "alg": "y S' R U R' S U' R' F R F'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_19",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R' F' R M U R U' R' U' M'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 20",
+    "group": "Dot Case",
+    "alg": "r U R' U' M2 U R U' R' U' M'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_20",
+    "note": "Source first listed community formula.",
+    "source_setup": "r U R' U' M2' U R U' R' U' M'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 21",
+    "group": "OCLL",
+    "alg": "R U R' U R U' R' U R U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_21",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U R' U R U' R' U R U2' R' y'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 22",
+    "group": "OCLL",
+    "alg": "R U2 R2 U' R2 U' R2 U2 R",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_22",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' U2' R2' U R2' U R2' U2' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 23",
+    "group": "OCLL",
+    "alg": "R2 D R' U2 R D' R' U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_23",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U2' R D R' U2' R D' R2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 24",
+    "group": "OCLL",
+    "alg": "r U R' U' r' F R F'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_24",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R' F' r U R U' r'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 25",
+    "group": "OCLL",
+    "alg": "R U2 R D R' U2 R D' R2",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_25",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' F' r U R U' r' F y'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 26",
+    "group": "OCLL",
+    "alg": "y R U2 R' U' R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_26",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U R' U R U2' R' y'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 27",
+    "group": "OCLL",
+    "alg": "R U R' U R U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_27",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U2' R' U' R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 28",
+    "group": "All Corners Oriented",
+    "alg": "r U R' U' M U R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_28",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U R' U' M' U R U' r'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 29",
+    "group": "Awkward Shapes",
+    "alg": "r2 D' r U r' D r2 U' r' U' r",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_29",
+    "note": "Source first listed community formula.",
+    "source_setup": "M F R' F' R U R U' R' U' M'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 30",
+    "group": "Awkward Shapes",
+    "alg": "y' r' D' r U' r' D r2 U' r' U r U r'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_30",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R U2' R' U R U2' R' U' F' y2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 31",
+    "group": "P Shapes",
+    "alg": "R' U' F U R U' R' F' R",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_31",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' F R U R' U' F' U R",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 32",
+    "group": "P Shapes",
+    "alg": "S R U R' U' R' F R f'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_32",
+    "note": "Source first listed community formula.",
+    "source_setup": "f R' F' R U R U' R' S'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 33",
+    "group": "T Shapes",
+    "alg": "R U R' U' R' F R F'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_33",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R' F' R U R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 34",
+    "group": "C Shapes",
+    "alg": "y f R f' U' r' U' R U M'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_34",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R' U' R' F' R U R2' U' R' y2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 35",
+    "group": "Fish Shapes",
+    "alg": "R U2 R2 F R F' R U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_35",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U2' R' F R' F' R2' U2' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 36",
+    "group": "W Shapes",
+    "alg": "y R U R2 F' U' F U R2 U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_36",
+    "note": "Source first listed community formula.",
+    "source_setup": "F' L F L' U' L' U' L U L' U L y2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 37",
+    "group": "Fish Shapes",
+    "alg": "F R' F' R U R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_37",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R U' R' U R U R' F'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 38",
+    "group": "W Shapes",
+    "alg": "R U R' U R U' R' U' R' F R F'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_38",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R' F' R U R U R' U' R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 39",
+    "group": "Lightning Shapes",
+    "alg": "y' f' r U r' U' r' F r S",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_39",
+    "note": "Source first listed community formula.",
+    "source_setup": "L U F' U' L' U L F L' y'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 40",
+    "group": "Lightning Shapes",
+    "alg": "y R' F R U R' U' F' U R",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_40",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' U' F U R U' R' F' R y'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 41",
+    "group": "Awkward Shapes",
+    "alg": "y2 R U R' U R U2 R' F R U R' U' F'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_41",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R U' R' F' R U2' R' U' R U' R' y2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 42",
+    "group": "Awkward Shapes",
+    "alg": "R' U' R U' R' U2 R F R U R' U' F'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_42",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R U' R' F' R' U2' R U R' U R",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 43",
+    "group": "P Shapes",
+    "alg": "y R' U' F' U F R",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_43",
+    "note": "Source first listed community formula.",
+    "source_setup": "f' U' L' U L f",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 44",
+    "group": "P Shapes",
+    "alg": "f R U R' U' f'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_44",
+    "note": "Source first listed community formula.",
+    "source_setup": "f U R U' R' f'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 45",
+    "group": "T Shapes",
+    "alg": "F R U R' U' F'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_45",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R U' R' F'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 46",
+    "group": "C Shapes",
+    "alg": "R' U' R' F R F' U R",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_46",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' U' F R' F' R U R",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 47",
+    "group": "L Shapes",
+    "alg": "y' F R' F' R U2 R U' R' U R U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_47",
+    "note": "Source first listed community formula.",
+    "source_setup": "F' U' L' U L U' L' U L F",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 48",
+    "group": "L Shapes",
+    "alg": "F R U R' U' R U R' U' F'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_48",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R U' R' U R U' R' F'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 49",
+    "group": "L Shapes",
+    "alg": "y2 r U' r2 U r2 U r2 U' r",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_49",
+    "note": "Source first listed community formula.",
+    "source_setup": "r' U r2' U' r2' U' r2' U r' y2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 50",
+    "group": "L Shapes",
+    "alg": "r' U r2 U' r2 U' r2 U r'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_50",
+    "note": "Source first listed community formula.",
+    "source_setup": "r U' r2' U r2' U r2' U' r",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 51",
+    "group": "Line Shapes",
+    "alg": "y2 F U R U' R' U R U' R' F'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_51",
+    "note": "Source first listed community formula.",
+    "source_setup": "f U R U' R' U R U' R' f'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 52",
+    "group": "Line Shapes",
+    "alg": "y2 R' F' U' F U' R U R' U R",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_52",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R U R' d R' U' R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 53",
+    "group": "L Shapes",
+    "alg": "r' U' R U' R' U R U' R' U2 r",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_53",
+    "note": "Source first listed community formula.",
+    "source_setup": "r' U2' R U R' U' R U R' U r",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 54",
+    "group": "L Shapes",
+    "alg": "r U R' U R U' R' U R U2 r'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_54",
+    "note": "Source first listed community formula.",
+    "source_setup": "r U2' R' U' R U R' U' R U' r'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 55",
+    "group": "Line Shapes",
+    "alg": "y R' F U R U' R2 F' R2 U R' U' R",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_55",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R' F' U2' R U R' U R2' U2' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 56",
+    "group": "Line Shapes",
+    "alg": "r U r' U R U' R' U R U' R' r U' r'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_56",
+    "note": "Source first listed community formula.",
+    "source_setup": "r U r' R U R' U' R U R' U' r U' r'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "OLL",
+    "id": "OLL 57",
+    "group": "All Corners Oriented",
+    "alg": "R U R' U' M' U R U' r'",
+    "url": "https://www.speedcubedb.com/a/3x3/OLL/OLL_57",
+    "note": "Source first listed community formula.",
+    "source_setup": "r U R' U' M U R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "oll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Aa",
+    "group": "Adj Swap",
+    "alg": "x R' U R' D2 R U' R' D2 R2 x'",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Aa",
+    "note": "Source first listed community formula.",
+    "source_setup": "x R2' D2' R U R' D2' R U' R x'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Ab",
+    "group": "Adj Swap",
+    "alg": "x R2 D2 R U R' D2 R U' R x'",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Ab",
+    "note": "Source first listed community formula.",
+    "source_setup": "x R' U R' D2' R U' R' D2' R2' x'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "E",
+    "group": "Opp Swap",
+    "alg": "y x' R U' R' D R U R' D' R U R' D R U' R' D' x",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/E",
+    "note": "Source first listed community formula.",
+    "source_setup": "x' D R U R' D' R U' R' D R U' R' D' R U R' x y'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "F",
+    "group": "Adj Swap",
+    "alg": "y R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/F",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' U' R U' R' U R U R2' F' R U R U' R' F U R y'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Ga",
+    "group": "Adj Swap",
+    "alg": "R2 U R' U R' U' R U' R2 D U' R' U R D'",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Ga",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' U' R D' U R2' U R' U R U' R U' R2' D",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Gb",
+    "group": "Adj Swap",
+    "alg": "D R' U' R U D' R2 U R' U R U' R U' R2",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Gb",
+    "note": "Source first listed community formula.",
+    "source_setup": "R2' U R' U R' U' R U' R2' D U' R' U R D'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Gc",
+    "group": "Adj Swap",
+    "alg": "R2 U' R U' R U R' U R2 D' U R U' R' D",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Gc",
+    "note": "Source first listed community formula.",
+    "source_setup": "D' R U R' U' D R2' U' R U' R' U R' U R2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Gd",
+    "group": "Adj Swap",
+    "alg": "R U R' U' D R2 U' R U' R' U R' U R2 D'",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Gd",
+    "note": "Source first listed community formula.",
+    "source_setup": "R2' U' R U' R U R' U R2' D' U R U' R' D",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "H",
+    "group": "EPLL",
+    "alg": "M2 U M2 U2 M2 U M2",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/H",
+    "note": "Source first listed community formula.",
+    "source_setup": "M2' U' M2' U2' M2' U' M2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Ja",
+    "group": "Adj Swap",
+    "alg": "y2 x R2 F R F' R U2 r' U r U2 x'",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Ja",
+    "note": "Source first listed community formula.",
+    "source_setup": "L' R' U2' R U R' U2' L U' R y'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Jb",
+    "group": "Adj Swap",
+    "alg": "R U R' F' R U R' U' R' F R2 U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Jb",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U R2' F' R U R U' R' F R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Na",
+    "group": "Opp Swap",
+    "alg": "R U R' U R U R' F' R U R' U' R' F R2 U' R' U2 R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Na",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U R' U2' R U R2' F' R U R U' R' F R U' R' U' R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Nb",
+    "group": "Opp Swap",
+    "alg": "R' U R U' R' F' U' F R U R' F R' F' R U' R",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Nb",
+    "note": "Source first listed community formula.",
+    "source_setup": "F r' F' r U r U' r2' D' F r U r' F' D r",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Ra",
+    "group": "Adj Swap",
+    "alg": "y R U' R' U' R U R D R' U' R D' R' U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Ra",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U2' R D R' U R D' R' U' R' U R U R' y'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Rb",
+    "group": "Adj Swap",
+    "alg": "R' U2 R U2 R' F R U R' U' R' F' R2",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Rb",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' U R U R' U' R' D' R U R' D R U2' R",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "T",
+    "group": "Adj Swap",
+    "alg": "R U R' U' R' F R2 U' R' U' R U R' F'",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/T",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R U' R' U R U R2' F' R U R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Ua",
+    "group": "EPLL",
+    "alg": "y2 M2 U M U2 M' U M2",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Ua",
+    "note": "Source first listed community formula.",
+    "source_setup": "M2' U' M' U2' M U' M2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Ub",
+    "group": "EPLL",
+    "alg": "y2 M2 U' M U2 M' U' M2",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Ub",
+    "note": "Source first listed community formula.",
+    "source_setup": "M2' U M' U2' M U M2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "V",
+    "group": "Opp Swap",
+    "alg": "R' U R' U' R D' R' D R' U D' R2 U' R2 D R2",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/V",
+    "note": "Source first listed community formula.",
+    "source_setup": "D2' R' U R D' R2' U' R' U R' U R' D' R U2' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Y",
+    "group": "Opp Swap",
+    "alg": "F R U' R' U' R U R' F' R U R' U' R' F R F'",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Y",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R' F' R U R U' R' F R U' R' U R U R' F'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "PLL",
+    "id": "Z",
+    "group": "EPLL",
+    "alg": "M' U' M2 U' M2 U' M' U2 M2",
+    "url": "https://www.speedcubedb.com/a/3x3/PLL/Z",
+    "note": "Source first listed community formula.",
+    "source_setup": "M U2' M2' U2' M U' M2' U' M2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "pll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "O Adjacent",
+    "group": "Solved",
+    "alg": "R U R' F' R U R' U' R' F R2 U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/O_Adjacent",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U R2' F' R U R U' R' F R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "O Diagonal",
+    "group": "Solved",
+    "alg": "F R U' R' U' R U R' F' R U R' U' R' F R F'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/O_Diagonal",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R' F' R U R U' R' F R U' R' U R U R' F'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "H Columns",
+    "group": "H",
+    "alg": "U R U R' U R U' R' U R U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/H_Columns",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U R' U R U' R' U R U2' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "H Rows",
+    "group": "H",
+    "alg": "F R U R' U' R U R' U' R U R' U' F'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/H_Rows",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R U' R' U R U' R' U R U' R' F'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "H Column",
+    "group": "H",
+    "alg": "R' F2 D R2 U R2 D' F2 R",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/H_Column",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R U' R' U R U2' R' U' R U R' F' U'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "H Row",
+    "group": "H",
+    "alg": "U2 r U' r2 D' r U' r' D r2 U r'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/H_Row",
+    "note": "Source first listed community formula.",
+    "source_setup": "r' F R F' r U' R' U' R U' R' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Pi Right Bar",
+    "group": "Pi",
+    "alg": "F R U R' U' R U R' U' F'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Pi_Right_Bar",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R U' R' U R U' R' F'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Pi Down Slash",
+    "group": "Pi",
+    "alg": "U F R' F' R U2 R U' R' U R U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Pi_Down_Slash",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U2 R' U' R U R' U2' R' F R F' U'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Pi X",
+    "group": "Pi",
+    "alg": "R' F2 D R2 U' R2 D' F2 R",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Pi_X",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R U' R' U F' U' R' F' R U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Pi Up Slash",
+    "group": "Pi",
+    "alg": "R U2 R' U' R U R' U2 R' F R F'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Pi_Up_Slash",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R' F' R U2 R U' R' U R U2' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Pi Columns",
+    "group": "Pi",
+    "alg": "U' r U' r2 D' r U r' D r2 U r'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Pi_Columns",
+    "note": "Source first listed community formula.",
+    "source_setup": "r U' r2' D' r U' r' D r2 U r' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Pi Left Bar",
+    "group": "Pi",
+    "alg": "U' R' U' R' F R F' R U' R' U2 R",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Pi_Left_Bar",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' U2' R U R' F R' F' R U R U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "U Up Slash",
+    "group": "U",
+    "alg": "U2 R2 D R' U2 R D' R' U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/U_Up_Slash",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U2' R D R' U2' R D' R2' U2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "U Down Slash",
+    "group": "U",
+    "alg": "R2 D' R U2 R' D R U2 R",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/U_Down_Slash",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' U2' R' D' R U2' R' D R2",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "U Bottom Row",
+    "group": "U",
+    "alg": "R' U' R U' R' U2 R2 U R' U R U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/U_Bottom_Row",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' F' R U R2' F2' U' F' U F' R2",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "U Rows",
+    "group": "U",
+    "alg": "U' F R2 D R' U R D' R2 U' F'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/U_Rows",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R2 D R' U' R D' R2' F' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "U X",
+    "group": "U",
+    "alg": "U2 r U' r' U r' D' r U' r' D r",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/U_X",
+    "note": "Source first listed community formula.",
+    "source_setup": "r' D' r U r' D r U' r U r' U2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "U Upper Row",
+    "group": "U",
+    "alg": "U' F R U R' U' F'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/U_Upper_Row",
+    "note": "Source first listed community formula.",
+    "source_setup": "F U R U' R' F' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "T Left Bar",
+    "group": "T",
+    "alg": "U' R U R' U' R' F R F'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/T_Left_Bar",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R' F' r U R U' r' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "T Right Bar",
+    "group": "T",
+    "alg": "U L' U' L U L F' L' F",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/T_Right_Bar",
+    "note": "Source first listed community formula.",
+    "source_setup": "F' L F l' U' L' U l U'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "T Rows",
+    "group": "T",
+    "alg": "R U2 R' U' R U' R2 U2 R U R' U R",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/T_Rows",
+    "note": "Source first listed community formula.",
+    "source_setup": "F2' R U' R' U R U R2' F' R F'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "T Bottom Row",
+    "group": "T",
+    "alg": "r' U r U2 R2 F R F' R",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/T_Bottom_Row",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' F R' F' R2 U2 r' U' r",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "T Top Row",
+    "group": "T",
+    "alg": "r' D' r U r' D r U' r U r'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/T_Top_Row",
+    "note": "Source first listed community formula.",
+    "source_setup": "r U' r' U r' D' r U' r' D r",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "T Columns",
+    "group": "T",
+    "alg": "U2 r U' r2 D' r U2 r' D r2 U r'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/T_Columns",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' U R2 D r' U2' r D' R2' U' R",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Sune Left Bar",
+    "group": "Sune",
+    "alg": "U R U R' U R U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Sune_Left_Bar",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U2' R' U' R U' R' U'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Sune X",
+    "group": "Sune",
+    "alg": "U L' U2 L U2 r U' r' F",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Sune_X",
+    "note": "Source first listed community formula.",
+    "source_setup": "F' L F L' U2 L' U2' L U'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Sune Up Slash",
+    "group": "Sune",
+    "alg": "U F R' F' R U2 R U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Sune_Up_Slash",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U2 R' U2' R' F R F' U'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Sune Columns",
+    "group": "Sune",
+    "alg": "U R U R' U' R' F R F' R U R' U R U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Sune_Columns",
+    "note": "Source first listed community formula.",
+    "source_setup": "R2 D R' U R D' R' U R' U' R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Sune Right Bar",
+    "group": "Sune",
+    "alg": "U' R U R' U R' F R F' R U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Sune_Right_Bar",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U2 R' F R' F' R U' R U' R' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Sune Down Slash",
+    "group": "Sune",
+    "alg": "U r U' r' F R' F' R",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Sune_Down_Slash",
+    "note": "Source first listed community formula.",
+    "source_setup": "L' U R U' L U R' U'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Anti Sune Right Bar",
+    "group": "Anti Sune",
+    "alg": "U R' U' R U' R' U2 R",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Anti_Sune_Right_Bar",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' U2 R U R' U R U'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Anti Sune Columns",
+    "group": "Anti Sune",
+    "alg": "U2 R U R2 F' r F R U' r2 F r",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Anti_Sune_Columns",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U R' U R U' R D R' U' R D' R2' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Anti Sune Down Slash",
+    "group": "Anti Sune",
+    "alg": "U' F' L F L' U2 L' U2 L",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Anti_Sune_Down_Slash",
+    "note": "Source first listed community formula.",
+    "source_setup": "L' U2' L U2 L F' L' F U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Anti Sune X",
+    "group": "Anti Sune",
+    "alg": "U' R U2 R' U2 R' F R F'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Anti_Sune_X",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R' F' R U2' R U2 R' U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Anti Sune Up Slash",
+    "group": "Anti Sune",
+    "alg": "U' R' F R F' r U r'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Anti_Sune_Up_Slash",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U' L' U R' U' L U",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "Anti Sune Left Bar",
+    "group": "Anti Sune",
+    "alg": "U R U2 R' F R' F' R U' R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/Anti_Sune_Left_Bar",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' U' F R' F' R U' R U R' U R",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "L Best",
+    "group": "L",
+    "alg": "U' F' r U r' U' r' F r",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/L_Best",
+    "note": "Source first listed community formula.",
+    "source_setup": "R' U' R' D' R U R' D R2",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "L Good",
+    "group": "L",
+    "alg": "U2 F R' F' R U R U' R'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/L_Good",
+    "note": "Source first listed community formula.",
+    "source_setup": "r U R' U' r' F R F' U2'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "L Pure",
+    "group": "L",
+    "alg": "R U R' U R U' R' U R U' R' U R U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/L_Pure",
+    "note": "Source first listed community formula.",
+    "source_setup": "R U R' U R U' R' U R U' R' U R U2' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "L Front Commutator",
+    "group": "L",
+    "alg": "U2 R U2 R D R' U2 R D' R2",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/L_Front_Commutator",
+    "note": "Source first listed community formula.",
+    "source_setup": "F R' F' R U2' F R' F' R U' R U' R'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "L Diagonal",
+    "group": "L",
+    "alg": "U2 R U2 R2 F R F' R U2 R'",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/L_Diagonal",
+    "note": "Source first listed community formula.",
+    "source_setup": "R2' F' R U R U' R' F R U' R' U R",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  },
+  {
+    "set": "CMLL",
+    "id": "L Back Commutator",
+    "group": "L",
+    "alg": "U R' U2 R' D' R U2 R' D R2",
+    "url": "https://www.speedcubedb.com/a/3x3/CMLL/L_Back_Commutator",
+    "note": "Source first listed community formula.",
+    "source_setup": "R2' D' R U2' R' D R U2' R U'",
+    "source_viewer": {
+      "data-setup": "z2",
+      "data-crosscolor": "white",
+      "data-stickering": "cmll"
+    }
+  }
+]

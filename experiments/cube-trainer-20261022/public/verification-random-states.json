@@ -1,0 +1,125 @@
+{
+ "generatedAt": "2026-10-22T05:32:04.268Z",
+ "samples": 1000,
+ "kind": "uniform random legal states",
+ "perMethod": {
+  "lbl": {
+   "totalMoves": {
+    "mean": 130.84,
+    "p95": 159,
+    "max": 175
+   },
+   "timeMs": {
+    "mean": 28.08,
+    "p95": 47.9,
+    "max": 247.1
+   },
+   "stages": {
+    "cross": {
+     "mean": 8.51,
+     "p95": 11,
+     "max": 13
+    },
+    "corners": {
+     "mean": 39.15,
+     "p95": 56,
+     "max": 78
+    },
+    "middle": {
+     "mean": 32.17,
+     "p95": 40,
+     "max": 56
+    },
+    "llcross": {
+     "mean": 10.4,
+     "p95": 19,
+     "max": 19
+    },
+    "llface": {
+     "mean": 17.33,
+     "p95": 24,
+     "max": 24
+    },
+    "llcorners": {
+     "mean": 10.27,
+     "p95": 20,
+     "max": 20
+    },
+    "lledges": {
+     "mean": 13.01,
+     "p95": 22,
+     "max": 22
+    }
+   }
+  },
+  "cfop": {
+   "totalMoves": {
+    "mean": 56.95,
+    "p95": 65,
+    "max": 68
+   },
+   "timeMs": {
+    "mean": 3.03,
+    "p95": 4.1,
+    "max": 17.2
+   },
+   "stages": {
+    "cross": {
+     "mean": 5.79,
+     "p95": 7,
+     "max": 8
+    },
+    "f2l": {
+     "mean": 26.63,
+     "p95": 31,
+     "max": 33
+    },
+    "oll": {
+     "mean": 10.36,
+     "p95": 14,
+     "max": 14
+    },
+    "pll": {
+     "mean": 14.17,
+     "p95": 20,
+     "max": 22
+    }
+   }
+  },
+  "roux": {
+   "totalMoves": {
+    "mean": 46.47,
+    "p95": 53,
+    "max": 59
+   },
+   "timeMs": {
+    "mean": 4.34,
+    "p95": 8,
+    "max": 231
+   },
+   "stages": {
+    "fb": {
+     "mean": 8.09,
+     "p95": 10,
+     "max": 11
+    },
+    "sb": {
+     "mean": 12.64,
+     "p95": 16,
+     "max": 18
+    },
+    "cmll": {
+     "mean": 10.51,
+     "p95": 13,
+     "max": 13
+    },
+    "lse": {
+     "mean": 15.24,
+     "p95": 20,
+     "max": 25
+    }
+   }
+  }
+ },
+ "failures": []
+}

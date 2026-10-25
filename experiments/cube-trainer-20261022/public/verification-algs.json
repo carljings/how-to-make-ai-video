@@ -1,0 +1,210 @@
+{
+ "oll": {
+  "validAlgs": 63,
+  "classesIncludingSolved": 58,
+  "uncoveredPatterns": []
+ },
+ "pll": {
+  "valid": [
+   {
+    "name": "Aa",
+    "alg": "x R' U R' D2 R U' R' D2 R2 x'",
+    "cornerCycles": "3",
+    "edgeCycles": "id"
+   },
+   {
+    "name": "Ab",
+    "alg": "x R2 D2 R U R' D2 R U' R x'",
+    "cornerCycles": "3",
+    "edgeCycles": "id"
+   },
+   {
+    "name": "E",
+    "alg": "x' R U' R' D R U R' D' R U R' D R U' R' D' x",
+    "cornerCycles": "2+2",
+    "edgeCycles": "id"
+   },
+   {
+    "name": "F",
+    "alg": "R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R",
+    "cornerCycles": "2",
+    "edgeCycles": "2"
+   },
+   {
+    "name": "Ga",
+    "alg": "R2 U R' U R' U' R U' R2 U' D R' U R D'",
+    "cornerCycles": "2",
+    "edgeCycles": "4"
+   },
+   {
+    "name": "Gb",
+    "alg": "R' U' R U D' R2 U R' U R U' R U' R2 D",
+    "cornerCycles": "2",
+    "edgeCycles": "4"
+   },
+   {
+    "name": "Gc",
+    "alg": "R2 U' R U' R U R' U R2 U D' R U' R' D",
+    "cornerCycles": "2",
+    "edgeCycles": "4"
+   },
+   {
+    "name": "Gd",
+    "alg": "R U R' U' D R2 U' R U' R' U R' U R2 D'",
+    "cornerCycles": "2",
+    "edgeCycles": "4"
+   },
+   {
+    "name": "H",
+    "alg": "M2 U M2 U2 M2 U M2",
+    "cornerCycles": "id",
+    "edgeCycles": "2+2"
+   },
+   {
+    "name": "Ja",
+    "alg": "x R2 F R F' R U2 r' U r U2 x'",
+    "cornerCycles": "2",
+    "edgeCycles": "2"
+   },
+   {
+    "name": "Jb",
+    "alg": "R U R' F' R U R' U' R' F R2 U' R'",
+    "cornerCycles": "3",
+    "edgeCycles": "3"
+   },
+   {
+    "name": "Na",
+    "alg": "R U R' U R U R' F' R U R' U' R' F R2 U' R' U2 R U' R'",
+    "cornerCycles": "2",
+    "edgeCycles": "2"
+   },
+   {
+    "name": "Nb",
+    "alg": "R' U R U' R' F' U' F R U R' F R' F' R U' R",
+    "cornerCycles": "2",
+    "edgeCycles": "2"
+   },
+   {
+    "name": "Ra",
+    "alg": "R U' R' U' R U R D R' U' R D' R' U2 R'",
+    "cornerCycles": "3",
+    "edgeCycles": "3"
+   },
+   {
+    "name": "Rb",
+    "alg": "R2 F R U R U' R' F' R U2 R' U2 R",
+    "cornerCycles": "3",
+    "edgeCycles": "3"
+   },
+   {
+    "name": "T",
+    "alg": "R U R' U' R' F R2 U' R' U' R U R' F'",
+    "cornerCycles": "2",
+    "edgeCycles": "2"
+   },
+   {
+    "name": "Ua",
+    "alg": "M2 U M U2 M' U M2",
+    "cornerCycles": "id",
+    "edgeCycles": "3"
+   },
+   {
+    "name": "Ub",
+    "alg": "M2 U' M U2 M' U' M2",
+    "cornerCycles": "id",
+    "edgeCycles": "3"
+   },
+   {
+    "name": "V",
+    "alg": "R' U R' U' y R' F' R2 U' R' U R' F R F y'",
+    "cornerCycles": "2",
+    "edgeCycles": "2"
+   },
+   {
+    "name": "Y",
+    "alg": "F R U' R' U' R U R' F' R U R' U' R' F R F'",
+    "cornerCycles": "2",
+    "edgeCycles": "2"
+   },
+   {
+    "name": "Z",
+    "alg": "M' U M2 U M2 U M' U2 M2",
+    "cornerCycles": "4",
+    "edgeCycles": "2"
+   }
+  ],
+  "classesIncludingSolved": 22,
+  "uncoveredStates": 0,
+  "aufOnlyStates": 3
+ },
+ "lbl": [
+  {
+   "alg": "R U R' U'",
+   "slot": "DRF",
+   "crossOk": true,
+   "otherCorners": true,
+   "order": 6
+  },
+  {
+   "alg": "L' U' L U",
+   "slot": "DFL",
+   "crossOk": true,
+   "otherCorners": true,
+   "order": 6
+  },
+  {
+   "alg": "L U L' U'",
+   "slot": "DLB",
+   "crossOk": true,
+   "otherCorners": true,
+   "order": 6
+  },
+  {
+   "alg": "R' U' R U",
+   "slot": "DBR",
+   "crossOk": true,
+   "otherCorners": true,
+   "order": 6
+  },
+  {
+   "alg": "U R U' R' U' F' U F",
+   "key": "edgeRight",
+   "firstLayerOk": true
+  },
+  {
+   "alg": "U' L' U L U F U' F'",
+   "key": "edgeLeft",
+   "firstLayerOk": true
+  },
+  {
+   "alg": "F R U R' U' F'",
+   "key": "yellowCross",
+   "f2lOk": true,
+   "keepsOrientation": false
+  },
+  {
+   "alg": "R U R' U R U2 R'",
+   "key": "sune",
+   "f2lOk": true,
+   "keepsOrientation": false
+  },
+  {
+   "alg": "x R' U R' D2 R U' R' D2 R2 x'",
+   "key": "cornerCycle",
+   "f2lOk": true,
+   "keepsOrientation": true
+  },
+  {
+   "alg": "R U' R U R U R U' R' U' R2",
+   "key": "edgeCycleA",
+   "f2lOk": true,
+   "keepsOrientation": true
+  },
+  {
+   "alg": "R2 U R U R' U' R' U' R' U R'",
+   "key": "edgeCycleB",
+   "f2lOk": true,
+   "keepsOrientation": true
+  }
+ ]
+}
