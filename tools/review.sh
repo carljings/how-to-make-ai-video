@@ -22,7 +22,8 @@ for clip in "$@"; do
   rows=$(( (frames + COLS - 1) / COLS ))
   tw=$(( w > h ? 480 : 270 ))   # landscape tiles 480 wide, portrait 270 wide
   out="${clip%.*}.sheet.jpg"
-  ffmpeg -nostdin -hide_banner -loglevel error -y -i "$clip" -frames:v 1 -vf "fps=1/${EVERY}:start_time=0,scale=${tw}:-2,\
+  # round=up: each tile is the frame at its label's time (the default picks one up to half an interval later)
+  ffmpeg -nostdin -hide_banner -loglevel error -y -i "$clip" -frames:v 1 -vf "fps=1/${EVERY}:start_time=0:round=up,scale=${tw}:-2,\
 drawtext=text='%{pts\\:hms}':x=6:y=6:fontsize=16:fontcolor=yellow:box=1:boxcolor=black@0.6:boxborderw=4,\
 tile=${COLS}x${rows}:padding=4:margin=4:color=0x222222" -q:v 3 "$out"
   printf '%s  (%s s, %sx%s)  →  %s\n' "$clip" "$(echo "$dur" | cut -c1-5)" "$w" "$h" "$out"

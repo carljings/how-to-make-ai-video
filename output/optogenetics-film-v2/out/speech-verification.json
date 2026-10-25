@@ -129,15 +129,15 @@
     },
     {
       "index": 11,
-      "key": "70db807705b746e24a913cb615ce2fd1158b6b511cb50aba44e01ecbc076fe69",
+      "key": "31a26f6a1fc1d8f6ad070a92d191c884b2ec544a7c849d37f76300f236e6b97b",
       "voice": "zh-CN-YunxiNeural",
       "rate": -3,
       "start": 61.08,
-      "end": 65.75999999999999,
-      "caption": "配合光刺激眼镜，部分恢复了辨识物体的能力。",
-      "spoken": "配合光刺激眼镜，部分恢复了辨识物体的能力。",
+      "end": 65.736,
+      "caption": "配合光刺激眼镜，部分恢复了感知物体的能力。",
+      "spoken": "配合光刺激眼镜，部分恢复了感知物体的能力。",
       "file": "11.mp3",
-      "rmsDbFS": -25.51
+      "rmsDbFS": -25.17
     },
     {
       "index": 12,

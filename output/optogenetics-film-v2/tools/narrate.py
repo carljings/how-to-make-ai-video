@@ -31,7 +31,7 @@ async def main():
         token_path = path.with_suffix('.json')
         key = hashlib.sha256((VOICE + spoken).encode()).hexdigest()
         saved = json.loads(token_path.read_text()) if token_path.exists() else {}
-        if path.exists() and saved.get('key') == key and saved.get('rate') == -3:
+        if path.exists() and saved.get('key') == key:
             rate = saved['rate']
         else:
             await edge_tts.Communicate(spoken, VOICE, rate=f'{rate:+}%').save(str(path))

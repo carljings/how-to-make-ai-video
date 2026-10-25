@@ -93,7 +93,7 @@ The same idea exists in many tools. Pick one the assistant can drive from the co
 | Tool | Language | Notes |
 |---|---|---|
 | This repo's `starter/` | JavaScript + Canvas 2D | No framework, about 500 lines in all, easy for an assistant to read whole |
-| Remotion | React | Video as React components; large ecosystem |
+| Remotion | React | Video as React components; large ecosystem. Example: [optogenetics V3](../output/optogenetics-film-v3/README.md), with a glowing canvas per scene under React text and panels |
 | Motion Canvas / Revideo | TypeScript | Animation timelines with generators |
 | Manim | Python | Built for maths explainers |
 | Python + Playwright + ffmpeg | Python | What [*The History of AI in 120 seconds*](https://github.com/carljings/ai-history-video) uses |

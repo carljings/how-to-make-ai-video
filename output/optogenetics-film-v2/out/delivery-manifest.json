@@ -1,15 +1,15 @@
 {
   "file": "optogenetics-v2.mp4",
-  "sha256": "dc23e760b2800299dff5827557cb950e20781d950b91f9e06f838eb46e95c1b0",
-  "bytes": 24190375,
+  "sha256": "bf91c0d300c8522d788657699eac109911a41274505139b2af1895157ffa9f30",
+  "bytes": 24126980,
   "duration": 75,
   "resolution": [
     1080,
     1920
   ],
   "fps": 30,
-  "LUFS": -14.15,
-  "true_peak_dBTP": -2.47,
+  "LUFS": -14.16,
+  "true_peak_dBTP": -2.44,
   "captions": "optogenetics-v2.srt",
   "poster": "poster.jpg",
   "narration": "../voice/narration.wav",
