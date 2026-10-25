@@ -1,0 +1,39 @@
+{
+  "id": "cgt-20261016172041-5m9xh",
+  "name": "D",
+  "draft": false,
+  "resolution": "720p",
+  "prompt": "图片1为首帧。\n晴朗的夏日，橘色小奶猫踩着一块巧克力曲奇，在一道高高卷起的牛奶巨浪上冲浪。写实电影质感，阳光透过浪尖。\n0-4秒：小猫踩着曲奇沿着牛奶浪面向右滑行，身体左右摇晃努力保持平衡，小爪子张开；白色的牛奶浪花和奶滴在它周围飞溅，浪尖在上方卷下来；镜头跟着小猫向右移动。\n全程：同一只小猫（橘色虎斑、白胸、白爪、红色项圈和金色小铃铛），阳光和蓝天不变。\n声音：浪花声，奶滴溅起的哗啦声，铃铛声；无bgm，只生成环境音和动作音。不要字幕。",
+  "first_frame": "refs/key-d.jpg",
+  "images": [],
+  "audios": [],
+  "duration": 4,
+  "created": "2026-10-16 04:20:47",
+  "status": "succeeded",
+  "result": {
+    "id": "cgt-20261016172041-5m9xh",
+    "model": "doubao-seedance-2-5-260628",
+    "status": "succeeded",
+    "content": {
+      "video_url": "(expired download link removed)"
+    },
+    "usage": {
+      "completion_tokens": 87300,
+      "total_tokens": 87300
+    },
+    "created_at": 1792142447,
+    "updated_at": 1792142549,
+    "seed": 92559,
+    "resolution": "720p",
+    "ratio": "9:16",
+    "duration": 4,
+    "framespersecond": 24,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4"
+  },
+  "finished": "2026-10-16 04:22:39"
+}

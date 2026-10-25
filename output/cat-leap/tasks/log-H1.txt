@@ -1,0 +1,13 @@
+submitted cgt-20261016172052-metl5
+running … 0 s
+running … 16 s
+running … 32 s
+running … 47 s
+running … 63 s
+running … 79 s
+running … 94 s
+running … 110 s
+running … 126 s
+running … 142 s
+saved clips/H1-720p.mp4 (2705 KB)
+usage: {"completion_tokens": 87300, "total_tokens": 87300} seconds: 4 resolution: 720p

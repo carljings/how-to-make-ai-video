@@ -1,0 +1,25 @@
+{
+  "cmd": "edit",
+  "model": "gpt-image-2.5-flare-vip",
+  "size": "1152x2048",
+  "quality": "high",
+  "images": [
+    "refs/kitten-sheet.png"
+  ],
+  "prompt": "Deep space. The kitten floats weightless among planets made of giant balls of yarn: a big pink yarn planet in the foreground right with loose strands of thread drifting from it, a teal yarn planet with a ring made of a loose strand of mustard-yellow yarn, a small mustard yarn moon, and a knitting needle drifting like a space station. A purple and blue nebula, sparkling stars, glitter-like star dust. The kitten floats with its legs splayed and tail curling, reaching out one white paw to tap the pink yarn planet, eyes wide and playful. The glowing blue morpho butterfly glides nearby with a trail of light. Soft rim light from the nebula, magenta and blue tones.\n\nThe kitten is exactly the kitten in the reference image: a ten-week-old ginger tabby kitten with fluffy orange fur and soft darker stripes, white chest, four white socks, a narrow white blaze from forehead to nose, white muzzle, pink nose, very big round amber-gold eyes, a thin red collar with one small gold bell. Same face, same markings, same proportions.\nPhotorealistic cinematic still from a big-budget fantasy film, real fur with every hair visible, real light, shallow depth of field, rich colour grade, sharp focus on the kitten. Vertical 9:16 frame. No text, no letters, no logos, no people.",
+  "seconds": 43.7,
+  "usage": {
+    "input_tokens": 1040,
+    "input_tokens_details": {
+      "image_tokens": 560,
+      "text_tokens": 480
+    },
+    "output_tokens": 1413,
+    "output_tokens_details": {
+      "image_tokens": 1413,
+      "text_tokens": 0
+    },
+    "total_tokens": 2453
+  },
+  "created": "2026-10-16 04:04:33"
+}

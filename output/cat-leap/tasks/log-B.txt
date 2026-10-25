@@ -1,0 +1,15 @@
+submitted cgt-20261016172015-nvsq9
+running … 0 s
+running … 17 s
+running … 33 s
+running … 49 s
+running … 65 s
+running … 81 s
+running … 96 s
+running … 112 s
+running … 128 s
+running … 143 s
+running … 159 s
+running … 175 s
+saved clips/B-720p.mp4 (6935 KB)
+usage: {"completion_tokens": 108900, "total_tokens": 108900} seconds: 5 resolution: 720p

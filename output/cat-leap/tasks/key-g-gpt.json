@@ -1,0 +1,25 @@
+{
+  "cmd": "edit",
+  "model": "gpt-image-2.5-flare-vip",
+  "size": "1152x2048",
+  "quality": "high",
+  "images": [
+    "refs/kitten-sheet.png"
+  ],
+  "prompt": "A gigantic full moon fills most of the frame, low over a sea of silver night clouds, its surface pale warm white with soft craters and, if you look closely, a faint pattern of thin curved ribs like a round paper lamp. Deep blue starry night sky. The kitten is seen in near-silhouette against the moon, at the very top of a huge leap from left to right, body stretched long, front paws reaching up together toward the glowing blue morpho butterfly just above it, tail streaming behind; a thin rim of moonlight outlines its fluffy fur and whiskers, and the red collar and gold bell catch a glint. Iconic, magical, slow-motion feeling. Camera low and far, looking up.\n\nThe kitten is exactly the kitten in the reference image: a ten-week-old ginger tabby kitten with fluffy orange fur and soft darker stripes, white chest, four white socks, a narrow white blaze from forehead to nose, white muzzle, pink nose, very big round amber-gold eyes, a thin red collar with one small gold bell. Same face, same markings, same proportions.\nPhotorealistic cinematic still from a big-budget fantasy film, real fur with every hair visible, real light, shallow depth of field, rich colour grade, sharp focus on the kitten. Vertical 9:16 frame. No text, no letters, no logos, no people.",
+  "seconds": 71.4,
+  "usage": {
+    "input_tokens": 1039,
+    "input_tokens_details": {
+      "image_tokens": 560,
+      "text_tokens": 479
+    },
+    "output_tokens": 1413,
+    "output_tokens_details": {
+      "image_tokens": 1413,
+      "text_tokens": 0
+    },
+    "total_tokens": 2452
+  },
+  "created": "2026-10-16 04:05:21"
+}

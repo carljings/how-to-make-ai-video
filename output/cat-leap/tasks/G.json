@@ -1,0 +1,39 @@
+{
+  "id": "cgt-20261016172038-7fm47",
+  "name": "G",
+  "draft": false,
+  "resolution": "720p",
+  "prompt": "图片1为首帧。\n巨大的满月前，橘色小奶猫高高跃起去抓发光的蓝色蝴蝶。写实电影质感，慢动作。\n0-2秒：小猫在跳跃的最高点，两只白色前爪轻轻合拢，把发光的蓝色蝴蝶温柔地拢在爪子之间，爪缝里透出蓝光。\n2-5秒：小猫抱着发光的蝴蝶，慢动作向右下方落下，尾巴和毛发在身后飘动；月光勾出它毛发的亮边。\n全程：同一只小猫（橘色虎斑、白胸、白爪、红色项圈和金色小铃铛），镜头固定不动，月亮和云海不变。\n声音：风声，铃铛轻轻的叮当声；无bgm，只生成环境音和动作音。不要字幕。",
+  "first_frame": "refs/key-g.jpg",
+  "images": [],
+  "audios": [],
+  "duration": 5,
+  "created": "2026-10-16 04:20:39",
+  "status": "succeeded",
+  "result": {
+    "id": "cgt-20261016172038-7fm47",
+    "model": "doubao-seedance-2-5-260628",
+    "status": "succeeded",
+    "content": {
+      "video_url": "(expired download link removed)"
+    },
+    "usage": {
+      "completion_tokens": 108900,
+      "total_tokens": 108900
+    },
+    "created_at": 1792142439,
+    "updated_at": 1792142617,
+    "seed": 2892,
+    "resolution": "720p",
+    "ratio": "9:16",
+    "duration": 5,
+    "framespersecond": 24,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4"
+  },
+  "finished": "2026-10-16 04:23:49"
+}

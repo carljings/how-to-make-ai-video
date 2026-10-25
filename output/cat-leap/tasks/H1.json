@@ -1,0 +1,39 @@
+{
+  "id": "cgt-20261016172052-metl5",
+  "name": "H1",
+  "draft": false,
+  "resolution": "720p",
+  "prompt": "图片1为首帧。\n清晨，温馨的阁楼房间里，橘色小奶猫蜷在藤编猫窝里睡觉。写实电影质感，柔和的晨光和暖色串灯。\n0-2秒：小猫蜷成一团熟睡，呼吸让身体轻轻起伏，耳朵轻轻抖了一下。\n2-4秒：小猫猛地惊醒，抬起头，睁大眼睛，左右看了看，一脸懵。\n全程：同一只小猫（橘色虎斑、白胸、白爪、红色项圈和金色小铃铛），镜头固定不动，房间里的纸灯笼、鱼缸、毛线篮、牛奶碟和雪花球都在原位，光线不变。\n声音：清晨轻轻的鸟叫声，惊醒时铃铛叮的一声；无bgm，只生成环境音和动作音。不要字幕。",
+  "first_frame": "refs/key-h.jpg",
+  "images": [],
+  "audios": [],
+  "duration": 4,
+  "created": "2026-10-16 04:20:53",
+  "status": "succeeded",
+  "result": {
+    "id": "cgt-20261016172052-metl5",
+    "model": "doubao-seedance-2-5-260628",
+    "status": "succeeded",
+    "content": {
+      "video_url": "(expired download link removed)"
+    },
+    "usage": {
+      "completion_tokens": 87300,
+      "total_tokens": 87300
+    },
+    "created_at": 1792142453,
+    "updated_at": 1792142600,
+    "seed": 68225,
+    "resolution": "720p",
+    "ratio": "9:16",
+    "duration": 4,
+    "framespersecond": 24,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4"
+  },
+  "finished": "2026-10-16 04:23:32"
+}

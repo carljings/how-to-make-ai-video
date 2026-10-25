@@ -1,0 +1,10 @@
+node_modules
+# Seedance clips, Demucs stems, the synthesised stems and everything built from them stay local:
+# regenerate with scripts/ark.py, then prep.py, score.py, sfx.py and mix.py
+/clips/
+/audio/
+public/seg/
+public/mix-*.wav
+# GPT Image originals; the JPEGs beside them are what Seedance was given
+refs/key-*.png
+scripts/__pycache__/

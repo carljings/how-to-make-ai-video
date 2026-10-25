@@ -1,0 +1,39 @@
+{
+  "id": "cgt-20261016170711-t9771",
+  "name": "A2",
+  "draft": false,
+  "resolution": "720p",
+  "prompt": "图片1为首帧。\n低机位侧面：橘色小奶猫伏在窗台上，准备扑向窗外发光的蓝色蝴蝶。写实电影质感，黄昏，室内暖光，窗外蓝色夜空。\n0-2秒：小猫压低前身，屁股翘起，左右快速扭动，尾巴尖轻轻甩动，眼睛紧紧盯着窗外的蝴蝶。\n2-4秒：小猫后腿用力一蹬，猛地向右上方跃起，扑出窗外，从画面右上方飞出；窗台上的雪花球和鱼缸里的金鱼轻轻晃动。\n全程：同一只小猫（橘色虎斑、白胸、白爪、红色项圈和金色小铃铛），镜头固定不动，光线不变。\n声音：小爪子在木头上的摩擦声，铃铛叮当声，起跳时一声短促可爱的“喵！”；无bgm，只生成环境音和动作音。不要字幕。",
+  "first_frame": "refs/key-a2.jpg",
+  "images": [],
+  "audios": [],
+  "duration": 4,
+  "created": "2026-10-16 04:07:12",
+  "status": "succeeded",
+  "result": {
+    "id": "cgt-20261016170711-t9771",
+    "model": "doubao-seedance-2-5-260628",
+    "status": "succeeded",
+    "content": {
+      "video_url": "(expired download link removed)"
+    },
+    "usage": {
+      "completion_tokens": 87300,
+      "total_tokens": 87300
+    },
+    "created_at": 1792141632,
+    "updated_at": 1792141785,
+    "seed": 3301,
+    "resolution": "720p",
+    "ratio": "9:16",
+    "duration": 4,
+    "framespersecond": 24,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4"
+  },
+  "finished": "2026-10-16 04:09:50"
+}

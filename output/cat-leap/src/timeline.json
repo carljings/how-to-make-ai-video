@@ -1,0 +1,22 @@
+{
+  "fps": 24,
+  "bpm": 120,
+  "length": 36.0,
+  "w": 1080,
+  "h": 1920,
+  "segments": [
+    {"id": "A1", "clip": "A1", "a": 0.0, "b": 2.0, "in": 0.0, "rate": 1, "audio": "clean", "gain": -6},
+    {"id": "A2", "clip": "A2", "a": 2.0, "b": 4.0, "in": 1.0, "rate": 1, "audio": "full", "gain": 2},
+    {"id": "B1", "clip": "B", "a": 4.0, "b": 6.0, "in": 0.5833, "rate": 1, "audio": "clean", "gain": -4},
+    {"id": "B2", "clip": "B", "a": 6.0, "b": 8.0, "in": 2.6667, "rate": 1, "audio": "clean", "gain": -1},
+    {"id": "C", "clip": "C", "a": 8.0, "b": 12.0, "in": 0.0, "rate": 1, "audio": "full", "gain": -8},
+    {"id": "D", "clip": "D", "a": 12.0, "b": 16.0, "in": 0.0, "rate": 1, "audio": "full", "gain": -7},
+    {"id": "E", "clip": "E", "a": 16.0, "b": 20.0, "in": 0.0, "rate": 1, "audio": "full", "gain": -9},
+    {"id": "F", "clip": "F", "a": 20.0, "b": 24.0, "in": 0.0, "rate": 1, "audio": "clean", "gain": -10},
+    {"id": "G", "clip": "G", "a": 24.0, "b": 29.0, "in": 0.0, "rate": 1, "audio": "clean", "gain": -9},
+    {"id": "H1a", "clip": "H1", "a": 28.0, "b": 30.0, "in": 0.0833, "rate": 1, "audio": "full", "gain": -3},
+    {"id": "H1b", "clip": "H1", "a": 30.0, "b": 32.0, "in": 2.0833, "rate": 0.95, "audio": "full", "gain": -3},
+    {"id": "H2", "clip": "H2", "a": 32.0, "b": 36.0, "in": 0.1667, "rate": 1, "audio": "clean", "gain": 1}
+  ],
+  "cues": {"leap": 3.24, "drop1": 4.0, "catch": 24.75, "fall": 28.0, "wake": 30.0, "sneeze": 34.0}
+}

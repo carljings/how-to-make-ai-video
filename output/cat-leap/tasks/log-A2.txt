@@ -1,0 +1,13 @@
+submitted cgt-20261016170711-t9771
+running … 1 s
+running … 16 s
+running … 32 s
+running … 48 s
+running … 64 s
+running … 79 s
+running … 95 s
+running … 110 s
+running … 126 s
+running … 142 s
+saved clips/A2-720p.mp4 (3239 KB)
+usage: {"completion_tokens": 87300, "total_tokens": 87300} seconds: 4 resolution: 720p

@@ -1,0 +1,39 @@
+{
+  "id": "cgt-20261016172015-nvsq9",
+  "name": "B",
+  "draft": false,
+  "resolution": "720p",
+  "prompt": "图片1为首帧。\n橘色小奶猫在日落时分的云海上奔跑追逐一只发光的蓝色蝴蝶。写实电影质感，金粉色夕阳逆光。\n0-3秒：小猫在云朵上向右欢快地连续蹦跳，每次爪子落下，云朵像棉被一样软软地陷下去再弹起，冒出一小团云雾；镜头跟着小猫向右移动。\n3-5秒：小猫高高跃起，四只白爪张开，扑向前方拖着闪光光尘的蓝色蝴蝶。\n全程：同一只小猫（橘色虎斑、白胸、白爪、白色鼻梁、琥珀色大眼睛、红色项圈和金色小铃铛），夕阳光线不变。\n声音：爪子踩在云上软软的噗噗声，风声，铃铛叮当声；无bgm，只生成环境音和动作音。不要字幕。",
+  "first_frame": "refs/key-b.jpg",
+  "images": [],
+  "audios": [],
+  "duration": 5,
+  "created": "2026-10-16 04:20:16",
+  "status": "succeeded",
+  "result": {
+    "id": "cgt-20261016172015-nvsq9",
+    "model": "doubao-seedance-2-5-260628",
+    "status": "succeeded",
+    "content": {
+      "video_url": "(expired download link removed)"
+    },
+    "usage": {
+      "completion_tokens": 108900,
+      "total_tokens": 108900
+    },
+    "created_at": 1792142416,
+    "updated_at": 1792142593,
+    "seed": 673,
+    "resolution": "720p",
+    "ratio": "9:16",
+    "duration": 5,
+    "framespersecond": 24,
+    "service_tier": "default",
+    "execution_expires_after": 172800,
+    "generate_audio": true,
+    "draft": false,
+    "priority": 0,
+    "output_format": "mp4"
+  },
+  "finished": "2026-10-16 04:23:27"
+}

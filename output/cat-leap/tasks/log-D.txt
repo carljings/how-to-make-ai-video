@@ -1,0 +1,10 @@
+submitted cgt-20261016172041-5m9xh
+running … 0 s
+running … 16 s
+running … 32 s
+running … 47 s
+running … 63 s
+running … 79 s
+running … 95 s
+saved clips/D-720p.mp4 (5155 KB)
+usage: {"completion_tokens": 87300, "total_tokens": 87300} seconds: 4 resolution: 720p

@@ -1,0 +1,32 @@
+{
+  "name": "cat-leap",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "一跃 · One Leap: a ginger kitten pounces at a glowing butterfly and leaps through six worlds built from its own room. GPT Image key frames, Seedance 2.5 clips, a Remotion edit with beat-synced transitions, and an original score synthesised in code",
+  "scripts": {
+    "studio": "remotion studio",
+    "prep": "python3 scripts/prep.py",
+    "render": "remotion render Film out/film-silent.mp4 --muted",
+    "cover": "remotion still Cover out/cover.jpg",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/fonts": "4.0.534",
+    "@remotion/media": "4.0.534",
+    "@remotion/noise": "4.0.534",
+    "@remotion/paths": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "remotion": "4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.12",
+    "esbuild": "0.25.10",
+    "puppeteer-core": "24.43.1",
+    "typescript": "5.9.3"
+  }
+}

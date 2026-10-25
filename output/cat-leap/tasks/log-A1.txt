@@ -1,0 +1,13 @@
+submitted cgt-20261016170728-owx1a
+running … 1 s
+running … 17 s
+running … 32 s
+running … 49 s
+running … 64 s
+running … 80 s
+running … 97 s
+running … 113 s
+running … 129 s
+running … 145 s
+saved clips/A1-720p.mp4 (5250 KB)
+usage: {"completion_tokens": 87300, "total_tokens": 87300} seconds: 4 resolution: 720p
