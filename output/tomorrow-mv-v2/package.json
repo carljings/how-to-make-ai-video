@@ -1,0 +1,33 @@
+{
+  "name": "tomorrow-mv-v2",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Claude MV 明天会更好 V2: two verses as a 51.2-second full cut and a 38.4-second cut, built with Remotion; every sung syllable on the beat, seamless loop",
+  "scripts": {
+    "studio": "remotion studio",
+    "fonts": "python3 scripts/fonts.py",
+    "music": "node scripts/music.mjs",
+    "sheet": "node scripts/sheet.mjs",
+    "render": "remotion render Full out/tomorrow-mv-full.mp4 && remotion render Short40 out/tomorrow-mv-40s.mp4",
+    "cover": "remotion still Cover out/cover.jpg && remotion still Cover34 out/cover-3x4.jpg && remotion still Cover43 out/cover-4x3.jpg",
+    "verify": "node scripts/verify.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run render && npm run cover && npm run verify"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/fonts": "4.0.534",
+    "@remotion/media": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "remotion": "4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.12",
+    "esbuild": "0.25.10",
+    "typescript": "5.9.3"
+  }
+}
