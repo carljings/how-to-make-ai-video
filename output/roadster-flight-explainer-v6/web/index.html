@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>v6 loading</title>
+<style>html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script type="module">
+import { Film } from './engine/film.js';
+const q = new URLSearchParams(location.search);
+const num = (k, d) => (q.has(k) ? +q.get(k) : d);
+const opts = {
+  scale: num('scale', 1), subframes: num('sub', 1), volScale: num('vol', 0.5), volSteps: num('steps', 40),
+  particleScale: num('ps', 1), shadowSize: num('shadow', 2048),
+  camOverride: q.has('cam') ? q.get('cam').split(',').map(Number) : null,
+};
+window.v6 = { ready: false };
+const film = new Film(document.getElementById('c'), opts);
+film.init().then(async () => {
+  window.v6 = {
+    ready: true, film, frameCount: film.frameCount, duration: film.timeline.duration, events: film.timeline.E,
+    shots: film.timeline.shots, fonts: film.text.fontOk, glints: [film.glintCount, film.glintFloor],
+    render: (f) => film.renderFrame(f),
+  };
+  if (q.has('frame')) { await film.renderFrame(+q.get('frame')); }
+  document.title = 'ready';
+}).catch((e) => {
+  window.v6 = { ready: false, error: String((e && e.stack) || e) };
+  document.title = 'error';
+  console.error(e);
+});
+</script>
+</body>
+</html>

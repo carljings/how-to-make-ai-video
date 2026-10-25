@@ -1,0 +1,16 @@
+{
+  "name": "music-explainer-free-design-20261021",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "《这首开智小曲，为什么上头？》 free-design full film (40.47 s, three.js 3D coaster + 2D type): the user's original BGM (tools/bgm_full.py, one bar-line join) + Opus 5.5's explainer. Rendered in headless Chrome.",
+  "scripts": {
+    "bgm": "python3 tools/bgm_full.py",
+    "stills": "node tools/render.mjs --stills",
+    "render": "node tools/render.mjs --video",
+    "verify": "node tools/verify.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  }
+}

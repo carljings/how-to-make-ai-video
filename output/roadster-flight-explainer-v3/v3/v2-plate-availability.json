@@ -1,0 +1,1448 @@
+{
+  "fps": 30,
+  "source_directory": "/Users/guchuan/Desktop/how-to-make-ai-video/output/roadster-flight-explainer-v2/out/final-frames-02/frames",
+  "source_render": "v2 final02, EEVEE64, verified completed output",
+  "proposed_ranges": [
+    {
+      "id": "K1",
+      "source_start_frame": 119,
+      "source_end_inclusive": 205,
+      "count": 87,
+      "duration_s": 2.9,
+      "source_kind": "clean native Blender PNG, no type or graphics",
+      "files": [
+        {
+          "frame": 119,
+          "name": "f00119.png",
+          "sha256": "d5839f7b937061c85069687d137688856f6be2ea76c7f822bc21f26e7108f447"
+        },
+        {
+          "frame": 120,
+          "name": "f00120.png",
+          "sha256": "0f3888da61812a81bc583226c3e9536594c76007cd60901db8cea256c0090478"
+        },
+        {
+          "frame": 121,
+          "name": "f00121.png",
+          "sha256": "c37047ead5dea96855bc5a13c94a8510f287034b23c156ad8dead7a16019ecec"
+        },
+        {
+          "frame": 122,
+          "name": "f00122.png",
+          "sha256": "80d4c521eca6f6a7cd47bde0932d549e10f8f2adb08f3625dd0ab5f6e3e23e92"
+        },
+        {
+          "frame": 123,
+          "name": "f00123.png",
+          "sha256": "68229d7257dd4da46bcb999a17c23fbf2e31449e6234ce311b8226bd9bc268be"
+        },
+        {
+          "frame": 124,
+          "name": "f00124.png",
+          "sha256": "75ab2de9c99439ab65894376718c3c60f49534ae4f8456ab417ebda552db5d1c"
+        },
+        {
+          "frame": 125,
+          "name": "f00125.png",
+          "sha256": "1f13b3438417ed07adc8fa5b33a4c9a8dd5e0ab5466964b6068ac6a2475b4ab1"
+        },
+        {
+          "frame": 126,
+          "name": "f00126.png",
+          "sha256": "2e248e5e88a6e9d5fa3d0fbedf864852c169085b393b49e53ea6fd644bbecd89"
+        },
+        {
+          "frame": 127,
+          "name": "f00127.png",
+          "sha256": "9086576439c82b891f74173bcdfb7d90ef18a79d482268176df0c3230a18ad55"
+        },
+        {
+          "frame": 128,
+          "name": "f00128.png",
+          "sha256": "efa907994d04599bc0e180a7dda685534f69f7fceb08e98a65b43b465e7a3148"
+        },
+        {
+          "frame": 129,
+          "name": "f00129.png",
+          "sha256": "7a2a2ac27a54fb77b51845587e991ef0aec8fc3988e516a2c7d815b6ab1dfbaa"
+        },
+        {
+          "frame": 130,
+          "name": "f00130.png",
+          "sha256": "629393243c42583102f18c3ff43f03f5e908270efeff3aca9d14139c97cbd1cd"
+        },
+        {
+          "frame": 131,
+          "name": "f00131.png",
+          "sha256": "e077fb6e097829ffb337a7dedda3b29b2a1d09cde5bb084f8e0aeb02f7b985a6"
+        },
+        {
+          "frame": 132,
+          "name": "f00132.png",
+          "sha256": "e9999db31d380dab6d753fa28415899af39bddd6280b1fc8283405595423ee38"
+        },
+        {
+          "frame": 133,
+          "name": "f00133.png",
+          "sha256": "8fdd45590fb9d19a6b54c46ab8163afd653ae0ca668fa2f49a8598e548b4f7f8"
+        },
+        {
+          "frame": 134,
+          "name": "f00134.png",
+          "sha256": "d7c2573f9d8af873a785f9e17a91af901ecccdad5ba1914d9dffbe82525288d2"
+        },
+        {
+          "frame": 135,
+          "name": "f00135.png",
+          "sha256": "498d686439357768350a378e7cd6c37ed80147c354e18a56d3baa6f427e926dd"
+        },
+        {
+          "frame": 136,
+          "name": "f00136.png",
+          "sha256": "2d1e25f76586ffa9eaee4a2b856bed40ca26ea461d5a1a6c4e75690ab3e44741"
+        },
+        {
+          "frame": 137,
+          "name": "f00137.png",
+          "sha256": "115eb94456fd3a6f29eedd36701b610cb27285d0a9d6dd7d0f888d112ec57d42"
+        },
+        {
+          "frame": 138,
+          "name": "f00138.png",
+          "sha256": "bd87e4498d57324b2f4bb7682eef6b0529747e1ea580aae1e3dfcda99ff8e05d"
+        },
+        {
+          "frame": 139,
+          "name": "f00139.png",
+          "sha256": "b4c5aaa3d753569c357e8bb701fb8ede74d221f01770adf1ca9240f92c9d76ad"
+        },
+        {
+          "frame": 140,
+          "name": "f00140.png",
+          "sha256": "0d6a1283808f3da2447d6aa78315f25facb7429b6dea97f366b6c1fc560f92d8"
+        },
+        {
+          "frame": 141,
+          "name": "f00141.png",
+          "sha256": "d04666fb48d0d6669333cd3e45ceef0504beeb1afa4bbbc845664f7c736ffe61"
+        },
+        {
+          "frame": 142,
+          "name": "f00142.png",
+          "sha256": "53edb6241fd7938ca0fd9128d3bcdcb2409c4fea35dd8a07d8d525e94d57d240"
+        },
+        {
+          "frame": 143,
+          "name": "f00143.png",
+          "sha256": "e5da8a4caeaf7dbdc62b4e67a36c4cf1a1a5202897a65d2112d6586dd5f86e06"
+        },
+        {
+          "frame": 144,
+          "name": "f00144.png",
+          "sha256": "a698f1e576bdf1b7109b2581df5a6affddc6ddb6ba3d2f60c2c3ef074334cef4"
+        },
+        {
+          "frame": 145,
+          "name": "f00145.png",
+          "sha256": "eb747b450b235dee5ad7ef9279ca548fd604a080815a9c1724d4279e8ff8f48a"
+        },
+        {
+          "frame": 146,
+          "name": "f00146.png",
+          "sha256": "55c285e5debeb2fb42af0fc48ba1da2079b7c361368063b88c77e4b4117a6320"
+        },
+        {
+          "frame": 147,
+          "name": "f00147.png",
+          "sha256": "f198ede02ba7af59b88b08c1b75df3ceb43af4a0d4463ff08b866d749bc89cde"
+        },
+        {
+          "frame": 148,
+          "name": "f00148.png",
+          "sha256": "301e1a9b06028df3bfdabe2bf783f6067523e10bbf7c028d31e9e559aaf494b0"
+        },
+        {
+          "frame": 149,
+          "name": "f00149.png",
+          "sha256": "47f36769769e895069a044b520bc0787d98e0eb74ccc583c6109ddac1f85446d"
+        },
+        {
+          "frame": 150,
+          "name": "f00150.png",
+          "sha256": "01f206a998b51f848747e2ceb738b8636622094dd612c0331a11346a2f8ce1d0"
+        },
+        {
+          "frame": 151,
+          "name": "f00151.png",
+          "sha256": "b691c2e13259d0df8db70d83ab6b34895f6db669029b1cf943be7b0d13785ae5"
+        },
+        {
+          "frame": 152,
+          "name": "f00152.png",
+          "sha256": "1a474b34a23d4afdc959c59de927021459e53e360f663018f1a24876470a673d"
+        },
+        {
+          "frame": 153,
+          "name": "f00153.png",
+          "sha256": "4b4907c9c66687f019b227a09ca79a03cc596ac7243e2d9d1f1f4ac6c255f3f1"
+        },
+        {
+          "frame": 154,
+          "name": "f00154.png",
+          "sha256": "539985acb95eda31c9f05e279098bc9af10f5cf6365015bc311ca67a5385e089"
+        },
+        {
+          "frame": 155,
+          "name": "f00155.png",
+          "sha256": "b84539aabe984264d9e37c8054435a1d88fb50c35de6a9e0cd86a5c73701a961"
+        },
+        {
+          "frame": 156,
+          "name": "f00156.png",
+          "sha256": "ba892cbaf1d20c7e046b36efc8b057b771bca1e6c9d123e2d1f00412702393e9"
+        },
+        {
+          "frame": 157,
+          "name": "f00157.png",
+          "sha256": "ccfe018cb2fefe7deca16b6bdc61c7f0dad9effa67f7f9aab3d809008ef3f044"
+        },
+        {
+          "frame": 158,
+          "name": "f00158.png",
+          "sha256": "ac57a98bd4e41eea3e503fefcaede6e8a28ec1880a3ba46ab3400ba00da4ac9f"
+        },
+        {
+          "frame": 159,
+          "name": "f00159.png",
+          "sha256": "a005c2fecbf6f08cfc73987f99ad3772a6a35ddc38022bd4b35e9f1b0fcd9a49"
+        },
+        {
+          "frame": 160,
+          "name": "f00160.png",
+          "sha256": "cc68ad88a214b6712b61afafb09f2d4fea5d7d34fcbcbfef81966c6b55b8c8bd"
+        },
+        {
+          "frame": 161,
+          "name": "f00161.png",
+          "sha256": "400577f70cea1fa1e30b5e6e4be1ac49812f22ebeb4bee48984f9b4d75d1fbc4"
+        },
+        {
+          "frame": 162,
+          "name": "f00162.png",
+          "sha256": "6d11e9a41c458b67156599111844675532ad8afa5d747bc89655c0f43a411abf"
+        },
+        {
+          "frame": 163,
+          "name": "f00163.png",
+          "sha256": "4e9dc330b735441c0325e3316ab026915910474456e6d31c2487a2cb5ca5c823"
+        },
+        {
+          "frame": 164,
+          "name": "f00164.png",
+          "sha256": "fdd53718dc67b058a6e0077e5f3c821449070db44acd20dc1d6181069ec55afb"
+        },
+        {
+          "frame": 165,
+          "name": "f00165.png",
+          "sha256": "73910406203ff9eb766a11c146c74fc3df03fa62c5ffdb8f7fe0a8bdbe579f1b"
+        },
+        {
+          "frame": 166,
+          "name": "f00166.png",
+          "sha256": "d10c4d3c33f4cd229473960448f7b2c0e1d927f58d743147458fd8b86608d06d"
+        },
+        {
+          "frame": 167,
+          "name": "f00167.png",
+          "sha256": "872790b97c0057323a722a52c7e164b785e809b1f8a7ae322b3add072d5decbd"
+        },
+        {
+          "frame": 168,
+          "name": "f00168.png",
+          "sha256": "20394d9330a194e35da6142a266807e4f05444ef0832564c369bdd9131e153c3"
+        },
+        {
+          "frame": 169,
+          "name": "f00169.png",
+          "sha256": "f38363a0ca74032c4bd1038d8c8e63c44da8668fb3a443af8d02c7c7a9b8e85b"
+        },
+        {
+          "frame": 170,
+          "name": "f00170.png",
+          "sha256": "da054c14f35f30b3c34ba1a60f49997401e85bd6f53d892d889b7637db435e40"
+        },
+        {
+          "frame": 171,
+          "name": "f00171.png",
+          "sha256": "2cc12ec63089b96023836c2d964b2be45d6b174b09c37ecf7dacdb13885508d8"
+        },
+        {
+          "frame": 172,
+          "name": "f00172.png",
+          "sha256": "5e413c955ed632bff8efe1611a1ba35d60ef9298345127969983cb1e665f02be"
+        },
+        {
+          "frame": 173,
+          "name": "f00173.png",
+          "sha256": "96e852506454c3c53941b5e1d0f961c26dbc03c3db80608f27fa302b00d619e1"
+        },
+        {
+          "frame": 174,
+          "name": "f00174.png",
+          "sha256": "17ae51f5ae268ef568416fcde2f7460bda342a8dae8a905b48e84a76cc0bf243"
+        },
+        {
+          "frame": 175,
+          "name": "f00175.png",
+          "sha256": "39687766bace77db1a41eb3d8ef56314e0bc6c8a6e8388795a16d14aa5b4cda1"
+        },
+        {
+          "frame": 176,
+          "name": "f00176.png",
+          "sha256": "0a7193a6e7231061bd91561fb874feb9ac556e5b22f83863efd14d37cbbf4ddf"
+        },
+        {
+          "frame": 177,
+          "name": "f00177.png",
+          "sha256": "50d7728a7b23b4259694003b767d96148108f1a69cefce1c7dbbacf124fa6723"
+        },
+        {
+          "frame": 178,
+          "name": "f00178.png",
+          "sha256": "2eb6278d869bcaa97f7b8a9149a91c71382bcc9a4a326c1b6b259c18bc7583b6"
+        },
+        {
+          "frame": 179,
+          "name": "f00179.png",
+          "sha256": "811efae63c15747317eb213efab4fb383dcca1d9fa30c17cc715b2029fbe2f38"
+        },
+        {
+          "frame": 180,
+          "name": "f00180.png",
+          "sha256": "53d065d109e1d587bf97eff1d3fb459ef2d256fbc70634f461ce2ec55257b93c"
+        },
+        {
+          "frame": 181,
+          "name": "f00181.png",
+          "sha256": "f69653ce5de2b0bbcb53b5b7f5d7c26411d4abd5aef89ebd51b1d145fa106038"
+        },
+        {
+          "frame": 182,
+          "name": "f00182.png",
+          "sha256": "5eba136c48d2b640a3d7da814607db41ce166c02955eb2d81ce4a90d5e3c7b73"
+        },
+        {
+          "frame": 183,
+          "name": "f00183.png",
+          "sha256": "62ce50babb492ea3219c98641ab36710ec881a2045e5092978a5ae3ce59d77b5"
+        },
+        {
+          "frame": 184,
+          "name": "f00184.png",
+          "sha256": "28c6608d0acc72563d5ae2baf6e2b6f896ab869e9ba183e91bbec36235eae4d6"
+        },
+        {
+          "frame": 185,
+          "name": "f00185.png",
+          "sha256": "0df78da28ac7b964e69b15e7c07b18830ffa716ca79aae24765a0126eef3d752"
+        },
+        {
+          "frame": 186,
+          "name": "f00186.png",
+          "sha256": "9f49fe7b3160a8032d139e07b199eb3d6bc32e52eed7fb40b4626605d7c28040"
+        },
+        {
+          "frame": 187,
+          "name": "f00187.png",
+          "sha256": "3b48e28b3f3eebe7ad5913fa6a4dbc2eb3c1f28032091e5c1d74706e10d83d56"
+        },
+        {
+          "frame": 188,
+          "name": "f00188.png",
+          "sha256": "7013eb671fe82af1e0bb3bd2cbb8af6ec039db31b9d9219d69826336e9e5e5fb"
+        },
+        {
+          "frame": 189,
+          "name": "f00189.png",
+          "sha256": "f35dfaa08335015cc23878a7082163534d376d6d471bd010fb157d3312ba99f5"
+        },
+        {
+          "frame": 190,
+          "name": "f00190.png",
+          "sha256": "893bbfbc2a65178c807e8b4a9b3e6844d26cdf01846c44a5d3dc49098ff439b5"
+        },
+        {
+          "frame": 191,
+          "name": "f00191.png",
+          "sha256": "0fb3bc8120e96286a4b1ceccc32c405f097ade7bf8b02560632b47662e2d3446"
+        },
+        {
+          "frame": 192,
+          "name": "f00192.png",
+          "sha256": "f44b0e3443f48730383470f68e72b7c82c4c60e16a6b6418db174f43c77bdd30"
+        },
+        {
+          "frame": 193,
+          "name": "f00193.png",
+          "sha256": "7f594bd09807fb202efa84fa5793f5c137303e03bb37582296007d5441ace121"
+        },
+        {
+          "frame": 194,
+          "name": "f00194.png",
+          "sha256": "0cb5406d022afb6d72acc3811dc23dd61c56732df135aff996ac1c4a0171030f"
+        },
+        {
+          "frame": 195,
+          "name": "f00195.png",
+          "sha256": "417b4cc9d6573edc187505f641951cf12616c9a376cebb1c418ffab53f913c22"
+        },
+        {
+          "frame": 196,
+          "name": "f00196.png",
+          "sha256": "540b64d200e3be22a232479a1b6fae4f51c96bb223ba38efecf9f349aa788eb7"
+        },
+        {
+          "frame": 197,
+          "name": "f00197.png",
+          "sha256": "5482d0b51ee9feed4f9a46498d9d357eb864c35e600c6a3df7b3f26507ae2feb"
+        },
+        {
+          "frame": 198,
+          "name": "f00198.png",
+          "sha256": "cfa2ff035bdb887697ba8f912bd044eefdc82315e5b8997680f6b12016d89599"
+        },
+        {
+          "frame": 199,
+          "name": "f00199.png",
+          "sha256": "bcf80c2a008a8eec800bffc5b3d6a2ffea113c1aed67ad2560cc00693240969d"
+        },
+        {
+          "frame": 200,
+          "name": "f00200.png",
+          "sha256": "b7dd8245a655d354cd0079519b6429c079bf9db6344aae786c8613ac78326109"
+        },
+        {
+          "frame": 201,
+          "name": "f00201.png",
+          "sha256": "7ac6890ecd1327779f351e305ccffaf1b494d26ede6c2ba8959d70210dd5f407"
+        },
+        {
+          "frame": 202,
+          "name": "f00202.png",
+          "sha256": "824dae812ff466d78e39d24dea04b79af6a802d9c2efe361c0670966b8dce69a"
+        },
+        {
+          "frame": 203,
+          "name": "f00203.png",
+          "sha256": "802c6c637d2cfb0b76a53790225673ac1fad5d8b8fb01d2911c9687c74282b56"
+        },
+        {
+          "frame": 204,
+          "name": "f00204.png",
+          "sha256": "e5605145d4049ad893f6e967ff7ff62fff9bf71be5d73f681d7fbb19b1ef9cfa"
+        },
+        {
+          "frame": 205,
+          "name": "f00205.png",
+          "sha256": "893409cbc2a70dac56366f4451e60e1e0a071b5cbee59571a659da59903f1dcd"
+        }
+      ]
+    },
+    {
+      "id": "K2",
+      "source_start_frame": 383,
+      "source_end_inclusive": 496,
+      "count": 114,
+      "duration_s": 3.8,
+      "source_kind": "clean native Blender PNG, no type or graphics",
+      "files": [
+        {
+          "frame": 383,
+          "name": "f00383.png",
+          "sha256": "66743ccdadc704b72d579425e627ef08f4b3f707563412b2ddcf16077fff83f1"
+        },
+        {
+          "frame": 384,
+          "name": "f00384.png",
+          "sha256": "a8f75829b1502888be13170419fa21cc7145c9bcc6b53a529612c874a313fc04"
+        },
+        {
+          "frame": 385,
+          "name": "f00385.png",
+          "sha256": "3783555e25f43335d4e1157f32e35b5a99c2ddd2bede054ea5402b5afbe316ce"
+        },
+        {
+          "frame": 386,
+          "name": "f00386.png",
+          "sha256": "52b375c942fafb5221a97a823fa561d937069036ef8828dbea2be0c66a5c35e9"
+        },
+        {
+          "frame": 387,
+          "name": "f00387.png",
+          "sha256": "ba0c25f4428469bbe5fffde6b9dc8a5f5cae9b4be53f548415edc378ceea8e98"
+        },
+        {
+          "frame": 388,
+          "name": "f00388.png",
+          "sha256": "f41cc5b3a60eb2ebbf0ab7f980ae16d82b71e20d499f136d3e4d894510240080"
+        },
+        {
+          "frame": 389,
+          "name": "f00389.png",
+          "sha256": "67b4a0d7a0724c0a82b73e21ee29e293c407898a609738823e2217876782baf7"
+        },
+        {
+          "frame": 390,
+          "name": "f00390.png",
+          "sha256": "a3a4b64a3eaa08965e1c26715c2ef31abec6fd7a5ccd383d862ec767461d1507"
+        },
+        {
+          "frame": 391,
+          "name": "f00391.png",
+          "sha256": "999719cd48effbc5b9b4727c98b3f97d1130d8088e1107b853ee042aed66fae6"
+        },
+        {
+          "frame": 392,
+          "name": "f00392.png",
+          "sha256": "f5dd095b901c6499405948f10214464fceb500d59e185f342069692588530954"
+        },
+        {
+          "frame": 393,
+          "name": "f00393.png",
+          "sha256": "82268b8811a3aad0b1592bed4d7ae616af25f2dfcfb8f8688099ff17d940c3be"
+        },
+        {
+          "frame": 394,
+          "name": "f00394.png",
+          "sha256": "c86446228e5d5bd6d8cf47379dac78ed058d1140983d7e09e4b2621601ae42aa"
+        },
+        {
+          "frame": 395,
+          "name": "f00395.png",
+          "sha256": "274717c0c225a4bb81cc94494375fb37472a7dc00ce1daa7db52d00b5934bb90"
+        },
+        {
+          "frame": 396,
+          "name": "f00396.png",
+          "sha256": "57e84a6c54eaa04dd1699d0025d54cecfb61949c381e7c9e7dd29ae002facd47"
+        },
+        {
+          "frame": 397,
+          "name": "f00397.png",
+          "sha256": "5a20d779957deece08d4b5e2057b88f1c94e60dfd58826a9500bb74673d25439"
+        },
+        {
+          "frame": 398,
+          "name": "f00398.png",
+          "sha256": "f0611c982d6a9ec2b4047349e8c1dc5638b7636d06b75b22b3050d05e6a3a02f"
+        },
+        {
+          "frame": 399,
+          "name": "f00399.png",
+          "sha256": "37851a6acd0d2ac6cb34d56cdee6ac0906e73090bd7d47c63ec26a83d77e753d"
+        },
+        {
+          "frame": 400,
+          "name": "f00400.png",
+          "sha256": "28458f53afc89843ddc990df709763bddcaaf389466bcb233bf7095a7a956234"
+        },
+        {
+          "frame": 401,
+          "name": "f00401.png",
+          "sha256": "3cee631eaa8ece65c45948e62e509cb1290bfa942dd258a1a53c09901de6d5bd"
+        },
+        {
+          "frame": 402,
+          "name": "f00402.png",
+          "sha256": "463515b905fe2e68009b15dda9e562ede46f6d0e2e416c58aa494538ca4ee7a9"
+        },
+        {
+          "frame": 403,
+          "name": "f00403.png",
+          "sha256": "ac1097131d655746314e253a48558c6c32c5886d29e2628cc30a1cb1e22b24c0"
+        },
+        {
+          "frame": 404,
+          "name": "f00404.png",
+          "sha256": "1c1a996a79321dd50aba0acd85a53fce7fe5d5d30d9fef9337caca6122573f19"
+        },
+        {
+          "frame": 405,
+          "name": "f00405.png",
+          "sha256": "2ed323d841062d319b9e02ecfe38a20d7a938b4c4100098410686c715aeb6359"
+        },
+        {
+          "frame": 406,
+          "name": "f00406.png",
+          "sha256": "be0df9e96d41a17cf98fd896b1b5b50f47bc78dd1af9286d70392a566254d69e"
+        },
+        {
+          "frame": 407,
+          "name": "f00407.png",
+          "sha256": "4da37dfb88b53bbeea04aba48f10d80e83eba3904ccd96f83cd5c8b94272076e"
+        },
+        {
+          "frame": 408,
+          "name": "f00408.png",
+          "sha256": "26e466a84acfdfa5812891edb72942266fb29ba972bb01e71baa7282b30b351b"
+        },
+        {
+          "frame": 409,
+          "name": "f00409.png",
+          "sha256": "5af930ada63759f19b3ff8c5ef8a9cc20b1c42fda511130d449c62f041a29d2d"
+        },
+        {
+          "frame": 410,
+          "name": "f00410.png",
+          "sha256": "7853296e9cc65c44685afd33309b46c33829ad86c566effaee803dc23ec2aa77"
+        },
+        {
+          "frame": 411,
+          "name": "f00411.png",
+          "sha256": "fee350c1ae1373805f7111bee4c76901a740a8cbb8f3768cf2c2e64c8b9285fb"
+        },
+        {
+          "frame": 412,
+          "name": "f00412.png",
+          "sha256": "5d9bb04aac1ebd997c6618d703772ef73bbc49447e46884da3cf72a6bb806c8a"
+        },
+        {
+          "frame": 413,
+          "name": "f00413.png",
+          "sha256": "d06b610c865e9e19bae1cd6e327f5fbafa7b7533fe5112b6e8bbcf0cb1d019ef"
+        },
+        {
+          "frame": 414,
+          "name": "f00414.png",
+          "sha256": "9caa2876f9a63dea6ec742157bdc38e48404faeef64cd0023a2486ce9c1c7e64"
+        },
+        {
+          "frame": 415,
+          "name": "f00415.png",
+          "sha256": "94c5e1f823447bd96f4b26e91522c8aa7044480fd31c621084567510216aab9f"
+        },
+        {
+          "frame": 416,
+          "name": "f00416.png",
+          "sha256": "35f443bc0784595f2a0afe1cf3175be8dea7e5046616bfa6fb17b5d75069c666"
+        },
+        {
+          "frame": 417,
+          "name": "f00417.png",
+          "sha256": "f30e870af128e8b7ced2cbe17133fbbc950b74c881a8bf418bea6465d060ad90"
+        },
+        {
+          "frame": 418,
+          "name": "f00418.png",
+          "sha256": "f6c387131335dc91e51add882919cbf97ec0e53de6cda24b2a3f68c2932e630f"
+        },
+        {
+          "frame": 419,
+          "name": "f00419.png",
+          "sha256": "82913c35d63106f4555f63131a8dfe6d45688ce9790e02d52a42e81b5272796a"
+        },
+        {
+          "frame": 420,
+          "name": "f00420.png",
+          "sha256": "2f902c7f78d8ed79aacef4b136dfcddc841bf35800aeffeb0e1bf85a715cf7c0"
+        },
+        {
+          "frame": 421,
+          "name": "f00421.png",
+          "sha256": "41ce239c1569377944d594cf980774244861f3131ebfb70cdae92896a571e98e"
+        },
+        {
+          "frame": 422,
+          "name": "f00422.png",
+          "sha256": "b44bd8a7a4663043f6ffa04cbacb000c75c8665b019f9f55474e94f9b9c087c3"
+        },
+        {
+          "frame": 423,
+          "name": "f00423.png",
+          "sha256": "8874b64b08c019afabba523c971b1c124a93f52df7fabc940e346973c4cd9991"
+        },
+        {
+          "frame": 424,
+          "name": "f00424.png",
+          "sha256": "1c6223750415a0830e03884926adaaf1df2126aaf8d3314e3b0ffcd23cb04b8f"
+        },
+        {
+          "frame": 425,
+          "name": "f00425.png",
+          "sha256": "b8a48327f29c12c3bdc68819ccbdc7266458881efa675878bdd7554b57ed33de"
+        },
+        {
+          "frame": 426,
+          "name": "f00426.png",
+          "sha256": "0bd3785a5569c146a8a13a4bd8cbef87b94ab64be4f4a6ea74ce8d595664efbe"
+        },
+        {
+          "frame": 427,
+          "name": "f00427.png",
+          "sha256": "89b8fd94f8e102b62b131174db01789ac8627594388589af089ba33c19a030e1"
+        },
+        {
+          "frame": 428,
+          "name": "f00428.png",
+          "sha256": "8662b6a85be20a8382dfde42677ce57b4dcd86b5eb164384b9263c3ebda8dcda"
+        },
+        {
+          "frame": 429,
+          "name": "f00429.png",
+          "sha256": "31bd62fb8dd0c94a3de8047d0110c2ad65c93a1bbffadab1048794aece6afb19"
+        },
+        {
+          "frame": 430,
+          "name": "f00430.png",
+          "sha256": "7ce09074e6008644fa9f6c017ace111b4f675f098fa72beddf9edd024c510ab3"
+        },
+        {
+          "frame": 431,
+          "name": "f00431.png",
+          "sha256": "13cf28f51e49fd2eba90e7b19ee43d283738fa69fba49c40784e15c91343b7e8"
+        },
+        {
+          "frame": 432,
+          "name": "f00432.png",
+          "sha256": "9b1839f42af87970325518afc01c3d9af54f2189653834690a3b6668929a750e"
+        },
+        {
+          "frame": 433,
+          "name": "f00433.png",
+          "sha256": "b0472c3c9a1838c790d30e3eb4542a392c3fdd6cad42e3d661ecdc5441200cf5"
+        },
+        {
+          "frame": 434,
+          "name": "f00434.png",
+          "sha256": "9626f4ff1c6afe220f1ede087b9187c6a0e104c7fbe39df1c32f87fa33e7608f"
+        },
+        {
+          "frame": 435,
+          "name": "f00435.png",
+          "sha256": "c9ab71883998950a86cba1280249e9fcc8f2f18110d916f5c2e0d4fcd7a4e859"
+        },
+        {
+          "frame": 436,
+          "name": "f00436.png",
+          "sha256": "0ae09c55b14ee61d389e12f0b778c50b6fa52ead6f7ae02b786f6e88518897a5"
+        },
+        {
+          "frame": 437,
+          "name": "f00437.png",
+          "sha256": "5b09a11848c2a289d420a92ae9bc3ea390d2f120ae33ba5663666bfb12a3a70b"
+        },
+        {
+          "frame": 438,
+          "name": "f00438.png",
+          "sha256": "454047b0b3e183ca4daa5712b4c06c06ffbef9f46a6f9b160cfc53f4f1ccd94f"
+        },
+        {
+          "frame": 439,
+          "name": "f00439.png",
+          "sha256": "9a2d9825c09c24b517ad720a795a632790a142504a020bd0d4762f4c4467962b"
+        },
+        {
+          "frame": 440,
+          "name": "f00440.png",
+          "sha256": "ab5ef0a4d192e489ec92bf028f3d45208b045de3ccc141532b2f43bbc56e2b8d"
+        },
+        {
+          "frame": 441,
+          "name": "f00441.png",
+          "sha256": "8c316cae39c1439077362684301c37463e2b9bd2082cb5734a362390df2c3581"
+        },
+        {
+          "frame": 442,
+          "name": "f00442.png",
+          "sha256": "f713f15b1a4a6a073c0a26da21151867248fee340eb3fa48a0a49a1ecff69f39"
+        },
+        {
+          "frame": 443,
+          "name": "f00443.png",
+          "sha256": "4a41512adea581f59575430be48ce4ebc94e42a6288ac327c4b18effddaea5a3"
+        },
+        {
+          "frame": 444,
+          "name": "f00444.png",
+          "sha256": "bdda1a6d99b82cc78c90dcb7da9292ccee318bae54b65600f0c60b45ac9e4abe"
+        },
+        {
+          "frame": 445,
+          "name": "f00445.png",
+          "sha256": "231aca3e078a7b5f95e6de246692733351bd60f44bafd53d387b1873a8779f82"
+        },
+        {
+          "frame": 446,
+          "name": "f00446.png",
+          "sha256": "dc0f6473ab292c750396bde344456b1393081165adc53258682eb1ebbc805881"
+        },
+        {
+          "frame": 447,
+          "name": "f00447.png",
+          "sha256": "ba2262a3d6dd874749f4d74a313acc318c99ba3cd13800a6b1b59432c4b1e45d"
+        },
+        {
+          "frame": 448,
+          "name": "f00448.png",
+          "sha256": "e9388ca5baa7d7f0af2e5a60afecf6023dbbcaca11e7f90e373fa3cb3e3ee64c"
+        },
+        {
+          "frame": 449,
+          "name": "f00449.png",
+          "sha256": "8b98d43f2f60734f5117e104f9f6eeea86ada5cba8dc1ca470d938d9fe4926ff"
+        },
+        {
+          "frame": 450,
+          "name": "f00450.png",
+          "sha256": "84acf9fabc334b3233d3a0a35198c6b9090f15ce57f360d4c8d6ccf114489dfd"
+        },
+        {
+          "frame": 451,
+          "name": "f00451.png",
+          "sha256": "e14f67c210a1c64e14f77840c484d0fbea45384efbee2e410e938d1147c3e699"
+        },
+        {
+          "frame": 452,
+          "name": "f00452.png",
+          "sha256": "c88acbef915a383875ec02e59ccd0bac91482039d54545ab500f8beb292c9c3e"
+        },
+        {
+          "frame": 453,
+          "name": "f00453.png",
+          "sha256": "09844fc6b476c9d822f1f5f07e0499d4c9d89e55f79e3091574aa37a6e2d276b"
+        },
+        {
+          "frame": 454,
+          "name": "f00454.png",
+          "sha256": "0800bc40d924015e6f268f3b49b3fa949da742c084b6a853b94abf5116cf03b9"
+        },
+        {
+          "frame": 455,
+          "name": "f00455.png",
+          "sha256": "d3047307ea17d574e664d530663884c0901726fc5fa1d4b7ea80172a3c6cb976"
+        },
+        {
+          "frame": 456,
+          "name": "f00456.png",
+          "sha256": "9ae7c2e2eac9f8161d36ae04e806f5e9ddad4519883840747fb5b93ed332c9ff"
+        },
+        {
+          "frame": 457,
+          "name": "f00457.png",
+          "sha256": "8cabe26405b9845af0d93769c9cf1001d3983d1243856fa0b1cae3c622aa9f4b"
+        },
+        {
+          "frame": 458,
+          "name": "f00458.png",
+          "sha256": "c19170b724f2c71bfe338b4510e642643846797e1e151df1764c1e291667ffb8"
+        },
+        {
+          "frame": 459,
+          "name": "f00459.png",
+          "sha256": "ad5dd54262df6247e5811f94eecc03721560c5583434c5dc969f810d5f4a8559"
+        },
+        {
+          "frame": 460,
+          "name": "f00460.png",
+          "sha256": "f0194ddd18e4edc35a7a49d71379656d415a2a559be70a80c055bc4aa0bfd4b3"
+        },
+        {
+          "frame": 461,
+          "name": "f00461.png",
+          "sha256": "3ca059e8bfc2ea622ba49025436c01a19affb97bbd917272883da342844eaa38"
+        },
+        {
+          "frame": 462,
+          "name": "f00462.png",
+          "sha256": "eb1dd474e5428d7755c272a4d04f577f3d90605529f46ff686ed959f469395e2"
+        },
+        {
+          "frame": 463,
+          "name": "f00463.png",
+          "sha256": "22d27c3d4fe3669d21c494a5b93ac64bdc0c094ecfd8a7c0113339897fc1da83"
+        },
+        {
+          "frame": 464,
+          "name": "f00464.png",
+          "sha256": "b2c7e10da372a445105eb61dfb229c619797091bb16e4d4c871d9648092ab061"
+        },
+        {
+          "frame": 465,
+          "name": "f00465.png",
+          "sha256": "afd17cfac7ac2aba999998c357da6447c410fc97425f2dc73f1aa66acb9d7de3"
+        },
+        {
+          "frame": 466,
+          "name": "f00466.png",
+          "sha256": "d42d8861e671f3063988999e32b7952965efecd566efd79140f1bc4cb793d28e"
+        },
+        {
+          "frame": 467,
+          "name": "f00467.png",
+          "sha256": "33e67c7f906cb75683560ea00bd2bf314bb23bc39e7d31561404e550da974c6e"
+        },
+        {
+          "frame": 468,
+          "name": "f00468.png",
+          "sha256": "1b59f58710492c517ab1f5099fa7964028a5cd339425e659c676a630c5895cda"
+        },
+        {
+          "frame": 469,
+          "name": "f00469.png",
+          "sha256": "3db1701f477a5630cdecbc81d77990a2e6f4b0126cd950983ceae2951227797d"
+        },
+        {
+          "frame": 470,
+          "name": "f00470.png",
+          "sha256": "a710f477142f315d6a2e2837ec5319a6def11330b13d91e07a6dff93ef3f42b9"
+        },
+        {
+          "frame": 471,
+          "name": "f00471.png",
+          "sha256": "211b5043903956c6c0bfc3977c1ebc645286ca69ca27994fe2b9f9a7d3067024"
+        },
+        {
+          "frame": 472,
+          "name": "f00472.png",
+          "sha256": "c86f91f0f1a298c09d0987450e8796bec3c70020761c6e68239cfe30d1828c6f"
+        },
+        {
+          "frame": 473,
+          "name": "f00473.png",
+          "sha256": "d012bdb0a1dcc3bb3f5d4f720a8a006fecc4bfb488fc48d0342af19715c4227a"
+        },
+        {
+          "frame": 474,
+          "name": "f00474.png",
+          "sha256": "6f900909ec9f8ca1bedb6f01405a6f26680424d168b1dfddfb61fc534fc59bee"
+        },
+        {
+          "frame": 475,
+          "name": "f00475.png",
+          "sha256": "ed90fa21ea5e5a7056503b974dec687be6c2289349c58646d07eeb5441399b24"
+        },
+        {
+          "frame": 476,
+          "name": "f00476.png",
+          "sha256": "54c69feb2d501c28367564c5f4e77648f46d943718bee7538050fb9ae00b3611"
+        },
+        {
+          "frame": 477,
+          "name": "f00477.png",
+          "sha256": "6b296f9d1869fa7cc04057fe0b0fd4848540e9c90306707f27725bd7ab1c1ca8"
+        },
+        {
+          "frame": 478,
+          "name": "f00478.png",
+          "sha256": "f4af33e5fda90ba5be83fc18821f53c0d3d8d2ebbdf5ab7563e27ee302ebd6ea"
+        },
+        {
+          "frame": 479,
+          "name": "f00479.png",
+          "sha256": "025ea4e985527faa27bf249d9332d0984de1575718ef3e7a416c32df6c57926e"
+        },
+        {
+          "frame": 480,
+          "name": "f00480.png",
+          "sha256": "c410ad84a501ee70e33da934a2117559bdf7385c606cf4d95f4fce998dbe7025"
+        },
+        {
+          "frame": 481,
+          "name": "f00481.png",
+          "sha256": "ae31ea43bfc9ea361a7d27aaacb58c65714f60251ac60b5f22110537363389a5"
+        },
+        {
+          "frame": 482,
+          "name": "f00482.png",
+          "sha256": "a74a57a669f2376a67032afd46916e1d99c93ccbef9d0096a8e3960cf5f0854f"
+        },
+        {
+          "frame": 483,
+          "name": "f00483.png",
+          "sha256": "880114c99302d3ef682de152a6161a4c511fd64b94cc98ffeba6237de344b3bd"
+        },
+        {
+          "frame": 484,
+          "name": "f00484.png",
+          "sha256": "2f6ac48840c33a18edd73815706ee853bffde2d45218865ff0068b7d093b2404"
+        },
+        {
+          "frame": 485,
+          "name": "f00485.png",
+          "sha256": "23e62d58c83f966952b5248f48df66b05db6f631ac09a6ff7b0fd591a87cac1b"
+        },
+        {
+          "frame": 486,
+          "name": "f00486.png",
+          "sha256": "f9364a853a0bba0637bea3cfad66fe315bb25d3e6ae14917958da1b8e3a943a3"
+        },
+        {
+          "frame": 487,
+          "name": "f00487.png",
+          "sha256": "ef0809e2069c86dd1abdf1af4ced9d57c9e293d3c9e1db612680d0f8be9a6e1b"
+        },
+        {
+          "frame": 488,
+          "name": "f00488.png",
+          "sha256": "beead620570584c3bac3f87f75a5b1953b4b49b0601edd15eba0f8e47ee9b930"
+        },
+        {
+          "frame": 489,
+          "name": "f00489.png",
+          "sha256": "4f6d44bbe95c3050e29dd87d711ff2ad027783988c5c7bdb3ae51da333a0b1e0"
+        },
+        {
+          "frame": 490,
+          "name": "f00490.png",
+          "sha256": "26c179c999e592c42dada0eef022578930c32c454ab5e9cca3ceadb24bad664d"
+        },
+        {
+          "frame": 491,
+          "name": "f00491.png",
+          "sha256": "480dfe9b0f11ba19e8d655bd8cd6ad7160d0efd526d4535cfeebb4fd14a605cc"
+        },
+        {
+          "frame": 492,
+          "name": "f00492.png",
+          "sha256": "bf309ae2798d2438a7def1333830dec2e861c987ab5f522965906d7580122fa7"
+        },
+        {
+          "frame": 493,
+          "name": "f00493.png",
+          "sha256": "07d4a5df43b861929b7457d80019d6612c2c8e97bb60ae9f73b457b7d1ba6cd3"
+        },
+        {
+          "frame": 494,
+          "name": "f00494.png",
+          "sha256": "e250b9f478445c3f4ba1688b031c0f0f0bf756dff0cf646a9de2e0a972ce14ee"
+        },
+        {
+          "frame": 495,
+          "name": "f00495.png",
+          "sha256": "bfb6e861258fe261f786d6daf63a6b6d032857eb92fe3069658a55e5bcc7c039"
+        },
+        {
+          "frame": 496,
+          "name": "f00496.png",
+          "sha256": "24104a42ac15097ec747d3888100b88ec4bf8d185b1b8d4e4ef98fb931c2ea59"
+        }
+      ]
+    },
+    {
+      "id": "K3",
+      "source_start_frame": 656,
+      "source_end_inclusive": 736,
+      "count": 81,
+      "duration_s": 2.7,
+      "source_kind": "clean native Blender PNG, no type or graphics",
+      "files": [
+        {
+          "frame": 656,
+          "name": "f00656.png",
+          "sha256": "23a1bb1e59ec22066bb3ee4f33d813d61479d77277e4281fd5e61d4e4779eb58"
+        },
+        {
+          "frame": 657,
+          "name": "f00657.png",
+          "sha256": "cfdae1f5b0c3f1040a75ef62f0c1a235785f56a0db22cc844830c267b586f419"
+        },
+        {
+          "frame": 658,
+          "name": "f00658.png",
+          "sha256": "672027ee27559fc4db8179217aafcf5f323222a22bc04e2b3c56be7b391c3474"
+        },
+        {
+          "frame": 659,
+          "name": "f00659.png",
+          "sha256": "86c535f5f3c01a0dd4b26206acd1dd3e069eafaf71d58211ff516659a2b7319e"
+        },
+        {
+          "frame": 660,
+          "name": "f00660.png",
+          "sha256": "2e85ef9e7d07e04c763d52363779b6728cac1b025985e725ba73dd78f491e243"
+        },
+        {
+          "frame": 661,
+          "name": "f00661.png",
+          "sha256": "f3f4ec76bf6f22b74d469828786cdfcd9c224957eca5da46b4cdd4e344f0c50a"
+        },
+        {
+          "frame": 662,
+          "name": "f00662.png",
+          "sha256": "067fe6669a401be0b0fa55d5daaf467aa0d2a42ca5dc738af31b9bf2f748475c"
+        },
+        {
+          "frame": 663,
+          "name": "f00663.png",
+          "sha256": "5592a43c8141ed17d1fcd91c1d8cbbc322de70490c35f7008ffeed9487833f0a"
+        },
+        {
+          "frame": 664,
+          "name": "f00664.png",
+          "sha256": "0e09c0b51096ac485e0c63dba956cb4e8ab5e41991667a7e8d1da71d5502f630"
+        },
+        {
+          "frame": 665,
+          "name": "f00665.png",
+          "sha256": "ce12023d3f1a914fb8ff983beac13a5eaa8eee4353fc31af438f3c36c7f4766b"
+        },
+        {
+          "frame": 666,
+          "name": "f00666.png",
+          "sha256": "baf30b3dda5098edd6515e104f81a751718f72e51aa8019dd1b566e124a4621b"
+        },
+        {
+          "frame": 667,
+          "name": "f00667.png",
+          "sha256": "eee6842a11b5b2787f200897ce16e6caedd44241befae6c68e130957a786de14"
+        },
+        {
+          "frame": 668,
+          "name": "f00668.png",
+          "sha256": "1ee7d9e3db1cce19a3b1ab41d41fd2eb98fb734f6a9f5e6735be8b6e92723e55"
+        },
+        {
+          "frame": 669,
+          "name": "f00669.png",
+          "sha256": "c97fffc7b66eac5af6b60305191aa7f742dbf5eae7a03d9e692bbac106b57568"
+        },
+        {
+          "frame": 670,
+          "name": "f00670.png",
+          "sha256": "3050533d14aa684c0c3722fb32b36fcb09f3be801e1a5486bd08c770ed4ccc2e"
+        },
+        {
+          "frame": 671,
+          "name": "f00671.png",
+          "sha256": "a4b038b4c2c35be3887e8a8fe991023818757083183468c55c92c14d23956d3e"
+        },
+        {
+          "frame": 672,
+          "name": "f00672.png",
+          "sha256": "a08840b136f224e918b57f1d9aea72e42d1f81cb88fe638f2b1b32d2da383f14"
+        },
+        {
+          "frame": 673,
+          "name": "f00673.png",
+          "sha256": "b128bcb84f28e5cb2160f1b28c01b2ebe03cb37f7db1e5ba6d42d957e6a7a868"
+        },
+        {
+          "frame": 674,
+          "name": "f00674.png",
+          "sha256": "67b57ef1e276ac7100064c244c3f91a182a969a539eb93d09c4267ff9061c1a3"
+        },
+        {
+          "frame": 675,
+          "name": "f00675.png",
+          "sha256": "e03f2177f42504295f912a305930eb6a30f5aabbf4153fe617f678d949503a5c"
+        },
+        {
+          "frame": 676,
+          "name": "f00676.png",
+          "sha256": "a64bbcc6f5ab3f7e957b80623d0150c8cd474e97fb9e5d29a4af51408fd0fa58"
+        },
+        {
+          "frame": 677,
+          "name": "f00677.png",
+          "sha256": "1b5451a1bafd73ec88f7a612122b2c43d4f291bc80963b436b11b9c330a5b31b"
+        },
+        {
+          "frame": 678,
+          "name": "f00678.png",
+          "sha256": "784cc247a261022180108610a5e6f88caef4174ed27f1c10a634145a8c2ddbb1"
+        },
+        {
+          "frame": 679,
+          "name": "f00679.png",
+          "sha256": "c76dfdac99a8ad867f3713a3e6eabaa40a9af63cf9b733763db1ac657b93f878"
+        },
+        {
+          "frame": 680,
+          "name": "f00680.png",
+          "sha256": "64511c08148a733b0951e555b8f81b7b172e5a3a63cbecdd15cbdaae340124be"
+        },
+        {
+          "frame": 681,
+          "name": "f00681.png",
+          "sha256": "af75b07fc889737bbf8ff2cc97412f2b8c91cc5f2ccba973e3e84885f6cfed8b"
+        },
+        {
+          "frame": 682,
+          "name": "f00682.png",
+          "sha256": "b8a2dff3b799232e3851fa63f11f318192e7d4b08b21a814b7e871baf1b73973"
+        },
+        {
+          "frame": 683,
+          "name": "f00683.png",
+          "sha256": "79434433d2676f3ab207324b7c4b618c40d3538d0f3794569f7c8f9f105c60f9"
+        },
+        {
+          "frame": 684,
+          "name": "f00684.png",
+          "sha256": "3377e55aab801b38e2dad9076594011a3709b08f0c97c69f75cb593d02fde385"
+        },
+        {
+          "frame": 685,
+          "name": "f00685.png",
+          "sha256": "89465187a1295ecac5b29b6c27b7f547bc01fae838c3a9dd2f8058fc9ae4857f"
+        },
+        {
+          "frame": 686,
+          "name": "f00686.png",
+          "sha256": "4886793db3c20ee23a0047d505af87569bc5d7914892732edd7c16d909d3e871"
+        },
+        {
+          "frame": 687,
+          "name": "f00687.png",
+          "sha256": "b884f909caaff81a5679cf0af0f68c03a36e44515516f47f35f8588f43e84996"
+        },
+        {
+          "frame": 688,
+          "name": "f00688.png",
+          "sha256": "12b95b8afd6e62a3978a9a88ce0d431a4733a4073f6cfdb7a2fa3b2c65783244"
+        },
+        {
+          "frame": 689,
+          "name": "f00689.png",
+          "sha256": "7833ca1ab03ef9fddb60c268307761f5bb56f6ccd72ca8694b28a16020592c8c"
+        },
+        {
+          "frame": 690,
+          "name": "f00690.png",
+          "sha256": "d96d868aecfaa5bab3eb61e6b0ffcd6f5b8056acbc883b739afc0581a45968ff"
+        },
+        {
+          "frame": 691,
+          "name": "f00691.png",
+          "sha256": "268d630972204dd8f9bcbe5c3702756fe100a74279a5f2c3307fce04afb959ad"
+        },
+        {
+          "frame": 692,
+          "name": "f00692.png",
+          "sha256": "a4dee11d8c7130758b601bdabc507cb295ee1ec5320004be29a9665d2b1cc4b6"
+        },
+        {
+          "frame": 693,
+          "name": "f00693.png",
+          "sha256": "36dc788627911bdbc6019f904c922ce10f7492f032ea4c58f25412c21672cbb7"
+        },
+        {
+          "frame": 694,
+          "name": "f00694.png",
+          "sha256": "7b291810f31835d53669dd7461945f6af66182dec4708bf494217bfa7a3550f5"
+        },
+        {
+          "frame": 695,
+          "name": "f00695.png",
+          "sha256": "33b7eb47ef4a86badacf7cd967a9d9c313b05c07343f383cf27c3802c2ff95f6"
+        },
+        {
+          "frame": 696,
+          "name": "f00696.png",
+          "sha256": "066ee256060620a93900b96c6af9dcd1598d97f42592501c3a0a2d9c5a58905a"
+        },
+        {
+          "frame": 697,
+          "name": "f00697.png",
+          "sha256": "49cd7c7fb0f2e6151eace87abbd83d906ab86c407dc6d898736a941254fe90d4"
+        },
+        {
+          "frame": 698,
+          "name": "f00698.png",
+          "sha256": "885ad17881a681c86902be96cf84113ef4e4802bedf022b57760a307c3a3934a"
+        },
+        {
+          "frame": 699,
+          "name": "f00699.png",
+          "sha256": "b9cf8b12aff22c2838744fcbc789c08e08d408e23039db7906983c9da51ef2fa"
+        },
+        {
+          "frame": 700,
+          "name": "f00700.png",
+          "sha256": "45841dc890fcf41bd2528ed6773ee1a21ae8f42cdd084bd1b1f2699fd2495714"
+        },
+        {
+          "frame": 701,
+          "name": "f00701.png",
+          "sha256": "dbdf2c4ac26721b5b51b68ad48cacf890c7a27c42afa296f010ffc8f0070fb71"
+        },
+        {
+          "frame": 702,
+          "name": "f00702.png",
+          "sha256": "886ca053aa9340b895e8cfcabbaf4cc58dfbdc9ee27c8ae27fe870728c81597d"
+        },
+        {
+          "frame": 703,
+          "name": "f00703.png",
+          "sha256": "d8a22b9266a8d42ea760984e855b325f1714ad03162d152a6faff0a136ffa702"
+        },
+        {
+          "frame": 704,
+          "name": "f00704.png",
+          "sha256": "0da824120621c8911fe6fb5e255539032e6009ff564055cb3bebe8e12451a527"
+        },
+        {
+          "frame": 705,
+          "name": "f00705.png",
+          "sha256": "758cc9170161125980cb8ba8ca6db2bb9bb0722dd24fac38ce87aa15bf2f501e"
+        },
+        {
+          "frame": 706,
+          "name": "f00706.png",
+          "sha256": "48d4537db9b16b29a1ef3e55f5f67a0e9e5ee0f62f2c1b9253899d2ace5a4fc2"
+        },
+        {
+          "frame": 707,
+          "name": "f00707.png",
+          "sha256": "00aa7b5091cb909826218d5728a6091821bbe7c859539018da6e3bd0b0e053ce"
+        },
+        {
+          "frame": 708,
+          "name": "f00708.png",
+          "sha256": "ba0e9bcd1762a11886a0429085949c97eaf7932eac2962051d3d08b36f209057"
+        },
+        {
+          "frame": 709,
+          "name": "f00709.png",
+          "sha256": "dabad1377682802a09b82586427addd6776316d5b143a07d13ad41720da4cf9f"
+        },
+        {
+          "frame": 710,
+          "name": "f00710.png",
+          "sha256": "e60d92840b3eab5689c378be97ded64b37390509d4db9525859d418b94c42771"
+        },
+        {
+          "frame": 711,
+          "name": "f00711.png",
+          "sha256": "34376821ecdab88a1fd31a0a5e2a9e5c74a278081d1bb6d57f49ecb0bac9286e"
+        },
+        {
+          "frame": 712,
+          "name": "f00712.png",
+          "sha256": "23bd3e24c13feabe6e02f31c80ece5da9837dcdcdbe7f211fca4619deeafa5de"
+        },
+        {
+          "frame": 713,
+          "name": "f00713.png",
+          "sha256": "ea6496ac26973435962192a4e8fdc1518e09f744061a7877514a781e39ec3b7d"
+        },
+        {
+          "frame": 714,
+          "name": "f00714.png",
+          "sha256": "aebb5df979b7dffee130e61de7fd0e87b79eefa751ab939cb112ee61e1d99850"
+        },
+        {
+          "frame": 715,
+          "name": "f00715.png",
+          "sha256": "8943bd7fa4d87eedf69d2e5eaa8da2956126882e5ee1ea131deaed0bf8e21dab"
+        },
+        {
+          "frame": 716,
+          "name": "f00716.png",
+          "sha256": "1390d67d8320762acbb691204e0e4d1a39e05a0e20e1051ed7e2c9ebd5e28e78"
+        },
+        {
+          "frame": 717,
+          "name": "f00717.png",
+          "sha256": "9ad5c6aa2ca775fe35b5c71b9b32f87c1c71ed1a87f0ddef0d5ec7124ef1a787"
+        },
+        {
+          "frame": 718,
+          "name": "f00718.png",
+          "sha256": "b1061c140c5cafbadbaddd2df33fa722179fce7534fd713270fc700d80dff08a"
+        },
+        {
+          "frame": 719,
+          "name": "f00719.png",
+          "sha256": "6602671cebc5ae72772b0b78133acda119d41ca13600305dfc7cd2f30f7c1bf4"
+        },
+        {
+          "frame": 720,
+          "name": "f00720.png",
+          "sha256": "2c410f5e7c3874c800fa010ff53e501b63caa29e882b04ca0ca641d93c9206ea"
+        },
+        {
+          "frame": 721,
+          "name": "f00721.png",
+          "sha256": "d08e5894790aa7c3beadcbab7add9ac0157093856123458e597fc9770326803c"
+        },
+        {
+          "frame": 722,
+          "name": "f00722.png",
+          "sha256": "cb5a9e2000f25e166eea84a62068ea6f3cc6cbab6c3f45d97696330a7fa6555c"
+        },
+        {
+          "frame": 723,
+          "name": "f00723.png",
+          "sha256": "d1a07e84795366e1a8aca7cb6f997dd4c30dd14d24ae80c8b0538411fb756796"
+        },
+        {
+          "frame": 724,
+          "name": "f00724.png",
+          "sha256": "2450904cdb5ec737fa8e1f6af3ae87b50b08fae303e55794a8e4513fe8655edd"
+        },
+        {
+          "frame": 725,
+          "name": "f00725.png",
+          "sha256": "33b98ada38965bee2a6dfa37afd15e593b53debce8d99ed41929ba42ba610302"
+        },
+        {
+          "frame": 726,
+          "name": "f00726.png",
+          "sha256": "e0094fe8ec77ce427ebf4ec79862a643bb1567d47f81415439d0114ad1162047"
+        },
+        {
+          "frame": 727,
+          "name": "f00727.png",
+          "sha256": "a502853e5234ec2cda80ea048c20a5c9d450eeaa857a4eb25ea06ac0366a8e8d"
+        },
+        {
+          "frame": 728,
+          "name": "f00728.png",
+          "sha256": "38f164d3eec989b9cda1b91648c72c30c6d758c264a1b0c6ecb34df1b009d8c2"
+        },
+        {
+          "frame": 729,
+          "name": "f00729.png",
+          "sha256": "d89243007d5c7edc98c45abb841843780c1cdf3f7b20f87644af634a14f744bf"
+        },
+        {
+          "frame": 730,
+          "name": "f00730.png",
+          "sha256": "b575a3c02bddd9f6c84555ac0628cedb2016a6de77014f6a985af0b5d987c068"
+        },
+        {
+          "frame": 731,
+          "name": "f00731.png",
+          "sha256": "c9dc16e976dedebc55fc327bcc5da73f82f8547ea10aa1c5c8d7f70436762ee3"
+        },
+        {
+          "frame": 732,
+          "name": "f00732.png",
+          "sha256": "b992d06a962c54a3c253df67e58e08ef8a7630678e43cde6b2e250c72348de0d"
+        },
+        {
+          "frame": 733,
+          "name": "f00733.png",
+          "sha256": "4986d5877b48c3a7ea8ae246d812009e41011f7a709e4ae0e8a5bd62619d056f"
+        },
+        {
+          "frame": 734,
+          "name": "f00734.png",
+          "sha256": "d759f17d005f2d6c3092c29d133b870f582d41fc9b94536a6a4f8febf163a88f"
+        },
+        {
+          "frame": 735,
+          "name": "f00735.png",
+          "sha256": "f69b91b21fad551a00701efe2951d42494bb220aa2bf7fbd29aa289ed0977e49"
+        },
+        {
+          "frame": 736,
+          "name": "f00736.png",
+          "sha256": "9816e1fc5eb305d6a42242beeb868b4daa412518ff97277da4357eb9c6e55e8d"
+        }
+      ]
+    }
+  ],
+  "note": "Exact destination mapping belongs to Opus v3 cues. K3 recommendation uses81frames to match2.70s, not the approximate2.75s prose range."
+}

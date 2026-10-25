@@ -1,0 +1,334 @@
+{
+  "about": "Roadster v3 「比墙还陡」 exact narration (director: Opus 5.5). Text strings are LOCKED for synthesis once Codex returns GO. Start times are nominal edit intentions; after synthesis, measured clip durations and word boundaries drive the final cut (same rule as v2: no time-stretch, voice placement moves, picture holds absorb slack). Every reveal is keyed to a word in 'anchors'.",
+  "film": "Roadster v3 「比墙还陡」 combined ramp + kickflip",
+  "status": "director draft awaiting Codex fact/feasibility GO",
+  "voice": {
+    "engine": "edge-tts (free)",
+    "voice": "zh-CN-YunjianNeural",
+    "rate": "-6%",
+    "fallback_voice": "zh-CN-YunxiNeural",
+    "post": "Trim exterior silence only. No time-stretch, no pitch shift. One clip per line id.",
+    "reason_unchanged": "Continuity with v2; no concrete evidence yet that another voice is better. Revisit only if measured clips show misreads or the delivery is flat on L04/L08."
+  },
+  "tones": {
+    "white": "#F4F6F8",
+    "air": "#F3C98B",
+    "gas": "#9ADCFF",
+    "force": "#FF4A1F"
+  },
+  "tone_meaning": {
+    "air": "borrowed: the surrounding atmosphere and what it does",
+    "gas": "carried: the stored high-pressure gas and its jets",
+    "force": "a push on the car",
+    "white": "neutral / gravity / statements"
+  },
+  "caption_rules": "One phrase on screen at a time, no box, soft shadow, centre x=540, baseline y≈1330, 600 weight 60 px. display=title/kinetic/endcard lines replace the bottom caption for that line.",
+  "lines": [
+    {
+      "id": "L01",
+      "section": "S1 hook",
+      "text": "比墙还陡，它怎么掉不下来？",
+      "chars": 11,
+      "nominal_start_s": 0.25,
+      "est_dur_s": 2.95,
+      "display": "title",
+      "phrases": [
+        {"text": "比墙还陡", "tone": "white", "display": "title_big"},
+        {"text": "它怎么掉不下来？", "tone": "white", "display": "title_small"}
+      ],
+      "anchors": [
+        {"word": "比墙还陡", "event": "title_big already on frame 0 (900 weight); voice confirms it"},
+        {"word": "它", "event": "title_small in"}
+      ],
+      "placement": "Start 0.20-0.30 s. Must end at least 0.15 s before the cut to S2."
+    },
+    {
+      "id": "L02",
+      "section": "S4 press (P1 -> P2 gap close-up)",
+      "text": "风扇抽走车底缝隙里的空气，",
+      "chars": 12,
+      "nominal_start_s": 6.35,
+      "est_dur_s": 2.9,
+      "display": "caption",
+      "phrases": [
+        {"text": "风扇抽走车底缝隙里的空气", "tone": "air"}
+      ],
+      "anchors": [
+        {"word": "风扇", "event": "schematic fan intake rings under the floor + label 风扇抽气 · 示意"},
+        {"word": "抽走", "event": "air streaks inside the gap stream into the intakes and fade; gap density drops"},
+        {"word": "缝隙", "event": "cut to P2 lands; thin outline of the low-pressure lens between floor and slope"},
+        {"word": "<line end>", "event": "label 低压 inside the lens"}
+      ],
+      "placement": "After the gravity arrow has been on screen for at least 0.4 s."
+    },
+    {
+      "id": "L03",
+      "section": "S4 press (P1 profile)",
+      "text": "外面的空气，就把它压在坡上。",
+      "chars": 12,
+      "nominal_start_s": 9.7,
+      "est_dur_s": 3.1,
+      "display": "caption",
+      "phrases": [
+        {"text": "外面的空气", "tone": "air"},
+        {"text": "就把它压在坡上", "tone": "force"}
+      ],
+      "anchors": [
+        {"word": "外面", "event": "impact ticks bloom on every outer surface, normal to the skin, long outside and short in the gap"},
+        {"word": "压", "event": "ticks slide together and merge into ONE red press arrow along the local slope normal (lands on this syllable)"},
+        {"word": "坡上", "event": "arrow tip touches the slope; slope-normal hairline flashes"}
+      ],
+      "placement": "Cut back to P1 0.2 s before the line."
+    },
+    {
+      "id": "L04",
+      "section": "S4 press (P1, kinetic type)",
+      "text": "说是吸，其实是压。",
+      "chars": 7,
+      "nominal_start_s": 13.4,
+      "est_dur_s": 2.0,
+      "display": "kinetic",
+      "phrases": [
+        {"text": "说是吸", "tone": "white", "display": "kinetic_glyph 吸"},
+        {"text": "其实是压", "tone": "force", "display": "kinetic_glyph 压 replaces struck 吸"}
+      ],
+      "anchors": [
+        {"word": "吸", "event": "giant 吸 (900, ~260 px) appears in the void left of the car"},
+        {"word": "压", "event": "吸 is struck through and knocked out; 压 slams in force red; press arrow pulses once; sub thump"}
+      ],
+      "placement": "No bottom caption for this line."
+    },
+    {
+      "id": "L05",
+      "section": "S4 press (P3 tyre close-up, time creeps)",
+      "text": "压紧了，轮胎才抓得住。",
+      "chars": 9,
+      "nominal_start_s": 15.8,
+      "est_dur_s": 2.4,
+      "display": "caption",
+      "phrases": [
+        {"text": "压紧了", "tone": "force"},
+        {"text": "轮胎才抓得住", "tone": "white"}
+      ],
+      "anchors": [
+        {"word": "压紧", "event": "contact patch flares warm-white"},
+        {"word": "抓得住", "event": "short traction arrows along the slope toward the lip at each visible contact patch; car creeps forward"}
+      ],
+      "placement": "Cut to P3 0.15 s before the line."
+    },
+    {
+      "id": "L06",
+      "section": "S5 chronophotograph (ramp half)",
+      "text": "这股力始终压向坡面，哪怕是往上。",
+      "chars": 14,
+      "nominal_start_s": 20.1,
+      "est_dur_s": 3.5,
+      "display": "caption",
+      "phrases": [
+        {"text": "这股力始终压向坡面", "tone": "force"},
+        {"text": "哪怕是往上", "tone": "white"}
+      ],
+      "anchors": [
+        {"word": "这股力", "event": "press arrows grow on the strobe ghosts, base to top, 0.22 s stagger, each along its local slope normal"},
+        {"word": "坡面", "event": "thin white gravity arrows fade in on every ghost, all parallel and straight down"},
+        {"word": "往上", "event": "overhang ghost's arrow flares; dotted vertical component tick shows it points partly UP"}
+      ],
+      "placement": "Begins as the last strobe ghost lands."
+    },
+    {
+      "id": "L07",
+      "section": "S6 lip (slow motion)",
+      "text": "可坡总有尽头。",
+      "chars": 6,
+      "nominal_start_s": 24.1,
+      "est_dur_s": 1.5,
+      "display": "caption",
+      "phrases": [
+        {"text": "可坡总有尽头", "tone": "white"}
+      ],
+      "anchors": [
+        {"word": "尽头", "event": "hairline white rule marks the lip edge"}
+      ],
+      "placement": "Car still fully on the slope; press arrow still alive."
+    },
+    {
+      "id": "L08",
+      "section": "S6 lip (slow motion)",
+      "text": "车底下没了坡，就压不住了。",
+      "chars": 11,
+      "nominal_start_s": 26.0,
+      "est_dur_s": 2.8,
+      "display": "caption",
+      "phrases": [
+        {"text": "车底下没了坡", "tone": "white"},
+        {"text": "就压不住了", "tone": "force"}
+      ],
+      "anchors": [
+        {"word": "<line start>", "event": "floor begins to overhang the edge (fitted ev ~9.25); the low-pressure lens shrinks from the front as the gap opens; the press arrow shortens in proportion (schematic, progressive, no sudden pop)"},
+        {"word": "没了坡", "event": "first observed jet near the nose (source ev 9.5) fires during the weakening: the relay begins (jet hiss ducked under voice)"},
+        {"word": "压不住", "event": "the last of the floor leaves the edge (fitted ev ~9.7): only now does the arrow's remainder break into warm specks and scatter"}
+      ],
+      "placement": "Slow-motion mapping is chosen so 压不住 lands when the fitted vehicle floor has fully left the slope. Do not imply the source measured a specific failure moment."
+    },
+    {
+      "id": "L09",
+      "section": "S7 x-ray (frozen just past the lip)",
+      "text": "腾空以后，换自带的高压气接力。",
+      "chars": 13,
+      "nominal_start_s": 29.8,
+      "est_dur_s": 3.3,
+      "display": "caption",
+      "phrases": [
+        {"text": "腾空以后", "tone": "white"},
+        {"text": "换自带的高压气接力", "tone": "gas"}
+      ],
+      "anchors": [
+        {"word": "腾空", "event": "scan line sweeps nose to tail; body turns to dark glass"},
+        {"word": "高压气", "event": "vessel label 碳纤维缠绕压力容器 / 据特斯拉 · 位置示意"},
+        {"word": "接力", "event": "one flow pulse runs from the vessels to the nozzle that is already firing"}
+      ],
+      "placement": "Freeze holds until the line ends; cut to S8 on the line end."
+    },
+    {
+      "id": "L10",
+      "section": "S8 jets (replay-B angle, slow motion then real speed)",
+      "text": "气往下喷，车就被往上推。",
+      "chars": 10,
+      "nominal_start_s": 34.9,
+      "est_dur_s": 2.6,
+      "display": "caption",
+      "phrases": [
+        {"text": "气往下喷", "tone": "gas"},
+        {"text": "车就被往上推", "tone": "force"}
+      ],
+      "anchors": [
+        {"word": "往下喷", "event": "ice-blue streaks run down the downward plumes (source ev ~10.9-11.2)"},
+        {"word": "往上推", "event": "red reaction arrows from each nozzle, exactly opposite its drawn plume"}
+      ],
+      "placement": "往下喷 must coincide with the observed downward plumes."
+    },
+    {
+      "id": "L11a",
+      "section": "S9 kickflip K1 (v2 source plates)",
+      "text": "另一场演示里，",
+      "chars": 6,
+      "nominal_start_s": 38.6,
+      "est_dur_s": 1.5,
+      "display": "caption",
+      "phrases": [
+        {"text": "另一场演示里", "tone": "white"}
+      ],
+      "anchors": [
+        {"word": "<line start>", "event": "slate already reads 另一场演示 · 重建自马斯克 2026.10.16 发布的视频 · CG"}
+      ],
+      "placement": "At least 0.15 s after the black separation cut. Never over ramp footage."
+    },
+    {
+      "id": "L11b",
+      "section": "S9 kickflip K2 (v2 torque plates, v3 overlays)",
+      "text": "推力偏离重心，",
+      "chars": 6,
+      "nominal_start_s": 42.5,
+      "est_dur_s": 1.6,
+      "display": "caption",
+      "phrases": [
+        {"text": "推力偏离重心", "tone": "force"}
+      ],
+      "anchors": [
+        {"word": "推力", "event": "red reaction lines from the active nozzles"},
+        {"word": "偏离", "event": "dashed lines of action extend and visibly miss the CoM"},
+        {"word": "重心", "event": "white CoM ring + label 重心"}
+      ],
+      "placement": "Inside the K2 segment."
+    },
+    {
+      "id": "L11c",
+      "section": "S9 kickflip K3 (v2 resume plates)",
+      "text": "它整个翻了过来。",
+      "chars": 7,
+      "nominal_start_s": 45.2,
+      "est_dur_s": 1.7,
+      "display": "caption",
+      "phrases": [
+        {"text": "它整个翻了过来", "tone": "white"}
+      ],
+      "anchors": [
+        {"word": "翻", "event": "red arc (from K2) hands over to the real-speed roll"}
+      ],
+      "placement": "Over real-speed resume; car completes the roll and drops into its cloud."
+    },
+    {
+      "id": "L12",
+      "section": "S10 ending poster",
+      "text": "贴着坡，借的是空气的力；",
+      "chars": 10,
+      "nominal_start_s": 49.2,
+      "est_dur_s": 2.6,
+      "display": "endcard_line_1",
+      "phrases": [
+        {"text": "贴着坡", "tone": "white"},
+        {"text": "借的是空气的力", "tone": "air"}
+      ],
+      "anchors": [
+        {"word": "空气的力", "event": "warm press arrows on the ramp ghosts pulse base to lip"}
+      ],
+      "placement": "Types on as end-card line 1 (no bottom caption)."
+    },
+    {
+      "id": "L13",
+      "section": "S10 ending poster",
+      "text": "腾了空，花的是自己的气。",
+      "chars": 10,
+      "nominal_start_s": 52.2,
+      "est_dur_s": 2.6,
+      "display": "endcard_line_2",
+      "phrases": [
+        {"text": "腾了空", "tone": "white"},
+        {"text": "花的是自己的气", "tone": "gas"}
+      ],
+      "anchors": [
+        {"word": "腾了空", "event": "live car leaves the lip on the poster; strobe drops cold ghosts with jets"},
+        {"word": "自己的气", "event": "ice-blue jets + red reaction arrows on the air ghosts"}
+      ],
+      "placement": "Types on as end-card line 2 (no bottom caption)."
+    },
+    {
+      "id": "L14",
+      "section": "S10 ending poster",
+      "text": "自己的气，总有喷完的时候。",
+      "chars": 11,
+      "nominal_start_s": 55.4,
+      "est_dur_s": 2.8,
+      "display": "caption",
+      "phrases": [
+        {"text": "自己的气", "tone": "gas"},
+        {"text": "总有喷完的时候", "tone": "white"}
+      ],
+      "anchors": [
+        {"word": "喷完", "event": "cold jets fade out one by one from the lip down to the cloud; warm ramp arrows stay lit"}
+      ],
+      "placement": "Final line. Hold at least 1.0 s of picture after it ends, then fade."
+    }
+  ],
+  "totals": {
+    "lines": 16,
+    "chars": 155,
+    "est_speech_s": 39.8,
+    "target_film_s": [56, 60]
+  },
+  "pronunciation_checks": [
+    {"text": "缝隙", "expect": "fèngxì", "why": "缝 alone can be read féng; 缝隙 chosen to force fèng"},
+    {"text": "重心", "expect": "zhòngxīn", "why": "重 can be chóng"},
+    {"text": "车底下没了坡", "expect": "chē dǐxia méi le pō", "why": "没 must be méi, not mò"},
+    {"text": "接力", "expect": "jiēlì", "why": "routine check"},
+    {"text": "腾空 / 腾了空", "expect": "téngkōng / téng le kōng", "why": "空 must not be kòng"},
+    {"text": "往上 / 往下", "expect": "wǎng", "why": "routine check"}
+  ],
+  "deliberately_not_said": [
+    "any number: pressure, force, gas mass, vessel size or count, nozzle count, height, speed, time aloft",
+    "the cloud's composition",
+    "hover, sustained flight, untethered flight, practicality",
+    "that the two demos are one take",
+    "how many fans or where they exhaust"
+  ]
+}

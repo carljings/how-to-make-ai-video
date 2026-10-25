@@ -1,0 +1,97 @@
+{
+  "required_unique_codepoints": 701,
+  "required_cjk_unique": 570,
+  "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+  "outputs": [
+    {
+      "file": "RoadsterFilmSans-300.ttf",
+      "weight": 300,
+      "actual_weight": 300,
+      "size_bytes": 237652,
+      "sha256": "83b8bfd309a783c3c79daae377b4392b8c08e0ec15717523d08edc878bfd6efe",
+      "covered_required_codepoints": 701,
+      "missing_required_codepoints": []
+    },
+    {
+      "file": "RoadsterFilmSans-300.woff2",
+      "weight": 300,
+      "actual_weight": 300,
+      "size_bytes": 109664,
+      "sha256": "ff1574fcdc8275a1aec4ba1e13b4f1c668dd233a0773178451171c6c9caea0fb",
+      "covered_required_codepoints": 701,
+      "missing_required_codepoints": []
+    },
+    {
+      "file": "RoadsterFilmSans-500.ttf",
+      "weight": 500,
+      "actual_weight": 500,
+      "size_bytes": 237448,
+      "sha256": "8e90fda090960c5df9428d04438902c0bf9184cecc677911e27b7aa35e057f44",
+      "covered_required_codepoints": 701,
+      "missing_required_codepoints": []
+    },
+    {
+      "file": "RoadsterFilmSans-500.woff2",
+      "weight": 500,
+      "actual_weight": 500,
+      "size_bytes": 112720,
+      "sha256": "f8cfa7a070356ee606f159c68615a23e39975710f07d127d5399cb988aafce62",
+      "covered_required_codepoints": 701,
+      "missing_required_codepoints": []
+    },
+    {
+      "file": "RoadsterFilmSans-600.ttf",
+      "weight": 600,
+      "actual_weight": 600,
+      "size_bytes": 237392,
+      "sha256": "eb4a9077819814b017b05d958470d783a5fbf58bc6e1852636ee9edc71e1d13b",
+      "covered_required_codepoints": 701,
+      "missing_required_codepoints": []
+    },
+    {
+      "file": "RoadsterFilmSans-600.woff2",
+      "weight": 600,
+      "actual_weight": 600,
+      "size_bytes": 113160,
+      "sha256": "e88e387bbc267163eac8078eb4587581012638fac4aa3164e00c68eab771303b",
+      "covered_required_codepoints": 701,
+      "missing_required_codepoints": []
+    },
+    {
+      "file": "RoadsterFilmSans-700.ttf",
+      "weight": 700,
+      "actual_weight": 700,
+      "size_bytes": 238200,
+      "sha256": "6fc3d8605ea5cd78b764a208d4f802fa5712e1c8dac8ecaa72032a554c1748d6",
+      "covered_required_codepoints": 701,
+      "missing_required_codepoints": []
+    },
+    {
+      "file": "RoadsterFilmSans-700.woff2",
+      "weight": 700,
+      "actual_weight": 700,
+      "size_bytes": 114016,
+      "sha256": "0cfc0520d5b9a851990a09b79bcd43765933d10c4925bdd160c7026dfb217b2b",
+      "covered_required_codepoints": 701,
+      "missing_required_codepoints": []
+    },
+    {
+      "file": "RoadsterFilmSans-900.ttf",
+      "weight": 900,
+      "actual_weight": 900,
+      "size_bytes": 237868,
+      "sha256": "fbc07e3ce143331b1623eacef2a67ba52678e1ac5ece9c9f9553227c1635bffe",
+      "covered_required_codepoints": 701,
+      "missing_required_codepoints": []
+    },
+    {
+      "file": "RoadsterFilmSans-900.woff2",
+      "weight": 900,
+      "actual_weight": 900,
+      "size_bytes": 112720,
+      "sha256": "0cf47d4e71819a63f7ae49deb387b14f58a9e7e84637c752c75566f82881973b",
+      "covered_required_codepoints": 701,
+      "missing_required_codepoints": []
+    }
+  ]
+}

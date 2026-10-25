@@ -1,0 +1,16 @@
+{
+  "name": "music-explainer-v3-20261020",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "10 s explainer style preview v3: the user's original BGM (tools/bgm.py) + a three.js prediction-highway explainer. Opus 5.5.",
+  "scripts": {
+    "bgm": "python3 tools/bgm.py",
+    "stills": "node tools/render.mjs --stills",
+    "render": "node tools/render.mjs --video",
+    "verify": "node tools/verify.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  }
+}

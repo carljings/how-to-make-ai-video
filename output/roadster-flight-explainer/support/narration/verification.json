@@ -1,0 +1,103 @@
+{
+  "canonical_sha256": "42d936064856f7e0393d659c7e4ec4e49035e57dfd5b00e8607f1f13184ec900",
+  "canonical_unchanged": true,
+  "role": "narration-only stem, not final music mix or master",
+  "stem": "narration-stem-75s.wav",
+  "stem_sha256": "df0ec2d6f15a60f7a05798edc6fb550ef47c4e58e4d3fcfb6cb2c4d0a5667f9b",
+  "sample_rate": 48000,
+  "channels": 2,
+  "sample_frames": 3600000,
+  "duration_s": 75.0,
+  "full_decode": "passed",
+  "audio_overlaps": false,
+  "caption_overlaps": false,
+  "loudness_normalization_applied": false,
+  "gain_normalization_applied": false,
+  "tempo_change_applied": false,
+  "integrated_loudness_lufs": -20.8,
+  "true_peak_dbtp": -3.7,
+  "subjective_listening": false,
+  "caption_count": 40,
+  "srt_parser": "passed via ffprobe",
+  "approved_phrase_characters_preserved": true,
+  "placements": [
+    {
+      "id": "01",
+      "file": "clip-01-usable.wav",
+      "sha256": "1bfc327794a9eff3c73794bee18a4fd9bcc09834baa1d5af0b7dc6ae48716455",
+      "start_sample": 0,
+      "end_sample": 141836,
+      "start_s": 0,
+      "exact_end_s": 2.9549166666666666,
+      "canonical_rounded_end_s": 2.955,
+      "playback_rate": 1.0
+    },
+    {
+      "id": "02",
+      "file": "clip-02-usable.wav",
+      "sha256": "c9027eb712c5d9297dbd8c95e766cf6f8cf4da3cf2e5e3a926e74e7a773e7bfc",
+      "start_sample": 264000,
+      "end_sample": 668956,
+      "start_s": 5.5,
+      "exact_end_s": 13.936583333333333,
+      "canonical_rounded_end_s": 13.937,
+      "playback_rate": 1.0
+    },
+    {
+      "id": "03",
+      "file": "clip-03-usable.wav",
+      "sha256": "ce45b690bcb4544258c3dcdbe92ae7e5000949daf2ed43666c6613e9d8fd06fe",
+      "start_sample": 672000,
+      "end_sample": 1176908,
+      "start_s": 14,
+      "exact_end_s": 24.518916666666666,
+      "canonical_rounded_end_s": 24.519,
+      "playback_rate": 1.0
+    },
+    {
+      "id": "04",
+      "file": "clip-04-usable.wav",
+      "sha256": "01d9d4c35ed457582bd949b89137f8c98b35a5638ff97b0cad5416b3b95fb619",
+      "start_sample": 1296000,
+      "end_sample": 1804602,
+      "start_s": 27,
+      "exact_end_s": 37.595875,
+      "canonical_rounded_end_s": 37.596,
+      "playback_rate": 1.0
+    },
+    {
+      "id": "05",
+      "file": "clip-05-usable.wav",
+      "sha256": "726efb11dee130b034f623fc06ef70b5b756754ba08e41b7e011a6708d9dab0b",
+      "start_sample": 1920000,
+      "end_sample": 2482878,
+      "start_s": 40,
+      "exact_end_s": 51.726625,
+      "canonical_rounded_end_s": 51.727,
+      "playback_rate": 1.0
+    },
+    {
+      "id": "06",
+      "file": "clip-06-usable.wav",
+      "sha256": "5c9a9fdee6c8521562fcfaed233a8bba57134f854e57fd502aa16eb10e07aa75",
+      "start_sample": 2500800,
+      "end_sample": 3082118,
+      "start_s": 52.1,
+      "exact_end_s": 64.21079166666667,
+      "canonical_rounded_end_s": 64.211,
+      "playback_rate": 1.0
+    },
+    {
+      "id": "07",
+      "file": "clip-07-usable.wav",
+      "sha256": "4b8ff3931ec71c20a5be4d2621800268ff9860f5bed1ab807a3bf12f20763e4a",
+      "start_sample": 3096000,
+      "end_sample": 3580108,
+      "start_s": 64.5,
+      "exact_end_s": 74.58558333333333,
+      "canonical_rounded_end_s": 74.586,
+      "playback_rate": 1.0
+    }
+  ],
+  "voice_provenance": "source-hash-manifest.json"
+}

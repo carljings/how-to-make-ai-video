@@ -1,0 +1,1 @@
+The human explicitly delegates free art direction to Opus5.5. A fresh v5, not a v4 polish. Write treatment/storyboard and proceed to a short actual-motion prototype. Codex handles local tools/rendering/QA; no generic approval interview. No paid external services/global installs/account changes. Preserve old projects.

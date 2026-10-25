@@ -1,0 +1,310 @@
+{
+  "about": "Roadster v2 「一口气」 canonical edit (Opus 5.5). Every tool reads this file: blender/v2_film.py (plates + projected vector overlay), src/v2 (Remotion), scripts/v2/score.mjs. Times are film seconds at 30 fps. Voice starts are edit decisions against the MEASURED clips (support/narration-v2); after any change run `python3 blender/tools/retime_v2.py` (writes v2/timing.json and checks overlaps) and re-export the overlay.",
+  "fps": 30,
+  "duration_s": 30.0,
+  "width": 1080,
+  "height": 1920,
+  "sections": [
+    {
+      "id": "teaser",
+      "start": 0.0,
+      "end": 3.95,
+      "clock": {
+        "kind": "linear",
+        "ev0": 8.3,
+        "ev1": 8.62
+      }
+    },
+    {
+      "id": "source",
+      "start": 3.95,
+      "end": 6.85,
+      "clock": {
+        "kind": "realtime",
+        "ev0": 5.7
+      }
+    },
+    {
+      "id": "flyin",
+      "start": 6.85,
+      "end": 9.35,
+      "clock": {
+        "kind": "frozen"
+      }
+    },
+    {
+      "id": "explain",
+      "start": 9.35,
+      "end": 21.85,
+      "clock": {
+        "kind": "speed",
+        "speed": [
+          [
+            9.35,
+            0.0
+          ],
+          [
+            9.8,
+            0.012
+          ],
+          [
+            13.1,
+            0.012
+          ],
+          [
+            13.6,
+            0.075
+          ],
+          [
+            16.2,
+            0.075
+          ],
+          [
+            16.6,
+            0.02
+          ],
+          [
+            21.85,
+            0.02
+          ]
+        ]
+      }
+    },
+    {
+      "id": "resume",
+      "start": 21.85,
+      "end": 30.0,
+      "clock": {
+        "kind": "speed",
+        "speed": [
+          [
+            21.85,
+            1.0
+          ],
+          [
+            23.85,
+            1.0
+          ],
+          [
+            24.85,
+            0.4
+          ],
+          [
+            30.0,
+            0.4
+          ]
+        ]
+      }
+    }
+  ],
+  "beats": {
+    "freeze": 6.85,
+    "look": 7.65,
+    "particles_on": 8.0,
+    "beams_on": 10.75,
+    "orbit_rear": 12.75,
+    "far_dim": 13.1,
+    "lines_on": 14.0,
+    "com_on": 14.45,
+    "arc_on": 15.5,
+    "xray_on": 16.55,
+    "vessel_label": 18.0,
+    "flow_on": 17.2,
+    "resume": 21.85,
+    "car_gone_ev": 11.6,
+    "fade_out": 29.0,
+    "merge_on": 12.85
+  },
+  "vo": [
+    {
+      "id": "L1",
+      "start": 0.25,
+      "text": "没有翅膀，它凭什么在空中翻身？",
+      "phrases": [
+        {
+          "text": "没有翅膀",
+          "tone": "white"
+        },
+        {
+          "text": "它凭什么在空中翻身？",
+          "tone": "white"
+        }
+      ],
+      "caption": "hook"
+    },
+    {
+      "id": "L2a",
+      "start": 6.85,
+      "text": "停！",
+      "phrases": [
+        {
+          "text": "停！",
+          "tone": "white"
+        }
+      ],
+      "caption": "stop"
+    },
+    {
+      "id": "L2b",
+      "start": 7.65,
+      "text": "看这几道白气。",
+      "phrases": [
+        {
+          "text": "看这几道白气",
+          "tone": "gas"
+        }
+      ],
+      "caption": "line"
+    },
+    {
+      "id": "L3",
+      "start": 9.45,
+      "text": "气往一边喷，车就被推向另一边。",
+      "phrases": [
+        {
+          "text": "气往一边喷",
+          "tone": "gas"
+        },
+        {
+          "text": "车就被推向另一边",
+          "tone": "force"
+        }
+      ],
+      "caption": "line"
+    },
+    {
+      "id": "L4",
+      "start": 13.75,
+      "text": "推力偏离重心，车就转了起来。",
+      "phrases": [
+        {
+          "text": "推力偏离重心",
+          "tone": "force"
+        },
+        {
+          "text": "车就转了起来",
+          "tone": "white"
+        }
+      ],
+      "caption": "line"
+    },
+    {
+      "id": "L5",
+      "start": 16.75,
+      "text": "气，存在高压罐里。不点火，也不燃烧。",
+      "phrases": [
+        {
+          "text": "气，存在高压罐里",
+          "tone": "gas"
+        },
+        {
+          "text": "不点火，也不燃烧",
+          "tone": "white"
+        }
+      ],
+      "caption": "line"
+    },
+    {
+      "id": "L6",
+      "start": 22.2,
+      "text": "没有翅膀，靠的就是这一口气。",
+      "phrases": [
+        {
+          "text": "没有翅膀，靠的就是",
+          "tone": "white"
+        },
+        {
+          "text": "这一口气",
+          "tone": "gas"
+        }
+      ],
+      "caption": "end"
+    },
+    {
+      "id": "L7",
+      "start": 25.6,
+      "text": "可要一直飞，就得一直喷。",
+      "phrases": [
+        {
+          "text": "可要一直飞",
+          "tone": "white"
+        },
+        {
+          "text": "就得一直喷",
+          "tone": "white"
+        }
+      ],
+      "caption": "line"
+    }
+  ],
+  "voice": {
+    "engine": "edge-tts 7.3.1 (free)",
+    "voice": "zh-CN-YunjianNeural",
+    "rate": "-6%",
+    "fallback_voice": "zh-CN-YunxiNeural",
+    "note": "Deeper, cinematic delivery. No speed-up after synthesis; only exterior silence trimmed."
+  },
+  "titles": {
+    "hook": {
+      "big": "没有翅膀",
+      "small": "它凭什么在空中翻身？",
+      "big_at": 0.0,
+      "small_at": 1.15,
+      "out": 3.85
+    },
+    "end": {
+      "small": "没有翅膀，靠的就是",
+      "big": "一口气",
+      "small_at": 22.2,
+      "big_at": 24.3,
+      "out": 29.6
+    }
+  },
+  "slates": [
+    {
+      "start": 0.0,
+      "end": 3.95,
+      "text": "CG 慢放重建"
+    },
+    {
+      "start": 3.95,
+      "end": 6.85,
+      "text": "重建自马斯克 2026.10.16 发布的视频 · CG"
+    },
+    {
+      "start": 6.85,
+      "end": 21.85,
+      "text": "原理示意 · 非实拍"
+    },
+    {
+      "start": 21.85,
+      "end": 30.0,
+      "text": "重建自马斯克 2026.10.16 发布的视频 · CG"
+    }
+  ],
+  "labels": {
+    "com": "重心",
+    "vessel": [
+      "碳纤维缠绕压力容器",
+      "据特斯拉 · 位置示意"
+    ]
+  },
+  "palette": {
+    "gas": "#9ADCFF",
+    "force": "#FF4A1F",
+    "white": "#F4F6F8",
+    "void": "#000000"
+  },
+  "sources": {
+    "musk_post": "https://x.com/elonmusk/status/2110913107094606330",
+    "media_id": "2110913027490934784",
+    "date": "2026-10-16",
+    "source_cuts_s": [
+      0.85085,
+      2.2022,
+      5.15515
+    ],
+    "tesla_systems": "https://x.com/Tesla/status/2110907035571401174",
+    "tesla_vessels": "https://x.com/Tesla/status/2110904290743402880"
+  }
+}

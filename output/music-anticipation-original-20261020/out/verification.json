@@ -1,0 +1,80 @@
+{
+  "file": "out/deng-ta-luo-xia-lai.mp4",
+  "bytes": 22635129,
+  "sha256": "6d0f1c894a91e0d48379988197a89fdeb559368a96b4b856bf81e2f4c41c6ab6",
+  "full_decode_exit": 0,
+  "decode_errors": null,
+  "video": {
+    "codec": "h264",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1273,
+    "duration_s": 42.433333,
+    "pix_fmt": "yuv420p",
+    "color": "bt709/bt709/bt709/tv"
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_s": 42.436,
+    "encoded": {
+      "I": -11.4,
+      "TP": -1.3
+    },
+    "master": {
+      "I": -11.4,
+      "TP": -1.3
+    },
+    "gain_db_vs_source": -3,
+    "last_0_3s_max_dB": "-91.0"
+  },
+  "sync": {
+    "encoded_vs_master_whole": {
+      "lag_ms": 0,
+      "c": 0.9999
+    },
+    "film_vs_source_S1": {
+      "lag_ms": 0,
+      "c": 0.9999
+    },
+    "film_vs_source_S2": {
+      "lag_ms": 0,
+      "c": 0.9997
+    },
+    "film_vs_source_S3_hold": {
+      "lag_ms": 0,
+      "c": 0.9998
+    }
+  },
+  "design": {
+    "W": 1080,
+    "H": 1920,
+    "FPS": 30,
+    "FRAMES": 1273,
+    "END": 42.4359,
+    "picture_black_from_s": 41.8373
+  },
+  "last_frames_mean_Y": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16
+  ],
+  "checks": {
+    "decode": true,
+    "size": true,
+    "frames": true,
+    "duration": true,
+    "loudness_matches_master": true,
+    "true_peak": true,
+    "in_time": true,
+    "black_tail": true,
+    "silent_tail": true
+  }
+}

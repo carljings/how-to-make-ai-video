@@ -1,0 +1,16 @@
+{
+  "production_authorized": true,
+  "basis": [
+    "User explicitly delegates aesthetic direction to Opus 5.5",
+    "User confirmed one combined ramp attachment and airborne flip film"
+  ],
+  "technical_review": "Codex reviewed storyboard; GO with factual wording corrections L08/L09, now applied in exact narration",
+  "director": "Opus 5.5",
+  "model": "claude-opus-5-5",
+  "effort": "max",
+  "narration_sha256": "d99a5aae244223fbe4f85a37ad6eba54145fe53498fb56c235450afa69d158e1",
+  "human_aesthetic_acceptance": "not recorded",
+  "date": "2026-10-17",
+  "technical_and_sampled_visual_acceptance": "passed, final1749frameencodedoutput; see out/delivery-v3/qa-reviewed/REVIEW.md",
+  "codex_poster_qa_fix_record": "out/delivery-v3/qa-reviewed/poster-completeness-fix.json"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "music-anticipation-original-20261020",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "《等它落下来》 — an original participatory short on musical anticipation and reward (Canvas 2D in headless Chrome, ffmpeg). Opus 5.5.",
+  "scripts": {
+    "analyze": "python3 tools/analyze_source.py",
+    "edit": "python3 tools/edit.py",
+    "features": "python3 tools/analyze_master.py",
+    "cues": "node tools/cues.mjs",
+    "check": "node tools/textcheck.mjs",
+    "stills": "node tools/render.mjs --stills",
+    "render": "node tools/render.mjs --video",
+    "verify": "node tools/verify.mjs --mux"
+  },
+  "dependencies": {}
+}

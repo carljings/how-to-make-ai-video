@@ -1,0 +1,76 @@
+{
+  "about": "v2 picture (stream copy) + the reference video music, edited by tools/reference_bgm.mjs. Third-party music: rights not cleared by this project (see SOURCES.md).",
+  "inputs": {
+    "reference": {
+      "file": "reference-original.m4a",
+      "sha256": "24c65e8bc2db08c3697491bf89c48210c91a2ca6bdffcf1724f01f618ccf12ab"
+    },
+    "film_v2": {
+      "file": "kanbujian-de-shidun.mp4",
+      "sha256": "00c4c988faf75fdcf1d1b8bb11acad2bcd248f03172e69302fef64cfcae8bb10"
+    }
+  },
+  "edit": {
+    "offset_s": 0.324,
+    "splice_out_s": 27.9502,
+    "splice_in_s": 21.1876,
+    "crossfade_s": 0.03,
+    "source_end_s": 36,
+    "dip_db": -8,
+    "dip_ramps_s": [
+      26.9,
+      27.3,
+      30.6,
+      31
+    ],
+    "fade_s": [
+      40.6,
+      41.9
+    ],
+    "end_s": 42.3
+  },
+  "pre_gain": {
+    "I": -10.9,
+    "LRA": 3.7,
+    "TP": -2.1
+  },
+  "gain_db": -9.1,
+  "master_wav": {
+    "file": "out/audio-reference-bgm/master-reference-bgm.wav",
+    "sha256": "5a79374c9517252ad9ec0e724ef7e110c6d99769553b2dfc1b14c3f3fb5fd11c",
+    "I": -20,
+    "LRA": 3.7,
+    "TP": -11.2
+  },
+  "output": {
+    "file": "out/kanbujian-de-shidun-v2-reference-bgm.mp4",
+    "bytes": 40376173,
+    "sha256": "583bb8d5b1240f005a6387d1c475b99ec679aeb3ca89a5d5054599e350d4a37c",
+    "video_frames": 1269,
+    "video_duration_s": 42.3,
+    "audio_duration_s": 42.3,
+    "audio_codec": "aac",
+    "sample_rate": 48000,
+    "encoded_audio": {
+      "I": -20,
+      "LRA": 3.7,
+      "TP": -11.2
+    },
+    "last_0_3s_max_volume": "-91.0",
+    "full_decode_exit": 0,
+    "decode_errors": null
+  },
+  "video_stream_sha256": {
+    "v2": "a11d039aee7f30f80ee758d542bae513b1ca5efdaf20d47e2c56842021eccce4",
+    "reference_bgm": "a11d039aee7f30f80ee758d542bae513b1ca5efdaf20d47e2c56842021eccce4"
+  },
+  "checks": {
+    "video_stream_identical": true,
+    "frames": true,
+    "duration": true,
+    "loudness": true,
+    "true_peak": true,
+    "decode": true,
+    "silent_tail": true
+  }
+}

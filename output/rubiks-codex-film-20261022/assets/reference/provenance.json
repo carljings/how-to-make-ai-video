@@ -1,0 +1,10 @@
+{
+  "source_reference": "Opus script-v2 and frozen 0550 website example, reused by current user authorization",
+  "file_hashes": {
+    "assets/reference/魔方科普_2-3分钟讲透版_脚本.md": "cf4bf8795fab1b468075624403ddf4f38149de68886ac4ea6970e26edf800057",
+    "assets/reference/来源事实表.md": "b7ce6f684264afe9d99f6a32dc4ac37b012898e4fbd866a8e8e5205a7c5a3873",
+    "assets/reference/口播稿_纯旁白.txt": "58eb69aed079213342a1834991457128f8e9f5eac74801447ee398874f457eb1",
+    "assets/reference/example.json": "269611937c63e1b98399b9127c3a470a676d76fc3ed88f83000bb16644eaf97b"
+  },
+  "new_paid_generation": false
+}

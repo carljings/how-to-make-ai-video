@@ -1,0 +1,1 @@
+Codex technical exposure bracket only, not art approval: same frozen proof01 source, native1080 METAL64 frame0; CLI global --exposure -2.5 / -4 respectively. No source/material edits. Opus chooses final art direction. Raw PNGs/manifests preserved locally.

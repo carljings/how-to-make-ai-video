@@ -1,0 +1,24 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>这首开智小曲，为啥这么上头？</title>
+<style>
+@font-face { font-family: "NSC"; src: url(assets/fonts/NotoSansSC-500.woff2) format("woff2"); font-weight: 500; }
+@font-face { font-family: "NSC"; src: url(assets/fonts/NotoSansSC-900.woff2) format("woff2"); font-weight: 900; }
+html, body { margin: 0; background: #000; }
+canvas#out { display: block; width: 540px; height: 960px; }
+</style>
+<script type="importmap">{ "imports": { "three": "./node_modules/three/build/three.module.js", "three/addons/": "./node_modules/three/examples/jsm/" } }</script>
+</head><body><canvas id="out"></canvas>
+<script type="module">
+import { Film } from './src/film.js';
+const film = new Film();
+window.film = { ready: false, error: null };
+(async () => {
+  try {
+    await Promise.all([500, 900].map((w) => document.fonts.load(`${w} 40px "NSC"`, '这首开智小曲为啥这么上头')));
+    await film.init();
+    Object.assign(window.film, { ready: true, frameCount: film.frameCount,
+      render: async (f) => { await film.render(f); return true; },
+      grab: (type = 'image/png', q = 0.95) => document.getElementById('out').toDataURL(type, q) });
+  } catch (e) { window.film.error = String(e.stack || e); console.error(e); }
+})();
+</script></body></html>

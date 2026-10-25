@@ -1,0 +1,214 @@
+{
+  "file": "out/shangtou-v2.1.mp4",
+  "bytes": 41283569,
+  "sha256": "d2ef7b68f1554bd6564484778c8a28e70035b8e79835bffefdb190b940221f62",
+  "full_decode_exit": 0,
+  "decode_errors": null,
+  "video": {
+    "codec": "h264",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1295,
+    "duration_s": 43.166016,
+    "pix_fmt": "yuv420p",
+    "color": "bt709/bt709/bt709/tv"
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_s": 43.182,
+    "encoded": {
+      "I": -14.3,
+      "TP": -1.5
+    },
+    "master": {
+      "I": -14.3,
+      "TP": -1.5
+    },
+    "master_sha256": "f4b0a9736c26b9cccb1d3d9898da310360eddd2052d4e3398112ca32f9de6aab",
+    "music_used": {
+      "file": "master.wav",
+      "sha256": "fc68d53f2519c5bb32abc9f57f127505beb086817dc1a1305faefdfd5e9d4c6b",
+      "which": "M4 v1 master"
+    },
+    "last_0_3s_max_dB": "-91.0"
+  },
+  "sync": {
+    "encoded_vs_master_whole": {
+      "lag_ms": 0,
+      "c": 0.9999
+    },
+    "music_only_1_vs_source": {
+      "film_s": [
+        3.217,
+        4.867
+      ],
+      "source_s": 3.217,
+      "lag_ms": 0,
+      "c": 0.9991
+    },
+    "music_only_2_vs_source": {
+      "film_s": [
+        18.113,
+        21.941
+      ],
+      "source_s": 18.113,
+      "lag_ms": 0,
+      "c": 0.9993
+    },
+    "music_only_3_vs_source": {
+      "film_s": [
+        32.998,
+        35.711
+      ],
+      "source_s": 30.868,
+      "lag_ms": 0,
+      "c": 0.9995
+    }
+  },
+  "voice": [
+    {
+      "id": "L01",
+      "at": 0.2,
+      "end": 2.783,
+      "rms_db": -18.1
+    },
+    {
+      "id": "L02",
+      "at": 5.26,
+      "end": 8.473,
+      "rms_db": -18.5
+    },
+    {
+      "id": "L03",
+      "at": 8.62,
+      "end": 11.456,
+      "rms_db": -19.8
+    },
+    {
+      "id": "L04",
+      "at": 11.66,
+      "end": 14.259,
+      "rms_db": -17.6
+    },
+    {
+      "id": "L05",
+      "at": 15.76,
+      "end": 17.746,
+      "rms_db": -18
+    },
+    {
+      "id": "L06",
+      "at": 22.3,
+      "end": 24.926,
+      "rms_db": -20
+    },
+    {
+      "id": "L07",
+      "at": 25.12,
+      "end": 28.254,
+      "rms_db": -18
+    },
+    {
+      "id": "L08",
+      "at": 28.62,
+      "end": 30.096,
+      "rms_db": -18.6
+    },
+    {
+      "id": "L09",
+      "at": 30.15,
+      "end": 32.68,
+      "rms_db": -17.6
+    },
+    {
+      "id": "L10",
+      "at": 36.1,
+      "end": 38.811,
+      "rms_db": -19
+    },
+    {
+      "id": "L11",
+      "at": 39.48,
+      "end": 41.332,
+      "rms_db": -18.2
+    }
+  ],
+  "voice_gaps": [
+    {
+      "between": "L01-L02",
+      "rms_db": -200
+    },
+    {
+      "between": "L02-L03",
+      "rms_db": -200
+    },
+    {
+      "between": "L03-L04",
+      "rms_db": -200
+    },
+    {
+      "between": "L04-L05",
+      "rms_db": -200
+    },
+    {
+      "between": "L05-L06",
+      "rms_db": -200
+    },
+    {
+      "between": "L06-L07",
+      "rms_db": -200
+    },
+    {
+      "between": "L07-L08",
+      "rms_db": -200
+    },
+    {
+      "between": "L08-L09",
+      "rms_db": -200
+    },
+    {
+      "between": "L09-L10",
+      "rms_db": -200
+    },
+    {
+      "between": "L10-L11",
+      "rms_db": -200
+    }
+  ],
+  "design": {
+    "W": 1080,
+    "H": 1920,
+    "FPS": 30,
+    "FRAMES": 1295,
+    "END": 43.1825,
+    "picture_black_from_s": 42.7825
+  },
+  "last_frames_mean_Y": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16
+  ],
+  "checks": {
+    "decode": true,
+    "size": true,
+    "frames": true,
+    "duration": true,
+    "loudness_matches_master": true,
+    "true_peak": true,
+    "encoded_in_time_with_master": true,
+    "music_is_the_song_in_time": true,
+    "voice_present_every_line": true,
+    "voice_silent_between_lines": true,
+    "mix_checks": true,
+    "black_tail": true,
+    "silent_tail": true
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "hook0": {
+    "original": "frames/t00.000.png",
+    "sha256": "f9e9e804f83dccb6681ff1f934d5588c04d97f441f85b97686d7dc2ce0644185",
+    "size": [
+      1080,
+      1920
+    ]
+  },
+  "hook12": {
+    "original": "frames/t01.200.png",
+    "sha256": "d954bab880f5931e79cb02843ec36cb4027ce0293a7e5104340fc40bfe7e4567",
+    "size": [
+      1080,
+      1920
+    ]
+  },
+  "hook27": {
+    "original": "frames/t02.700.png",
+    "sha256": "8fb97ef7025e9350c5e355b139decaede891010b6dbd4ab589884f2b41f11e6a",
+    "size": [
+      1080,
+      1920
+    ]
+  },
+  "sheet49": {
+    "original": "frames/t04.900.png",
+    "sha256": "9463c8fd72ed6c5c081e085b2b6a1bf53181d5563992e7ff8194644ab7f764a1",
+    "size": [
+      1080,
+      1920
+    ]
+  },
+  "elevated34": {
+    "original": "srcmatch/compare_el34.000.png",
+    "sha256": "32101a24bf9e71748706dcdd9e2824cda054b876975993754222e75a41895795",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  "wide8": {
+    "original": "srcmatch/compare_ev08.000.png",
+    "sha256": "6daa20243363635dc508f7a6f12cfa6466750984f49693400ace28a03700db19",
+    "size": [
+      1920,
+      1080
+    ]
+  }
+}

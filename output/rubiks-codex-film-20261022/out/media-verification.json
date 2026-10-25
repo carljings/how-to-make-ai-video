@@ -1,0 +1,77 @@
+{
+  "file": "rubiks-codex.mp4",
+  "sha256": "5bc6916fe960598f86878a7ef8102bda84e4548a1857154a63ea3783ab0bcbc0",
+  "bytes": 51003680,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "decodedFrames": 5348,
+  "expectedFrames": 5348,
+  "videoDuration": 178.266667,
+  "audioDuration": 178.266,
+  "avDurationDifferenceMs": 0.6670000000212895,
+  "fullDecodePassed": true,
+  "integratedLufs": -14.16,
+  "truePeakDbtp": -1.86,
+  "aacVsMasterAlignment": [
+    {
+      "at": 1,
+      "lagSamples": 0,
+      "lagMs": 0.0,
+      "correlation": 0.9999163832365295
+    },
+    {
+      "at": 82,
+      "lagSamples": 0,
+      "lagMs": 0.0,
+      "correlation": 0.9999563496495081
+    },
+    {
+      "at": 169,
+      "lagSamples": 0,
+      "lagMs": 0.0,
+      "correlation": 0.9999316292824819
+    }
+  ],
+  "lastSecondRms": [
+    {
+      "window": [
+        0,
+        0.5
+      ],
+      "rmsDbfs": -18.44
+    },
+    {
+      "window": [
+        0.5,
+        0.75
+      ],
+      "rmsDbfs": -24.59
+    },
+    {
+      "window": [
+        0.75,
+        0.9
+      ],
+      "rmsDbfs": -32.46
+    },
+    {
+      "window": [
+        0.9,
+        1
+      ],
+      "rmsDbfs": -43.64
+    }
+  ],
+  "encodedMotionSheets": [
+    "encoded-opening.jpg",
+    "encoded-explosion.jpg",
+    "encoded-methods.jpg",
+    "encoded-average.jpg",
+    "encoded-results.jpg",
+    "encoded-ending.jpg"
+  ],
+  "subjectiveListeningPerformed": false,
+  "physicalPhoneReview": false,
+  "paidImageVideoGenerationCalls": 0
+}

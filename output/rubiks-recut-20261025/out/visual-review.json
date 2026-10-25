@@ -1,0 +1,26 @@
+{
+  "movie_sha256": "f95bc7d6e607aac243b08f8887b5b2220f08a22cada374e1402b2cf72bba07a8",
+  "encoded_keyframe_samples": 39,
+  "extra_handoff_samples": 8,
+  "reviewed_contact_sheets": [
+    "final-search.jpg",
+    "final-boundaries.jpg",
+    "final-delivery.jpg",
+    "final-number-handoff.jpg"
+  ],
+  "checks": {
+    "official_record_scope_and_date": true,
+    "opening_structure_continuity": true,
+    "reference_concentric_rings_and_path": true,
+    "path_example_distinct_from_universal_proof": true,
+    "number_handoff_continuity": true,
+    "website_readable_hold": true,
+    "ending_fades": true
+  },
+  "limits": {
+    "full_continuous_viewing": false,
+    "subjective_listening": false,
+    "physical_phone_test": false
+  },
+  "status": "ready_for_user_review"
+}

@@ -1,0 +1,13 @@
+《AI 也会刷分》 r3 — frozen by Opus 5.5 (claude-opus-5-5, max) at 2026-10-21T19:01:19Z
+r3 = r2 + seven fixes found by reviewing the ENCODED r2 film (/dev/shm/pdx/r2/final/ai-ye-hui-shua-fen-r2.mp4):
+ 1 outro 10^n: power10() inherited textAlign='center' → exponent drifted (10   9) or collided (10^1000); now left-aligned  [d_end.js]
+ 2 case cards 01/02/03: scene ended exactly at its ⏎ downbeat, so press/launch/flash were never seen; cards now run 0.36 s
+   past ⏎ and the next scene starts after; card 02's field turns into hook 2's orange as the card flies off  [a_open, b_cases, c_humans]
+ 3 FOOM flash moved to the scene's post hook (the caption/note bands used to stripe it)  [a_open.js]
+ 4 split view: finish-panel camera moved up so each boat crosses the line with its ✓ in view  [a_open.js]
+ 5 "Sharp left turn": a real whip pan (learn scene exits right in 0.16 s, chat UI enters from the left in 0.34 s, streaks)  [c_humans.js]
+ 6 DISOBEY slam pops as one word (scaling DIS and OBEY about their own centres overlapped them)  [d_end.js]
+ 7 hook 4 karaoke line: sung words drawn in ink on the orange strobe frames (were orange on orange)  [motifs.js]
+Picture = r2 picture except 12 re-rendered chunks: 00630 00720 00900 00990 01080 01710 02430 02790 03420 03690 04230 04320 (90 frames each).
+Audio: reference-original-audio.m4a (sha256 bd8d11043827278bd9cfe91580d09d94e44fabfce910c7e58a40a76d2989c65c).
+Do not edit files here; changes go to ../../src and a new frozen/rN.

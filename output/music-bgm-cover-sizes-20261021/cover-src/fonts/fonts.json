@@ -1,0 +1,18 @@
+{
+ "licence": "SIL Open Font License 1.1 (Noto Sans SC via Google Fonts)",
+ "characters": "!#$()*+,-./0123456789:;<=>?ABCDEFGHIKLMNOPRSTUWX[]^_`abcdefghijklmnopqrstuvwxy{|}·–一低再又反回复定实抽拍来歌段测的薄走这音首",
+ "files": [
+  {
+   "file": "k-sans-700-0.woff2",
+   "weight": 700,
+   "bytes": 10108,
+   "sha256": "ae2160c412a4597842f4a97918519af0e72717fca2a4e0da425476dff56e07c3"
+  },
+  {
+   "file": "k-sans-900-0.woff2",
+   "weight": 900,
+   "bytes": 10068,
+   "sha256": "338ee96e6f31f3a940807a56f32e97eb283c552d7269f788f73c3fc6dd94ca44"
+  }
+ ]
+}

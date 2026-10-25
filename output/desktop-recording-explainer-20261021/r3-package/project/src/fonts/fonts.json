@@ -1,0 +1,159 @@
+{
+ "licence": "SIL Open Font License 1.1 (via Google Fonts)",
+ "characters": 535,
+ "faces": [
+  {
+   "family_in_page": "F-Sans",
+   "google_family": "Noto Sans SC",
+   "weight": 400,
+   "file": "sans-400-0.woff2",
+   "bytes": 26864,
+   "sha256": "4b430cb5864f7e26fd1e7db66f25c86b66739f35b356e6a6b7b3c3e03b5d2b01",
+   "codepoints": 266
+  },
+  {
+   "family_in_page": "F-Sans",
+   "google_family": "Noto Sans SC",
+   "weight": 400,
+   "file": "sans-400-1.woff2",
+   "bytes": 42528,
+   "sha256": "a95838e479f3ba46aec88cd94034a9b37ba970979e8e6756d146ba2b14a9c453",
+   "codepoints": 260
+  },
+  {
+   "family_in_page": "F-Sans",
+   "google_family": "Noto Sans SC",
+   "weight": 400,
+   "file": "sans-400-2.woff2",
+   "bytes": 3500,
+   "sha256": "c772d753c6a18868930b68075e81d59c7d5669840a7d18ca161dd937e711646a",
+   "codepoints": 15
+  },
+  {
+   "family_in_page": "F-Sans",
+   "google_family": "Noto Sans SC",
+   "weight": 700,
+   "file": "sans-700-0.woff2",
+   "bytes": 27248,
+   "sha256": "eaf8ed1fa01421450d73fcd06d33d93abb100ee00e35188c1640d3809171d4a2",
+   "codepoints": 266
+  },
+  {
+   "family_in_page": "F-Sans",
+   "google_family": "Noto Sans SC",
+   "weight": 700,
+   "file": "sans-700-1.woff2",
+   "bytes": 43428,
+   "sha256": "1bd8ae6db6b9da506f8c5f6506d427fb7811eea27913c05d3664f455816a0fcb",
+   "codepoints": 260
+  },
+  {
+   "family_in_page": "F-Sans",
+   "google_family": "Noto Sans SC",
+   "weight": 700,
+   "file": "sans-700-2.woff2",
+   "bytes": 3500,
+   "sha256": "7d6e573240bb85607d476ef4c49ae97d4e9788f907f9cd6d8955955f71940c57",
+   "codepoints": 15
+  },
+  {
+   "family_in_page": "F-Sans",
+   "google_family": "Noto Sans SC",
+   "weight": 900,
+   "file": "sans-900-0.woff2",
+   "bytes": 27236,
+   "sha256": "f1daa578b3c138249362bd99ad452c9f446153dc73f0b10efc89509c1ab4b0aa",
+   "codepoints": 266
+  },
+  {
+   "family_in_page": "F-Sans",
+   "google_family": "Noto Sans SC",
+   "weight": 900,
+   "file": "sans-900-1.woff2",
+   "bytes": 43748,
+   "sha256": "76a7b9a83cb48769dae9165b82a0469356f2bfc7715d841fe13e3fcbb039077b",
+   "codepoints": 260
+  },
+  {
+   "family_in_page": "F-Sans",
+   "google_family": "Noto Sans SC",
+   "weight": 900,
+   "file": "sans-900-2.woff2",
+   "bytes": 3492,
+   "sha256": "2509bfd23d7b031d3658d179d5e07f6b659a5825408dda82380e8956302f91e5",
+   "codepoints": 15
+  },
+  {
+   "family_in_page": "F-Serif",
+   "google_family": "Noto Serif SC",
+   "weight": 900,
+   "file": "serif-900-0.woff2",
+   "bytes": 35484,
+   "sha256": "514dbc8ae03434606558cd8d7561673103934651dfe7faa19d88b95eaa03f962",
+   "codepoints": 266
+  },
+  {
+   "family_in_page": "F-Serif",
+   "google_family": "Noto Serif SC",
+   "weight": 900,
+   "file": "serif-900-1.woff2",
+   "bytes": 55156,
+   "sha256": "5e4e82334393737ce485392990ae64d10ab371ec61107794d2d6e0eac5d17294",
+   "codepoints": 260
+  },
+  {
+   "family_in_page": "F-Serif",
+   "google_family": "Noto Serif SC",
+   "weight": 900,
+   "file": "serif-900-2.woff2",
+   "bytes": 4432,
+   "sha256": "d477bf5d2843df96ff62520d98d349e64f2a398c2e12517f97a91fe8a9e671bb",
+   "codepoints": 15
+  },
+  {
+   "family_in_page": "F-Mono",
+   "google_family": "IBM Plex Mono",
+   "weight": 400,
+   "file": "mono-400-0.woff2",
+   "bytes": 6488,
+   "sha256": "3c1d82cc9f5c0fe64f5a9206003a3142bf16a97129741dabfa7a8c3ac79c1f91",
+   "codepoints": 118
+  },
+  {
+   "family_in_page": "F-Mono",
+   "google_family": "IBM Plex Mono",
+   "weight": 500,
+   "file": "mono-500-0.woff2",
+   "bytes": 6420,
+   "sha256": "8432272574a12b246b82722641439d0d864eca0676f9d9863edbbb7253a93c3c",
+   "codepoints": 118
+  },
+  {
+   "family_in_page": "F-Mono",
+   "google_family": "IBM Plex Mono",
+   "weight": 600,
+   "file": "mono-600-0.woff2",
+   "bytes": 6412,
+   "sha256": "2643b5a1781dc598721c5dffae4e6d3ad3b38ea84f5fae23f89b6b0cc028124b",
+   "codepoints": 118
+  },
+  {
+   "family_in_page": "F-Cond",
+   "google_family": "Barlow Condensed",
+   "weight": 300,
+   "file": "cond-300-0.woff2",
+   "bytes": 10064,
+   "sha256": "5fcc5665aaf60c18a1e83725a4c6a582d0a33bb1dfe1cad76c1bfed9aeb6c966",
+   "codepoints": 118
+  },
+  {
+   "family_in_page": "F-Cond",
+   "google_family": "Barlow Condensed",
+   "weight": 800,
+   "file": "cond-800-0.woff2",
+   "bytes": 10232,
+   "sha256": "0d81477b647aaf21d3e5aadee2efb12d9dbce77b25b0597c9fd0a4f6da6fed7a",
+   "codepoints": 118
+  }
+ ]
+}

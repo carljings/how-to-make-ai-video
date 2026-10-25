@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Roadster Film Sans';
+  src: url('./RoadsterFilmSans-500.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Roadster Film Sans';
+  src: url('./RoadsterFilmSans-700.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Roadster Film Sans';
+  src: url('./RoadsterFilmSans-900.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+}

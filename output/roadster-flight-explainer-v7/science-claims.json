@@ -1,0 +1,182 @@
+{
+  "checked_date": "2026-10-18",
+  "sources": {
+    "TESLA": "https://www.tesla.com/en_GB/roadster",
+    "PATENT": "https://patentsgazette.uspto.gov/week39/OG/html/1550-5/US12746987-20260929.html",
+    "PRESSURE": "https://openstax.org/books/university-physics-volume-1/pages/14-1-fluids-density-and-pressure",
+    "NEWTON": "https://openstax.org/books/university-physics-volume-1/pages/6-1-solving-problems-with-newtons-laws",
+    "FRICTION": "https://openstax.org/books/university-physics-volume-1/pages/6-2-friction",
+    "CURVE": "https://openstax.org/books/university-physics-volume-1/pages/6-3-centripetal-force",
+    "TORQUE": "https://openstax.org/books/university-physics-volume-1/pages/10-6-torque",
+    "THRUST": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/rocket-thrust-equation/",
+    "COLDGAS": "https://www.nasa.gov/smallsat-institute/sst-soa/in-space_propulsion/",
+    "COPV": "https://ntrs.nasa.gov/citations/20110008406",
+    "MCMURTRY": "https://mcmurtry.com/upside-down-driving/"
+  },
+  "claims": [
+    {
+      "id": "A01",
+      "topic": "Official architecture",
+      "finding": "Tesla describes fan+ground-sealing and cold-gas systems; Rocket has perimeter thrusters. Manufacturer claim, not independent test certification.",
+      "source": "https://www.tesla.com/en_GB/roadster",
+      "required_change": "Keep with attribution; do not transplant Thrust/performance model layout to Rocket."
+    },
+    {
+      "id": "A02",
+      "topic": "Fan positions/count",
+      "finding": "V6 two central floor rotors are inferred schematic, not verified Roadster hardware. Patent claim1 describes an underbody inlet, pathway and rear outlet with one or more ducted fans. A patent does not prove the demonstrated implementation.",
+      "source": "https://patentsgazette.uspto.gov/week39/OG/html/1550-5/US12746987-20260929.html",
+      "required_change": "Remove specific twin-floor-rotor cutaway. Show separate generic functional airflow diagram, not an alleged actual internal layout."
+    },
+    {
+      "id": "A03",
+      "topic": "Seal and flow",
+      "finding": "Fan downforce needs the low-pressure region to be maintained, with sealing/leakage management and continuous powered airflow.",
+      "source": "https://www.tesla.com/en_GB/roadster",
+      "required_change": "Explicitly include sealing, not fan-only magic."
+    },
+    {
+      "id": "A04",
+      "topic": "Suction versus pressure",
+      "finding": "Suction/adhesion is the pressure-difference mechanism. Saying it is NOT suction but pressure is a false dichotomy.",
+      "source": "https://openstax.org/books/university-physics-volume-1/pages/14-1-fluids-density-and-pressure",
+      "required_change": "Replace misconception card with a question about how suction works; call it pressure-difference adhesion."
+    },
+    {
+      "id": "A05",
+      "topic": "Pressure force",
+      "finding": "Approximate resultant Fp=(p_out-p_gap)Aeff only for a simplified approximately uniform useful patch; exact resultant requires pressure integration.",
+      "source": "https://openstax.org/books/university-physics-volume-1/pages/14-1-fluids-density-and-pressure",
+      "required_change": "Use symbolic qualitative force, not measured CFD or calibrated magnitudes."
+    },
+    {
+      "id": "A06",
+      "topic": "Static ceiling",
+      "finding": "With n toward a flat ceiling and no other vertical loads, N=Fp-mg. Need Fp>mg for positive tyre load, not merely Fp=mg.",
+      "source": "https://openstax.org/books/university-physics-volume-1/pages/6-1-solving-problems-with-newtons-laws",
+      "required_change": "Force arrows remain qualitative; no assertion of measured margin."
+    },
+    {
+      "id": "A07",
+      "topic": "Vertical grip",
+      "finding": "On a vertical wall in a simple model N≈Fp; steady climbing requires tyre traction to support gravity, with |Ft|≤mu*N as a simplified friction bound. The illustrated normal adhesion force is not tangential tyre drive; the full fan/exhaust system can have other aerodynamic components, not quantified here.",
+      "source": "https://openstax.org/books/university-physics-volume-1/pages/6-2-friction",
+      "required_change": "Fans add normal load; tyre drive supplies tangential propulsion."
+    },
+    {
+      "id": "A08",
+      "topic": "Curvature",
+      "finding": "Moving on a curved track requires acceleration v²/R; static adhesion alone does not validate every moving pose.",
+      "source": "https://openstax.org/books/university-physics-volume-1/pages/6-3-centripetal-force",
+      "required_change": "Preserve source-fitted poses as CG reconstruction, not physics-solved motion or measured performance."
+    },
+    {
+      "id": "A09",
+      "topic": "Gravity",
+      "finding": "Gravity stays world-down; pressure-load direction follows the nearby surface.",
+      "source": "https://openstax.org/books/university-physics-volume-1/pages/6-1-solving-problems-with-newtons-laws",
+      "required_change": "Keep consistent vectors on wall/ceiling/airborne."
+    },
+    {
+      "id": "A10",
+      "topic": "Seal loss",
+      "finding": "An opening increases leakage and reduces effective pressure support depending on fan flow and geometry. It is not a universal instantaneous zero at the first small opening.",
+      "source": "https://www.tesla.com/en_GB/roadster",
+      "required_change": "Replace pressure-difference instantly disappears with seal lost/adhesion weakens. After fully clearing the surface the old adhesion cannot provide the same support."
+    },
+    {
+      "id": "A11",
+      "topic": "Cold gas meaning",
+      "finding": "Cold-gas thrust does not require combustion; it does not mean an air-conditioning system or a specified cryogenic temperature.",
+      "source": "https://www.nasa.gov/smallsat-institute/sst-soa/in-space_propulsion/",
+      "required_change": "Use high-pressure gas/cold-gas propulsion; no flames, no invented gas species or temperature."
+    },
+    {
+      "id": "A12",
+      "topic": "Reservoir layout",
+      "finding": "Exact tank count, capacities, pressure, liner, wall thickness and placement were not verified from accessible primary sources.",
+      "source": "https://ntrs.nasa.gov/citations/20110008406",
+      "required_change": "Remove two claimed internal capsules; use a separate reservoir→control→nozzle functional schematic, explicitly not the car layout."
+    },
+    {
+      "id": "A13",
+      "topic": "COPV attribution",
+      "finding": "General COPV engineering describes composite overwrap and a fluid-retention barrier; that does not establish this Tesla vessel architecture/material/dimensions. The Tesla X COPV post was blocked in this audit.",
+      "source": "https://ntrs.nasa.gov/citations/20110008406",
+      "required_change": "Discuss general concept only if labelled; do not infer Tesla BOM from NASA examples or inaccessible reposts."
+    },
+    {
+      "id": "A14",
+      "topic": "Jet reaction",
+      "finding": "Force on the vehicle is opposite exhaust momentum; a simplified thrust expression includes mass flow, exhaust velocity and exit-pressure term.",
+      "source": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/rocket-thrust-equation/",
+      "required_change": "Do not imply jets need to hit the floor or create downward suction."
+    },
+    {
+      "id": "A15",
+      "topic": "Upward force versus rise",
+      "finding": "Upward thrust does not guarantee upward velocity/acceleration. Net force and current velocity matter.",
+      "source": "https://openstax.org/books/university-physics-volume-1/pages/6-1-solving-problems-with-newtons-laws",
+      "required_change": "Text: exhaust downward / reaction thrust upward, not inevitably car rises."
+    },
+    {
+      "id": "A16",
+      "topic": "Torque line of action",
+      "finding": "A nozzle being away from COM is insufficient if the thrust line passes through COM. tau=r×F; nonzero lever arm matters.",
+      "source": "https://openstax.org/books/university-physics-volume-1/pages/10-6-torque",
+      "required_change": "Text: thrust line misses COM / produces torque. Net torque, not a single assumed nozzle, controls the full manoeuvre."
+    },
+    {
+      "id": "A17",
+      "topic": "Attitude control",
+      "finding": "Tesla describes perimeter thrusters and fast electric actuators for Rocket attitude support. Actual valve/control laws and measured forces are not established here.",
+      "source": "https://www.tesla.com/en_GB/roadster",
+      "required_change": "Show a general torque mechanism; do not claim to reverse-engineer the complete controller."
+    },
+    {
+      "id": "A18",
+      "topic": "Visible lines",
+      "finding": "Source-visible cables/lines exist; their support/control role is not established by our footage analysis.",
+      "source": "https://x.com/elonmusk/status/2110913107094606330",
+      "required_change": "Retain the separate-demonstration card and visible-lines/unknown-role note; do not claim untethered proof.",
+      "evidence_type": "Observed in already available source frames; direct X page403 in current audit, not inferred from Tesla product page."
+    },
+    {
+      "id": "A19",
+      "topic": "Finite reserve",
+      "finding": "Stored gas provides finite total impulse; it may need replenishment. Exact endurance and replenishment mechanism/time not confirmed.",
+      "source": "https://www.nasa.gov/smallsat-institute/sst-soa/in-space_propulsion/",
+      "required_change": "Use reserve finite/needs replenishing, not irreversible fuel disappearance or invented flight seconds."
+    },
+    {
+      "id": "A20",
+      "topic": "Fan power",
+      "finding": "Under a low-pressure-rise, approximately incompressible steady-flow approximation, fluid power is DeltaP*Q; shaft/electric power is greater after efficiency losses. This is an independent work/energy derivation, not Tesla power data.",
+      "source": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/air-pressure/",
+      "required_change": "Avoid implying passive/perpetual ceiling adhesion. No unsupported fan power figures.",
+      "evidence_type": "Independent mechanical derivation from pressure work; not a Tesla hardware measurement."
+    },
+    {
+      "id": "A21",
+      "topic": "Model geometry",
+      "finding": "Car/ramp dimensions, nozzles and internal shapes are visually fitted/illustrative, not factoryCAD or validated structural analysis.",
+      "source": "output/roadster-flight-explainer-v6/geometry/roadster.py; geometry/export_v5.py; web/engine/timeline.js",
+      "required_change": "Retain external source fit; remove unsupported hardware placement and claim only CG reconstruction.",
+      "evidence_type": "Direct local code audit; not a patent assertion about our model."
+    },
+    {
+      "id": "A22",
+      "topic": "Configuration mismatch",
+      "finding": "The official product page distinguishes Performance, Thrust and Rocket; they do not all have the same seating or thruster package.",
+      "source": "https://www.tesla.com/en_GB/roadster",
+      "required_change": "Do not call the flying demo a universal stock Roadster feature."
+    }
+  ],
+  "limitations": [
+    "Official page available in web-search primary indexed text; direct open had minimal JS body.",
+    "Official X posts blocked403; no fresh direct confirmation of detailed COPV arrangement.",
+    "USPTO Gazette claim1 directly read; full patent GooglePatents endpoint unavailable; no inference that granted design equals built Roadster.",
+    "Local raw HTML/GIF archival failed SSL; web primary-source evidence remains available.",
+    "No factoryCAD, calibrated pressure/thrust/mass/inertia/time-series or full control data obtained."
+  ]
+}

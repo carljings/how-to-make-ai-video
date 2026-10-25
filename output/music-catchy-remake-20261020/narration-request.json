@@ -1,0 +1,133 @@
+{
+ "about": "《这首开智小曲，为啥这么上头？》narration request v2 (Opus 5.5, 2026-10-20). Film time = the reused v1 master (42.436 s). Lines are placed from REAL durations + word boundaries; nothing is time-stretched. Music-only windows (no voice): 3.07–5.19, 17.96–22.22 (build bar + drop 2), 32.85–36.05 (repeated build + drop 3).",
+ "voice": "zh-CN-YunjianNeural",
+ "rate": "-6%",
+ "pitch": "+0Hz",
+ "volume": "+0%",
+ "format_wanted": "same as batch 1: 48 kHz mono 24-bit usable.wav trimmed below -50 dBFS with 100 ms pads, the untrimmed original, raw + trimmed word boundaries, per-line JSON (text, sha256, LUFS, true peak, trim, duration)",
+ "synthesize_now": [
+  "L04",
+  "L05",
+  "L07",
+  "L08"
+ ],
+ "keep_from_batch1": [
+  "L01",
+  "L02",
+  "L03",
+  "L06",
+  "L09",
+  "L10",
+  "L11"
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "text": "这首小曲，为啥这么上头？",
+   "status": "keep",
+   "plan_at": 0.22,
+   "window_s": [
+    0.15,
+    2.95
+   ]
+  },
+  {
+   "id": "L02",
+   "text": "第一，拍子稳：差不多每秒两下。",
+   "status": "keep",
+   "plan_at": 5.28,
+   "window_s": [
+    5.25,
+    8.55
+   ],
+   "note": "real 3.212 s fits from 5.28"
+  },
+  {
+   "id": "L03",
+   "text": "你很快就猜得到，下一下在哪。",
+   "status": "keep",
+   "plan_at": 8.65,
+   "window_s": [
+    8.6,
+    11.55
+   ]
+  },
+  {
+   "id": "L04",
+   "text": "拍子稳，更容易跟着点头。",
+   "status": "NEW (science revision: no 'guessing ⇒ nodding' causation)",
+   "window_s": [
+    11.62,
+    15.6
+   ]
+  },
+  {
+   "id": "L05",
+   "text": "第二，低音先变薄。",
+   "status": "NEW (measured: the bass thins, it does not vanish)",
+   "window_s": [
+    15.75,
+    17.98
+   ],
+   "note": "must end by ≈17.98 (build bar 17.961). If it runs over, report; do not speed up"
+  },
+  {
+   "id": "L06",
+   "text": "猜得到会回来，又带点意外。",
+   "status": "keep",
+   "plan_at": 22.3,
+   "window_s": [
+    22.25,
+    25.0
+   ]
+  },
+  {
+   "id": "L07",
+   "text": "期待和意外，都会影响好不好听。",
+   "status": "NEW (general research claim, not a test of this song; tag: Cheung 等 2019 · 和弦实验)",
+   "window_s": [
+    25.1,
+    28.55
+   ]
+  },
+  {
+   "id": "L08",
+   "text": "第三，重复。",
+   "status": "NEW (shortened so L09 ends before 32.85)",
+   "window_s": [
+    28.62,
+    30.15
+   ]
+  },
+  {
+   "id": "L09",
+   "text": "多听几遍，往往更喜欢。",
+   "status": "keep (real 2.531 s, placed 30.2)",
+   "plan_at": 30.22,
+   "window_s": [
+    30.2,
+    32.8
+   ]
+  },
+  {
+   "id": "L10",
+   "text": "能跟上，有意外，又熟悉，",
+   "status": "keep",
+   "plan_at": 36.12,
+   "window_s": [
+    36.05,
+    39.15
+   ]
+  },
+  {
+   "id": "L11",
+   "text": "所以，容易上头。",
+   "status": "keep",
+   "plan_at": 39.5,
+   "window_s": [
+    39.4,
+    41.8
+   ]
+  }
+ ]
+}

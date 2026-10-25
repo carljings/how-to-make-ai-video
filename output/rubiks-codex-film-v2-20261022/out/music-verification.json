@@ -1,0 +1,422 @@
+{
+  "videoSha256": "b881c299b94fecf8416dad8eb37e882fdf363e36d38f390b40228562953b80cd",
+  "comparison": [
+    {
+      "scene": "hook",
+      "v1": {
+        "start": 4.258,
+        "musicVsVoiceDb": -14.4,
+        "phoneBandMusicVsVoiceDb": -16.34
+      },
+      "v2": {
+        "start": 3.507,
+        "musicVsVoiceDb": -9.71,
+        "phoneBandMusicVsVoiceDb": -11.19
+      },
+      "phoneBandIncreaseDb": 5.15
+    },
+    {
+      "scene": "pieces",
+      "v1": {
+        "start": 32.681,
+        "musicVsVoiceDb": -17.92,
+        "phoneBandMusicVsVoiceDb": -20.96
+      },
+      "v2": {
+        "start": 24.095,
+        "musicVsVoiceDb": -10.29,
+        "phoneBandMusicVsVoiceDb": -12.58
+      },
+      "phoneBandIncreaseDb": 8.38
+    },
+    {
+      "scene": "metric",
+      "v1": {
+        "start": 55.462,
+        "musicVsVoiceDb": -16.54,
+        "phoneBandMusicVsVoiceDb": -18.61
+      },
+      "v2": {
+        "start": 49.17,
+        "musicVsVoiceDb": -6.77,
+        "phoneBandMusicVsVoiceDb": -8.39
+      },
+      "phoneBandIncreaseDb": 10.22
+    },
+    {
+      "scene": "cfop",
+      "v1": {
+        "start": 116.145,
+        "musicVsVoiceDb": -17.21,
+        "phoneBandMusicVsVoiceDb": -20.12
+      },
+      "v2": {
+        "start": 92.542,
+        "musicVsVoiceDb": -11.12,
+        "phoneBandMusicVsVoiceDb": -13.57
+      },
+      "phoneBandIncreaseDb": 6.55
+    },
+    {
+      "scene": "average",
+      "v1": {
+        "start": 87.355,
+        "musicVsVoiceDb": -18.29,
+        "phoneBandMusicVsVoiceDb": -20.47
+      },
+      "v2": {
+        "start": 122.145,
+        "musicVsVoiceDb": -8.22,
+        "phoneBandMusicVsVoiceDb": -10.18
+      },
+      "phoneBandIncreaseDb": 10.29
+    },
+    {
+      "scene": "guangzhou",
+      "v1": {
+        "start": 155.042,
+        "musicVsVoiceDb": -12.6,
+        "phoneBandMusicVsVoiceDb": -16.88
+      },
+      "v2": {
+        "start": 148.988,
+        "musicVsVoiceDb": -8.11,
+        "phoneBandMusicVsVoiceDb": -10.13
+      },
+      "phoneBandIncreaseDb": 6.75
+    },
+    {
+      "scene": "ending",
+      "v1": {
+        "start": 168.365,
+        "musicVsVoiceDb": -8.91,
+        "phoneBandMusicVsVoiceDb": -20.84
+      },
+      "v2": {
+        "start": 167.432,
+        "musicVsVoiceDb": -7.3,
+        "phoneBandMusicVsVoiceDb": -8.99
+      },
+      "phoneBandIncreaseDb": 11.85
+    }
+  ],
+  "encodedMusicRecoveredAcrossAllActs": true,
+  "fitWindows": 45,
+  "passingFitWindows": 36,
+  "sceneFits": [
+    {
+      "scene": "hook",
+      "medianMusicToVoiceGainRatio": 1.0448,
+      "bestExplainedEnergy": 0.9998
+    },
+    {
+      "scene": "pieces",
+      "medianMusicToVoiceGainRatio": 1.1281,
+      "bestExplainedEnergy": 0.99769
+    },
+    {
+      "scene": "metric",
+      "medianMusicToVoiceGainRatio": 1.0027,
+      "bestExplainedEnergy": 0.99978
+    },
+    {
+      "scene": "cfop",
+      "medianMusicToVoiceGainRatio": 1.1497,
+      "bestExplainedEnergy": 0.99981
+    },
+    {
+      "scene": "average",
+      "medianMusicToVoiceGainRatio": 1.0132,
+      "bestExplainedEnergy": 0.99987
+    },
+    {
+      "scene": "guangzhou",
+      "medianMusicToVoiceGainRatio": 0.9988,
+      "bestExplainedEnergy": 0.99956
+    },
+    {
+      "scene": "ending",
+      "medianMusicToVoiceGainRatio": 1.0117,
+      "bestExplainedEnergy": 0.99975
+    }
+  ],
+  "fits": [
+    {
+      "scene": "hook",
+      "at": 3.757,
+      "explainedEnergy": 0.9823,
+      "encodedMusicToVoiceGainRatio": 1.2523
+    },
+    {
+      "scene": "hook",
+      "at": 4.007,
+      "explainedEnergy": 0.98337,
+      "encodedMusicToVoiceGainRatio": 1.0686
+    },
+    {
+      "scene": "hook",
+      "at": 4.257,
+      "explainedEnergy": 0.91903,
+      "encodedMusicToVoiceGainRatio": 1.1421
+    },
+    {
+      "scene": "hook",
+      "at": 4.507,
+      "explainedEnergy": 0.99956,
+      "encodedMusicToVoiceGainRatio": 1.0211
+    },
+    {
+      "scene": "hook",
+      "at": 4.757,
+      "explainedEnergy": 0.99886,
+      "encodedMusicToVoiceGainRatio": 0.9969
+    },
+    {
+      "scene": "hook",
+      "at": 5.007,
+      "explainedEnergy": 0.9998,
+      "encodedMusicToVoiceGainRatio": 0.9984
+    },
+    {
+      "scene": "pieces",
+      "at": 24.345,
+      "explainedEnergy": 0.9769,
+      "encodedMusicToVoiceGainRatio": 1.1214
+    },
+    {
+      "scene": "pieces",
+      "at": 24.595,
+      "explainedEnergy": 0.9499,
+      "encodedMusicToVoiceGainRatio": 1.1531
+    },
+    {
+      "scene": "pieces",
+      "at": 24.845,
+      "explainedEnergy": 0.99005,
+      "encodedMusicToVoiceGainRatio": 1.321
+    },
+    {
+      "scene": "pieces",
+      "at": 25.095,
+      "explainedEnergy": 0.99747,
+      "encodedMusicToVoiceGainRatio": 1.1348
+    },
+    {
+      "scene": "pieces",
+      "at": 25.345,
+      "explainedEnergy": 0.99497,
+      "encodedMusicToVoiceGainRatio": 1.0633
+    },
+    {
+      "scene": "pieces",
+      "at": 25.595,
+      "explainedEnergy": 0.99769,
+      "encodedMusicToVoiceGainRatio": 1.0213
+    },
+    {
+      "scene": "metric",
+      "at": 49.17,
+      "explainedEnergy": 0.99696,
+      "encodedMusicToVoiceGainRatio": 1.0444
+    },
+    {
+      "scene": "metric",
+      "at": 49.42,
+      "explainedEnergy": 0.98991,
+      "encodedMusicToVoiceGainRatio": 1.0509
+    },
+    {
+      "scene": "metric",
+      "at": 49.67,
+      "explainedEnergy": 0.98272,
+      "encodedMusicToVoiceGainRatio": 1.1874
+    },
+    {
+      "scene": "metric",
+      "at": 49.92,
+      "explainedEnergy": 0.99973,
+      "encodedMusicToVoiceGainRatio": 1.0008
+    },
+    {
+      "scene": "metric",
+      "at": 50.17,
+      "explainedEnergy": 0.99912,
+      "encodedMusicToVoiceGainRatio": 1.0045
+    },
+    {
+      "scene": "metric",
+      "at": 50.42,
+      "explainedEnergy": 0.9989,
+      "encodedMusicToVoiceGainRatio": 0.9811
+    },
+    {
+      "scene": "metric",
+      "at": 50.67,
+      "explainedEnergy": 0.99978,
+      "encodedMusicToVoiceGainRatio": 0.9973
+    },
+    {
+      "scene": "metric",
+      "at": 50.92,
+      "explainedEnergy": 0.99965,
+      "encodedMusicToVoiceGainRatio": 1.0004
+    },
+    {
+      "scene": "cfop",
+      "at": 92.542,
+      "explainedEnergy": 0.99537,
+      "encodedMusicToVoiceGainRatio": 0.9944
+    },
+    {
+      "scene": "cfop",
+      "at": 92.792,
+      "explainedEnergy": 0.94867,
+      "encodedMusicToVoiceGainRatio": 1.3461
+    },
+    {
+      "scene": "cfop",
+      "at": 93.042,
+      "explainedEnergy": 0.99304,
+      "encodedMusicToVoiceGainRatio": 0.9493
+    },
+    {
+      "scene": "cfop",
+      "at": 93.292,
+      "explainedEnergy": 0.99981,
+      "encodedMusicToVoiceGainRatio": 0.9953
+    },
+    {
+      "scene": "cfop",
+      "at": 93.792,
+      "explainedEnergy": 0.98078,
+      "encodedMusicToVoiceGainRatio": 1.2815
+    },
+    {
+      "scene": "cfop",
+      "at": 94.042,
+      "explainedEnergy": 0.95622,
+      "encodedMusicToVoiceGainRatio": 1.4249
+    },
+    {
+      "scene": "cfop",
+      "at": 94.292,
+      "explainedEnergy": 0.94813,
+      "encodedMusicToVoiceGainRatio": 1.1497
+    },
+    {
+      "scene": "average",
+      "at": 122.145,
+      "explainedEnergy": 0.99984,
+      "encodedMusicToVoiceGainRatio": 0.9984
+    },
+    {
+      "scene": "average",
+      "at": 122.645,
+      "explainedEnergy": 0.99987,
+      "encodedMusicToVoiceGainRatio": 0.9977
+    },
+    {
+      "scene": "average",
+      "at": 122.895,
+      "explainedEnergy": 0.93731,
+      "encodedMusicToVoiceGainRatio": 1.1569
+    },
+    {
+      "scene": "average",
+      "at": 123.645,
+      "explainedEnergy": 0.98117,
+      "encodedMusicToVoiceGainRatio": 1.123
+    },
+    {
+      "scene": "average",
+      "at": 123.895,
+      "explainedEnergy": 0.99382,
+      "encodedMusicToVoiceGainRatio": 1.0132
+    },
+    {
+      "scene": "guangzhou",
+      "at": 148.988,
+      "explainedEnergy": 0.9889,
+      "encodedMusicToVoiceGainRatio": 1.2068
+    },
+    {
+      "scene": "guangzhou",
+      "at": 149.238,
+      "explainedEnergy": 0.99851,
+      "encodedMusicToVoiceGainRatio": 0.9967
+    },
+    {
+      "scene": "guangzhou",
+      "at": 149.488,
+      "explainedEnergy": 0.98723,
+      "encodedMusicToVoiceGainRatio": 1.1181
+    },
+    {
+      "scene": "guangzhou",
+      "at": 149.738,
+      "explainedEnergy": 0.99934,
+      "encodedMusicToVoiceGainRatio": 0.9988
+    },
+    {
+      "scene": "guangzhou",
+      "at": 149.988,
+      "explainedEnergy": 0.99956,
+      "encodedMusicToVoiceGainRatio": 1.0001
+    },
+    {
+      "scene": "guangzhou",
+      "at": 150.238,
+      "explainedEnergy": 0.99842,
+      "encodedMusicToVoiceGainRatio": 0.9889
+    },
+    {
+      "scene": "guangzhou",
+      "at": 150.488,
+      "explainedEnergy": 0.99789,
+      "encodedMusicToVoiceGainRatio": 0.9983
+    },
+    {
+      "scene": "ending",
+      "at": 167.932,
+      "explainedEnergy": 0.99855,
+      "encodedMusicToVoiceGainRatio": 1.0577
+    },
+    {
+      "scene": "ending",
+      "at": 168.182,
+      "explainedEnergy": 0.99798,
+      "encodedMusicToVoiceGainRatio": 1.0206
+    },
+    {
+      "scene": "ending",
+      "at": 168.432,
+      "explainedEnergy": 0.9746,
+      "encodedMusicToVoiceGainRatio": 1.0853
+    },
+    {
+      "scene": "ending",
+      "at": 168.682,
+      "explainedEnergy": 0.99975,
+      "encodedMusicToVoiceGainRatio": 1.0008
+    },
+    {
+      "scene": "ending",
+      "at": 168.932,
+      "explainedEnergy": 0.99956,
+      "encodedMusicToVoiceGainRatio": 1.0029
+    },
+    {
+      "scene": "ending",
+      "at": 169.182,
+      "explainedEnergy": 0.99962,
+      "encodedMusicToVoiceGainRatio": 0.9991
+    }
+  ],
+  "subjectiveListeningPerformed": false,
+  "physicalPhoneListening": false,
+  "phoneBandDefinitionHz": [
+    200,
+    4000
+  ],
+  "downmix": "native mono voice, arithmetic mean of stereo tracks; no implicit -3 dB channel mapping"
+}

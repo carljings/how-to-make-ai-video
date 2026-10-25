@@ -1,0 +1,16 @@
+{
+  "name": "music-catchy-remake-20261020",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "《这首开智小曲，为啥这么上头？》 — three.js + Canvas 2D in headless Chrome, ffmpeg. Opus 5.5.",
+  "scripts": {
+    "check": "node tools/textcheck.mjs",
+    "stills": "node tools/render.mjs --stills",
+    "render": "node tools/render.mjs --video",
+    "verify": "node tools/verify.mjs --mux"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  }
+}

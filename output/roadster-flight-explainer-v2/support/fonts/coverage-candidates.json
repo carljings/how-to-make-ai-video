@@ -1,0 +1,15 @@
+{
+  "scope": "All characters in complete v2 direction documents and current v2 cue/spec JSON, plus printable ASCII; coverage does not authorize additional visible text.",
+  "inputs": [
+    {
+      "file": "CREATIVE_DIRECTION.en.md",
+      "sha256": "6017d34096d2ccee6b31dd7833be9ef6251bc90314c7abe6091e411a03943ae4",
+      "size_bytes": 10639
+    },
+    {
+      "file": "storyboard-v2.zh-CN.md",
+      "sha256": "5187b68e06194d485d07130fb7dea611b138ec38bdf887314c34721c291338f4",
+      "size_bytes": 4986
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "size": "1080x1920",
+    "pix_fmt": "yuv420p",
+    "fps": "30/1",
+    "frames": 1113,
+    "duration_s": 37.1,
+    "color": [
+      "bt709",
+      "bt709",
+      "bt709",
+      "tv"
+    ]
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 37.1
+  },
+  "duration_match_s": 0.0,
+  "audio_vs_wav": {
+    "lag_samples_48k": 0,
+    "lag_ms": 0.0,
+    "correlation": 0.99976
+  },
+  "audio_loudness": {
+    "I_lufs": -11.2,
+    "TP_dbtp": -1.0
+  },
+  "luma_mean": {
+    "first_frame": 124.7,
+    "last_frame": 125.5
+  },
+  "decode_errors": "none",
+  "file": {
+    "path": "out/B-卷成一盘3个机关-r2.mp4",
+    "bytes": 30686777,
+    "sha256": "3f838184ce39a29481e106896b1e73555183d99d7a6e403286e79032875d1923"
+  },
+  "PASS": true
+}

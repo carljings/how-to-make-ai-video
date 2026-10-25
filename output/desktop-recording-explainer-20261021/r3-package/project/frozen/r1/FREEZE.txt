@@ -1,0 +1,4 @@
+《AI 也会刷分》 r1 — frozen by Opus 5.5 (claude-opus-5-5, max) at 2026-10-21T16:08:10Z
+Render source = this folder (src/index.html). Picture: 4664 frames @ 30 fps, 1080x1920, film time = recording time.
+Audio: reference-original-audio.m4a (sha256 bd8d11043827278bd9cfe91580d09d94e44fabfce910c7e58a40a76d2989c65c).
+Do not edit files here; changes go to ../../src and a new frozen/rN.

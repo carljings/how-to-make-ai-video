@@ -1,0 +1,2017 @@
+{
+  "movie": "liangci-qifei.mp4",
+  "sha256": "ca7a9ad84e65abbe2134085c9754489ff44581506d0fdc517c40224c5c95c69b",
+  "bytes": 46875937,
+  "runtime": {
+    "W": 1080,
+    "H": 1920,
+    "FPS": 30,
+    "FRAMES": 1089,
+    "END": 36.3,
+    "T": {
+      "hook": 0,
+      "q": 0.9069,
+      "inv": 1.7507,
+      "run": 2.5966,
+      "stop": 3.46,
+      "slam": 5.1321,
+      "rew": 6.3835,
+      "cut": 7.228,
+      "gap": 8.515,
+      "press": 9.358,
+      "weight": 10.2048,
+      "lip": 11.895,
+      "jets": 13.9925,
+      "gas": 15.2624,
+      "demo2": 16.968,
+      "lift": 18.6809,
+      "roll": 20.3473,
+      "wide": 22.039,
+      "lab": 23.7311,
+      "fireA": 24.1545,
+      "fireB": 25.4244,
+      "formula": 27.11,
+      "replay": 28.8222,
+      "lines": 30.4982,
+      "sum1": 32.2055,
+      "sum2": 33.0318,
+      "sum3": 33.6653,
+      "outro": 34.7196
+    },
+    "SHOTS": [
+      {
+        "id": "A1",
+        "t0": 0,
+        "t1": 1.7507,
+        "fn": "climb",
+        "what": "Demo ① cold open: the car climbs the curve of The Ramp"
+      },
+      {
+        "id": "A2",
+        "t0": 1.7507,
+        "t1": 2.5966,
+        "fn": "over",
+        "what": "over the top: inverted"
+      },
+      {
+        "id": "A3",
+        "t0": 2.5966,
+        "t1": 3.46,
+        "fn": "run",
+        "what": "inverted, racing to the free end of the deck"
+      },
+      {
+        "id": "A4",
+        "t0": 3.46,
+        "t1": 5.1321,
+        "fn": "leave",
+        "what": "in the song’s own silence: off the end, the half roll, slow motion"
+      },
+      {
+        "id": "A5",
+        "t0": 5.1321,
+        "t1": 6.3835,
+        "fn": "catch",
+        "what": "the beat returns: jets fire, the car is caught and drops into its cloud"
+      },
+      {
+        "id": "A6",
+        "t0": 6.3835,
+        "t1": 7.228,
+        "fn": "rewind",
+        "what": "rewind to the inverted car"
+      },
+      {
+        "id": "P1",
+        "t0": 7.228,
+        "t1": 9.358,
+        "fn": "section",
+        "what": "the laser cuts the car open: fan + seals, the gap at low pressure"
+      },
+      {
+        "id": "P2",
+        "t0": 9.358,
+        "t1": 11.895,
+        "fn": "pressure",
+        "what": "outside air presses harder: the push toward the deck, larger than the weight"
+      },
+      {
+        "id": "P3",
+        "t0": 11.895,
+        "t1": 13.9925,
+        "fn": "release",
+        "what": "the floor runs off the lip: the gap floods, the push vanishes, the car drops"
+      },
+      {
+        "id": "P4",
+        "t0": 13.9925,
+        "t1": 16.968,
+        "fn": "thrust",
+        "what": "jets: exhaust down, reaction up, still falling; the reserve drops"
+      },
+      {
+        "id": "B1",
+        "t0": 16.968,
+        "t1": 18.6809,
+        "fn": "lot",
+        "what": "Demo ②: Musk’s parking-lot video, another place and time"
+      },
+      {
+        "id": "B2",
+        "t0": 18.6809,
+        "t1": 20.3473,
+        "fn": "lift",
+        "what": "four jets down: lift-off"
+      },
+      {
+        "id": "B3",
+        "t0": 20.3473,
+        "t1": 22.039,
+        "fn": "flip",
+        "what": "close: the roll"
+      },
+      {
+        "id": "B4",
+        "t0": 22.039,
+        "t1": 23.7311,
+        "fn": "flipWide",
+        "what": "wide: the roll completes, the car levels"
+      },
+      {
+        "id": "L1",
+        "t0": 23.7311,
+        "t1": 28.8222,
+        "fn": "lab",
+        "what": "the torque lab: through the centre of mass vs off it"
+      },
+      {
+        "id": "B5",
+        "t0": 28.8222,
+        "t1": 30.4982,
+        "fn": "replay",
+        "what": "the real roll again, centre of mass and roll overlaid"
+      },
+      {
+        "id": "B6",
+        "t0": 30.4982,
+        "t1": 32.2055,
+        "fn": "lines",
+        "what": "the visible lines of the source video — role unknown"
+      },
+      {
+        "id": "S1",
+        "t0": 32.2055,
+        "t1": 33.0318,
+        "fn": "sum1",
+        "what": "summary: stick = pressure difference"
+      },
+      {
+        "id": "S2",
+        "t0": 33.0318,
+        "t1": 33.6653,
+        "fn": "sum2",
+        "what": "summary: hold = thrust"
+      },
+      {
+        "id": "S3",
+        "t0": 33.6653,
+        "t1": 34.7196,
+        "fn": "sum3",
+        "what": "summary: flip = torque"
+      },
+      {
+        "id": "S4",
+        "t0": 34.7196,
+        "t1": 36.3,
+        "fn": "outro",
+        "what": "last image, fade"
+      }
+    ]
+  },
+  "strict_decode_exit": 0,
+  "lufs": -10.5,
+  "true_peak_dbtp": -2.1,
+  "tail_0_3s_float_max": 0.0,
+  "last9frames_YAVG": [
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+  ],
+  "reference_waveform_correlation": 0.999986719060623,
+  "unfaded_gain_vs_reference_db": {
+    "median": -0.006535838294087745,
+    "min": -0.021350661799165307,
+    "max": -0.0024472646635576344
+  },
+  "half_second_levels": [
+    {
+      "start_s": 0.0,
+      "rms_dbfs": -11.679695497354034,
+      "gain_vs_reference_db": -0.008533771388159035
+    },
+    {
+      "start_s": 0.5,
+      "rms_dbfs": -11.69708819880734,
+      "gain_vs_reference_db": -0.004022746530473051
+    },
+    {
+      "start_s": 1.0,
+      "rms_dbfs": -12.164624701055127,
+      "gain_vs_reference_db": -0.0036060232512666996
+    },
+    {
+      "start_s": 1.5,
+      "rms_dbfs": -13.51984869777031,
+      "gain_vs_reference_db": -0.00871496894954498
+    },
+    {
+      "start_s": 2.0,
+      "rms_dbfs": -15.49820608985141,
+      "gain_vs_reference_db": -0.010548020993534088
+    },
+    {
+      "start_s": 2.5,
+      "rms_dbfs": -12.19950262607843,
+      "gain_vs_reference_db": -0.009213235499269607
+    },
+    {
+      "start_s": 3.0,
+      "rms_dbfs": -11.529574081834644,
+      "gain_vs_reference_db": -0.006804028197289158
+    },
+    {
+      "start_s": 3.5,
+      "rms_dbfs": -46.862912194224734,
+      "gain_vs_reference_db": -0.007052312167904185
+    },
+    {
+      "start_s": 4.0,
+      "rms_dbfs": -48.0057802007032,
+      "gain_vs_reference_db": -0.011727823136131342
+    },
+    {
+      "start_s": 4.5,
+      "rms_dbfs": -20.828445331442772,
+      "gain_vs_reference_db": -0.008833592005863745
+    },
+    {
+      "start_s": 5.0,
+      "rms_dbfs": -13.706745234792198,
+      "gain_vs_reference_db": -0.00823421441234245
+    },
+    {
+      "start_s": 5.5,
+      "rms_dbfs": -13.435114780262637,
+      "gain_vs_reference_db": -0.007736965284841373
+    },
+    {
+      "start_s": 6.0,
+      "rms_dbfs": -12.518847499432962,
+      "gain_vs_reference_db": -0.005008400173239514
+    },
+    {
+      "start_s": 6.5,
+      "rms_dbfs": -12.57425226452919,
+      "gain_vs_reference_db": -0.006239059937188114
+    },
+    {
+      "start_s": 7.0,
+      "rms_dbfs": -13.525952885513439,
+      "gain_vs_reference_db": -0.008223921362434107
+    },
+    {
+      "start_s": 7.5,
+      "rms_dbfs": -13.50854206180035,
+      "gain_vs_reference_db": -0.004525552385211143
+    },
+    {
+      "start_s": 8.0,
+      "rms_dbfs": -13.931925968687114,
+      "gain_vs_reference_db": -0.006511679238486945
+    },
+    {
+      "start_s": 8.5,
+      "rms_dbfs": -12.891783105927923,
+      "gain_vs_reference_db": -0.00817214856339949
+    },
+    {
+      "start_s": 9.0,
+      "rms_dbfs": -12.538953263679689,
+      "gain_vs_reference_db": -0.004293799122285721
+    },
+    {
+      "start_s": 9.5,
+      "rms_dbfs": -13.76469651179885,
+      "gain_vs_reference_db": -0.005628561946254304
+    },
+    {
+      "start_s": 10.0,
+      "rms_dbfs": -12.594731728114983,
+      "gain_vs_reference_db": -0.003592465406409052
+    },
+    {
+      "start_s": 10.5,
+      "rms_dbfs": -13.367167213138377,
+      "gain_vs_reference_db": -0.0063492804272366745
+    },
+    {
+      "start_s": 11.0,
+      "rms_dbfs": -13.751909375202079,
+      "gain_vs_reference_db": -0.005926015834382069
+    },
+    {
+      "start_s": 11.5,
+      "rms_dbfs": -11.98814046122781,
+      "gain_vs_reference_db": -0.00791146526177062
+    },
+    {
+      "start_s": 12.0,
+      "rms_dbfs": -13.01041745905534,
+      "gain_vs_reference_db": -0.009209109754200783
+    },
+    {
+      "start_s": 12.5,
+      "rms_dbfs": -12.142591612566855,
+      "gain_vs_reference_db": -0.0024472646635576344
+    },
+    {
+      "start_s": 13.0,
+      "rms_dbfs": -12.907795040730399,
+      "gain_vs_reference_db": -0.007341495437092544
+    },
+    {
+      "start_s": 13.5,
+      "rms_dbfs": -13.901007802731623,
+      "gain_vs_reference_db": -0.004040278031765692
+    },
+    {
+      "start_s": 14.0,
+      "rms_dbfs": -12.948342932096054,
+      "gain_vs_reference_db": -0.007743367064284006
+    },
+    {
+      "start_s": 14.5,
+      "rms_dbfs": -13.003484422393024,
+      "gain_vs_reference_db": -0.005680754372664701
+    },
+    {
+      "start_s": 15.0,
+      "rms_dbfs": -11.211538635537899,
+      "gain_vs_reference_db": -0.006161525161658956
+    },
+    {
+      "start_s": 15.5,
+      "rms_dbfs": -12.69119956266568,
+      "gain_vs_reference_db": -0.005825923311509076
+    },
+    {
+      "start_s": 16.0,
+      "rms_dbfs": -13.376842645685322,
+      "gain_vs_reference_db": -0.004513015723003378
+    },
+    {
+      "start_s": 16.5,
+      "rms_dbfs": -11.794153303958018,
+      "gain_vs_reference_db": -0.00645039423773925
+    },
+    {
+      "start_s": 17.0,
+      "rms_dbfs": -10.942844927802584,
+      "gain_vs_reference_db": -0.006509028862872446
+    },
+    {
+      "start_s": 17.5,
+      "rms_dbfs": -12.685777393156828,
+      "gain_vs_reference_db": -0.00858018187107344
+    },
+    {
+      "start_s": 18.0,
+      "rms_dbfs": -12.36074222308254,
+      "gain_vs_reference_db": -0.014954218803606704
+    },
+    {
+      "start_s": 18.5,
+      "rms_dbfs": -11.429291674655552,
+      "gain_vs_reference_db": -0.013522210961251183
+    },
+    {
+      "start_s": 19.0,
+      "rms_dbfs": -12.932730093842933,
+      "gain_vs_reference_db": -0.00724334580991977
+    },
+    {
+      "start_s": 19.5,
+      "rms_dbfs": -11.993897566310512,
+      "gain_vs_reference_db": -0.006070725941362069
+    },
+    {
+      "start_s": 20.0,
+      "rms_dbfs": -12.093197404518046,
+      "gain_vs_reference_db": -0.004505708017405022
+    },
+    {
+      "start_s": 20.5,
+      "rms_dbfs": -13.08045360939004,
+      "gain_vs_reference_db": -0.007727948320304861
+    },
+    {
+      "start_s": 21.0,
+      "rms_dbfs": -12.71672704059257,
+      "gain_vs_reference_db": -0.005478954879135074
+    },
+    {
+      "start_s": 21.5,
+      "rms_dbfs": -13.385336620280713,
+      "gain_vs_reference_db": -0.009423421953971308
+    },
+    {
+      "start_s": 22.0,
+      "rms_dbfs": -13.116398297190713,
+      "gain_vs_reference_db": -0.004661451693818551
+    },
+    {
+      "start_s": 22.5,
+      "rms_dbfs": -11.651030466378526,
+      "gain_vs_reference_db": -0.005959533175174257
+    },
+    {
+      "start_s": 23.0,
+      "rms_dbfs": -12.514302359074662,
+      "gain_vs_reference_db": -0.00523918203051357
+    },
+    {
+      "start_s": 23.5,
+      "rms_dbfs": -12.477773052918607,
+      "gain_vs_reference_db": -0.00572329808986558
+    },
+    {
+      "start_s": 24.0,
+      "rms_dbfs": -12.719340097165135,
+      "gain_vs_reference_db": -0.005437041723424213
+    },
+    {
+      "start_s": 24.5,
+      "rms_dbfs": -13.068642605780688,
+      "gain_vs_reference_db": -0.0054939506374269646
+    },
+    {
+      "start_s": 25.0,
+      "rms_dbfs": -12.621438197124933,
+      "gain_vs_reference_db": -0.01873958408839864
+    },
+    {
+      "start_s": 25.5,
+      "rms_dbfs": -12.687963767087789,
+      "gain_vs_reference_db": -0.0153591932892959
+    },
+    {
+      "start_s": 26.0,
+      "rms_dbfs": -12.43239053005923,
+      "gain_vs_reference_db": -0.01002343126956498
+    },
+    {
+      "start_s": 26.5,
+      "rms_dbfs": -13.270410271486702,
+      "gain_vs_reference_db": -0.007473710711099731
+    },
+    {
+      "start_s": 27.0,
+      "rms_dbfs": -13.262091913687453,
+      "gain_vs_reference_db": -0.0038022061824476068
+    },
+    {
+      "start_s": 27.5,
+      "rms_dbfs": -12.502326355095303,
+      "gain_vs_reference_db": -0.004734881541773883
+    },
+    {
+      "start_s": 28.0,
+      "rms_dbfs": -12.182807730032184,
+      "gain_vs_reference_db": -0.004434433877052637
+    },
+    {
+      "start_s": 28.5,
+      "rms_dbfs": -12.278084933082615,
+      "gain_vs_reference_db": -0.007588944529162159
+    },
+    {
+      "start_s": 29.0,
+      "rms_dbfs": -10.243193683933145,
+      "gain_vs_reference_db": -0.0056119320169519885
+    },
+    {
+      "start_s": 29.5,
+      "rms_dbfs": -11.29779842278893,
+      "gain_vs_reference_db": -0.00594882809813007
+    },
+    {
+      "start_s": 30.0,
+      "rms_dbfs": -12.006065450078566,
+      "gain_vs_reference_db": -0.009606456886992703
+    },
+    {
+      "start_s": 30.5,
+      "rms_dbfs": -14.055160352943352,
+      "gain_vs_reference_db": -0.021350661799165307
+    },
+    {
+      "start_s": 31.0,
+      "rms_dbfs": -13.922006129160797,
+      "gain_vs_reference_db": -0.016379026877699602
+    },
+    {
+      "start_s": 31.5,
+      "rms_dbfs": -13.082984686482334,
+      "gain_vs_reference_db": -0.017739051046286692
+    },
+    {
+      "start_s": 32.0,
+      "rms_dbfs": -12.258202329587837,
+      "gain_vs_reference_db": -0.012977896192828702
+    },
+    {
+      "start_s": 32.5,
+      "rms_dbfs": -13.455540516285133,
+      "gain_vs_reference_db": -0.01243602285789942
+    },
+    {
+      "start_s": 33.0,
+      "rms_dbfs": -12.610621142667917,
+      "gain_vs_reference_db": -0.006559997349688545
+    },
+    {
+      "start_s": 33.5,
+      "rms_dbfs": -12.367666418984411,
+      "gain_vs_reference_db": -0.00768266110866081
+    },
+    {
+      "start_s": 34.0,
+      "rms_dbfs": -12.945885043850474,
+      "gain_vs_reference_db": -0.006738640652270084
+    },
+    {
+      "start_s": 34.5,
+      "rms_dbfs": -13.70547298578812,
+      "gain_vs_reference_db": -0.5885539932641268
+    },
+    {
+      "start_s": 35.0,
+      "rms_dbfs": -19.942477630565044,
+      "gain_vs_reference_db": -4.914065638422912
+    },
+    {
+      "start_s": 35.5,
+      "rms_dbfs": -26.44168565997074,
+      "gain_vs_reference_db": -13.404052854783679
+    },
+    {
+      "start_s": 36.0,
+      "rms_dbfs": null,
+      "gain_vs_reference_db": null
+    }
+  ],
+  "source_file_count": 37,
+  "changed_source_files": [],
+  "technical_pass": true,
+  "actual_frames_extracted": [
+    0,
+    1,
+    6,
+    12,
+    18,
+    24,
+    30,
+    36,
+    42,
+    48,
+    52,
+    53,
+    54,
+    60,
+    66,
+    72,
+    77,
+    78,
+    79,
+    84,
+    90,
+    96,
+    98,
+    100,
+    102,
+    103,
+    104,
+    105,
+    106,
+    108,
+    110,
+    112,
+    114,
+    116,
+    118,
+    120,
+    122,
+    124,
+    126,
+    128,
+    130,
+    132,
+    134,
+    136,
+    138,
+    140,
+    142,
+    144,
+    146,
+    148,
+    150,
+    152,
+    153,
+    154,
+    155,
+    156,
+    158,
+    160,
+    162,
+    164,
+    166,
+    168,
+    170,
+    172,
+    174,
+    176,
+    178,
+    180,
+    182,
+    184,
+    186,
+    188,
+    190,
+    191,
+    192,
+    193,
+    194,
+    196,
+    198,
+    200,
+    204,
+    210,
+    215,
+    216,
+    217,
+    218,
+    219,
+    221,
+    222,
+    223,
+    225,
+    227,
+    228,
+    229,
+    230,
+    231,
+    233,
+    234,
+    235,
+    237,
+    239,
+    240,
+    241,
+    243,
+    245,
+    246,
+    247,
+    249,
+    251,
+    252,
+    253,
+    255,
+    257,
+    258,
+    259,
+    261,
+    263,
+    264,
+    265,
+    267,
+    268,
+    269,
+    270,
+    271,
+    273,
+    275,
+    276,
+    277,
+    279,
+    280,
+    281,
+    282,
+    283,
+    285,
+    287,
+    288,
+    289,
+    291,
+    293,
+    294,
+    295,
+    297,
+    299,
+    300,
+    306,
+    312,
+    318,
+    324,
+    330,
+    336,
+    340,
+    342,
+    348,
+    350,
+    352,
+    354,
+    356,
+    357,
+    358,
+    360,
+    362,
+    364,
+    366,
+    368,
+    370,
+    372,
+    374,
+    376,
+    378,
+    380,
+    382,
+    384,
+    386,
+    388,
+    390,
+    392,
+    394,
+    396,
+    398,
+    400,
+    402,
+    404,
+    406,
+    408,
+    410,
+    412,
+    414,
+    416,
+    418,
+    419,
+    420,
+    421,
+    422,
+    424,
+    426,
+    432,
+    438,
+    440,
+    444,
+    450,
+    456,
+    462,
+    468,
+    474,
+    480,
+    486,
+    492,
+    498,
+    504,
+    509,
+    510,
+    511,
+    516,
+    520,
+    522,
+    528,
+    534,
+    540,
+    546,
+    552,
+    555,
+    557,
+    558,
+    559,
+    560,
+    561,
+    562,
+    563,
+    564,
+    565,
+    567,
+    569,
+    570,
+    571,
+    573,
+    575,
+    576,
+    577,
+    579,
+    580,
+    581,
+    582,
+    583,
+    585,
+    587,
+    588,
+    589,
+    591,
+    593,
+    594,
+    595,
+    597,
+    599,
+    600,
+    601,
+    603,
+    605,
+    606,
+    607,
+    609,
+    610,
+    611,
+    612,
+    613,
+    615,
+    617,
+    618,
+    619,
+    621,
+    623,
+    624,
+    625,
+    627,
+    629,
+    630,
+    631,
+    633,
+    635,
+    636,
+    637,
+    639,
+    641,
+    642,
+    643,
+    645,
+    647,
+    648,
+    649,
+    651,
+    653,
+    654,
+    655,
+    657,
+    659,
+    660,
+    661,
+    662,
+    663,
+    665,
+    666,
+    667,
+    669,
+    671,
+    672,
+    673,
+    675,
+    677,
+    678,
+    679,
+    681,
+    683,
+    684,
+    685,
+    687,
+    689,
+    690,
+    691,
+    693,
+    695,
+    696,
+    697,
+    699,
+    701,
+    702,
+    703,
+    705,
+    707,
+    708,
+    709,
+    710,
+    711,
+    712,
+    713,
+    714,
+    715,
+    716,
+    718,
+    720,
+    722,
+    724,
+    726,
+    728,
+    730,
+    732,
+    734,
+    736,
+    738,
+    740,
+    742,
+    744,
+    746,
+    748,
+    750,
+    752,
+    754,
+    756,
+    758,
+    760,
+    762,
+    764,
+    766,
+    768,
+    770,
+    772,
+    774,
+    776,
+    778,
+    780,
+    782,
+    784,
+    786,
+    788,
+    790,
+    792,
+    794,
+    796,
+    798,
+    800,
+    802,
+    804,
+    806,
+    808,
+    810,
+    812,
+    814,
+    816,
+    818,
+    820,
+    822,
+    824,
+    826,
+    828,
+    830,
+    832,
+    834,
+    836,
+    838,
+    840,
+    842,
+    844,
+    846,
+    848,
+    850,
+    852,
+    854,
+    856,
+    858,
+    860,
+    862,
+    864,
+    865,
+    866,
+    868,
+    870,
+    876,
+    882,
+    888,
+    890,
+    894,
+    900,
+    906,
+    912,
+    914,
+    915,
+    916,
+    918,
+    924,
+    930,
+    936,
+    940,
+    942,
+    948,
+    954,
+    960,
+    966,
+    967,
+    968,
+    972,
+    975,
+    978,
+    984,
+    990,
+    991,
+    992,
+    996,
+    1000,
+    1002,
+    1008,
+    1009,
+    1010,
+    1011,
+    1014,
+    1020,
+    1025,
+    1026,
+    1032,
+    1038,
+    1041,
+    1042,
+    1043,
+    1044,
+    1050,
+    1056,
+    1060,
+    1062,
+    1068,
+    1074,
+    1080,
+    1086,
+    1088
+  ],
+  "full_size_frames": [
+    0,
+    53,
+    104,
+    130,
+    154,
+    230,
+    268,
+    300,
+    340,
+    380,
+    440,
+    520,
+    580,
+    630,
+    690,
+    740,
+    790,
+    840,
+    890,
+    940,
+    975,
+    1000,
+    1025,
+    1060
+  ],
+  "contacts": {
+    "whole_every6": [
+      "whole-01.jpg",
+      "whole-02.jpg",
+      "whole-03.jpg",
+      "whole-04.jpg",
+      "whole-05.jpg"
+    ],
+    "ramp_every2": [
+      "ramp-01.jpg",
+      "ramp-02.jpg",
+      "ramp-03.jpg"
+    ],
+    "section_every2": [
+      "section-01.jpg",
+      "section-02.jpg",
+      "section-03.jpg"
+    ],
+    "lip_every2": [
+      "lip-01.jpg",
+      "lip-02.jpg",
+      "lip-03.jpg"
+    ],
+    "parking_every2": [
+      "parking-01.jpg",
+      "parking-02.jpg",
+      "parking-03.jpg",
+      "parking-04.jpg",
+      "parking-05.jpg"
+    ],
+    "lab_every2": [
+      "lab-01.jpg",
+      "lab-02.jpg",
+      "lab-03.jpg",
+      "lab-04.jpg",
+      "lab-05.jpg"
+    ]
+  },
+  "actual_viewed_frames": [
+    0,
+    6,
+    12,
+    18,
+    24,
+    30,
+    36,
+    42,
+    48,
+    54,
+    60,
+    66,
+    72,
+    78,
+    84,
+    90,
+    96,
+    98,
+    100,
+    102,
+    104,
+    106,
+    108,
+    110,
+    112,
+    114,
+    116,
+    118,
+    120,
+    122,
+    124,
+    126,
+    128,
+    130,
+    132,
+    138,
+    144,
+    150,
+    156,
+    162,
+    168,
+    170,
+    172,
+    174,
+    176,
+    178,
+    180,
+    182,
+    184,
+    186,
+    188,
+    190,
+    192,
+    194,
+    196,
+    198,
+    200,
+    204,
+    210,
+    215,
+    216,
+    217,
+    219,
+    221,
+    222,
+    223,
+    225,
+    227,
+    228,
+    229,
+    231,
+    233,
+    234,
+    235,
+    237,
+    239,
+    240,
+    241,
+    243,
+    245,
+    246,
+    247,
+    249,
+    252,
+    258,
+    264,
+    270,
+    276,
+    282,
+    287,
+    288,
+    289,
+    291,
+    293,
+    294,
+    295,
+    297,
+    299,
+    300,
+    306,
+    312,
+    318,
+    324,
+    330,
+    336,
+    342,
+    348,
+    350,
+    352,
+    354,
+    356,
+    358,
+    360,
+    362,
+    364,
+    366,
+    368,
+    370,
+    372,
+    374,
+    376,
+    378,
+    380,
+    382,
+    384,
+    390,
+    396,
+    402,
+    408,
+    414,
+    420,
+    422,
+    424,
+    426,
+    432,
+    438,
+    444,
+    450,
+    456,
+    462,
+    468,
+    474,
+    480,
+    486,
+    492,
+    498,
+    504,
+    510,
+    516,
+    522,
+    528,
+    534,
+    540,
+    546,
+    552,
+    555,
+    557,
+    558,
+    559,
+    561,
+    563,
+    564,
+    565,
+    567,
+    569,
+    570,
+    571,
+    573,
+    575,
+    576,
+    577,
+    579,
+    581,
+    582,
+    583,
+    585,
+    587,
+    588,
+    589,
+    594,
+    600,
+    606,
+    612,
+    618,
+    624,
+    627,
+    629,
+    630,
+    631,
+    633,
+    635,
+    636,
+    637,
+    639,
+    641,
+    642,
+    643,
+    645,
+    647,
+    648,
+    649,
+    651,
+    653,
+    654,
+    655,
+    657,
+    659,
+    660,
+    661,
+    666,
+    672,
+    678,
+    684,
+    690,
+    696,
+    699,
+    701,
+    702,
+    703,
+    705,
+    707,
+    708,
+    709,
+    710,
+    711,
+    712,
+    713,
+    714,
+    715,
+    716,
+    718,
+    720,
+    722,
+    724,
+    726,
+    728,
+    730,
+    732,
+    734,
+    736,
+    738,
+    740,
+    742,
+    744,
+    750,
+    756,
+    762,
+    768,
+    774,
+    780,
+    782,
+    784,
+    786,
+    788,
+    790,
+    792,
+    794,
+    796,
+    798,
+    800,
+    802,
+    804,
+    806,
+    808,
+    810,
+    812,
+    814,
+    816,
+    822,
+    828,
+    834,
+    840,
+    846,
+    852,
+    854,
+    856,
+    858,
+    860,
+    862,
+    864,
+    866,
+    868,
+    870,
+    876,
+    882,
+    888,
+    894,
+    900,
+    906,
+    912,
+    918,
+    924,
+    930,
+    936,
+    942,
+    948,
+    954,
+    960,
+    966,
+    972,
+    978,
+    984,
+    990,
+    996,
+    1002,
+    1008,
+    1014,
+    1020,
+    1026,
+    1032,
+    1038,
+    1044,
+    1050,
+    1056,
+    1062,
+    1068,
+    1074,
+    1080,
+    1086,
+    1088
+  ],
+  "human_listening": false,
+  "continuous_human_motion_review": false,
+  "physical_phone_review": false,
+  "director_acceptance": "Official Opus5.5 approved delivery for user review based on actual final encoded proof and four exact source-render comparisons; not user acceptance",
+  "sync_check": {
+    "file": "out/liangci-qifei.mp4",
+    "frames": 1089,
+    "picture_cuts_detected": [
+      53,
+      78,
+      104,
+      118,
+      154,
+      192,
+      204,
+      217,
+      226,
+      264,
+      281,
+      357,
+      420,
+      509,
+      560,
+      610,
+      661,
+      712,
+      725,
+      751,
+      766,
+      865,
+      915,
+      922,
+      966,
+      991,
+      1010,
+      1042
+    ],
+    "audio_onsets_25ms": 204,
+    "audio_onsets_per_s": 5.62,
+    "audio_onsets_legacy_nms90": 155,
+    "cuts": [
+      {
+        "cut": "A2",
+        "planned_frame": 53,
+        "detected_picture_cut_frame": 53,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 1.7502,
+        "frame_minus_onset_ms": 16,
+        "peaks_within_70ms": [
+          {
+            "t": 1.7502,
+            "strength": 4.67,
+            "local_dominance": 0.88,
+            "bands_low_mid_snare_high": [
+              0.0,
+              1.33,
+              1.74,
+              1.6
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 1.7502,
+        "legacy_nms90_frame_minus_onset_ms": 16,
+        "kind": "onset"
+      },
+      {
+        "cut": "A3",
+        "planned_frame": 78,
+        "detected_picture_cut_frame": 78,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 2.5977,
+        "frame_minus_onset_ms": 2,
+        "peaks_within_70ms": [
+          {
+            "t": 2.5977,
+            "strength": 3.69,
+            "local_dominance": 0.67,
+            "bands_low_mid_snare_high": [
+              0.07,
+              1.35,
+              1.33,
+              0.95
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 2.5977,
+        "legacy_nms90_frame_minus_onset_ms": 2,
+        "kind": "onset"
+      },
+      {
+        "cut": "A4",
+        "planned_frame": 104,
+        "detected_picture_cut_frame": 104,
+        "picture_delta_frames": 0,
+        "music_stop_in_mp4_s": 3.4598,
+        "frame_minus_stop_ms": 7,
+        "kind": "music stop"
+      },
+      {
+        "cut": "A5",
+        "planned_frame": 154,
+        "detected_picture_cut_frame": 154,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 5.1316,
+        "frame_minus_onset_ms": 2,
+        "peaks_within_70ms": [
+          {
+            "t": 5.0765,
+            "strength": 2.5,
+            "local_dominance": 1.0,
+            "bands_low_mid_snare_high": [
+              1.49,
+              0.31,
+              0.34,
+              0.36
+            ]
+          },
+          {
+            "t": 5.1316,
+            "strength": 2.5,
+            "local_dominance": 0.96,
+            "bands_low_mid_snare_high": [
+              0.73,
+              0.38,
+              0.5,
+              0.89
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 5.0765,
+        "legacy_nms90_frame_minus_onset_ms": 57,
+        "kind": "onset"
+      },
+      {
+        "cut": "A6",
+        "planned_frame": 192,
+        "detected_picture_cut_frame": 192,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 6.3826,
+        "frame_minus_onset_ms": 17,
+        "peaks_within_70ms": [
+          {
+            "t": 6.3826,
+            "strength": 5.04,
+            "local_dominance": 1.0,
+            "bands_low_mid_snare_high": [
+              0.14,
+              1.56,
+              1.54,
+              1.81
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 6.3826,
+        "legacy_nms90_frame_minus_onset_ms": 17,
+        "kind": "onset"
+      },
+      {
+        "cut": "P1",
+        "planned_frame": 217,
+        "detected_picture_cut_frame": 217,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 7.2272,
+        "frame_minus_onset_ms": 6,
+        "peaks_within_70ms": [
+          {
+            "t": 7.2272,
+            "strength": 6.8,
+            "local_dominance": 1.0,
+            "bands_low_mid_snare_high": [
+              0.11,
+              1.51,
+              1.77,
+              3.41
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 7.2272,
+        "legacy_nms90_frame_minus_onset_ms": 6,
+        "kind": "onset"
+      },
+      {
+        "cut": "P2",
+        "planned_frame": 281,
+        "detected_picture_cut_frame": 281,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 9.3576,
+        "frame_minus_onset_ms": 9,
+        "peaks_within_70ms": [
+          {
+            "t": 9.3576,
+            "strength": 5.63,
+            "local_dominance": 1.0,
+            "bands_low_mid_snare_high": [
+              0.0,
+              0.63,
+              2.66,
+              2.34
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 9.3576,
+        "legacy_nms90_frame_minus_onset_ms": 9,
+        "kind": "onset"
+      },
+      {
+        "cut": "P3",
+        "planned_frame": 357,
+        "detected_picture_cut_frame": 357,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 11.8944,
+        "frame_minus_onset_ms": 6,
+        "peaks_within_70ms": [
+          {
+            "t": 11.8944,
+            "strength": 3.35,
+            "local_dominance": 1.0,
+            "bands_low_mid_snare_high": [
+              0.77,
+              0.71,
+              0.75,
+              1.12
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 11.8944,
+        "legacy_nms90_frame_minus_onset_ms": 6,
+        "kind": "onset"
+      },
+      {
+        "cut": "P4",
+        "planned_frame": 420,
+        "detected_picture_cut_frame": 420,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 13.9929,
+        "frame_minus_onset_ms": 7,
+        "peaks_within_70ms": [
+          {
+            "t": 13.9929,
+            "strength": 4.96,
+            "local_dominance": 1.0,
+            "bands_low_mid_snare_high": [
+              0.3,
+              1.41,
+              1.65,
+              1.6
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 13.9929,
+        "legacy_nms90_frame_minus_onset_ms": 7,
+        "kind": "onset"
+      },
+      {
+        "cut": "B1",
+        "planned_frame": 509,
+        "detected_picture_cut_frame": 509,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 16.968,
+        "frame_minus_onset_ms": -1,
+        "peaks_within_70ms": [
+          {
+            "t": 16.968,
+            "strength": 2.92,
+            "local_dominance": 0.72,
+            "bands_low_mid_snare_high": [
+              0.0,
+              0.39,
+              1.35,
+              1.18
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 16.968,
+        "legacy_nms90_frame_minus_onset_ms": -1,
+        "kind": "onset"
+      },
+      {
+        "cut": "B2",
+        "planned_frame": 560,
+        "detected_picture_cut_frame": 560,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 18.6805,
+        "frame_minus_onset_ms": -14,
+        "peaks_within_70ms": [
+          {
+            "t": 18.6805,
+            "strength": 2.01,
+            "local_dominance": 0.59,
+            "bands_low_mid_snare_high": [
+              1.18,
+              0.26,
+              0.34,
+              0.24
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 18.6805,
+        "legacy_nms90_frame_minus_onset_ms": -14,
+        "kind": "onset"
+      },
+      {
+        "cut": "B3",
+        "planned_frame": 610,
+        "detected_picture_cut_frame": 610,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 20.3465,
+        "frame_minus_onset_ms": -13,
+        "peaks_within_70ms": [
+          {
+            "t": 20.2884,
+            "strength": 3.2,
+            "local_dominance": 0.82,
+            "bands_low_mid_snare_high": [
+              2.55,
+              0.06,
+              0.37,
+              0.23
+            ]
+          },
+          {
+            "t": 20.3465,
+            "strength": 3.89,
+            "local_dominance": 1.0,
+            "bands_low_mid_snare_high": [
+              0.0,
+              1.56,
+              1.13,
+              1.2
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 20.3465,
+        "legacy_nms90_frame_minus_onset_ms": -13,
+        "kind": "onset"
+      },
+      {
+        "cut": "B4",
+        "planned_frame": 661,
+        "detected_picture_cut_frame": 661,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 22.0386,
+        "frame_minus_onset_ms": -5,
+        "peaks_within_70ms": [
+          {
+            "t": 22.0386,
+            "strength": 4.52,
+            "local_dominance": 1.0,
+            "bands_low_mid_snare_high": [
+              0.07,
+              1.57,
+              1.47,
+              1.4
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 22.0386,
+        "legacy_nms90_frame_minus_onset_ms": -5,
+        "kind": "onset"
+      },
+      {
+        "cut": "L1",
+        "planned_frame": 712,
+        "detected_picture_cut_frame": 712,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 23.7308,
+        "frame_minus_onset_ms": 3,
+        "peaks_within_70ms": [
+          {
+            "t": 23.7308,
+            "strength": 3.33,
+            "local_dominance": 1.0,
+            "bands_low_mid_snare_high": [
+              0.48,
+              1.5,
+              1.11,
+              0.25
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 23.7308,
+        "legacy_nms90_frame_minus_onset_ms": 3,
+        "kind": "onset"
+      },
+      {
+        "cut": "B5",
+        "planned_frame": 865,
+        "detected_picture_cut_frame": 865,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 28.8218,
+        "frame_minus_onset_ms": 12,
+        "peaks_within_70ms": [
+          {
+            "t": 28.8218,
+            "strength": 3.01,
+            "local_dominance": 1.0,
+            "bands_low_mid_snare_high": [
+              2.03,
+              0.41,
+              0.22,
+              0.36
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 28.8218,
+        "legacy_nms90_frame_minus_onset_ms": 12,
+        "kind": "onset"
+      },
+      {
+        "cut": "B6",
+        "planned_frame": 915,
+        "detected_picture_cut_frame": 915,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 30.4994,
+        "frame_minus_onset_ms": 1,
+        "peaks_within_70ms": [
+          {
+            "t": 30.4994,
+            "strength": 2.25,
+            "local_dominance": 0.63,
+            "bands_low_mid_snare_high": [
+              0.22,
+              0.76,
+              0.6,
+              0.66
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 30.4994,
+        "legacy_nms90_frame_minus_onset_ms": 1,
+        "kind": "onset"
+      },
+      {
+        "cut": "S1",
+        "planned_frame": 966,
+        "detected_picture_cut_frame": 966,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 32.2061,
+        "frame_minus_onset_ms": -6,
+        "peaks_within_70ms": [
+          {
+            "t": 32.2061,
+            "strength": 1.82,
+            "local_dominance": 0.7,
+            "bands_low_mid_snare_high": [
+              0.85,
+              0.43,
+              0.28,
+              0.27
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 32.2061,
+        "legacy_nms90_frame_minus_onset_ms": -6,
+        "kind": "onset"
+      },
+      {
+        "cut": "S2",
+        "planned_frame": 991,
+        "detected_picture_cut_frame": 991,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 33.0333,
+        "frame_minus_onset_ms": 0,
+        "peaks_within_70ms": [
+          {
+            "t": 33.0333,
+            "strength": 3.0,
+            "local_dominance": 1.0,
+            "bands_low_mid_snare_high": [
+              0.21,
+              1.08,
+              0.78,
+              0.94
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 33.0333,
+        "legacy_nms90_frame_minus_onset_ms": 0,
+        "kind": "onset"
+      },
+      {
+        "cut": "S3",
+        "planned_frame": 1010,
+        "detected_picture_cut_frame": 1010,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 33.666,
+        "frame_minus_onset_ms": 1,
+        "peaks_within_70ms": [
+          {
+            "t": 33.666,
+            "strength": 3.3,
+            "local_dominance": 1.0,
+            "bands_low_mid_snare_high": [
+              0.68,
+              0.99,
+              0.72,
+              0.91
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 33.666,
+        "legacy_nms90_frame_minus_onset_ms": 1,
+        "kind": "onset"
+      },
+      {
+        "cut": "S4",
+        "planned_frame": 1042,
+        "detected_picture_cut_frame": 1042,
+        "picture_delta_frames": 0,
+        "nearest_onset_in_mp4_s": 34.7196,
+        "frame_minus_onset_ms": 14,
+        "peaks_within_70ms": [
+          {
+            "t": 34.7196,
+            "strength": 3.0,
+            "local_dominance": 1.0,
+            "bands_low_mid_snare_high": [
+              0.2,
+              0.95,
+              1.26,
+              0.59
+            ]
+          }
+        ],
+        "legacy_nms90_nearest_onset_s": 34.7196,
+        "legacy_nms90_frame_minus_onset_ms": 14,
+        "kind": "onset"
+      }
+    ],
+    "all_planned_cuts_found_within_1_frame": true,
+    "max_abs_frame_minus_onset_ms": 17,
+    "mean_abs_frame_minus_onset_ms": 7.1,
+    "legacy_nms90_max_abs_frame_minus_onset_ms": 57,
+    "chance_baseline_ms": {
+      "random_times_median": 49.6,
+      "random_times_p95": 170.6,
+      "random_within_17ms_share": 0.2,
+      "cuts_shifted_half_beat_mean": 63.4,
+      "cuts_shifted_half_beat_max": 228.8
+    }
+  },
+  "beat_alignment_pass": true,
+  "freeze_manifest_sha256": "ebcf69a7402a223dae34e1b40c145fd8a7b11dd68fdc00494a5adcdabf36a075",
+  "render_provenance": "Rendered from all28 verified v3 frozen inputs; v3.1 changed only post-render validator plus status docs; render/audio inputs unchanged, reuse explicitly authorized by Opus",
+  "actual_viewed_contact_tables": {
+    "whole": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ramp": [
+      1,
+      3
+    ],
+    "section": [
+      1,
+      3
+    ],
+    "lip": [
+      1,
+      3
+    ],
+    "parking": [
+      1,
+      3,
+      5
+    ],
+    "lab": [
+      1,
+      3,
+      5
+    ]
+  },
+  "director_verdict_file": "FINAL_VERDICT-v3.1.md",
+  "unique_delivery_file": "liangci-qifei-v3.1.mp4"
+}

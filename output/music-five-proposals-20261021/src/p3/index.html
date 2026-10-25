@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>P3 · 这首歌摊开，藏着3个机关</title>
+<style>
+  html, body { margin: 0; background: #000; width: 1080px; height: 1920px; overflow: hidden; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+  #stage canvas { display: block; position: absolute; left: 0; top: 0; }
+  .subs, .labels { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
+  .cue { position: absolute; font-family: "Noto Serif CJK SC", serif; font-weight: 700; color: #211b14; }
+  .cue em { font-style: normal; color: #c23b2e; }
+  .cue.main { left: 60px; top: 150px; max-width: 900px; font-size: 72px; line-height: 1.28; background: rgba(251, 246, 236, .93);
+    padding: 22px 34px 26px 30px; border-left: 12px solid #c23b2e; border-radius: 4px; box-shadow: 0 10px 30px rgba(40, 25, 10, .35); }
+  .cue.big { left: 0; width: 1080px; top: 1060px; text-align: center; font-size: 210px; color: #c23b2e;
+    text-shadow: 0 0 30px rgba(255, 250, 240, .95), 0 0 6px #fff; }
+  .cue.count { left: 0; width: 1080px; top: 470px; text-align: center; font-size: 440px; line-height: 1; color: #c23b2e;
+    text-shadow: 0 0 40px rgba(255, 250, 240, .95), 0 0 8px #fff; }
+  .cue.note { left: 60px; top: 1372px; width: 884px; font-family: "Noto Sans CJK SC", sans-serif; font-size: 27px; font-weight: 400; line-height: 1.5;
+    color: #3a3229; background: rgba(251, 246, 236, .92); padding: 12px 20px; border-radius: 4px; box-shadow: 0 6px 18px rgba(40, 25, 10, .25); }
+  .tag { position: absolute; font-family: "Noto Sans CJK SC", sans-serif; font-weight: 700; font-size: 32px; color: #2a2119; white-space: nowrap;
+    background: #fbf6ec; border: 3px solid #c23b2e; border-radius: 6px; padding: 4px 14px 6px; box-shadow: 0 4px 12px rgba(40, 25, 10, .35); }
+  .tag small { font-weight: 400; font-size: 24px; color: #5a4c3d; }
+  .tag.ink { border-color: #2a2119; }
+  svg.lines { position: absolute; inset: 0; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "../../node_modules/three/build/three.module.js", "three/addons/": "../../node_modules/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<div id="stage"></div>
+<script type="module" src="./scene.js"></script>
+</body>
+</html>

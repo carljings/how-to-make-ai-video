@@ -1,0 +1,57 @@
+{
+  "derived_family": "Roadster Film Sans",
+  "source_family": "Noto Sans SC",
+  "source_version": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603",
+  "source_repository": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+  "source_download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+  "source_size_bytes": 17772300,
+  "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+  "github_git_blob_sha": "fb0637bafbcd804fe32152370a1225990745b4bc",
+  "retrieved_date": "2026-10-17",
+  "license": "SIL Open Font License 1.1",
+  "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+  "license_file": "OFL-NotoSansSC.txt",
+  "license_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+  "weights": [
+    300,
+    500,
+    600,
+    700,
+    900
+  ],
+  "source_inputs": [
+    {
+      "file": "CREATIVE_DIRECTION.en.md",
+      "sha256": "6017d34096d2ccee6b31dd7833be9ef6251bc90314c7abe6091e411a03943ae4",
+      "size_bytes": 10639
+    },
+    {
+      "file": "storyboard-v2.zh-CN.md",
+      "sha256": "5187b68e06194d485d07130fb7dea611b138ec38bdf887314c34721c291338f4",
+      "size_bytes": 4986
+    }
+  ],
+  "coverage_scope": "All characters in complete v2 CREATIVE_DIRECTION.en.md and storyboard-v2.zh-CN.md, current v2 cue/spec JSON if present, plus printable ASCII. Coverage is not a visible-text instruction.",
+  "build_date": "2026-10-17",
+  "preserved_legacy_weights": [
+    500,
+    700
+  ],
+  "new_font_family": "Roadster Film Sans",
+  "v3_inputs": [
+    {
+      "path": "CREATIVE_DIRECTION-v3.en.md",
+      "sha256": "5296c36d6ce3007579ce9188ac969e9ba61932f40ea7b7bbcc69f4da14daace8"
+    },
+    {
+      "path": "storyboard-v3.zh-CN.md",
+      "sha256": "b85a5c1c9cc1e4078eb916d762fc78c2d6d13fc6841d8fbd6696091b8e339863"
+    },
+    {
+      "path": "narration-lines-v3.json",
+      "sha256": "d99a5aae244223fbe4f85a37ad6eba54145fe53498fb56c235450afa69d158e1"
+    }
+  ],
+  "v3_required_codepoints": 701,
+  "note": "Actual v3 subset rebuilt from existing official full Noto Sans SC source; all five are real static weights. Earlier source provenance remains valid; old v2 required-text inventory is superseded by v3_inputs and coverage.json."
+}

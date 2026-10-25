@@ -1,0 +1,14 @@
+Use case: ads-marketing / scientific-educational.
+Create a finished Chinese Douyin science-video cover as a native portrait 3:4 composition, ideally 1152x1536. This is a new topic adaptation of the supplied science-series covers, not a collage.
+Input images 1, 2, 3 are STYLE AND TYPOGRAPHY REFERENCES ONLY: the user's entropy, AI-history and neutrino covers. Match their rich midnight-navy background, extremely bold warm-white Chinese headline, golden-amber keyword accents, pale-blue supporting line, realistic sculptural subject, warm amber and cool cyan lighting. Keep the same series identity and premium photographic / physically rendered finish. Do not repeat their cup, computer, human or their words.
+
+Topic: the mathematically proved 20-move upper bound for standard legal 3x3 Rubik's Cube states under face-turn counting. It is a science explainer, not a claim that any arbitrary 20 moves solve a cube.
+Exact visible Simplified Chinese text, four lines only:
+Topic: "三阶魔方"
+Main line 1: "再怎么乱，"
+Main line 2: "20步就够？"
+Supporting line: "看懂“上帝之数”"
+Make every character correct. Main question exactly two lines; highlight "20步" in golden amber, the other main characters warm white. Topic line amber, smaller than the main question. Supporting line pale blue and readable. No extra wording, watermark, logo, English, formula, date, record number, duration or badges.
+
+Layout: typography group upper 44–46%, strongly left aligned with 7% safe margins, matching the references. Main letters huge and legible at a 300px thumbnail. The full question mark must remain inside the safe margin. Do not put bright effects behind text.
+Lower 54–56%: ONE large, intact, beautifully lit standard 3x3 speed cube, aligned layers, seen in a strong three-quarter angle with top/front/right faces. Exactly three rows and three columns on each visible face, rounded colored facelets, black narrow gaps, physically coherent cube geometry. Its face colors are mixed to suggest a scramble: standard yellow, white, green, blue, orange and red. No missing pieces, no explosion, no broken cube, no extra rows, no floating cubies, no hands. Premium macro product-render material, tactile glossy plastic, crisp edges, warm highlights and cyan rim light. The cube hovers a tiny distance above a dark glossy surface with a restrained reflection and contact shadow. A few subtle amber route points and a fine curved light path behind the cube suggest a route back to order; keep them secondary, not a galaxy or decorative particle cloud. Large simple silhouette, elegant depth, clean editorial cover. No panels, no interface screenshots, no multiple cover options.

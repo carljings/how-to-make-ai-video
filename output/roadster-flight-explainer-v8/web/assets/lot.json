@@ -1,0 +1,116 @@
+{
+ "parts": {
+  "lineup": {
+   "vertices": 22124,
+   "indices": 95178,
+   "ext_components": 0,
+   "pos": 0,
+   "nor": 265488,
+   "mat": 530976,
+   "idx": 553100
+  },
+  "props": {
+   "vertices": 1738,
+   "indices": 4932,
+   "ext_components": 0,
+   "pos": 933812,
+   "nor": 954668,
+   "mat": 975524,
+   "idx": 977264
+  }
+ },
+ "materials": [
+  "lineup_white",
+  "lineup_red",
+  "truck_white",
+  "steel",
+  "bronze",
+  "lineup_glass",
+  "lineup_under",
+  "lineup_rim",
+  "tyre",
+  "trim_dark",
+  "lamp_white_dim",
+  "zinc",
+  "jack_steel",
+  "wood_pole",
+  "pale_structure",
+  "tent_grey",
+  "equipment_orange",
+  "cable"
+ ],
+ "lineup": [
+  {
+   "kind": "sedan",
+   "origin": [
+    -7.389268563728621,
+    30.845065918139323,
+    0.0
+   ],
+   "heading_deg": -62.0,
+   "lwh": [
+    4.72,
+    1.85,
+    1.44
+   ]
+  },
+  {
+   "kind": "crossover",
+   "origin": [
+    -3.600719497691238,
+    28.69323607969518,
+    0.0
+   ],
+   "heading_deg": -80.0,
+   "lwh": [
+    4.75,
+    1.92,
+    1.62
+   ]
+  },
+  {
+   "kind": "cab_truck",
+   "origin": [
+    0.20188461960884585,
+    28.623434785071055,
+    0.0
+   ],
+   "heading_deg": -90.0,
+   "lwh": [
+    6.4,
+    2.55,
+    3.75
+   ]
+  },
+  {
+   "kind": "angular_pickup",
+   "origin": [
+    4.0318365033078205,
+    29.192205938877173,
+    0.0
+   ],
+   "heading_deg": -112.0,
+   "lwh": [
+    5.68,
+    2.03,
+    1.79
+   ]
+  },
+  {
+   "kind": "compact_coupe",
+   "origin": [
+    7.5927569989139885,
+    31.640675119450076,
+    0.0
+   ],
+   "heading_deg": -116.0,
+   "lwh": [
+    4.25,
+    1.9,
+    1.17
+   ]
+  }
+ ],
+ "note": "v4 staging (fitted by eye to the source wide frame; lens/height assumed; lineup = generic stand-ins).",
+ "bytes": 996992
+}

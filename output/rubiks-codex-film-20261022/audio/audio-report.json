@@ -1,0 +1,41 @@
+{
+  "sampleRate": 48000,
+  "samples": 8556800,
+  "duration": 178.26666666666668,
+  "voiceGainDb": 0.408,
+  "voiceFiles": 18,
+  "music": "Original deterministic synthesis, D minor to D major cadence",
+  "seed": 20261022,
+  "events": 249,
+  "landingSeconds": 175.88370833333335,
+  "targetLufs": -14,
+  "masterTargetTruePeak": -2,
+  "loudnormFirstPass": {
+    "input_i": "-20.68",
+    "input_tp": "-2.23",
+    "input_lra": "3.70",
+    "input_thresh": "-31.27",
+    "output_i": "-15.32",
+    "output_tp": "-2.00",
+    "output_lra": "2.60",
+    "output_thresh": "-25.76",
+    "normalization_type": "dynamic",
+    "target_offset": "1.32"
+  },
+  "pretrim": {
+    "input_i": "-14.54",
+    "input_tp": "-1.99",
+    "input_lra": "2.60",
+    "input_thresh": "-24.96",
+    "output_i": "-14.19",
+    "output_tp": "-2.00",
+    "output_lra": "2.40",
+    "output_thresh": "-24.58",
+    "normalization_type": "dynamic",
+    "target_offset": "0.19"
+  },
+  "finalGainDb": 0.5399999999999991,
+  "masterSha256": "72e9ee5a716674f467d98b84db58b49328f5cf984ac526cbae1b06481599bd01",
+  "timeStretch": false,
+  "subjectiveListeningPerformed": false
+}

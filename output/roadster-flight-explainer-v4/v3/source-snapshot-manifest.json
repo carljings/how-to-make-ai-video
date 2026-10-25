@@ -1,0 +1,552 @@
+[
+  {
+    "path": "CREATIVE_DIRECTION-v3.en.md",
+    "bytes": 19358,
+    "sha256": "8e72d29f1c31a8c32264aa5c561080ee871af4b39eb3f8b80ac2e92c9f7e22aa"
+  },
+  {
+    "path": "CREATIVE_DIRECTION-v4.en.md",
+    "bytes": 10201,
+    "sha256": "72e2130887cb6ed620ca5c118df99ec9f8e4594c62ddfda16e682bc83dc627ff"
+  },
+  {
+    "path": "CREATIVE_DIRECTION.en.md",
+    "bytes": 11024,
+    "sha256": "def69e6654f058848304d25dd01ac034f74cb2ad2bf7b12ded62e2230b2adc48"
+  },
+  {
+    "path": "FULL_READY.md",
+    "bytes": 13090,
+    "sha256": "aca65cc5924442cd95db5a77d2d061c323422c19ad3b89a65ffc0109698d917e"
+  },
+  {
+    "path": "PROOF_READY.md",
+    "bytes": 11682,
+    "sha256": "12b8eb288f8dcd0243493ea8554eaca55e1d4574e759826d4349b28a61b8eaf9"
+  },
+  {
+    "path": "blender/PROOF.md",
+    "bytes": 3924,
+    "sha256": "fc0e749b8ff231633d41b4f8816e28d4af2e33a360ad677e7aa11aad8a55410f"
+  },
+  {
+    "path": "blender/STATUS.md",
+    "bytes": 7857,
+    "sha256": "0ec9cf0785f99ef57da78c5b1c3a41a00cafaef63b5f08b1bfce76e0bb94ef40"
+  },
+  {
+    "path": "blender/build_scene.py",
+    "bytes": 36963,
+    "sha256": "337879fbbe37123c0249866f0cc6206c2a7ac043c2b996830387b34879b3947f"
+  },
+  {
+    "path": "blender/data/film_cues.json",
+    "bytes": 7741,
+    "sha256": "42d936064856f7e0393d659c7e4ec4e49035e57dfd5b00e8607f1f13184ec900"
+  },
+  {
+    "path": "blender/data/source_wide_reference.json",
+    "bytes": 10340,
+    "sha256": "ff05036601a5e47121899307fd26e168d0d69eec222ec48b3fe2c1b7e037c3e6"
+  },
+  {
+    "path": "blender/diagram.py",
+    "bytes": 5559,
+    "sha256": "57269f7d8464fed42458fe7f5236149392694100f038224290945f716040e6bf"
+  },
+  {
+    "path": "blender/film.py",
+    "bytes": 38019,
+    "sha256": "022fc70483fe15ebbf39c978393f7f6aa3f89aa2381761c205a8e461deab1cfa"
+  },
+  {
+    "path": "blender/geom.py",
+    "bytes": 13431,
+    "sha256": "a4ee69b08e8f8a91d33cc2e3c8306e0ae47db6822cfc694f04bf9591341fb3b9"
+  },
+  {
+    "path": "blender/motion.py",
+    "bytes": 14276,
+    "sha256": "25fb62999e3f97c219ae8b14303004a1a401a7bf80aafd4624d811e179e42a08"
+  },
+  {
+    "path": "blender/render_film.py",
+    "bytes": 35809,
+    "sha256": "b74621b2f14ca6fd5fac4db68fe57d5bc7f88a5bde5af1ca6ba0fb34c6c364cb"
+  },
+  {
+    "path": "blender/render_v2.py",
+    "bytes": 21091,
+    "sha256": "44128850e1a739c561044f3d5889fd849b2cf0f7f3dec785354381dbf2bed782"
+  },
+  {
+    "path": "blender/render_v3.py",
+    "bytes": 57338,
+    "sha256": "977b3719dc01dcecce6b21b0a46edde3462af39780a9dfd9e45ef7d23e1200f0"
+  },
+  {
+    "path": "blender/roadster.py",
+    "bytes": 23063,
+    "sha256": "7de9fb09184e2471212302d25d659de8b69345228a53bc4e406c0a3631253ecf"
+  },
+  {
+    "path": "blender/shots.py",
+    "bytes": 15445,
+    "sha256": "20a669751ab9e4f1f2a3f3646a7a215034b31161535b673226cdc2e391a00172"
+  },
+  {
+    "path": "blender/staging.py",
+    "bytes": 25076,
+    "sha256": "c80a416f5f373d9ed7c1108c502f05a4141ba53d4de87cdc88741a49652caea9"
+  },
+  {
+    "path": "blender/tools/export_overlay.py",
+    "bytes": 9850,
+    "sha256": "b3b53b0d448fe0db743859eb0572bf99c8d7ae7e541a822f9c32be5a09295d28"
+  },
+  {
+    "path": "blender/tools/export_v2_overlay.py",
+    "bytes": 1710,
+    "sha256": "ef9a17ae3edd22b46a0c3a83208787103c8e658cc13aa10dc8ad0aea73eb5734"
+  },
+  {
+    "path": "blender/tools/export_v3_overlay.py",
+    "bytes": 3430,
+    "sha256": "7a961fe034194dd65b648fd4aef5eb5fc1d28514aa186aef592232f8b2945f23"
+  },
+  {
+    "path": "blender/tools/make_film_cues.py",
+    "bytes": 3987,
+    "sha256": "59aa16509f48c64890837cd1b83e02a6e716260991c908971c03fb7ccec92b89"
+  },
+  {
+    "path": "blender/tools/preview.py",
+    "bytes": 9577,
+    "sha256": "020283c4bc2e25819a2acffe8ce2b076c4a07a62b47b92e03d1c10d5714b57dc"
+  },
+  {
+    "path": "blender/tools/preview_v2.py",
+    "bytes": 5169,
+    "sha256": "504a30814b020af856f48537e7dc228f3554540688e794a1fdc8d1d3cad7547f"
+  },
+  {
+    "path": "blender/tools/retime_v2.py",
+    "bytes": 4889,
+    "sha256": "becbd45c4d81bbde25a6a7a5e1b2cec4ac2b6a25faeb45fcdcf337b86c7107a1"
+  },
+  {
+    "path": "blender/tools/retime_v3.py",
+    "bytes": 8364,
+    "sha256": "e275f7df7eb0489ad765f23250afe97c95dbae1af8e480bde61a9468c2f4e087"
+  },
+  {
+    "path": "blender/v2_film.py",
+    "bytes": 26690,
+    "sha256": "f114112b8bfb0a3138173ae5d3592732f62bf04443b3a7fab24a040c69a0608f"
+  },
+  {
+    "path": "blender/v3_film.py",
+    "bytes": 61949,
+    "sha256": "eb1d111682c4a3a16f1635afa5356f4f6662724bcd7e6970e9179dd547e553a6"
+  },
+  {
+    "path": "blender/v3_ramp.py",
+    "bytes": 24322,
+    "sha256": "7cf647234726d3443bda2b2f24585a31d60e0e03f498540404ca5e36d9056678"
+  },
+  {
+    "path": "narration-lines-v3.json",
+    "bytes": 14049,
+    "sha256": "d99a5aae244223fbe4f85a37ad6eba54145fe53498fb56c235450afa69d158e1"
+  },
+  {
+    "path": "package-lock.json",
+    "bytes": 156882,
+    "sha256": "09db7f204b5dda15a98384797811b864debe172865e2738afd06fc7856ab26da"
+  },
+  {
+    "path": "package.json",
+    "bytes": 1385,
+    "sha256": "825fcf84a2b6cb7f99bc27a2f4bc2e8d475edb8ab131ad5ae8b52cc4cfe73370"
+  },
+  {
+    "path": "remotion.config.ts",
+    "bytes": 429,
+    "sha256": "7f18766d2501fda543463943e4c0cb8252de3aaad350c5772dda7f6ef8d924d6"
+  },
+  {
+    "path": "scripts/contact.mjs",
+    "bytes": 2739,
+    "sha256": "44d7a26a56db49ae8a253bfd6558f2c70723804a41c337da214b10b7884300a0"
+  },
+  {
+    "path": "scripts/finalize.mjs",
+    "bytes": 8893,
+    "sha256": "b37b072007baae1c3ea870105071750f8b033fd3130a4dba0e808f9f06fc8625"
+  },
+  {
+    "path": "scripts/score.mjs",
+    "bytes": 36259,
+    "sha256": "a03fdadde388e2def15ba8a86c79e0b88e4e10460e42f85a0e88579f2531ee3e"
+  },
+  {
+    "path": "scripts/sheet.mjs",
+    "bytes": 2917,
+    "sha256": "e3ce49299ce0c0fcbfeb18d78ded1ba2a813ea3ad367ab4498f96a40eb1f4b30"
+  },
+  {
+    "path": "scripts/text-check.mjs",
+    "bytes": 2334,
+    "sha256": "2668de4b2a27bf937c3f3268fd0796831788dac6cdaf2fd780e844c9d000ac71"
+  },
+  {
+    "path": "scripts/v2/finalize.mjs",
+    "bytes": 9665,
+    "sha256": "202d1fd0c21b20a2d204e203ea7662bad68c6c583ce2e01d07827d947263bc53"
+  },
+  {
+    "path": "scripts/v2/score.mjs",
+    "bytes": 31137,
+    "sha256": "421f67d967c7231110634a463eb691f65057f4932fda389fa8e47ec29d0a3956"
+  },
+  {
+    "path": "scripts/v2/stills.mjs",
+    "bytes": 3839,
+    "sha256": "ab41acccc4a105a43f1ed5e41a45d425be58d4ab2f591ece74f8cdc86b58d557"
+  },
+  {
+    "path": "scripts/v2/verify.mjs",
+    "bytes": 3547,
+    "sha256": "4598ef2ca40827f881fdc8f9609b715507a59611efbb508f60bc64e9e8f88f87"
+  },
+  {
+    "path": "scripts/v3/score.mjs",
+    "bytes": 42012,
+    "sha256": "3345d8b17d1bea5a8c2094e49fbbe6bd3644d304e8f54626335fbb5d38501e0a"
+  },
+  {
+    "path": "scripts/verify-film.mjs",
+    "bytes": 12230,
+    "sha256": "8b360faa4c2ee6215c1f2ddade008e3cf619ccf7d52484c71859619ca6dfe491"
+  },
+  {
+    "path": "src/Root.tsx",
+    "bytes": 1101,
+    "sha256": "4051da9c89d33632243b2194210e64477c9535cbc713028b74b2d1d4a78063a5"
+  },
+  {
+    "path": "src/data/events.json",
+    "bytes": 82765,
+    "sha256": "cacd9b5c5e7845d45f20088aeea40875d12e0136ec68ed13326f9bc8903bcbdb"
+  },
+  {
+    "path": "src/data/overlay.json",
+    "bytes": 298015,
+    "sha256": "56d0efde6b05f9269705134312c5e351e18fdf5156847114ef14833b631579c2"
+  },
+  {
+    "path": "src/data/plates.json",
+    "bytes": 57,
+    "sha256": "b9cbd5a23c23628a58b1ee4bda2e4b03d1e1698bc5b8ad1c48588e909bdb2ea0"
+  },
+  {
+    "path": "src/film/Cover.tsx",
+    "bytes": 1537,
+    "sha256": "0322108a3e67ab98ad8919db3b33e0d120f2e8ac5d9bfef0de46a124b6d6a683"
+  },
+  {
+    "path": "src/film/Film.tsx",
+    "bytes": 1106,
+    "sha256": "6e58b3f3ca98be65e5bffc354af8979bc07e57828db318b7474ddc08f27fcb36"
+  },
+  {
+    "path": "src/film/Labels.tsx",
+    "bytes": 2561,
+    "sha256": "19a04dbe6bae97329733e1b0472bcb97eb0e8f7bdfde1a5419bca3c302659552"
+  },
+  {
+    "path": "src/film/Plate.tsx",
+    "bytes": 1673,
+    "sha256": "541885b492706968fe44e95635427cf2236c70c5b094b94b98dcb6eafd23e034"
+  },
+  {
+    "path": "src/film/Type.tsx",
+    "bytes": 8133,
+    "sha256": "2cd4b233352f885ce78c8e756a9b9d7c391bfd0b8bd3e651998926e31234bc44"
+  },
+  {
+    "path": "src/film/copy.ts",
+    "bytes": 1895,
+    "sha256": "187cf022664455a048b51903da8ae2dcc36fe9d31d2f6ec4c46bd20da258c316"
+  },
+  {
+    "path": "src/film/data.ts",
+    "bytes": 2162,
+    "sha256": "607655fcc6d26be72a81b80e704586d4028a39f40d8cd3d7e72c6843ba1f569d"
+  },
+  {
+    "path": "src/index.ts",
+    "bytes": 89,
+    "sha256": "a58f804bf74bab68b4549aa5c715eb4a89ec5835206d198fc79b462b4fc71ef9"
+  },
+  {
+    "path": "src/lib/fonts.ts",
+    "bytes": 735,
+    "sha256": "9504be5e2739eec826000a3abfcc77888f3ebd06ce4a068d94c321bbef7b70f9"
+  },
+  {
+    "path": "src/v2/Cover.tsx",
+    "bytes": 1304,
+    "sha256": "1a79267ddbe50e0f6aa726424328213d910ee7d436b9661649c92aad2b5f8bc3"
+  },
+  {
+    "path": "src/v2/Graphics.tsx",
+    "bytes": 6049,
+    "sha256": "e82b966b1c3026ecd1c37d3d906d37d23a393b85359889ebaaa6d96f7ff8b9ff"
+  },
+  {
+    "path": "src/v2/Post.tsx",
+    "bytes": 1882,
+    "sha256": "d75baaa85e1f849c700a2cb29fbcfe61e9f950c1a07a8eb07ad7bc83b01d27e7"
+  },
+  {
+    "path": "src/v2/Root.tsx",
+    "bytes": 932,
+    "sha256": "08000883ae5b420a1b270ccb73ca6899d4ad48608f8c78c79c6eb2584c2d9e96"
+  },
+  {
+    "path": "src/v2/Type.tsx",
+    "bytes": 7755,
+    "sha256": "eb97d0a782bc76c46ed7080456568392137321e5e5c90137cfc7913c47a3c350"
+  },
+  {
+    "path": "src/v2/V2Film.tsx",
+    "bytes": 2352,
+    "sha256": "d1b76e387c8f0000f89aa4b994f50f281dc24603a5c11acde8593bf95c562e59"
+  },
+  {
+    "path": "src/v2/data/overlay.json",
+    "bytes": 1418856,
+    "sha256": "06030eae782cbabb62d80d3f25cf5d985c380f6c5df34c5a495b8e3ad0d70906"
+  },
+  {
+    "path": "src/v2/data.ts",
+    "bytes": 3309,
+    "sha256": "aa4e4a7d466164cb687c1766d0e22b0563cddc3383a81af54048f2f3e5bffae7"
+  },
+  {
+    "path": "src/v2/fonts.ts",
+    "bytes": 574,
+    "sha256": "463876783f238cc82c541e092e508683fee58d88a1d8335620ef90d05c3ee1c4"
+  },
+  {
+    "path": "src/v2/index.ts",
+    "bytes": 93,
+    "sha256": "f070769af03c0f7e4e7badc444eaa041b9cd1754be1f790913486b266ce1619b"
+  },
+  {
+    "path": "src/v3/Cover.tsx",
+    "bytes": 1609,
+    "sha256": "0c103e585ef7c5a5e99bbce0b133cfda2b272d99dcdf9f5ca1d788e9640560e2"
+  },
+  {
+    "path": "src/v3/Film.tsx",
+    "bytes": 1680,
+    "sha256": "ea62e82183391dfa35e60683510eb35d26a4fc16f89ff2a46bcf8b2a02007186"
+  },
+  {
+    "path": "src/v3/Graphics.tsx",
+    "bytes": 12210,
+    "sha256": "9c4ca2658725636034f9931b8d20d4db74a54a22fd74e5139f2cc87747351340"
+  },
+  {
+    "path": "src/v3/Plate.tsx",
+    "bytes": 3478,
+    "sha256": "eaa075661100eeebd448c99d25c155d6ec7a9d31b46a8b4eb86ba35d9edf032c"
+  },
+  {
+    "path": "src/v3/Post.tsx",
+    "bytes": 1709,
+    "sha256": "6e218ba7237d5837442079b2d9d758cbb70663c5636b6341322a8d783cffb273"
+  },
+  {
+    "path": "src/v3/Root.tsx",
+    "bytes": 1039,
+    "sha256": "5159c6f85cdf1347412ec39b95adeb6f95f000674a9ff76f95ee54e1d3bbebe4"
+  },
+  {
+    "path": "src/v3/Type.tsx",
+    "bytes": 12437,
+    "sha256": "be274970128f6d2bf32cf67aa3febb3790bd501c9305bc9249689c0e4e15e337"
+  },
+  {
+    "path": "src/v3/data.ts",
+    "bytes": 5024,
+    "sha256": "e5c88bb9bc98d5fc802f31dc3324b9a7f17879916852ecfa9d484178068131f7"
+  },
+  {
+    "path": "src/v3/fonts.ts",
+    "bytes": 563,
+    "sha256": "7707b9a2d2370c9da105b6225e91dc5ffe5e8e6d91b8af039f67187865e5f9bf"
+  },
+  {
+    "path": "src/v3/index.ts",
+    "bytes": 93,
+    "sha256": "50931ebbd96504605bc0510579ca9a5df29812f5538b40db7ccf31c1d97bb1e4"
+  },
+  {
+    "path": "storyboard-v2.zh-CN.md",
+    "bytes": 5427,
+    "sha256": "2d8d5f33e56c022cadba25dacc67461ecbf6468c18025af71202f35b8d9d3642"
+  },
+  {
+    "path": "storyboard-v3.zh-CN.md",
+    "bytes": 15019,
+    "sha256": "cc1c845bab233bc922ce00679a75ee03eb90ed0f8db4f131a2f9392446118f69"
+  },
+  {
+    "path": "storyboard-v4.zh-CN.md",
+    "bytes": 5193,
+    "sha256": "8410dd12b86049ce1486a2d766a6bda0254e597c550ca2c090f9163624075e70"
+  },
+  {
+    "path": "tsconfig.json",
+    "bytes": 411,
+    "sha256": "b344b85e2ff32b74552f9508c5cc0cd16de120f58db95e0bee0c3cfe78aac783"
+  },
+  {
+    "path": "v2/cues.json",
+    "bytes": 6454,
+    "sha256": "16434ed1bb9a6d5f5f6bab2a70615a70259e955f43f9a02001c1378c79a64bc9"
+  },
+  {
+    "path": "v2/source-snapshot-manifest.json",
+    "bytes": 9367,
+    "sha256": "d129582d6fbf7ce5fff888f82d8dddcb37c44fd66bbd876f92eb92311b2ce34f"
+  },
+  {
+    "path": "v2/timing.json",
+    "bytes": 8801,
+    "sha256": "a53f68cb89852e722aa737314150f17f82d27e1675920b14133b680fb8413a7b"
+  },
+  {
+    "path": "v3/cues.json",
+    "bytes": 15137,
+    "sha256": "4934dfc9163714ee41ba38ef9389a2a380ee476ab154ac5fa4e8c37e3ed8b667"
+  },
+  {
+    "path": "v3/timing.json",
+    "bytes": 18738,
+    "sha256": "26fa51266f6b5706339fb433b437d0094586d9adbdaea9ffb1bf140aac981eb4"
+  },
+  {
+    "path": "v3/tools/montage.py",
+    "bytes": 1320,
+    "sha256": "79d7feaea007fc17ba38de2ef96a0afbe284e9fc5d1585b71e519c81881a349f"
+  },
+  {
+    "path": "v3/v2-plate-availability.json",
+    "bytes": 47352,
+    "sha256": "ed921f306aa2754ee0b7be152be9113f87abafe0acf0eb6b3140a653b115b794"
+  },
+  {
+    "path": "v4/tools/check_profile.py",
+    "bytes": 6779,
+    "sha256": "722f5005d8c85efcd472b08b61872405d90a2e57f4f9155bb3af86480d065514"
+  },
+  {
+    "path": "v4/tools/crop.py",
+    "bytes": 1753,
+    "sha256": "76471e250dbe9ce2d4d31c328924c51c0fcc5f81942ac5a554907089bd6bce97"
+  },
+  {
+    "path": "v4/tools/overlay_profile.py",
+    "bytes": 1657,
+    "sha256": "5bec236e83b9e09a68aeead10ec55856149a7249fb2ecbf1c3385406062ca6a5"
+  },
+  {
+    "path": "v4/tools/previz.py",
+    "bytes": 5468,
+    "sha256": "8b4ec12ca189aaee558bf489b3ac72b6dc13e09f73140d21e2ad92de5e31583c"
+  },
+  {
+    "path": "v4/tools/rampfit.py",
+    "bytes": 18985,
+    "sha256": "b42b0f6806ade64ef01d558f4159d5c70f8e93bebe62ab1418b97027742df723"
+  },
+  {
+    "path": "v4/tools/rampfit2.py",
+    "bytes": 7769,
+    "sha256": "8c6e8e3a12050999adb91fac98c667f473c825486fa29c28939e6d3bfe065080"
+  },
+  {
+    "path": "v4/tools/rampfit3.py",
+    "bytes": 4906,
+    "sha256": "e1e9f0152eeeba572299c310784a193e5ffb9259abca85ce6dc3fc4d7f7c353b"
+  },
+  {
+    "path": "v4/tools/rampfit4.py",
+    "bytes": 5532,
+    "sha256": "6d3f5b6497ff229825d9b049bf300c31fb71cc02cfdf82b2a376286de6116bb5"
+  },
+  {
+    "path": "v4/tools/rampfit5.py",
+    "bytes": 5370,
+    "sha256": "919d19e32730fcb56b95a5b1510f7bf3377b0e8b7d9f9efbec25eae66d330002"
+  },
+  {
+    "path": "v4/v3-baseline/Cover.tsx",
+    "bytes": 1609,
+    "sha256": "0c103e585ef7c5a5e99bbce0b133cfda2b272d99dcdf9f5ca1d788e9640560e2"
+  },
+  {
+    "path": "v4/v3-baseline/Film.tsx",
+    "bytes": 1680,
+    "sha256": "ea62e82183391dfa35e60683510eb35d26a4fc16f89ff2a46bcf8b2a02007186"
+  },
+  {
+    "path": "v4/v3-baseline/Graphics.tsx",
+    "bytes": 11358,
+    "sha256": "9f3ee47950654358eafa70de05e264cdb25877b12cad4a0ad1f15139c4d72f81"
+  },
+  {
+    "path": "v4/v3-baseline/Plate.tsx",
+    "bytes": 3478,
+    "sha256": "eaa075661100eeebd448c99d25c155d6ec7a9d31b46a8b4eb86ba35d9edf032c"
+  },
+  {
+    "path": "v4/v3-baseline/Type.tsx",
+    "bytes": 11199,
+    "sha256": "16e24e3b0e305ae136e74fda31787843c01d66add5b8d9c73705cfdd41815488"
+  },
+  {
+    "path": "v4/v3-baseline/cues.json",
+    "bytes": 15040,
+    "sha256": "a4b0a85a543647adc5b65fcacf3db9ed949a1822071249886f4f03be90485e94"
+  },
+  {
+    "path": "v4/v3-baseline/data.ts",
+    "bytes": 4912,
+    "sha256": "298e82de6b6ffc2a42d8e54a64402860e382e6fb3e8e45de7e47a407392dd655"
+  },
+  {
+    "path": "v4/v3-baseline/render_v3.py",
+    "bytes": 42469,
+    "sha256": "55f48cdd80bd216dd7d01835c0cdd4170316a5b51320057a05ab91a0ecbc0855"
+  },
+  {
+    "path": "v4/v3-baseline/timing.json",
+    "bytes": 18738,
+    "sha256": "e764c8e8feb5f0c12d5c7914751e6a0c6ad9a133c08a442278eef80c75abf5b7"
+  },
+  {
+    "path": "v4/v3-baseline/v3_film.py",
+    "bytes": 46651,
+    "sha256": "6e0e3e42d6ac2246864e0e9a805ad161754bce9c7ac8586df675a44e05f10587"
+  },
+  {
+    "path": "v4/v3-baseline/v3_ramp.py",
+    "bytes": 20462,
+    "sha256": "bf380b4f216d81175c5cdd47fccab50dc73630226f326d9455676908b5abf272"
+  }
+]

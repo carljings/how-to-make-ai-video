@@ -1,0 +1,10 @@
+# SCIENCE: claims in the full film and how strongly they are made
+
+| On screen | Source | Strength / limit |
+|---|---|---|
+| 节拍一重复，大脑就预期下一拍; 少了一下，你却在等它 | Fujioka et al. 2012, *J Neurosci* 32:1791, doi:10.1523/JNEUROSCI.4107-11.2012. Wacongne et al. 2011, *PNAS* 108:20754, doi:10.1073/pnas.1117807108 | Regularity → an expectation of the next sound, including an omitted one. The rings are a beat grid fitted to the song's first six measured attacks (示意), never brain data. The missing attack is measured: no onset where the grid expects one; the music is not silent. |
+| 等到了！重拍正落在预期的那一拍 | Measured on the track | The drop lies on the fitted grid. This is a fact about the music's timing, not a measurement of anyone's prediction. No numbers are shown. |
+| 等的时候：尾状核更活跃 / 落下的那一刻：伏隔核更活跃 / 等待本身，也在奖赏里 | Salimpoor et al. 2011, *Nature Neuroscience* 14:257, doi:10.1038/nn.2726 | A small study: 8 analysed participants, self-chosen music that gives them chills. PET: dopamine release in the striatum. fMRI: caudate during anticipation, nucleus accumbens at peak experience. Footnoted on screen as 一项小研究, with the schematic labelled 示意. No dopamine units or curves, no "every listener", no fixed timer. The brain is a flat schematic, not a scan. |
+| 很好猜的时候，来点意外更好听 / 很难猜的时候，落回预期更好听 | Cheung et al. 2019, *Current Biology* 29:4084, doi:10.1016/j.cub.2019.09.067 | A chord-sequence experiment. Pleasantness depended on uncertainty and surprise **together**: higher when low uncertainty met high surprise, or high uncertainty met low surprise. Shown as a qualitative map (示意); no formula, no claim about this song's rhythm. |
+| 听熟了，往往更喜欢 | Madison & Schiölde 2017, *Frontiers in Neuroscience* 11:147, doi:10.3389/fnins.2017.00147 | Repeated listening increased liking in their experiments ("往往", not "always"; no addiction claim). The "第一遍 / 这一遍" rows are measured: the film literally replays the same source passage. "你知道它要来" is the viewer's experience, not a measurement. |
+| 这些是一部分原因，因人而异 | — | The ending states the answer is partial. 开智 is the user's playful name, not an IQ claim. |

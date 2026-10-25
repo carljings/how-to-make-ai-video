@@ -1,0 +1,9 @@
+Use case: ads-marketing / compositing.
+Input image 1 is the approved-design reference and edit source for a science-video cover. Create a native horizontal 4:3 adaptation, ideally 1536x1152 pixels. Keep its midnight-navy, warm-white, amber-gold and cyan series identity, the same photorealistic intact 3x3 cube with its face colors/materials, and the exact Chinese wording. Recompose for 4:3; do not squeeze, stretch, mechanically crop, or put the portrait inside a frame.
+Exact visible text only:
+Topic: "三阶魔方"
+Main line 1: "再怎么乱，"
+Main line 2: "20步就够？"
+Supporting line: "看懂“上帝之数”"
+Keep "20步" golden amber, other main characters warm white; topic amber and supporting line pale blue. Every character and the full question mark must be correct and visible.
+Typography is on the left / upper-left in a spacious dark negative-space area, with huge bold Chinese sans letters matching the input and at least 6–7% outer safe margins. Keep the main question exactly two lines. Place the beautiful cube large at lower-right/right, with one coherent standard 3x3 shape and exactly nine facelets on each visible face, aligned intact layers. Preserve the realistic warm and cyan lighting, restrained dark reflective surface and a few elegant amber route points around/behind the cube. Keep bright trails and cube edges away from all lettering. No additional text, formula, logo, watermark, badges, extra objects or panels. One finished flat landscape cover, not a collage.

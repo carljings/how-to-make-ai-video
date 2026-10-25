@@ -1,0 +1,11 @@
+Use case: ads-marketing / compositing.
+Input image 1 is the APPROVED DESIGN REFERENCE and source art for a final science-video cover, not a screen to reproduce.
+Create a native VERTICAL 3:4 portrait adaptation of this exact neutrino cover, ideally 1152 x 1536 px. Retain its visual identity: rich midnight navy, ice-cyan translucent human head and upper torso, warm amber point trajectories passing continuously through the figure, huge warm-white and golden Chinese headline, crisp sophisticated science documentary finish.
+Change only the composition and native canvas proportions to 3:4; keep exactly the same wording, subject, typography style, blue-and-gold palette and scientific meaning. Do not squeeze, stretch, or mechanically crop the horizontal reference. Do not introduce any new idea or extra text.
+Typography in the UPPER 44% of the image, strongly left aligned with an 8% safe margin:
+Line 1 golden amber, very large bold Chinese sans: "中微子"
+Line 2 warm white, very large bold: "如何穿过"
+Line 3 warm white, very large bold: "你的身体？"
+Line 4 smaller pale cool-gray, clearly readable: "你却毫无感觉"
+Every character must be correct and all four lines fully visible. The third line must stay on one line with the full question mark visible. Huge typography legible at 300px preview width.
+Subject in LOWER 58%: large three-quarter-profile translucent human head facing upper-left with an upper torso below, receding to the lower edge. The head should sit just below and to the right of the title block, never behind the lettering. Similar clean sculptural face and delicate internal points/organic volume as input. Thin warm amber trajectories enter diagonally from right and pass through the body toward lower left, conceptual illustration of invisible neutrinos. No impacts, wounds, explosions, no bright nucleus, no orbit icon, no health hazard. Restrained beautiful glow, strong subject readability, no additional logos/labels/watermarks. A clean 3:4 composition, one finished flat cover image.

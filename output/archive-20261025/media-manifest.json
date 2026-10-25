@@ -1,0 +1,369 @@
+{
+  "release_tag": "production-archive-20261025",
+  "media": [
+    {
+      "title": "Roadster v1",
+      "project": "output/roadster-flight-explainer",
+      "asset": "roadster-blender-v1.mp4",
+      "status": "historical",
+      "bytes": 41676902,
+      "sha256": "d355b08e4377b3bb5cbcb6b0de3ce1ef19764a456f36b94aad7764dbe018a342",
+      "duration": 75.0,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "Roadster v2",
+      "project": "output/roadster-flight-explainer-v2",
+      "asset": "roadster-blender-v2.mp4",
+      "status": "historical",
+      "bytes": 24656332,
+      "sha256": "1dbf959745526d3a0253fc1ddad884adbc10bf573a28f43eaba3a726fdc614ee",
+      "duration": 30.0,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "Roadster v3",
+      "project": "output/roadster-flight-explainer-v3",
+      "asset": "roadster-blender-v3.mp4",
+      "status": "historical",
+      "bytes": 30002478,
+      "sha256": "05ed04490d42c4c913cbb4867fdde02a3c647b3f35063b2b74b0e823a271d2ba",
+      "duration": 58.3,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "Roadster v4",
+      "project": "output/roadster-flight-explainer-v4",
+      "asset": "roadster-blender-v4.mp4",
+      "status": "historical",
+      "bytes": 25267841,
+      "sha256": "ac30618492740b63728fb8a23d9da9f6f53e68d3dc1c50d94f06b8c0c3af2e36",
+      "duration": 58.3,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "Roadster v8",
+      "project": "output/roadster-flight-explainer-v8",
+      "asset": "roadster-v8-answered-ending.mp4",
+      "status": "historical",
+      "bytes": 120516346,
+      "sha256": "d472ac8d9504485a37b21ef4f8f1e7e2de72e341dda1113f738cfd190ea77c57",
+      "duration": 63.5,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "Roadster v9",
+      "project": "output/roadster-flight-explainer-v9",
+      "asset": "roadster-v9-final-bt709.mp4",
+      "status": "historical",
+      "bytes": 121934257,
+      "sha256": "0c960c90dbe38ed659edf29d09d28021a99418e12bdd9f0b59b3d4e085c1ebcd",
+      "duration": 68.066667,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "看不见的石墩 · v2",
+      "project": "output/roadster-opus-rebuild-20261019",
+      "asset": "roadster-invisible-stone-v2.mp4",
+      "status": "completed",
+      "bytes": 40419049,
+      "sha256": "00c4c988faf75fdcf1d1b8bb11acad2bcd248f03172e69302fef64cfcae8bb10",
+      "duration": 42.3,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "两次起飞 · v4.1",
+      "project": "output/roadster-opus-two-flights-20261019",
+      "asset": "roadster-two-flights-v4.1.mp4",
+      "status": "historical",
+      "bytes": 52872521,
+      "sha256": "dd82493d790dd8889dda9cc78f59022719144748f7faeb31aba0301559d7f94c",
+      "duration": 36.3,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "两次起飞 · v5",
+      "project": "output/roadster-opus-two-flights-20261019",
+      "asset": "roadster-two-flights-v5.mp4",
+      "status": "completed",
+      "bytes": 54759020,
+      "sha256": "ff2399e768b18e8845ea522efecbf6a9c5e318f9d3cefd9ad13a349f319a6826",
+      "duration": 39.8,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "等它落下来",
+      "project": "output/music-anticipation-original-20261020",
+      "asset": "music-anticipation-v1.mp4",
+      "status": "completed",
+      "bytes": 22635129,
+      "sha256": "6d0f1c894a91e0d48379988197a89fdeb559368a96b4b856bf81e2f4c41c6ab6",
+      "duration": 42.436,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "开智小曲为什么上头 · v2.1",
+      "project": "output/music-catchy-remake-20261020",
+      "asset": "music-catchy-v2.1.mp4",
+      "status": "completed",
+      "bytes": 41283569,
+      "sha256": "d2ef7b68f1554bd6564484778c8a28e70035b8e79835bffefdb190b940221f62",
+      "duration": 43.182,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "开智小曲科普 · 完整版",
+      "project": "output/music-explainer-full-20261020",
+      "asset": "music-explainer-full-v1.mp4",
+      "status": "completed",
+      "bytes": 9314146,
+      "sha256": "47c43073da14e986d8bdd43f440ffedce3be029911fce32f9661877d0a27c158",
+      "duration": 40.466667,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "A 鼓槌之前谁先跳",
+      "project": "output/music-three-films-20261021",
+      "asset": "music-A-drum-r2.mp4",
+      "status": "completed",
+      "bytes": 39997694,
+      "sha256": "4a9ecb4f3098a9a957c4a124501a0e4f18cf9c3848ce4530dc53439618b74d9c",
+      "duration": 28.6,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "B 卷成一盘3个机关",
+      "project": "output/music-three-films-20261021",
+      "asset": "music-B-mechanisms-r2.mp4",
+      "status": "completed",
+      "bytes": 30686777,
+      "sha256": "3f838184ce39a29481e106896b1e73555183d99d7a6e403286e79032875d1923",
+      "duration": 37.1,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "C 秘密在低音里 · 短版",
+      "project": "output/music-three-films-20261021",
+      "asset": "music-C-bass-r2.mp4",
+      "status": "historical",
+      "bytes": 32906583,
+      "sha256": "0ac73967321533fe74a20a22edd24db81847332b713e11e8088dad2b1f236dec",
+      "duration": 28.6,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "C 秘密在低音里 · 加长版",
+      "project": "output/music-three-films-20261021",
+      "asset": "music-C-bass-extended-r2.mp4",
+      "status": "completed",
+      "bytes": 37679812,
+      "sha256": "8f8e9c97caef4ff6b5f26837938a7580e9716f9ce0f6cd2d1b4985748aaadfe3",
+      "duration": 40.433333,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "Clawd风格样片 · 8秒",
+      "project": "output/claude-music-style-preview-20261020",
+      "asset": "clawd-style-preview-v1.mp4",
+      "status": "sample",
+      "bytes": 48336352,
+      "sha256": "e49103bd218ba48b8b699b9d32932fd3f319575830f94f3ea9f9fc91c518a202",
+      "duration": 8.0,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "Clawd原曲样片 · 10秒",
+      "project": "output/clawd-10s-v2-20261020",
+      "asset": "clawd-10s-v2-r2.mp4",
+      "status": "sample",
+      "bytes": 17520590,
+      "sha256": "3b94bab37cc39d0e09eeed27d73ce3050e69621eb16cf7eead6b6cd8b151fae4",
+      "duration": 10.0,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "音乐科普样片 · 10秒",
+      "project": "output/music-explainer-v3-20261020",
+      "asset": "music-explainer-preview-v3.mp4",
+      "status": "sample",
+      "bytes": 9784493,
+      "sha256": "a07c04afc0084878796604f7018ee1d92cfdd74f93c02d686ac0da748954e563",
+      "duration": 10.0,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "魔方 Codex v1",
+      "project": "output/rubiks-codex-film-20261022",
+      "asset": "rubiks-codex-v1.mp4",
+      "status": "historical",
+      "bytes": 51003680,
+      "sha256": "5bc6916fe960598f86878a7ef8102bda84e4548a1857154a63ea3783ab0bcbc0",
+      "duration": 178.266667,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "魔方 Codex v2",
+      "project": "output/rubiks-codex-film-v2-20261022",
+      "asset": "rubiks-codex-v2.mp4",
+      "status": "historical",
+      "bytes": 77919928,
+      "sha256": "b881c299b94fecf8416dad8eb37e882fdf363e36d38f390b40228562953b80cd",
+      "duration": 177.6,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "魔方 Opus r1",
+      "project": "output/rubiks-opus-20261023",
+      "asset": "rubiks-opus-r1.mp4",
+      "status": "reference",
+      "bytes": 80894193,
+      "sha256": "7960105c2f3199708cd8f89c4edb52855391350c919a8d06bb2503a0664538b8",
+      "duration": 158.0,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "魔方 r2 · 未获用户认可",
+      "project": "output/rubiks-opus-polish-20261023",
+      "asset": "rubiks-polish-r2.mp4",
+      "status": "rejected_revision",
+      "bytes": 79499989,
+      "sha256": "9ec6c610098f380e7da717cab84296a80d6a12de090e5215cee96c4cfbc0e841",
+      "duration": 158.0,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "魔方 r3 · 忠实修订",
+      "project": "output/rubiks-opus-faithful-20261024",
+      "asset": "rubiks-opus-faithful-r3.mp4",
+      "status": "historical",
+      "bytes": 80902719,
+      "sha256": "5838ecde67a48f0820d61e60e7ee0b9eead4bb2e1847bf46444b2d142c50c3f1",
+      "duration": 158.0,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "魔方 r4 · 本次交付",
+      "project": "output/rubiks-recut-20261025",
+      "asset": "rubiks-recut-r4.mp4",
+      "status": "latest_delivery",
+      "bytes": 70527880,
+      "sha256": "f95bc7d6e607aac243b08f8887b5b2220f08a22cada374e1402b2cf72bba07a8",
+      "duration": 180.0,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    },
+    {
+      "title": "AI也会刷分 · r3",
+      "project": "output/desktop-recording-explainer-20261021",
+      "asset": "ai-ye-hui-shua-fen-r3.mp4",
+      "status": "completed",
+      "bytes": 55235611,
+      "sha256": "ab35eaf33aab5055dcdfd920402a236e0c4d85acefdc965683710e49f0db8d93",
+      "duration": 155.466667,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1"
+    }
+  ]
+}

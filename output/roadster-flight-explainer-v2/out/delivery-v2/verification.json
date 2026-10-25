@@ -1,0 +1,24 @@
+{
+  "video": "/Users/guchuan/Desktop/how-to-make-ai-video/output/roadster-flight-explainer-v2/out/delivery-v2/roadster-v2-yikouqi.mp4",
+  "checks": {
+    "video_stream": true,
+    "size": true,
+    "fps": true,
+    "frames": true,
+    "full_decode_clean": true,
+    "duration": true,
+    "audio_stream": true,
+    "loudness": true,
+    "true_peak": true
+  },
+  "failures": [],
+  "pass": true,
+  "decoded_frames": 900,
+  "audio": {
+    "integrated_lufs": -14.2,
+    "lra_lu": 7.4,
+    "true_peak_dbtp": -1.9
+  },
+  "note": "Technical checks only; no claim about picture quality, sound quality or phone readability.",
+  "checked_at": "2026-10-17T06:01:06.690Z"
+}

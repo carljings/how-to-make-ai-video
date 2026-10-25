@@ -1,0 +1,23 @@
+{
+ "family": "Noto Sans SC",
+ "license": "SIL Open Font License 1.1 (Google Fonts)",
+ "chars": "一上下中为么什你先再外头小开意拍智曲猜给让这首，？",
+ "files": [
+  {
+   "weight": 500,
+   "file": "NotoSansSC-500.woff2",
+   "bytes": 4364,
+   "sha256": "44569940a2af0827b5575e0742d17eebc2c07a482b82b1387b2f93974fbae176",
+   "css": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&text=%E4%B8%80%E4%B8%8A%E4%B8%8B%E4%B8%AD%E4%B8%BA%E4%B9%88%E4%BB%80%E4%BD%A0%E5%85%88%E5%86%8D%E5%A4%96%E5%A4%B4%E5%B0%8F%E5%BC%80%E6%84%8F%E6%8B%8D%E6%99%BA%E6%9B%B2%E7%8C%9C%E7%BB%99%E8%AE%A9%E8%BF%99%E9%A6%96%EF%BC%8C%EF%BC%9F",
+   "src": "https://fonts.gstatic.com/l/font?kit=k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG-3FnYlNbPzT7HF7u9PUr65S3iDpq4utF7iIbYurh0My2Xz9e5HUCveZV3iNIbl4WsA2psu-ZxD7EhASU1OP5Tfa1vtJIG32ouIqTDjko7ZrkuVKQbaFhw&skey=cf0bb10b5602fdc3&v=v41"
+  },
+  {
+   "weight": 900,
+   "file": "NotoSansSC-900.woff2",
+   "bytes": 4468,
+   "sha256": "cf77b8c882dfa318f82cf13a1098389c10e2283614db1e1e3b09310592f89d7c",
+   "css": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@900&text=%E4%B8%80%E4%B8%8A%E4%B8%8B%E4%B8%AD%E4%B8%BA%E4%B9%88%E4%BB%80%E4%BD%A0%E5%85%88%E5%86%8D%E5%A4%96%E5%A4%B4%E5%B0%8F%E5%BC%80%E6%84%8F%E6%8B%8D%E6%99%BA%E6%9B%B2%E7%8C%9C%E7%BB%99%E8%AE%A9%E8%BF%99%E9%A6%96%EF%BC%8C%EF%BC%9F",
+   "src": "https://fonts.gstatic.com/l/font?kit=k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG3bCnYlNbPzT7HF7u9PUr65S3iDpq4utF7iIbYurh0My2Xz9e5HUCveZV3iNIbl4WsA2psu-ZxD7EhASU1OP5Tfa1vtJIG32ouIqTDjko7ZrkuVKQbaFhw&skey=cf0bb10b5602fdc3&v=v41"
+  }
+ ]
+}

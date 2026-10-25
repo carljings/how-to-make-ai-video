@@ -1,0 +1,21 @@
+{
+  "file": "out/rubiks-opus-r1.mp4",
+  "bytes": 80894193,
+  "duration": 158.0,
+  "video": {
+    "codec": "h264",
+    "size": "1080x1920",
+    "fps": "30/1",
+    "frames": 4740,
+    "duration": 158.0
+  },
+  "audio": {
+    "codec": "aac",
+    "duration": 158.0,
+    "lufs": -14.3,
+    "true_peak_dbtp": -1.98,
+    "lra": 4.6
+  },
+  "decode_errors": null,
+  "pass": true
+}

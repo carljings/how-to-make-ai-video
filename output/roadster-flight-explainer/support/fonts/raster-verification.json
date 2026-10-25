@@ -1,0 +1,21 @@
+{
+  "renderer": "Pillow/FreeType",
+  "weights": [
+    {
+      "weight": 500,
+      "non_space_empty_raster": [],
+      "raster_matches_missing_glyph": []
+    },
+    {
+      "weight": 700,
+      "non_space_empty_raster": [],
+      "raster_matches_missing_glyph": []
+    },
+    {
+      "weight": 900,
+      "non_space_empty_raster": [],
+      "raster_matches_missing_glyph": []
+    }
+  ],
+  "proof_file": ".omx/artifacts/roadster-production-20261016/font-support/font-raster-proof.png"
+}

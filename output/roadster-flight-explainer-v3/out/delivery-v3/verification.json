@@ -1,0 +1,24 @@
+{
+  "video": "/Users/guchuan/Desktop/how-to-make-ai-video/output/roadster-flight-explainer-v3/out/delivery-v3/roadster-v3-steeper-than-a-wall.mp4",
+  "checks": {
+    "video_stream": true,
+    "size": true,
+    "fps": true,
+    "frames": true,
+    "full_decode_clean": true,
+    "duration": true,
+    "audio_stream": true,
+    "loudness": true,
+    "true_peak": true
+  },
+  "failures": [],
+  "pass": true,
+  "decoded_frames": 1749,
+  "audio": {
+    "integrated_lufs": -14.1,
+    "lra_lu": 4.6,
+    "true_peak_dbtp": -1.9
+  },
+  "note": "Technical checks only; no claim about picture quality, sound quality or phone readability.",
+  "checked_at": "2026-10-17T12:12:52.689Z"
+}

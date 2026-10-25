@@ -1,0 +1,16 @@
+{
+  "name": "claude-music-style-preview-20261020",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Clawd style preview (≈8 s, music only): original score synthesized in tools/score.py, three.js + Canvas 2D picture rendered in headless Chrome. Opus 5.5.",
+  "scripts": {
+    "music": "python3 tools/score.py",
+    "stills": "node tools/render.mjs --stills",
+    "render": "node tools/render.mjs --video",
+    "verify": "node tools/verify.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  }
+}

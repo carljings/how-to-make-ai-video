@@ -1,0 +1,204 @@
+{
+  "source_hashes": {
+    "src/data/example.js": "cc10ce1f6d2a4cd0e07fa4395604b73f0e86c4425884b9a00ed4c3dc56eabbab",
+    "src/data.js": "b31e5216f2fce41889ede2dd9dee90094b6e855e03dd5b6794388df07fe0e195",
+    "src/film.js": "d47592eb43687ccf574a0bfc7b11c64ecb2ea3c9b193de42b114e0831f0e0071",
+    "src/lib/core.js": "930b1e1e3762caf9331811c3a4703d4cff17ba33d6d48904d2186af342040e9b",
+    "src/lib/cube.js": "a14ff1f93bcf40029b4d929f7b45b4b5f1a26ac2098a18633642ab8b27df297d",
+    "src/lib/draw3d.js": "768d83edb8caa8866f069b002c450150d5e5fc4ece9bb3f7016d24fcfbadba6a",
+    "src/lib/stage.js": "ff7cfb566dbcaba908b3f9947d0617a5fab831c7f5f47b86a29458eba95ff57d",
+    "src/lib/text.js": "6e7c2952ec61cf3b8645bb024ea546b321ab4f9a6cf3001e69af3e324c72c319",
+    "src/lib/ui.js": "30eceef9ecd2c1f6e7f2c78ce3316a2e8983ccc1530d923f988dcf7b1ad4a3fe",
+    "src/scenes/count.js": "205165d95f826b3d3c3d3a52b29615aae1c750d1526aae11bb50fdb6f5f6d683",
+    "src/scenes/ending.js": "af66fef3575091d8ee50911be78cb5fc9fd9e8be389ed8a6773c36d54f784ff4",
+    "src/scenes/human.js": "348a75271817265f6c3e52ba5dc8a722147612b62af709390e94eacd2251521b",
+    "src/scenes/methods.js": "92cf60e3b8a0e636aa3973eb583a32899e827cb7ea84c124d3c77a313eac14a1",
+    "src/scenes/open.js": "7d73f3682f787fd7bebd63175c7d659425edeecebdce5a9020968510511044e3",
+    "src/scenes/origin.js": "202157966fb80d2f578fd458a7ea303aa5135a36e6e826eea8b6ec11cf568996",
+    "src/scenes/race.js": "248e2e1227602caab6b8619573de90431410fdb310be975e52418e968607dbdf",
+    "src/scenes/search-rings.js": "b7ffd1b8ceffb4465ea2b6f7da03145c8d8e6e7951a1bbfd950df2c826221deb",
+    "src/scenes/twenty.js": "8d08945103dc8ac074734fbcf034e1367ed3acab2d0584bfa04e31183b3be676",
+    "src/score.js": "ff5953166ade2b16faaa6bdbdf6d9847010b2003482d5a4ed2779375d935418a",
+    "src/seqs.js": "ddbb3ebcf64ae1f626bb0c8eefe493dbf354fad26fb38687387e086dc10e8165",
+    "src/timeline.js": "c5140be0e51929fc07520f9e3bb2899a13b22a516c8e1af37413f3904c235734"
+  },
+  "source_literal_codepoints": 482,
+  "known_other_family_glyphs_excluded_from_sans": "ő",
+  "master": {
+    "path": "external Noto Sans SC 2.004 master; supply NOTO_SANS_SC_MASTER to extend-fonts.py",
+    "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+    "version": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+  },
+  "original_font_sha256": {
+    "sans-400-0.woff2": "80fa713bbccba158ca0a4cb4216071a63cb7251734a2111a0bb4f06db1738844",
+    "sans-400-1.woff2": "89d879a325e0220f0f55dfa10a7aac1857722baba516b59f7ec8745f062ca14e",
+    "sans-700-0.woff2": "de23785be0d66073ee8b067441572ad8b2ec1dfbc6fed3613fa54c40acca1e0f",
+    "sans-700-1.woff2": "29b863072d803c833eaa34a269c472c312f98c81eeb27e2ee91a6f19355e4dae",
+    "sans-900-0.woff2": "9417e72a8f0f2a2c6bf67954d32653f5f7207a0e1e4fe65c053825941a134351",
+    "sans-900-1.woff2": "678a6b8349a88bcac6ad3147581e89d0992370754f435af4cd35f90652939300",
+    "serif-900-0.woff2": "bc3e556e012ff2fb09202b6b6d5ec2da6c390005973d2314952ab8af1cb3660b",
+    "serif-900-1.woff2": "f2f58937d2cd6b567be18ea91f54fec8e7c32d73179d898a1a8b9785867c5368",
+    "mono-400-0.woff2": "3f29fa40c59c6c9f1dd15a57843002cceeac28eed61ec0fc2000f87cb0bbdd7e",
+    "mono-500-0.woff2": "b1ab8ec58d69ce7f2e989397697d00e84544a2e034b10a4f90522b89961fa170",
+    "mono-600-0.woff2": "68a1b04bd362f4c14888ceb9833e5f2ad40e171627d54ac446bf355f2e31908b",
+    "cond-300-0.woff2": "a70d896090c814c9cd84376789b1e3a6e511f67b867065b068a4acc77ae474ae",
+    "cond-800-0.woff2": "fbe96f239d9565d0ebeab76041d5cb00c8d3e00987455e0225180fe55f7c9cd8"
+  },
+  "original_faces": [
+    {
+      "family": "F-Sans",
+      "weight": 400,
+      "file": "sans-400-0.woff2",
+      "actual_codepoints_in_css_range": 257
+    },
+    {
+      "family": "F-Sans",
+      "weight": 400,
+      "file": "sans-400-1.woff2",
+      "actual_codepoints_in_css_range": 216
+    },
+    {
+      "family": "F-Sans",
+      "weight": 700,
+      "file": "sans-700-0.woff2",
+      "actual_codepoints_in_css_range": 257
+    },
+    {
+      "family": "F-Sans",
+      "weight": 700,
+      "file": "sans-700-1.woff2",
+      "actual_codepoints_in_css_range": 216
+    },
+    {
+      "family": "F-Sans",
+      "weight": 900,
+      "file": "sans-900-0.woff2",
+      "actual_codepoints_in_css_range": 257
+    },
+    {
+      "family": "F-Sans",
+      "weight": 900,
+      "file": "sans-900-1.woff2",
+      "actual_codepoints_in_css_range": 216
+    },
+    {
+      "family": "F-Serif",
+      "weight": 900,
+      "file": "serif-900-0.woff2",
+      "actual_codepoints_in_css_range": 257
+    },
+    {
+      "family": "F-Serif",
+      "weight": 900,
+      "file": "serif-900-1.woff2",
+      "actual_codepoints_in_css_range": 216
+    },
+    {
+      "family": "F-Mono",
+      "weight": 400,
+      "file": "mono-400-0.woff2",
+      "actual_codepoints_in_css_range": 112
+    },
+    {
+      "family": "F-Mono",
+      "weight": 500,
+      "file": "mono-500-0.woff2",
+      "actual_codepoints_in_css_range": 112
+    },
+    {
+      "family": "F-Mono",
+      "weight": 600,
+      "file": "mono-600-0.woff2",
+      "actual_codepoints_in_css_range": 112
+    },
+    {
+      "family": "F-Cond",
+      "weight": 300,
+      "file": "cond-300-0.woff2",
+      "actual_codepoints_in_css_range": 111
+    },
+    {
+      "family": "F-Cond",
+      "weight": 800,
+      "file": "cond-800-0.woff2",
+      "actual_codepoints_in_css_range": 111
+    }
+  ],
+  "sans_missing_before": {
+    "400": "严串二交亮亲仍余作例依保停偶六其减切划列初助参反叠另吗器处奇如将就尾峰巅常当怎性我或所批找折拢持据接搜收查核没消漏片现着研确究立站索线经缩网罚者致行认记试说走足达遗采量集须高",
+    "700": "严串二交亮亲仍余作例依保停偶六其减切划列初助参反叠另吗器处奇如将就尾峰巅常当怎性我或所批找折拢持据接搜收查核没消漏片现着研确究立站索线经缩网罚者致行认记试说走足达遗采量集须高",
+    "900": "严串二交亮亲仍余作例依保停偶六其减切划列初助参反叠另吗器处奇如将就尾峰巅常当怎性我或所批找折拢持据接搜收查核没消漏片现着研确究立站索线经缩网罚者致行认记试说走足达遗采量集须高"
+  },
+  "unfillable": "",
+  "other_faces": [
+    {
+      "family": "F-Cond",
+      "weight": 300,
+      "missing_ascii": "",
+      "source_symbols_missing_candidate_only": "→≤≥✓",
+      "known_literal_failures": []
+    },
+    {
+      "family": "F-Cond",
+      "weight": 800,
+      "missing_ascii": "",
+      "source_symbols_missing_candidate_only": "→≤≥✓",
+      "known_literal_failures": []
+    },
+    {
+      "family": "F-Mono",
+      "weight": 400,
+      "missing_ascii": "",
+      "source_symbols_missing_candidate_only": "≤≥✓",
+      "known_literal_failures": []
+    },
+    {
+      "family": "F-Mono",
+      "weight": 500,
+      "missing_ascii": "",
+      "source_symbols_missing_candidate_only": "≤≥✓",
+      "known_literal_failures": []
+    },
+    {
+      "family": "F-Mono",
+      "weight": 600,
+      "missing_ascii": "",
+      "source_symbols_missing_candidate_only": "≤≥✓",
+      "known_literal_failures": []
+    },
+    {
+      "family": "F-Serif",
+      "weight": 900,
+      "missing_ascii": "",
+      "source_symbols_missing_candidate_only": "",
+      "known_literal_failures": []
+    }
+  ],
+  "static_check_limit": "Other-family literal checks cover direct single-line calls; dynamic text must also be checked in the rendered film.",
+  "errors": [],
+  "generated": [
+    {
+      "file": "extra-sans-400.woff2",
+      "weight": 400,
+      "codepoints": 87,
+      "sha256": "af5de81282fb14295fa2f4b7ec382455e08ac56427c4c80ddeebd5cae8438e48",
+      "bytes": 14516
+    },
+    {
+      "file": "extra-sans-700.woff2",
+      "weight": 700,
+      "codepoints": 87,
+      "sha256": "584ff911552e634b8c3cf3ed69cbaf6cb55d5af95a665fb2817a5fa9239121ad",
+      "bytes": 14732
+    },
+    {
+      "file": "extra-sans-900.woff2",
+      "weight": 900,
+      "codepoints": 87,
+      "sha256": "8e5fafd262486ab4847d8a1add9684b56fa082da7188129ce6597256cc75e76b",
+      "bytes": 14796
+    }
+  ],
+  "pass": true,
+  "original_fonts_unchanged": true
+}

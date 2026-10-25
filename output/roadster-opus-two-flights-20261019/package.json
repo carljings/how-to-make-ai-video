@@ -1,0 +1,19 @@
+{
+  "name": "roadster-opus-two-flights-20261019",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "《两次起飞》 — two Roadster demonstrations, three principles, cut to the user-chosen music (three.js + Canvas 2D in headless Chrome, ffmpeg). Opus 5.5.",
+  "scripts": {
+    "analyze": "python3 -I tools/music_analyze.py ../../.omx/artifacts/roadster-reference-bgm-20261019/reference-original.m4a",
+    "cues": "node tools/cues.mjs",
+    "bgm": "node tools/bgm.mjs",
+    "fonts": "node tools/fonts.mjs",
+    "stills": "node tools/render.mjs --stills",
+    "render": "node tools/render.mjs --video",
+    "verify": "node tools/verify.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  }
+}

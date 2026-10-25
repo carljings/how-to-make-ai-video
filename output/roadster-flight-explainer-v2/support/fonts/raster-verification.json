@@ -1,0 +1,37 @@
+{
+  "renderer": "Pillow/FreeType; WOFF2 reopened with fontTools then rasterized as decompressed TTF",
+  "weights": [
+    {
+      "weight": 300,
+      "ttf_actual_usWeightClass": 300,
+      "woff2_actual_usWeightClass": 300,
+      "family": "Roadster Film Sans",
+      "required_codepoints": 521,
+      "empty_non_space": [],
+      "matches_missing_glyph": [],
+      "decoded_woff2_raster_differs_from_ttf": []
+    },
+    {
+      "weight": 600,
+      "ttf_actual_usWeightClass": 600,
+      "woff2_actual_usWeightClass": 600,
+      "family": "Roadster Film Sans",
+      "required_codepoints": 521,
+      "empty_non_space": [],
+      "matches_missing_glyph": [],
+      "decoded_woff2_raster_differs_from_ttf": []
+    },
+    {
+      "weight": 900,
+      "ttf_actual_usWeightClass": 900,
+      "woff2_actual_usWeightClass": 900,
+      "family": "Roadster Film Sans",
+      "required_codepoints": 521,
+      "empty_non_space": [],
+      "matches_missing_glyph": [],
+      "decoded_woff2_raster_differs_from_ttf": []
+    }
+  ],
+  "proof_file": "font-raster-proof.png",
+  "proof_sha256": "41ac25d7bb1627216956f166b1987b9303cfd5dcfff2b99cd4ce8a827d3f15a0"
+}

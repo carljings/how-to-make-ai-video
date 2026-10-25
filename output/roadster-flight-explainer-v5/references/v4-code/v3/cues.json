@@ -1,0 +1,918 @@
+{
+ "about": "Roadster v4 「光切」 canonical edit (Opus 5.5; v3 internal names kept). Single timing source for blender/v3_film.py (plates, cameras, projected overlay), blender/render_v3.py, src/v3 (Remotion), scripts/v3/score.mjs. Times are film seconds at 30 fps; ev = source seconds of the Tesla ramp clip's continuous wide take. Section clocks and voice starts are edit decisions set against the MEASURED clips (support/narration-v3, 37.68 s total); after measured TTS run `python3 blender/tools/retime_v3.py` (writes v3/timing.json, checks overlaps and the sync rules) and adjust section/voice starts here if it fails. Overlay reveals key to words through 'anchors' (measured when v3/timing.json exists, nominal otherwise).",
+ "fps": 30,
+ "duration_s": 58.3,
+ "width": 1080,
+ "height": 1920,
+ "sections": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 2.85,
+   "plate": "render",
+   "shot": "HOOK",
+   "clock": {
+    "kind": "map",
+    "keys": [
+     [
+      0.0,
+      8.55
+     ],
+     [
+      2.85,
+      8.95
+     ]
+    ]
+   }
+  },
+  {
+   "id": "evidence",
+   "start": 2.85,
+   "end": 5.2,
+   "plate": "render",
+   "shot": "WIDE_SRC",
+   "clock": {
+    "kind": "map",
+    "keys": [
+     [
+      2.85,
+      6.65
+     ],
+     [
+      5.2,
+      9.0
+     ]
+    ]
+   }
+  },
+  {
+   "id": "freeze",
+   "start": 5.2,
+   "end": 5.5,
+   "plate": "hold",
+   "hold_section": "evidence",
+   "shot": "WIDE_SRC",
+   "clock": {
+    "kind": "frozen",
+    "ev": 9.0
+   }
+  },
+  {
+   "id": "press_a",
+   "start": 5.5,
+   "end": 7.6,
+   "plate": "still",
+   "still": "P1",
+   "shot": "P1",
+   "move": [
+    1.0,
+    1.02
+   ],
+   "clock": {
+    "kind": "frozen",
+    "ev": 9.0
+   }
+  },
+  {
+   "id": "press_gap",
+   "start": 7.6,
+   "end": 9.4,
+   "plate": "still",
+   "still": "P2",
+   "shot": "P2",
+   "move": [
+    1.0,
+    1.03
+   ],
+   "clock": {
+    "kind": "frozen",
+    "ev": 9.0
+   }
+  },
+  {
+   "id": "press_b",
+   "start": 9.4,
+   "end": 15.0,
+   "plate": "still",
+   "still": "P1",
+   "shot": "P1",
+   "move": [
+    1.02,
+    1.065
+   ],
+   "clock": {
+    "kind": "frozen",
+    "ev": 9.0
+   }
+  },
+  {
+   "id": "press_tyre",
+   "start": 15.0,
+   "end": 17.8,
+   "plate": "render",
+   "shot": "TYRE",
+   "clock": {
+    "kind": "map",
+    "keys": [
+     [
+      15.0,
+      9.0
+     ],
+     [
+      17.8,
+      9.1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "chrono",
+   "start": 17.8,
+   "end": 23.2,
+   "plate": "poster",
+   "shot": "POSTER",
+   "crop": "ramp",
+   "clock": {
+    "kind": "map",
+    "keys": [
+     [
+      17.8,
+      2.6
+     ],
+     [
+      19.8,
+      9.1
+     ],
+     [
+      23.2,
+      9.1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "lip",
+   "start": 23.2,
+   "end": 28.6,
+   "plate": "render",
+   "shot": "LIP",
+   "clock": {
+    "kind": "map",
+    "keys": [
+     [
+      23.2,
+      9.1
+     ],
+     [
+      25.45,
+      9.22
+     ],
+     [
+      26.25,
+      9.48
+     ],
+     [
+      27.01,
+      9.8
+     ],
+     [
+      28.6,
+      9.88
+     ]
+    ]
+   }
+  },
+  {
+   "id": "xray",
+   "start": 28.6,
+   "end": 32.0,
+   "plate": "wipe",
+   "stills": [
+    "XR_OPAQUE",
+    "XR_GLASS"
+   ],
+   "shot": "XRAY",
+   "move": [
+    1.0,
+    1.035
+   ],
+   "clock": {
+    "kind": "frozen",
+    "ev": 9.88
+   }
+  },
+  {
+   "id": "jets",
+   "start": 32.0,
+   "end": 36.9,
+   "plate": "render",
+   "shot": "REPLAY_B",
+   "clock": {
+    "kind": "map",
+    "keys": [
+     [
+      32.0,
+      9.88
+     ],
+     [
+      34.4,
+      11.1
+     ],
+     [
+      36.9,
+      12.75
+     ]
+    ]
+   }
+  },
+  {
+   "id": "sep1",
+   "start": 36.9,
+   "end": 37.1,
+   "plate": "black",
+   "shot": null,
+   "clock": {
+    "kind": "none"
+   }
+  },
+  {
+   "id": "k1",
+   "start": 37.1,
+   "end": 40.0,
+   "plate": "v2",
+   "v2_first": 119,
+   "v2_last": 205,
+   "shot": null,
+   "clock": {
+    "kind": "v2"
+   }
+  },
+  {
+   "id": "k2",
+   "start": 40.0,
+   "end": 43.8,
+   "plate": "v2",
+   "v2_first": 383,
+   "v2_last": 496,
+   "shot": null,
+   "clock": {
+    "kind": "v2"
+   }
+  },
+  {
+   "id": "k3",
+   "start": 43.8,
+   "end": 46.5,
+   "plate": "v2",
+   "v2_first": 656,
+   "v2_last": 736,
+   "shot": null,
+   "clock": {
+    "kind": "v2"
+   }
+  },
+  {
+   "id": "sep2",
+   "start": 46.5,
+   "end": 46.7,
+   "plate": "black",
+   "shot": null,
+   "clock": {
+    "kind": "none"
+   }
+  },
+  {
+   "id": "ending",
+   "start": 46.7,
+   "end": 58.3,
+   "plate": "poster",
+   "shot": "POSTER",
+   "crop": "ramp_to_full",
+   "zoom": [
+    47.2,
+    48.6
+   ],
+   "clock": {
+    "kind": "map",
+    "keys": [
+     [
+      46.7,
+      9.1
+     ],
+     [
+      50.3,
+      9.1
+     ],
+     [
+      50.9,
+      9.85
+     ],
+     [
+      54.1,
+      13.2
+     ],
+     [
+      58.3,
+      13.2
+     ]
+    ]
+   }
+  }
+ ],
+ "anchors": {
+  "hook_small": {
+   "line": "L01",
+   "word": "它",
+   "nominal": 1.3
+  },
+  "grav_on": {
+   "fixed": 5.75
+  },
+  "air_on": {
+   "fixed": 5.9
+  },
+  "fan_on": {
+   "line": "L02",
+   "word": "风扇",
+   "nominal": 6.4
+  },
+  "pump": {
+   "line": "L02",
+   "word": "抽走",
+   "nominal": 6.95
+  },
+  "gap_on": {
+   "line": "L02",
+   "word": "缝隙",
+   "nominal": 7.75
+  },
+  "low_label": {
+   "line": "L02",
+   "word": "<end>",
+   "offset": -0.25,
+   "nominal": 9.0
+  },
+  "ticks_on": {
+   "line": "L03",
+   "word": "外面",
+   "nominal": 9.75
+  },
+  "press_land": {
+   "line": "L03",
+   "word": "压",
+   "nominal": 10.95
+  },
+  "slope_flash": {
+   "line": "L03",
+   "word": "坡上",
+   "nominal": 11.45
+  },
+  "xi_on": {
+   "line": "L04",
+   "word": "吸",
+   "nominal": 13.75
+  },
+  "ya_on": {
+   "line": "L04",
+   "word": "压",
+   "nominal": 14.65
+  },
+  "contact_on": {
+   "line": "L05",
+   "word": "压紧",
+   "nominal": 15.85
+  },
+  "traction_on": {
+   "line": "L05",
+   "word": "抓得住",
+   "nominal": 16.95
+  },
+  "ghost_arrows": {
+   "line": "L06",
+   "word": "这股力",
+   "nominal": 20.1
+  },
+  "grav_ghosts": {
+   "line": "L06",
+   "word": "坡面",
+   "nominal": 21.0
+  },
+  "up_flare": {
+   "line": "L06",
+   "word": "往上",
+   "nominal": 22.75
+  },
+  "lip_line": {
+   "line": "L07",
+   "word": "尽头",
+   "nominal": 25.1
+  },
+  "unpress": {
+   "line": "L08",
+   "word": "压不住",
+   "nominal": 27.9
+  },
+  "scan": {
+   "line": "L09",
+   "word": "腾空",
+   "nominal": 29.85
+  },
+  "vessel_label": {
+   "line": "L09",
+   "word": "高压气",
+   "nominal": 31.75
+  },
+  "relay": {
+   "line": "L09",
+   "word": "接力",
+   "nominal": 32.55
+  },
+  "down_jets": {
+   "line": "L10",
+   "word": "往下喷",
+   "nominal": 35.15
+  },
+  "react_on": {
+   "line": "L10",
+   "word": "往上推",
+   "nominal": 36.2
+  },
+  "k2_force": {
+   "line": "L11b",
+   "word": "推力",
+   "nominal": 42.5
+  },
+  "k2_lines": {
+   "line": "L11b",
+   "word": "偏离",
+   "nominal": 42.95
+  },
+  "k2_com": {
+   "line": "L11b",
+   "word": "重心",
+   "nominal": 43.45
+  },
+  "k2_arc": {
+   "line": "L11b",
+   "word": "<end>",
+   "offset": -0.05,
+   "nominal": 44.05
+  },
+  "warm_pulse": {
+   "line": "L12",
+   "word": "空气的力",
+   "nominal": 50.35
+  },
+  "cold_glow": {
+   "line": "L13",
+   "word": "自己的气",
+   "nominal": 53.5
+  },
+  "jets_out": {
+   "line": "L14",
+   "word": "喷完",
+   "nominal": 57.3
+  },
+  "fade_out": {
+   "line": "L14",
+   "word": "<end>",
+   "offset": 0.95,
+   "nominal": 59.0
+  }
+ },
+ "sync_rules": [
+  {
+   "line": "L01",
+   "ends_before": 2.83
+  },
+  {
+   "line": "L08",
+   "word": "压不住",
+   "section": "lip",
+   "at_ev": "EV_OFF",
+   "tol_s": 0.15
+  },
+  {
+   "line": "L09",
+   "within_section": "xray"
+  },
+  {
+   "line": "L10",
+   "word": "往下喷",
+   "section": "jets",
+   "ev_range": [
+    10.8,
+    11.35
+   ]
+  },
+  {
+   "line": "L11a",
+   "within_section": "k1",
+   "after_start_s": 0.15
+  },
+  {
+   "line": "L11b",
+   "within_section": "k2"
+  },
+  {
+   "line": "L13",
+   "word": "腾了空",
+   "section": "ending",
+   "ev_range": [
+    9.55,
+    9.95
+   ]
+  }
+ ],
+ "vo": [
+  {
+   "id": "L01",
+   "start": 0.25,
+   "text": "比墙还陡，它怎么掉不下来？",
+   "display": "title",
+   "phrases": [
+    {
+     "text": "比墙还陡",
+     "tone": "white"
+    },
+    {
+     "text": "它怎么掉不下来？",
+     "tone": "white"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "start": 6.1,
+   "text": "风扇抽走车底缝隙里的空气，",
+   "display": "caption",
+   "phrases": [
+    {
+     "text": "风扇抽走车底缝隙里的空气",
+     "tone": "air"
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "start": 9.55,
+   "text": "外面的空气，就把它压在坡上。",
+   "display": "caption",
+   "phrases": [
+    {
+     "text": "外面的空气",
+     "tone": "air"
+    },
+    {
+     "text": "就把它压在坡上",
+     "tone": "force"
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "start": 12.75,
+   "text": "说是吸，其实是压。",
+   "display": "kinetic",
+   "phrases": [
+    {
+     "text": "说是吸",
+     "tone": "white"
+    },
+    {
+     "text": "其实是压",
+     "tone": "force"
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "start": 15.15,
+   "text": "压紧了，轮胎才抓得住。",
+   "display": "caption",
+   "phrases": [
+    {
+     "text": "压紧了",
+     "tone": "force"
+    },
+    {
+     "text": "轮胎才抓得住",
+     "tone": "white"
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "start": 19.6,
+   "text": "这股力始终压向坡面，哪怕是往上。",
+   "display": "caption",
+   "phrases": [
+    {
+     "text": "这股力始终压向坡面",
+     "tone": "force"
+    },
+    {
+     "text": "哪怕是往上",
+     "tone": "white"
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "start": 23.45,
+   "text": "可坡总有尽头。",
+   "display": "caption",
+   "phrases": [
+    {
+     "text": "可坡总有尽头",
+     "tone": "white"
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "start": 25.45,
+   "text": "车底下没了坡，就压不住了。",
+   "display": "caption",
+   "phrases": [
+    {
+     "text": "车底下没了坡",
+     "tone": "white"
+    },
+    {
+     "text": "就压不住了",
+     "tone": "force"
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "start": 28.75,
+   "text": "腾空以后，换自带的高压气接力。",
+   "display": "caption",
+   "phrases": [
+    {
+     "text": "腾空以后",
+     "tone": "white"
+    },
+    {
+     "text": "换自带的高压气接力",
+     "tone": "gas"
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "start": 33.75,
+   "text": "气往下喷，车就被往上推。",
+   "display": "caption",
+   "phrases": [
+    {
+     "text": "气往下喷",
+     "tone": "gas"
+    },
+    {
+     "text": "车就被往上推",
+     "tone": "force"
+    }
+   ]
+  },
+  {
+   "id": "L11a",
+   "start": 37.3,
+   "text": "另一场演示里，",
+   "display": "caption",
+   "phrases": [
+    {
+     "text": "另一场演示里",
+     "tone": "white"
+    }
+   ]
+  },
+  {
+   "id": "L11b",
+   "start": 40.85,
+   "text": "推力偏离重心，",
+   "display": "caption",
+   "phrases": [
+    {
+     "text": "推力偏离重心",
+     "tone": "force"
+    }
+   ]
+  },
+  {
+   "id": "L11c",
+   "start": 43.95,
+   "text": "它整个翻了过来。",
+   "display": "caption",
+   "phrases": [
+    {
+     "text": "它整个翻了过来",
+     "tone": "white"
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "start": 47.9,
+   "text": "贴着坡，借的是空气的力；",
+   "display": "endcard",
+   "phrases": [
+    {
+     "text": "贴着坡",
+     "tone": "white"
+    },
+    {
+     "text": "借的是空气的力",
+     "tone": "air"
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "start": 50.85,
+   "text": "腾了空，花的是自己的气。",
+   "display": "endcard",
+   "phrases": [
+    {
+     "text": "腾了空",
+     "tone": "white"
+    },
+    {
+     "text": "花的是自己的气",
+     "tone": "gas"
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "start": 54.0,
+   "text": "自己的气，总有喷完的时候。",
+   "display": "caption",
+   "phrases": [
+    {
+     "text": "自己的气",
+     "tone": "gas"
+    },
+    {
+     "text": "总有喷完的时候",
+     "tone": "white"
+    }
+   ]
+  }
+ ],
+ "voice": {
+  "engine": "edge-tts (free)",
+  "voice": "zh-CN-YunjianNeural",
+  "rate": "-6%",
+  "fallback_voice": "zh-CN-YunxiNeural",
+  "note": "No speed-up after synthesis; only exterior silence trimmed."
+ },
+ "nominal_durations_s": {
+  "L01": 2.95,
+  "L02": 2.9,
+  "L03": 3.1,
+  "L04": 2.0,
+  "L05": 2.4,
+  "L06": 3.5,
+  "L07": 1.5,
+  "L08": 2.8,
+  "L09": 3.3,
+  "L10": 2.6,
+  "L11a": 1.5,
+  "L11b": 1.6,
+  "L11c": 1.7,
+  "L12": 2.6,
+  "L13": 2.6,
+  "L14": 2.8
+ },
+ "titles": {
+  "hook": {
+   "big": "比墙还陡",
+   "small": "它怎么掉不下来？",
+   "out": 2.74
+  },
+  "kinetic": {
+   "xi": "吸",
+   "ya": "压"
+  },
+  "end": {
+   "line1": [
+    "贴着坡",
+    "借空气的力"
+   ],
+   "line2": [
+    "腾了空",
+    "花自己的气"
+   ]
+  }
+ },
+ "slates": [
+  {
+   "start": 0.0,
+   "end": 2.85,
+   "text": "CG 慢放重建 · 据特斯拉 2026.10.16 发布的视频"
+  },
+  {
+   "start": 2.85,
+   "end": 4.55,
+   "text": "重建自特斯拉 2026.10.16 发布的视频 · CG"
+  },
+  {
+   "start": 4.55,
+   "end": 5.2,
+   "text": "重建自特斯拉 2026.10.16 发布的视频 · CG · 光切为示意"
+  },
+  {
+   "start": 5.2,
+   "end": 5.5,
+   "text": "原理示意 · 非实拍"
+  },
+  {
+   "start": 5.5,
+   "end": 17.8,
+   "text": "原理示意 · 光切剖面 · 非实拍"
+  },
+  {
+   "start": 17.8,
+   "end": 23.2,
+   "text": "原理示意 · 多次曝光合成"
+  },
+  {
+   "start": 23.2,
+   "end": 28.6,
+   "text": "CG 慢放重建 · 光切剖面 · 图形为示意"
+  },
+  {
+   "start": 28.6,
+   "end": 32.0,
+   "text": "原理示意 · 光切扫描 · 非实拍"
+  },
+  {
+   "start": 32.0,
+   "end": 36.9,
+   "text": "重建自特斯拉 2026.10.16 发布的视频 · CG · 变速 · 图形为示意"
+  },
+  {
+   "start": 36.9,
+   "end": 40.0,
+   "text": "另一场演示 · 重建自马斯克 2026.10.16 发布的视频 · CG"
+  },
+  {
+   "start": 40.0,
+   "end": 43.8,
+   "text": "原理示意 · 非实拍"
+  },
+  {
+   "start": 43.8,
+   "end": 46.5,
+   "text": "另一场演示 · 重建自马斯克 2026.10.16 发布的视频 · CG"
+  },
+  {
+   "start": 46.5,
+   "end": 58.3,
+   "text": "原理示意 · 多次曝光合成"
+  }
+ ],
+ "labels": {
+  "gravity": "重力",
+  "fan": [
+   "风扇抽气",
+   "示意"
+  ],
+  "low": "低压",
+  "com": "重心",
+  "vessel": [
+   "碳纤维缠绕压力容器",
+   "据特斯拉 · 位置示意"
+  ]
+ },
+ "credit": "素材：特斯拉《The Ramp｜Roadster》· 马斯克 X 帖文 · 2026.10.16 ｜ CG 重建与原理示意",
+ "palette": {
+  "void": "#000000",
+  "white": "#F4F6F8",
+  "air": "#F3C98B",
+  "gas": "#9ADCFF",
+  "force": "#FF4A1F",
+  "xray": "#EAF6FF"
+ },
+ "fonts": {
+  "family": "Roadster Film Sans",
+  "weights": [
+   300,
+   600,
+   900
+  ]
+ },
+ "sources": {
+  "ramp_video": "https://www.youtube.com/watch?v=7p5LxFdc-Qg",
+  "ramp_title": "The Ramp | Roadster (Tesla, 2026-10-16)",
+  "musk_post": "https://x.com/elonmusk/status/2110913107094606330",
+  "musk_media_id": "2110913027490934784",
+  "tesla_systems": "https://x.com/Tesla/status/2110907035571401174",
+  "tesla_vessels": "https://x.com/Tesla/status/2110904290743402880",
+  "nasa_pressure": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/air-pressure/",
+  "date": "2026-10-16"
+ }
+}

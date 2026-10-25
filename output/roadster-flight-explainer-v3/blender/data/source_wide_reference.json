@@ -1,0 +1,377 @@
+{
+ "about": "Portable numeric reference for the exact source clip (Musk post 2110913107094606330, media 2110913027490934784). Extracted from the Codex motion-match review (motion-reference.json). Image references are basenames inside the motion-match directory; pass that directory to build_scene.py with --reference-dir. Coordinates are approximate manual screen-space anchors in the 1920x1080 source (origin top-left, +y down), not calibrated 3D trajectory, speed, height or angles.",
+ "source": {
+  "post_url": "https://x.com/elonmusk/status/2110913107094606330",
+  "x_video_media_id": "2110913027490934784",
+  "width": 1920,
+  "height": 1080,
+  "nominal_fps": "60000/1001",
+  "actual_video_end_s": 15.4154,
+  "sha256": "a62298a94501170357ee923ef4c862ffd241d7ed986ee2978ad4fe4c810d7940"
+ },
+ "cuts_s": [
+  0.85085,
+  2.2022,
+  5.15515
+ ],
+ "shots": [
+  {
+   "id": "A",
+   "start_s": 0,
+   "end_s": 0.85085,
+   "camera": "wide fixed-looking camera, parked lineup centered, chained foreground post at right",
+   "observed_action": "at far right a cloud develops, then light car becomes visible already airborne; clean wheel liftoff obscured",
+   "replay_relation": "initial wide approach; cuts into close view"
+  },
+  {
+   "id": "B",
+   "start_s": 0.85085,
+   "end_s": 2.2022,
+   "camera": "close camera above/behind a foreground car roof and windshield; background nearly black",
+   "observed_action": "airborne coupe crosses from image right to left above foreground vehicle; side then black canopy then underside visible as roll advances",
+   "replay_relation": "continuous action in a new angle, not independent second flight"
+  },
+  {
+   "id": "C",
+   "start_s": 2.2022,
+   "end_s": 5.15515,
+   "camera": "close camera behind tall central truck cab; angular pickup at left; cab occludes center",
+   "observed_action": "airborne car reappears high, moves toward image right; body rolls through canopy/underside/side views, then descends behind right foreground/crop/cloud",
+   "replay_relation": "continuation/alternate angle; left/right screen direction reversal comes from camera change"
+  },
+  {
+   "id": "D",
+   "start_s": 5.15515,
+   "end_s": 15.4154,
+   "camera": "return to shot A wide camera and matching static lineup composition",
+   "observed_action": "fuller slow replay-like view: emergence from right cloud, rise and right-to-left airborne roll above lineup, near-level descent at left, expanding cloud; touchdown not visible",
+   "replay_relation": "the approach and roll repeat after returning to earlier wide composition; do not portray this as a second independent stunt"
+  }
+ ],
+ "wide_shot_D_anchors": [
+  {
+   "source_time_s": 6.25625,
+   "requested_time_s": 6.25,
+   "source_frame_index": 375,
+   "center_xy_normalized": [
+    0.7839,
+    0.538
+   ],
+   "body_width_normalized": 0.1094,
+   "bbox_px": [
+    1400,
+    556,
+    1610,
+    606
+   ],
+   "phase": "airborne emerging from right cloud",
+   "visible_orientation": "white/light body side visible, long axis shallow; dark glass above body",
+   "visible_plumes": "plumes mainly down; cloud below/right",
+   "image": "motion-keyframe-18.jpg"
+  },
+  {
+   "source_time_s": 6.75675,
+   "requested_time_s": 6.75,
+   "source_frame_index": 405,
+   "center_xy_normalized": [
+    0.724,
+    0.4676
+   ],
+   "body_width_normalized": 0.1146,
+   "bbox_px": [
+    1280,
+    478,
+    1500,
+    532
+   ],
+   "phase": "rising and moving left",
+   "visible_orientation": "side/body transitioning toward visible black canopy; nearly horizontal long axis",
+   "visible_plumes": "downward narrow plumes",
+   "image": "motion-keyframe-19.jpg"
+  },
+  {
+   "source_time_s": 7.25725,
+   "requested_time_s": 7.25,
+   "source_frame_index": 435,
+   "center_xy_normalized": [
+    0.6536,
+    0.4037
+   ],
+   "body_width_normalized": 0.1094,
+   "bbox_px": [
+    1150,
+    400,
+    1360,
+    472
+   ],
+   "phase": "rising while rolling",
+   "visible_orientation": "large black canopy and light outline becoming camera-facing",
+   "visible_plumes": "plumes rotate with car; not fixed to screen",
+   "image": "motion-keyframe-20.jpg"
+  },
+  {
+   "source_time_s": 7.75775,
+   "requested_time_s": 7.75,
+   "source_frame_index": 465,
+   "center_xy_normalized": [
+    0.5794,
+    0.3685
+   ],
+   "body_width_normalized": 0.112,
+   "bbox_px": [
+    1005,
+    358,
+    1220,
+    438
+   ],
+   "phase": "near top of screen-space arc",
+   "visible_orientation": "black canopy/light rim broadly camera-facing",
+   "visible_plumes": "one/several plumes visible around body edges",
+   "image": "motion-keyframe-21.jpg"
+  },
+  {
+   "source_time_s": 8.25825,
+   "requested_time_s": 8.25,
+   "source_frame_index": 495,
+   "center_xy_normalized": [
+    0.5078,
+    0.3444
+   ],
+   "body_width_normalized": 0.1146,
+   "bbox_px": [
+    865,
+    338,
+    1085,
+    406
+   ],
+   "phase": "crossing near screen-space apex",
+   "visible_orientation": "thin/edge-on white side; canopy no longer full broad surface",
+   "visible_plumes": "plumes visible above and around silhouette",
+   "image": "motion-keyframe-22.jpg"
+  },
+  {
+   "source_time_s": 8.742067,
+   "requested_time_s": 8.75,
+   "source_frame_index": 524,
+   "center_xy_normalized": [
+    0.4323,
+    0.3398
+   ],
+   "body_width_normalized": 0.1198,
+   "bbox_px": [
+    715,
+    328,
+    945,
+    406
+   ],
+   "phase": "crossing near screen-space apex, underside emerging",
+   "visible_orientation": "dark mechanical underbody increasingly camera-facing",
+   "visible_plumes": "plumes point upward in image in this inverted phase",
+   "image": "motion-keyframe-23.jpg"
+  },
+  {
+   "source_time_s": 9.242567,
+   "requested_time_s": 9.25,
+   "source_frame_index": 554,
+   "center_xy_normalized": [
+    0.3529,
+    0.3602
+   ],
+   "body_width_normalized": 0.1224,
+   "bbox_px": [
+    560,
+    346,
+    795,
+    432
+   ],
+   "phase": "descending with underside visible",
+   "visible_orientation": "broad dark mechanical underside facing camera, rear red strip at image right",
+   "visible_plumes": "upward-pointing image plumes; pale side cloud",
+   "image": "motion-keyframe-24.jpg"
+  },
+  {
+   "source_time_s": 9.743067,
+   "requested_time_s": 9.75,
+   "source_frame_index": 584,
+   "center_xy_normalized": [
+    0.2721,
+    0.4074
+   ],
+   "body_width_normalized": 0.1328,
+   "bbox_px": [
+    395,
+    390,
+    650,
+    490
+   ],
+   "phase": "descending and returning toward upright",
+   "visible_orientation": "underside/side transition; red tail at right; nose at left lower in image",
+   "visible_plumes": "separated plumes swing back below car",
+   "image": "motion-keyframe-25.jpg"
+  },
+  {
+   "source_time_s": 10.243567,
+   "requested_time_s": 10.25,
+   "source_frame_index": 614,
+   "center_xy_normalized": [
+    0.1849,
+    0.4694
+   ],
+   "body_width_normalized": 0.1406,
+   "bbox_px": [
+    220,
+    474,
+    490,
+    540
+   ],
+   "phase": "lower airborne, progressing left",
+   "visible_orientation": "light side and dark canopy above, wheels/body again near road orientation",
+   "visible_plumes": "long downward image plumes; leftward side plume",
+   "image": "motion-keyframe-26.jpg"
+  },
+  {
+   "source_time_s": 10.744067,
+   "requested_time_s": 10.75,
+   "source_frame_index": 644,
+   "center_xy_normalized": [
+    0.0977,
+    0.5296
+   ],
+   "body_width_normalized": 0.138,
+   "bbox_px": [
+    55,
+    534,
+    320,
+    610
+   ],
+   "phase": "low descent near left edge",
+   "visible_orientation": "near-level side profile; red rear at right; partially clouded",
+   "visible_plumes": "downward plumes fade into expanding low cloud",
+   "image": "motion-keyframe-27.jpg"
+  }
+ ],
+ "keyframe_images": [
+  {
+   "source_time_s": 0.0,
+   "image": "motion-keyframe-01.jpg"
+  },
+  {
+   "source_time_s": 0.5005,
+   "image": "motion-keyframe-02.jpg"
+  },
+  {
+   "source_time_s": 0.75075,
+   "image": "motion-keyframe-03.jpg"
+  },
+  {
+   "source_time_s": 1.001,
+   "image": "motion-keyframe-04.jpg"
+  },
+  {
+   "source_time_s": 1.25125,
+   "image": "motion-keyframe-05.jpg"
+  },
+  {
+   "source_time_s": 1.5015,
+   "image": "motion-keyframe-06.jpg"
+  },
+  {
+   "source_time_s": 1.75175,
+   "image": "motion-keyframe-07.jpg"
+  },
+  {
+   "source_time_s": 2.002,
+   "image": "motion-keyframe-08.jpg"
+  },
+  {
+   "source_time_s": 2.25225,
+   "image": "motion-keyframe-09.jpg"
+  },
+  {
+   "source_time_s": 2.5025,
+   "image": "motion-keyframe-10.jpg"
+  },
+  {
+   "source_time_s": 2.75275,
+   "image": "motion-keyframe-11.jpg"
+  },
+  {
+   "source_time_s": 3.003,
+   "image": "motion-keyframe-12.jpg"
+  },
+  {
+   "source_time_s": 3.25325,
+   "image": "motion-keyframe-13.jpg"
+  },
+  {
+   "source_time_s": 3.5035,
+   "image": "motion-keyframe-14.jpg"
+  },
+  {
+   "source_time_s": 3.75375,
+   "image": "motion-keyframe-15.jpg"
+  },
+  {
+   "source_time_s": 5.2052,
+   "image": "motion-keyframe-16.jpg"
+  },
+  {
+   "source_time_s": 5.75575,
+   "image": "motion-keyframe-17.jpg"
+  },
+  {
+   "source_time_s": 6.25625,
+   "image": "motion-keyframe-18.jpg"
+  },
+  {
+   "source_time_s": 6.75675,
+   "image": "motion-keyframe-19.jpg"
+  },
+  {
+   "source_time_s": 7.25725,
+   "image": "motion-keyframe-20.jpg"
+  },
+  {
+   "source_time_s": 7.75775,
+   "image": "motion-keyframe-21.jpg"
+  },
+  {
+   "source_time_s": 8.25825,
+   "image": "motion-keyframe-22.jpg"
+  },
+  {
+   "source_time_s": 8.742067,
+   "image": "motion-keyframe-23.jpg"
+  },
+  {
+   "source_time_s": 9.242567,
+   "image": "motion-keyframe-24.jpg"
+  },
+  {
+   "source_time_s": 9.743067,
+   "image": "motion-keyframe-25.jpg"
+  },
+  {
+   "source_time_s": 10.243567,
+   "image": "motion-keyframe-26.jpg"
+  },
+  {
+   "source_time_s": 10.744067,
+   "image": "motion-keyframe-27.jpg"
+  },
+  {
+   "source_time_s": 11.244567,
+   "image": "motion-keyframe-28.jpg"
+  },
+  {
+   "source_time_s": 14.998317,
+   "image": "motion-keyframe-29.jpg"
+  }
+ ],
+ "tracking_basis": "manual approximate screen-space vehicle box; excludes plumes; allow about 20-30 source pixels uncertainty; not physical position or 3D pose angles",
+ "occlusion_and_contact": {
+  "takeoff": "clean wheels-off-ground time not observed; far-right cloud masks origin; first visible poses are already airborne",
+  "ground_contact": "not visually resolved; vehicle exits/crops at left in wide view and is cloud/foreground occluded in close view",
+  "overhead_lines": "visible environmental lines; attachment and load-bearing role unconfirmed"
+ }
+}

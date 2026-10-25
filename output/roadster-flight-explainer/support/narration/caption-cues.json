@@ -1,0 +1,370 @@
+{
+  "canonical_cues": "../../blender/data/film_cues.json",
+  "canonical_sha256": "42d936064856f7e0393d659c7e4ec4e49035e57dfd5b00e8607f1f13184ec900",
+  "duration_s": 75,
+  "fps": 30,
+  "encoding": "UTF-8",
+  "timing_note": "Approved phrase text; canonical ASR-index estimates, not forced alignment.",
+  "cues": [
+    {
+      "id": 1,
+      "line_id": "01",
+      "start_s": 0.0,
+      "end_s": 1.35,
+      "text": "没有翅膀",
+      "display_text": "没有翅膀",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 2,
+      "line_id": "01",
+      "start_s": 1.35,
+      "end_s": 2.955,
+      "text": "这辆车凭什么离开地面",
+      "display_text": "这辆车凭什么离开地面",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 3,
+      "line_id": "02",
+      "start_s": 5.5,
+      "end_s": 6.9,
+      "text": "马斯克发帖",
+      "display_text": "马斯克发帖",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 4,
+      "line_id": "02",
+      "start_s": 6.9,
+      "end_s": 9.28,
+      "text": "原来未来真有飞行汽车",
+      "display_text": "原来未来真有飞行汽车",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 5,
+      "line_id": "02",
+      "start_s": 9.28,
+      "end_s": 9.98,
+      "text": "特斯拉称",
+      "display_text": "特斯拉称",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 6,
+      "line_id": "02",
+      "start_s": 9.98,
+      "end_s": 13.937,
+      "text": "它用到了多模式吸力系统和冷气推进器",
+      "display_text": "它用到了多模式吸力系统\n和冷气推进器",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 7,
+      "line_id": "03",
+      "start_s": 14.0,
+      "end_s": 16.18,
+      "text": "先分清贴地和腾空",
+      "display_text": "先分清贴地和腾空",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 8,
+      "line_id": "03",
+      "start_s": 16.18,
+      "end_s": 17.74,
+      "text": "抽走车底一些空气",
+      "display_text": "抽走车底一些空气",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 9,
+      "line_id": "03",
+      "start_s": 17.74,
+      "end_s": 18.96,
+      "text": "气压变低",
+      "display_text": "气压变低",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 10,
+      "line_id": "03",
+      "start_s": 18.96,
+      "end_s": 21.9,
+      "text": "外界压力把车压向路面",
+      "display_text": "外界压力把车压向路面",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 11,
+      "line_id": "03",
+      "start_s": 21.9,
+      "end_s": 23.2,
+      "text": "吸附朝向路面",
+      "display_text": "吸附朝向路面",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 12,
+      "line_id": "03",
+      "start_s": 23.2,
+      "end_s": 24.519,
+      "text": "不一定朝下",
+      "display_text": "不一定朝下",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 13,
+      "line_id": "04",
+      "start_s": 27.0,
+      "end_s": 27.92,
+      "text": "可离开路面",
+      "display_text": "可离开路面",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 14,
+      "line_id": "04",
+      "start_s": 27.92,
+      "end_s": 29.98,
+      "text": "就不能靠这样吸附",
+      "display_text": "就不能靠这样吸附",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 15,
+      "line_id": "04",
+      "start_s": 29.98,
+      "end_s": 32.18,
+      "text": "压缩气体从喷口冲出",
+      "display_text": "压缩气体从喷口冲出",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 16,
+      "line_id": "04",
+      "start_s": 32.18,
+      "end_s": 34.6,
+      "text": "车受到相反的推力",
+      "display_text": "车受到相反的推力",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 17,
+      "line_id": "04",
+      "start_s": 34.6,
+      "end_s": 35.76,
+      "text": "这里不靠燃烧",
+      "display_text": "这里不靠燃烧",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 18,
+      "line_id": "04",
+      "start_s": 35.76,
+      "end_s": 37.596,
+      "text": "靠的是喷气的反作用",
+      "display_text": "靠的是喷气的反作用",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 19,
+      "line_id": "05",
+      "start_s": 40.0,
+      "end_s": 42.18,
+      "text": "推力的作用线偏离重心",
+      "display_text": "推力的作用线偏离重心",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 20,
+      "line_id": "05",
+      "start_s": 42.18,
+      "end_s": 43.9,
+      "text": "就会产生力矩",
+      "display_text": "就会产生力矩",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 21,
+      "line_id": "05",
+      "start_s": 43.9,
+      "end_s": 45.26,
+      "text": "让车转动",
+      "display_text": "让车转动",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 22,
+      "line_id": "05",
+      "start_s": 45.26,
+      "end_s": 47.22,
+      "text": "不同喷口配合调节",
+      "display_text": "不同喷口配合调节",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 23,
+      "line_id": "05",
+      "start_s": 47.22,
+      "end_s": 48.78,
+      "text": "可以改变姿态",
+      "display_text": "可以改变姿态",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 24,
+      "line_id": "05",
+      "start_s": 48.78,
+      "end_s": 50.14,
+      "text": "腾空翻转",
+      "display_text": "腾空翻转",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 25,
+      "line_id": "05",
+      "start_s": 50.14,
+      "end_s": 51.727,
+      "text": "却不等于稳定悬停",
+      "display_text": "却不等于稳定悬停",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 26,
+      "line_id": "06",
+      "start_s": 52.1,
+      "end_s": 53.52,
+      "text": "气从哪来",
+      "display_text": "气从哪来",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 27,
+      "line_id": "06",
+      "start_s": 53.52,
+      "end_s": 54.82,
+      "text": "特斯拉称",
+      "display_text": "特斯拉称",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 28,
+      "line_id": "06",
+      "start_s": 54.82,
+      "end_s": 56.18,
+      "text": "车内可用的空间里",
+      "display_text": "车内可用的空间里",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 29,
+      "line_id": "06",
+      "start_s": 56.18,
+      "end_s": 59.72,
+      "text": "分布着多个碳纤维缠绕的压力容器",
+      "display_text": "分布着多个碳纤维缠绕的压力容器",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 30,
+      "line_id": "06",
+      "start_s": 59.72,
+      "end_s": 60.56,
+      "text": "每喷一次",
+      "display_text": "每喷一次",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 31,
+      "line_id": "06",
+      "start_s": 60.56,
+      "end_s": 61.84,
+      "text": "气就少一点",
+      "display_text": "气就少一点",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 32,
+      "line_id": "06",
+      "start_s": 61.84,
+      "end_s": 62.9,
+      "text": "用掉的",
+      "display_text": "用掉的",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 33,
+      "line_id": "06",
+      "start_s": 62.9,
+      "end_s": 64.211,
+      "text": "不会自己回来",
+      "display_text": "不会自己回来",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 34,
+      "line_id": "07",
+      "start_s": 64.5,
+      "end_s": 65.5,
+      "text": "悬停",
+      "display_text": "悬停",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 35,
+      "line_id": "07",
+      "start_s": 65.5,
+      "end_s": 67.4,
+      "text": "不只要推力平衡重力",
+      "display_text": "不只要推力平衡重力",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 36,
+      "line_id": "07",
+      "start_s": 67.4,
+      "end_s": 69.1,
+      "text": "还得控制运动",
+      "display_text": "还得控制运动",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 37,
+      "line_id": "07",
+      "start_s": 69.1,
+      "end_s": 71.16,
+      "text": "演示不等于能通勤",
+      "display_text": "演示不等于能通勤",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 38,
+      "line_id": "07",
+      "start_s": 71.16,
+      "end_s": 72.18,
+      "text": "飞多久",
+      "display_text": "飞多久",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 39,
+      "line_id": "07",
+      "start_s": 72.18,
+      "end_s": 73.44,
+      "text": "还得看气量",
+      "display_text": "还得看气量",
+      "timing_method": "asr-index"
+    },
+    {
+      "id": 40,
+      "line_id": "07",
+      "start_s": 73.44,
+      "end_s": 74.586,
+      "text": "能量和安全",
+      "display_text": "能量和安全",
+      "timing_method": "asr-index"
+    }
+  ]
+}

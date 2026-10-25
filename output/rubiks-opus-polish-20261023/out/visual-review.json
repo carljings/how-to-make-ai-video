@@ -1,0 +1,36 @@
+{
+  "movie": "rubiks-polish-r2.mp4",
+  "movie_sha256": "9ec6c610098f380e7da717cab84296a80d6a12de090e5215cee96c4cfbc0e841",
+  "reviewer": "Codex",
+  "checked_items_pass": true,
+  "native_review": "Eight act sheets, targeted correction sheets and final constraint/exponent sheet inspected before encoding",
+  "encoded_keyframes": 67,
+  "encoded_consecutive_frames_extracted": 129,
+  "encoded_sheets_inspected": [
+    "overview-a.jpg",
+    "overview-b.jpg",
+    "delivery-contact.jpg",
+    "opening.jpg",
+    "corner-result.jpg",
+    "f2l-result.jpg",
+    "rule-reveal.jpg",
+    "ending.jpg"
+  ],
+  "items": [
+    "Opening contrast and Chinese punctuation",
+    "Correct piece identities for locks and result holds",
+    "Readable state-space milestones",
+    "2008 chart value and caption agree",
+    "F2L labels 1 through 4, first-pair target and completed-state holds",
+    "Stage-chip separation in incomplete and completed states",
+    "Five-result trimming, round averages and final rankings",
+    "Recent results have six seconds",
+    "Timer reset and gradual final fade"
+  ],
+  "limits": {
+    "full_continuous_viewing": false,
+    "subjective_listening": false,
+    "physical_phone_test": false
+  },
+  "ending_sheet": "12 samples selected from 45 consecutive ending frames; not all 45 shown"
+}

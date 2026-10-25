@@ -1,0 +1,54 @@
+{
+  "file": "out/kanbujian-de-shidun.mp4",
+  "bytes": 40419049,
+  "sha256": "00c4c988faf75fdcf1d1b8bb11acad2bcd248f03172e69302fef64cfcae8bb10",
+  "full_decode_exit": 0,
+  "decode_errors": null,
+  "video": {
+    "codec": "h264",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1269,
+    "duration_s": 42.3,
+    "pix_fmt": "yuv420p",
+    "color": "bt709/bt709/bt709/tv"
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_s": 42.3,
+    "integrated_lufs": -20,
+    "true_peak_dbtp": -6.9,
+    "last_0_3s_max_dB": "-91.0"
+  },
+  "design": {
+    "W": 1080,
+    "H": 1920,
+    "FPS": 30,
+    "FRAMES": 1269,
+    "END": 42.3
+  },
+  "last_frames_mean_Y": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16
+  ],
+  "checks": {
+    "decode": true,
+    "size": true,
+    "frames": true,
+    "duration": true,
+    "loudness": true,
+    "true_peak": true,
+    "black_tail": true,
+    "silent_tail": true
+  }
+}

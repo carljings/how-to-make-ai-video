@@ -1,0 +1,26 @@
+{
+  "required": 136,
+  "faces": [
+    {
+      "file": "V5Sans-300.woff2",
+      "weight": 300,
+      "missing": []
+    },
+    {
+      "file": "V5Sans-500.woff2",
+      "weight": 500,
+      "missing": []
+    },
+    {
+      "file": "V5Sans-700.woff2",
+      "weight": 700,
+      "missing": []
+    },
+    {
+      "file": "V5Sans-900.woff2",
+      "weight": 900,
+      "missing": []
+    }
+  ],
+  "basis": "FullNotoSC source, new709codepoint staticsubset; no systemfallback needed."
+}

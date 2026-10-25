@@ -1,0 +1,495 @@
+{
+ "about": "Derived by blender/tools/retime_v2.py from v2/cues.json and support/narration-v2. Do not edit.",
+ "cues_sha256": "16434ed1bb9a6d5f5f6bab2a70615a70259e955f43f9a02001c1378c79a64bc9",
+ "voice": {
+  "engine": "edge-tts 7.3.1 (free)",
+  "voice": "zh-CN-YunjianNeural",
+  "rate": "-6%",
+  "fallback_voice": "zh-CN-YunxiNeural",
+  "note": "Deeper, cinematic delivery. No speed-up after synthesis; only exterior silence trimmed."
+ },
+ "lines": [
+  {
+   "id": "L1",
+   "file": "support/narration-v2/L1-usable.wav",
+   "text": "没有翅膀，它凭什么在空中翻身？",
+   "caption": "hook",
+   "start_s": 0.25,
+   "dur_s": 3.310667,
+   "end_s": 3.561,
+   "words": [
+    {
+     "text": "没有",
+     "start_s": 0.247,
+     "end_s": 0.579
+    },
+    {
+     "text": "翅膀",
+     "start_s": 0.592,
+     "end_s": 1.098
+    },
+    {
+     "text": "它",
+     "start_s": 1.31,
+     "end_s": 1.457
+    },
+    {
+     "text": "凭",
+     "start_s": 1.457,
+     "end_s": 1.789
+    },
+    {
+     "text": "什么",
+     "start_s": 1.802,
+     "end_s": 2.108
+    },
+    {
+     "text": "在",
+     "start_s": 2.228,
+     "end_s": 2.441
+    },
+    {
+     "text": "空中",
+     "start_s": 2.454,
+     "end_s": 2.906
+    },
+    {
+     "text": "翻身",
+     "start_s": 2.92,
+     "end_s": 3.451
+    }
+   ],
+   "phrases": [
+    {
+     "text": "没有翅膀",
+     "tone": "white",
+     "start_s": 0.247,
+     "words_end_s": 1.098,
+     "end_s": 1.27
+    },
+    {
+     "text": "它凭什么在空中翻身？",
+     "tone": "white",
+     "start_s": 1.31,
+     "words_end_s": 3.451,
+     "end_s": 3.911
+    }
+   ]
+  },
+  {
+   "id": "L2a",
+   "file": "support/narration-v2/L2a-usable.wav",
+   "text": "停！",
+   "caption": "stop",
+   "start_s": 6.85,
+   "dur_s": 0.560333,
+   "end_s": 7.41,
+   "words": [
+    {
+     "text": "停",
+     "start_s": 6.858,
+     "end_s": 7.35
+    }
+   ],
+   "phrases": [
+    {
+     "text": "停！",
+     "tone": "white",
+     "start_s": 6.858,
+     "words_end_s": 7.35,
+     "end_s": 7.618
+    }
+   ]
+  },
+  {
+   "id": "L2b",
+   "file": "support/narration-v2/L2b-usable.wav",
+   "text": "看这几道白气。",
+   "caption": "line",
+   "start_s": 7.65,
+   "dur_s": 1.400042,
+   "end_s": 9.05,
+   "words": [
+    {
+     "text": "看",
+     "start_s": 7.658,
+     "end_s": 7.91
+    },
+    {
+     "text": "这",
+     "start_s": 7.924,
+     "end_s": 8.083
+    },
+    {
+     "text": "几道",
+     "start_s": 8.083,
+     "end_s": 8.429
+    },
+    {
+     "text": "白气",
+     "start_s": 8.442,
+     "end_s": 8.948
+    }
+   ],
+   "phrases": [
+    {
+     "text": "看这几道白气",
+     "tone": "gas",
+     "start_s": 7.658,
+     "words_end_s": 8.948,
+     "end_s": 9.4
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "file": "support/narration-v2/L3-usable.wav",
+   "text": "气往一边喷，车就被推向另一边。",
+   "caption": "line",
+   "start_s": 9.45,
+   "dur_s": 3.089708,
+   "end_s": 12.54,
+   "words": [
+    {
+     "text": "气往",
+     "start_s": 9.47,
+     "end_s": 9.856
+    },
+    {
+     "text": "一边",
+     "start_s": 9.869,
+     "end_s": 10.148
+    },
+    {
+     "text": "喷",
+     "start_s": 10.148,
+     "end_s": 10.414
+    },
+    {
+     "text": "车",
+     "start_s": 10.667,
+     "end_s": 10.96
+    },
+    {
+     "text": "就",
+     "start_s": 11.106,
+     "end_s": 11.319
+    },
+    {
+     "text": "被",
+     "start_s": 11.319,
+     "end_s": 11.438
+    },
+    {
+     "text": "推向",
+     "start_s": 11.452,
+     "end_s": 11.944
+    },
+    {
+     "text": "另",
+     "start_s": 11.97,
+     "end_s": 12.117
+    },
+    {
+     "text": "一边",
+     "start_s": 12.116,
+     "end_s": 12.462
+    }
+   ],
+   "phrases": [
+    {
+     "text": "气往一边喷",
+     "tone": "gas",
+     "start_s": 9.47,
+     "words_end_s": 10.414,
+     "end_s": 10.627
+    },
+    {
+     "text": "车就被推向另一边",
+     "tone": "force",
+     "start_s": 10.667,
+     "words_end_s": 12.462,
+     "end_s": 12.89
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "file": "support/narration-v2/L4-usable.wav",
+   "text": "推力偏离重心，车就转了起来。",
+   "caption": "line",
+   "start_s": 13.75,
+   "dur_s": 2.599208,
+   "end_s": 16.349,
+   "words": [
+    {
+     "text": "推力",
+     "start_s": 13.758,
+     "end_s": 14.17
+    },
+    {
+     "text": "偏离",
+     "start_s": 14.197,
+     "end_s": 14.476
+    },
+    {
+     "text": "重心",
+     "start_s": 14.489,
+     "end_s": 14.928
+    },
+    {
+     "text": "车",
+     "start_s": 15.141,
+     "end_s": 15.407
+    },
+    {
+     "text": "就",
+     "start_s": 15.42,
+     "end_s": 15.566
+    },
+    {
+     "text": "转",
+     "start_s": 15.58,
+     "end_s": 15.832
+    },
+    {
+     "text": "了",
+     "start_s": 15.832,
+     "end_s": 15.899
+    },
+    {
+     "text": "起来",
+     "start_s": 15.912,
+     "end_s": 16.244
+    }
+   ],
+   "phrases": [
+    {
+     "text": "推力偏离重心",
+     "tone": "force",
+     "start_s": 13.758,
+     "words_end_s": 14.928,
+     "end_s": 15.101
+    },
+    {
+     "text": "车就转了起来",
+     "tone": "white",
+     "start_s": 15.141,
+     "words_end_s": 16.244,
+     "end_s": 16.699
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "file": "support/narration-v2/L5-usable.wav",
+   "text": "气，存在高压罐里。不点火，也不燃烧。",
+   "caption": "line",
+   "start_s": 16.75,
+   "dur_s": 4.70775,
+   "end_s": 21.458,
+   "words": [
+    {
+     "text": "气",
+     "start_s": 16.77,
+     "end_s": 17.169
+    },
+    {
+     "text": "存在",
+     "start_s": 17.462,
+     "end_s": 18.06
+    },
+    {
+     "text": "高",
+     "start_s": 18.074,
+     "end_s": 18.313
+    },
+    {
+     "text": "压罐",
+     "start_s": 18.313,
+     "end_s": 18.712
+    },
+    {
+     "text": "里",
+     "start_s": 18.712,
+     "end_s": 18.898
+    },
+    {
+     "text": "不",
+     "start_s": 19.5,
+     "end_s": 19.646
+    },
+    {
+     "text": "点火",
+     "start_s": 19.646,
+     "end_s": 20.231
+    },
+    {
+     "text": "也",
+     "start_s": 20.524,
+     "end_s": 20.75
+    },
+    {
+     "text": "不",
+     "start_s": 20.75,
+     "end_s": 20.869
+    },
+    {
+     "text": "燃烧",
+     "start_s": 20.869,
+     "end_s": 21.388
+    }
+   ],
+   "phrases": [
+    {
+     "text": "气，存在高压罐里",
+     "tone": "gas",
+     "start_s": 16.77,
+     "words_end_s": 18.898,
+     "end_s": 19.46
+    },
+    {
+     "text": "不点火，也不燃烧",
+     "tone": "white",
+     "start_s": 19.5,
+     "words_end_s": 21.388,
+     "end_s": 21.808
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "file": "support/narration-v2/L6-usable.wav",
+   "text": "没有翅膀，靠的就是这一口气。",
+   "caption": "end",
+   "start_s": 22.2,
+   "dur_s": 2.824708,
+   "end_s": 25.025,
+   "words": [
+    {
+     "text": "没有",
+     "start_s": 22.199,
+     "end_s": 22.518
+    },
+    {
+     "text": "翅膀",
+     "start_s": 22.532,
+     "end_s": 23.077
+    },
+    {
+     "text": "靠",
+     "start_s": 23.343,
+     "end_s": 23.675
+    },
+    {
+     "text": "的",
+     "start_s": 23.675,
+     "end_s": 23.795
+    },
+    {
+     "text": "就",
+     "start_s": 23.808,
+     "end_s": 24.048
+    },
+    {
+     "text": "是",
+     "start_s": 24.048,
+     "end_s": 24.194
+    },
+    {
+     "text": "这",
+     "start_s": 24.207,
+     "end_s": 24.327
+    },
+    {
+     "text": "一口气",
+     "start_s": 24.34,
+     "end_s": 24.912
+    }
+   ],
+   "phrases": [
+    {
+     "text": "没有翅膀，靠的就是",
+     "tone": "white",
+     "start_s": 22.199,
+     "words_end_s": 24.194,
+     "end_s": 24.167
+    },
+    {
+     "text": "这一口气",
+     "tone": "gas",
+     "start_s": 24.207,
+     "words_end_s": 24.912,
+     "end_s": 25.375
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "file": "support/narration-v2/L7-usable.wav",
+   "text": "可要一直飞，就得一直喷。",
+   "caption": "line",
+   "start_s": 25.6,
+   "dur_s": 2.325917,
+   "end_s": 27.926,
+   "words": [
+    {
+     "text": "可",
+     "start_s": 25.608,
+     "end_s": 25.767
+    },
+    {
+     "text": "要",
+     "start_s": 25.767,
+     "end_s": 25.9
+    },
+    {
+     "text": "一直",
+     "start_s": 25.927,
+     "end_s": 26.299
+    },
+    {
+     "text": "飞",
+     "start_s": 26.299,
+     "end_s": 26.565
+    },
+    {
+     "text": "就",
+     "start_s": 26.778,
+     "end_s": 27.031
+    },
+    {
+     "text": "得",
+     "start_s": 27.031,
+     "end_s": 27.177
+    },
+    {
+     "text": "一直",
+     "start_s": 27.19,
+     "end_s": 27.536
+    },
+    {
+     "text": "喷",
+     "start_s": 27.536,
+     "end_s": 27.829
+    }
+   ],
+   "phrases": [
+    {
+     "text": "可要一直飞",
+     "tone": "white",
+     "start_s": 25.608,
+     "words_end_s": 26.565,
+     "end_s": 26.738
+    },
+    {
+     "text": "就得一直喷",
+     "tone": "white",
+     "start_s": 26.778,
+     "words_end_s": 27.829,
+     "end_s": 28.276
+    }
+   ]
+  }
+ ]
+}

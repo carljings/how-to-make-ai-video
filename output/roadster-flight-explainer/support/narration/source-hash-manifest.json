@@ -1,0 +1,168 @@
+{
+  "voice": "zh-CN-YunxiNeural",
+  "synthesis_rate": "-3%",
+  "tool": "edge-tts",
+  "tool_version": "7.3.1",
+  "provider": "Microsoft online speech service via unmodified public edge-tts package",
+  "synthesis_requests_for_batch": 6,
+  "clip_01_reused_exact": true,
+  "new_synthesis_requests_during_packaging": 0,
+  "paid_media_service_used": false,
+  "subjective_listening_performed": false,
+  "clips": [
+    {
+      "id": "01",
+      "file": "clip-01-usable.wav",
+      "sha256": "1bfc327794a9eff3c73794bee18a4fd9bcc09834baa1d5af0b7dc6ae48716455",
+      "duration_s": 2.9549166666666666,
+      "sample_rate": 24000,
+      "channels": 1,
+      "source_raw_mp3_sha256": "b6817c40a30bf56ff9b40041ccf6e34f4a552e0780e7e493fe41afa551336b66",
+      "source_raw_mp3_duration_s": 3.936,
+      "exterior_trim": {
+        "start_sample": 2824,
+        "end_sample": 73742,
+        "source_sample_rate": 24000,
+        "method": {
+          "threshold_dbfs": -40,
+          "minimum_s": 0.08,
+          "pad_s": 0.1
+        },
+        "internal_pauses_preserved": true
+      },
+      "reused_original_probe": true
+    },
+    {
+      "id": "02",
+      "file": "clip-02-usable.wav",
+      "sha256": "c9027eb712c5d9297dbd8c95e766cf6f8cf4da3cf2e5e3a926e74e7a773e7bfc",
+      "duration_s": 8.436583333333333,
+      "sample_rate": 24000,
+      "channels": 1,
+      "source_raw_mp3_sha256": "91125113f342f31442dfd365ed58792b4e5e654e46c8cd765dd1bb0dbfa67810",
+      "source_raw_mp3_duration_s": 9.36,
+      "exterior_trim": {
+        "start_sample": 2784,
+        "end_sample": 205262,
+        "source_sample_rate": 24000,
+        "method": {
+          "threshold_dbfs": -40,
+          "minimum_s": 0.08,
+          "pad_s": 0.1
+        },
+        "internal_pauses_preserved": true
+      },
+      "reused_original_probe": false
+    },
+    {
+      "id": "03",
+      "file": "clip-03-usable.wav",
+      "sha256": "ce45b690bcb4544258c3dcdbe92ae7e5000949daf2ed43666c6613e9d8fd06fe",
+      "duration_s": 10.518916666666666,
+      "sample_rate": 24000,
+      "channels": 1,
+      "source_raw_mp3_sha256": "b3c3f526388c42f7377ae9563c001abd76e0430453cb7eba3573c252b7d1709b",
+      "source_raw_mp3_duration_s": 11.52,
+      "exterior_trim": {
+        "start_sample": 3853,
+        "end_sample": 256307,
+        "source_sample_rate": 24000,
+        "method": {
+          "threshold_dbfs": -40,
+          "minimum_s": 0.08,
+          "pad_s": 0.1
+        },
+        "internal_pauses_preserved": true
+      },
+      "reused_original_probe": false
+    },
+    {
+      "id": "04",
+      "file": "clip-04-usable.wav",
+      "sha256": "01d9d4c35ed457582bd949b89137f8c98b35a5638ff97b0cad5416b3b95fb619",
+      "duration_s": 10.595875,
+      "sample_rate": 24000,
+      "channels": 1,
+      "source_raw_mp3_sha256": "f77153c264814fce1956ede401376e34c8dc65bcff745748ae0281689ca30972",
+      "source_raw_mp3_duration_s": 11.52,
+      "exterior_trim": {
+        "start_sample": 2567,
+        "end_sample": 256868,
+        "source_sample_rate": 24000,
+        "method": {
+          "threshold_dbfs": -40,
+          "minimum_s": 0.08,
+          "pad_s": 0.1
+        },
+        "internal_pauses_preserved": true
+      },
+      "reused_original_probe": false
+    },
+    {
+      "id": "05",
+      "file": "clip-05-usable.wav",
+      "sha256": "726efb11dee130b034f623fc06ef70b5b756754ba08e41b7e011a6708d9dab0b",
+      "duration_s": 11.726625,
+      "sample_rate": 24000,
+      "channels": 1,
+      "source_raw_mp3_sha256": "6872131041d121e49a35d7bf52c4e5acc113f0a07b6b8c5fac8f053e1c65b722",
+      "source_raw_mp3_duration_s": 12.624,
+      "exterior_trim": {
+        "start_sample": 2368,
+        "end_sample": 283807,
+        "source_sample_rate": 24000,
+        "method": {
+          "threshold_dbfs": -40,
+          "minimum_s": 0.08,
+          "pad_s": 0.1
+        },
+        "internal_pauses_preserved": true
+      },
+      "reused_original_probe": false
+    },
+    {
+      "id": "06",
+      "file": "clip-06-usable.wav",
+      "sha256": "5c9a9fdee6c8521562fcfaed233a8bba57134f854e57fd502aa16eb10e07aa75",
+      "duration_s": 12.110791666666668,
+      "sample_rate": 24000,
+      "channels": 1,
+      "source_raw_mp3_sha256": "a3eeb23701094ac50f39dbe1a1a0bab7997ccdeeda37d80ba5854c319d8c40da",
+      "source_raw_mp3_duration_s": 13.032,
+      "exterior_trim": {
+        "start_sample": 3130,
+        "end_sample": 293789,
+        "source_sample_rate": 24000,
+        "method": {
+          "threshold_dbfs": -40,
+          "minimum_s": 0.08,
+          "pad_s": 0.1
+        },
+        "internal_pauses_preserved": true
+      },
+      "reused_original_probe": false
+    },
+    {
+      "id": "07",
+      "file": "clip-07-usable.wav",
+      "sha256": "4b8ff3931ec71c20a5be4d2621800268ff9860f5bed1ab807a3bf12f20763e4a",
+      "duration_s": 10.085583333333334,
+      "sample_rate": 24000,
+      "channels": 1,
+      "source_raw_mp3_sha256": "fdbfaf078fbe37dd47c473b937cca628a512d6ee7480b9f2bdeb0a6f05e541dd",
+      "source_raw_mp3_duration_s": 11.04,
+      "exterior_trim": {
+        "start_sample": 2743,
+        "end_sample": 244797,
+        "source_sample_rate": 24000,
+        "method": {
+          "threshold_dbfs": -40,
+          "minimum_s": 0.08,
+          "pad_s": 0.1
+        },
+        "internal_pauses_preserved": true
+      },
+      "reused_original_probe": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "rubiks-codex-film-20261022",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic Canvas science film: Rubik's Cube, from combinations to human speed",
+  "scripts": { "sheet": "node tools/render.mjs --sheet", "render": "node tools/render.mjs", "verify": "node tools/verify.mjs" },
+  "dependencies": { "@napi-rs/canvas": "1.0.13", "cubing": "0.66.1" }
+}

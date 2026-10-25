@@ -1,0 +1,23 @@
+{
+  "file": "out/rubiks-polish-r2.mp4",
+  "bytes": 79499989,
+  "duration": 158.0,
+  "video": {
+    "codec": "h264",
+    "size": "1080x1920",
+    "fps": "30/1",
+    "frames": 4740,
+    "duration": 158.0
+  },
+  "audio": {
+    "codec": "aac",
+    "duration": 158.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "lufs": -14.2,
+    "true_peak_dbtp": -2.06,
+    "lra": 4.6
+  },
+  "decode_errors": null,
+  "pass": true
+}

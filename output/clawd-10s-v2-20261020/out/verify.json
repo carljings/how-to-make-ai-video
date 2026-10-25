@@ -1,0 +1,85 @@
+{
+  "file": "out/clawd-10s-v2-r2.mp4",
+  "sha256": "3b94bab37cc39d0e09eeed27d73ce3050e69621eb16cf7eead6b6cd8b151fae4",
+  "bytes": 17520590,
+  "picture_sha256": "290e8db02da4fc9ee08cb736454105170ba75160a7cfde0198c1290944e1b080",
+  "bgm_sha256": "cd2b6b74681aa9fbb707d67ff37852949462872313539cce3e6658ea0cbaf7aa",
+  "loudness": {
+    "I_lufs": -11,
+    "TP_dbtp": -1.1
+  },
+  "aac_vs_wav": {
+    "lag_samples_48k": 0,
+    "r": 0.9999115289291046
+  },
+  "checks": [
+    {
+      "name": "video 1080×1920 h264",
+      "ok": true,
+      "got": "1080×1920 h264 yuv420p"
+    },
+    {
+      "name": "30 fps, 300 frames",
+      "ok": true,
+      "got": "30/1 300"
+    },
+    {
+      "name": "10.0 s picture and audio (±25 ms)",
+      "ok": true,
+      "got": "v 10.000000 a 10.000000"
+    },
+    {
+      "name": "AAC stereo 48 kHz",
+      "ok": true,
+      "got": "aac 2 48000"
+    },
+    {
+      "name": "strict decode (no errors)",
+      "ok": true,
+      "got": "clean"
+    },
+    {
+      "name": "reference audio = the user's original BGM (sha256)",
+      "ok": true,
+      "got": "6987131efbeb44cc19e106b9db1d4f0b10aba55263c8f37531b973b0ef144b61"
+    },
+    {
+      "name": "bgm.wav = source [15.810, 25.810) s (lag 0, correlation ≥ 0.9999)",
+      "ok": true,
+      "got": {
+        "lag_samples_44k1": 0,
+        "correlation": 1,
+        "level_ratio_db": -2.25,
+        "expected_level_ratio_db": -2.25
+      }
+    },
+    {
+      "name": "bgm.wav is the one bgm.py reported",
+      "ok": true,
+      "got": "cd2b6b74681aa9fbb707d67ff37852949462872313539cce3e6658ea0cbaf7aa"
+    },
+    {
+      "name": "muxed AAC aligned with bgm.wav (|lag| ≤ 48 samples = 1 ms, r ≥ 0.98)",
+      "ok": true,
+      "got": {
+        "lag_samples_48k": 0,
+        "r": 0.999912
+      }
+    },
+    {
+      "name": "no overload: AAC true peak ≤ −0.5 dBTP",
+      "ok": true,
+      "got": {
+        "I_lufs": -11,
+        "TP_dbtp": -1.1
+      }
+    },
+    {
+      "name": "src/cues.js = regenerated cues",
+      "ok": true,
+      "got": true
+    }
+  ],
+  "all_pass": true,
+  "listening": "none — measurements only"
+}

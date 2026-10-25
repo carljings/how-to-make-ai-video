@@ -1,0 +1,44 @@
+{
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "size": "1080x1920",
+    "pix_fmt": "yuv420p",
+    "fps": "30/1",
+    "frames": 1213,
+    "duration_s": 40.433333,
+    "color": [
+      "bt709",
+      "bt709",
+      "bt709",
+      "tv"
+    ]
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 40.433
+  },
+  "duration_match_s": 0.0003,
+  "audio_vs_wav": {
+    "lag_samples_48k": 0,
+    "lag_ms": 0.0,
+    "correlation": 0.99981
+  },
+  "audio_loudness": {
+    "I_lufs": -11.1,
+    "TP_dbtp": -1.1
+  },
+  "luma_mean": {
+    "first_frame": 20.2,
+    "last_frame": 27.3
+  },
+  "decode_errors": "none",
+  "file": {
+    "path": "out/C-秘密在低音里-加长版-r2.mp4",
+    "bytes": 37679812,
+    "sha256": "8f8e9c97caef4ff6b5f26837938a7580e9716f9ce0f6cd2d1b4985748aaadfe3"
+  },
+  "PASS": true
+}

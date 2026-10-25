@@ -1,0 +1,74 @@
+{
+  "scope": "Independent normalized thought experiments, NOT Tesla measurements or a simulation validation",
+  "checks": {
+    "ceiling_static_equal_adhesion_weight": {
+      "Fp": 1,
+      "mg": 1,
+      "N": 0,
+      "conclusion": "zero normal tyre load; equality alone does not provide positive grip"
+    },
+    "ceiling_static_margin": {
+      "Fp": 1.2,
+      "mg": 1,
+      "N": 0.19999999999999996,
+      "conclusion": "positive tyre normal load under simplified static assumptions"
+    },
+    "wall_insufficient_grip": {
+      "Fp": 0.8,
+      "mu": 1,
+      "mg": 1,
+      "Ft_max": 0.8,
+      "conclusion": "normal adhesion alone is insufficient for stationary/climbing support"
+    },
+    "upward_thrust_below_weight": {
+      "T": 0.5,
+      "mg": 1,
+      "m": 1,
+      "a_vertical": -0.5,
+      "conclusion": "upward thrust but downward acceleration"
+    },
+    "upward_thrust_equals_weight": {
+      "T": 1,
+      "mg": 1,
+      "initial_v": -1,
+      "a_vertical": 0,
+      "conclusion": "downward motion can continue with zero acceleration"
+    },
+    "offcentre_nozzle_parallel_thrust": {
+      "r": [
+        0,
+        1,
+        0
+      ],
+      "F": [
+        0,
+        1,
+        0
+      ],
+      "tau": [
+        0,
+        0,
+        0
+      ],
+      "conclusion": "nonzero position offset alone does not imply torque"
+    },
+    "off_axis_thrust": {
+      "r": [
+        0,
+        -1,
+        0
+      ],
+      "F": [
+        0,
+        0,
+        1
+      ],
+      "tau": [
+        -1,
+        0,
+        0
+      ],
+      "conclusion": "thrust line misses COM and produces negative-X torque"
+    }
+  }
+}

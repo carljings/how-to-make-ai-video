@@ -1,0 +1,43 @@
+{
+  "required": 158,
+  "space_glyph_required": true,
+  "faces": [
+    {
+      "file": "V5Sans-300.woff2",
+      "weight": 300,
+      "actual_weight": 300,
+      "codepoints": 727,
+      "missing": "",
+      "sha256": "cb101fbcac517cfc0e643308aeb50b9bb94d60ef14a74a45564ea8b0b049cd8f",
+      "hmtx_transformed": false
+    },
+    {
+      "file": "V5Sans-500.woff2",
+      "weight": 500,
+      "actual_weight": 500,
+      "codepoints": 727,
+      "missing": "",
+      "sha256": "9f5927ff0dcb0dbed3049330be405fface4b8ec11478fd9e60ad4035dc3d4e44",
+      "hmtx_transformed": false
+    },
+    {
+      "file": "V5Sans-700.woff2",
+      "weight": 700,
+      "actual_weight": 700,
+      "codepoints": 727,
+      "missing": "",
+      "sha256": "1deb705d7b48773cc07e2b291942d80f421c6ad751d05534373a622d02ecf846",
+      "hmtx_transformed": false
+    },
+    {
+      "file": "V5Sans-900.woff2",
+      "weight": 900,
+      "actual_weight": 900,
+      "codepoints": 727,
+      "missing": "",
+      "sha256": "03f28c46bac95e0aab1cd016cb4cb7c31367d5001539b47acf7b0119dcaad745",
+      "hmtx_transformed": false
+    }
+  ],
+  "basis": "v7: Roadster Film Sans rebuilt with resources/fonts/build-subset.py from the official Noto Sans SC [wght] source (sha256 a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da, identical to the v3–v6 provenance); 726-codepoint static subset (v6 709 + 17 new v7 characters). Required set = every on-screen string in web/engine/cues.js inventory(). No system fallback."
+}

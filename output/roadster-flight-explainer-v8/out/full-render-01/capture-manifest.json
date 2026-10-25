@@ -1,0 +1,42 @@
+{
+  "frames": 1905,
+  "seconds": 63.5,
+  "renderer": "Native Chrome ANGLE Metal Apple M4",
+  "subframes": 8,
+  "volume_steps": 48,
+  "segments": [
+    {
+      "frames": [
+        0,
+        1399
+      ],
+      "record": "prefix-capture.json",
+      "note": "Initial v8 body, beforeG2-only refinements; same early cues/source logic; sampled prefix deltas \u22641 8-bit level (GPU rounding)"
+    },
+    {
+      "frames": [
+        1400,
+        1649
+      ],
+      "record": "body-completion-source.json",
+      "log": "render-body-completion.log",
+      "note": "Body completed under Opus director lock; G1 boundary1500/1640/1649 pixel-identical in before/after proof"
+    },
+    {
+      "frames": [
+        1650,
+        1904
+      ],
+      "record": "../../PICTURE_LOCK.json",
+      "log": "render-director-final.log",
+      "note": "Final Opus G2 including lower-but-nonempty gap state"
+    }
+  ],
+  "boundary_check": "out/director-final-proof/prefix-boundary-check.json",
+  "final_source_lock_matches": true,
+  "native_gap_frames_viewed": [
+    1790,
+    1824,
+    1866
+  ]
+}

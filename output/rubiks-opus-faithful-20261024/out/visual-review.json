@@ -1,0 +1,26 @@
+{
+  "reviewer": "Codex",
+  "movie_sha256": "5838ecde67a48f0820d61e60e7ee0b9eead4bb2e1847bf46444b2d142c50c3f1",
+  "checked_items_pass": true,
+  "preflight_frames": 13,
+  "encoded_frames": 17,
+  "encoded_sheets_inspected": [
+    "locks.jpg",
+    "methods.jpg",
+    "delivery.jpg"
+  ],
+  "checked_items": [
+    "Original opening and ending retained",
+    "Lock markers stay next to their actual corner/edge without the r2 panel or circle",
+    "Compact marker/caption stack clears main headlines",
+    "F2L pair numbers 1,2,3,4",
+    "Stage-chip spacing with one, three and four completed states",
+    "Original camera, motion timing, fonts and material style preserved"
+  ],
+  "limits": {
+    "full_continuous_viewing": false,
+    "subjective_listening": false,
+    "physical_phone_test": false
+  },
+  "audio_validation": "All 7408 AAC packets and timestamps match original; no synthesis or re-encoding"
+}

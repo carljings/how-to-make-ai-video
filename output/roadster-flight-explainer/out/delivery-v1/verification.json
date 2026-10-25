@@ -1,0 +1,28 @@
+{
+  "video": "/Users/guchuan/Desktop/how-to-make-ai-video/output/roadster-flight-explainer/out/delivery-v1/roadster-flight-explainer.mp4",
+  "technical_pass": true,
+  "limitations": [
+    "No subjective listening or phone aesthetic acceptance is claimed.",
+    "Caption layout is checked from the actual component DOM; visual composition and source motion still require review."
+  ],
+  "media": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 2250,
+    "duration_s": 75,
+    "bytes": 41676902,
+    "codec": "h264",
+    "audio_codec": "aac",
+    "full_decode": "passed"
+  },
+  "audio": {
+    "integrated_lufs": -14.1,
+    "true_peak_dbtp": -2.1
+  },
+  "captions": {
+    "checked": 40,
+    "report": "caption-layout.json",
+    "failures": []
+  }
+}

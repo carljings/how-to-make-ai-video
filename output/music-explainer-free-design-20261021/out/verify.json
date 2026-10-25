@@ -1,0 +1,103 @@
+{
+  "file": "out/music-explainer-free-design-r6.mp4",
+  "sha256": "84b0be644a707e8075146edf8cd3c8aeb5f8ce4d5985e4aa9e1a304249d02b79",
+  "bytes": 56718943,
+  "picture_sha256": "fa3fa3737b4b7ced9a4691c979b2ddb0543ec3344c43483c21d8a5629f015314",
+  "bgm_sha256": "0bc354b4adf3f1e615133e622113c96ba2bd09b9f02382f42a9bdc22ae732a20",
+  "loudness": {
+    "I_lufs": -10.9,
+    "TP_dbtp": -1
+  },
+  "aac_vs_wav": {
+    "lag_samples_48k": 0,
+    "r": 0.999910081005085
+  },
+  "checks": [
+    {
+      "name": "video 1080×1920 h264 yuv420p bt709",
+      "ok": true,
+      "got": "1080×1920 h264 yuv420p bt709"
+    },
+    {
+      "name": "30 fps, 1214 frames",
+      "ok": true,
+      "got": "30/1 1214"
+    },
+    {
+      "name": "picture and audio 40.467 s (±40 ms)",
+      "ok": true,
+      "got": "v 40.466016 a 40.466000"
+    },
+    {
+      "name": "AAC stereo 48 kHz",
+      "ok": true,
+      "got": "aac 2 48000"
+    },
+    {
+      "name": "strict decode (no errors)",
+      "ok": true,
+      "got": "clean"
+    },
+    {
+      "name": "reference audio = the user's original BGM (sha256)",
+      "ok": true,
+      "got": "6987131efbeb44cc19e106b9db1d4f0b10aba55263c8f37531b973b0ef144b61"
+    },
+    {
+      "name": "each film segment = its source passage at the construction's exact sample offset (lag 0, r ≥ 0.9999; placement vs the nominal map < 1 sample)",
+      "ok": true,
+      "got": [
+        {
+          "film_s": [
+            0.05,
+            23.325899999999997
+          ],
+          "offset_samples_44k1": -697221,
+          "source_s0": 15.86,
+          "lag_samples_44k1": 0,
+          "correlation": 1,
+          "placement_vs_nominal_map_us": 0
+        },
+        {
+          "film_s": [
+            23.5259,
+            37.746399999999994
+          ],
+          "offset_samples_44k1": 616316,
+          "source_s0": 9.550476,
+          "lag_samples_44k1": 0,
+          "correlation": 1,
+          "placement_vs_nominal_map_us": 19.5
+        }
+      ]
+    },
+    {
+      "name": "bgm.wav is the one bgm_full.py reported",
+      "ok": true,
+      "got": "0bc354b4adf3f1e615133e622113c96ba2bd09b9f02382f42a9bdc22ae732a20"
+    },
+    {
+      "name": "muxed AAC aligned with bgm.wav (|lag| ≤ 48 samples, r ≥ 0.98)",
+      "ok": true,
+      "got": {
+        "lag_samples_48k": 0,
+        "r": 0.99991
+      }
+    },
+    {
+      "name": "no overload: AAC true peak ≤ −0.5 dBTP",
+      "ok": true,
+      "got": {
+        "I_lufs": -10.9,
+        "TP_dbtp": -1
+      }
+    },
+    {
+      "name": "src/cues.js = regenerated cues",
+      "ok": true,
+      "got": true
+    }
+  ],
+  "all_pass": true,
+  "listening": "none — measurements only"
+}

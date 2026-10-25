@@ -1,0 +1,50 @@
+[
+  {
+    "local_record": ".omx/artifacts/roadster-v3-20261017/ramp-reference-1080.info.json",
+    "id": "7p5LxFdc-Qg",
+    "title": "The Ramp | Roadster",
+    "channel": "Tesla",
+    "channel_id": "UC5WjFrtBdufl6CZojX3D8dQ",
+    "uploader": "Tesla",
+    "uploader_id": "@tesla",
+    "channel_is_verified": true,
+    "upload_date": "20261016",
+    "release_date": null,
+    "timestamp": 1792117428,
+    "release_timestamp": null,
+    "webpage_url": "https://www.youtube.com/watch?v=7p5LxFdc-Qg",
+    "description": "The first live demo during the Roadster event. \n\nReal life, baby"
+  },
+  {
+    "local_record": ".omx/artifacts/roadster-source-review/event-analysis.info.json",
+    "id": "qt5p-_tE8d0",
+    "title": "Roadster Event",
+    "channel": "Tesla",
+    "channel_id": "UC5WjFrtBdufl6CZojX3D8dQ",
+    "uploader": "Tesla",
+    "uploader_id": "@tesla",
+    "channel_is_verified": true,
+    "upload_date": "20261016",
+    "release_date": "20261016",
+    "timestamp": 1792114458,
+    "release_timestamp": 1792112116,
+    "webpage_url": "https://www.youtube.com/watch?v=qt5p-_tE8d0",
+    "description": "Buckle up. \n\nhttps://www.tesla.com/roadster\n\nRamp Demo: 6:03-10:55\nKickflip Demo: 10:56-12:43\nDesign: 12:47-14:38\nAero: 14:38-15:57\n0-60 Demo: 15:58-19:26"
+  },
+  {
+    "local_record": ".omx/artifacts/roadster-source-review/motion-match/musk-source.info.json",
+    "id": "2110913027490934784",
+    "title": "Elon Musk - Turns out the future does have flying cars",
+    "channel": null,
+    "channel_id": "44196397",
+    "uploader": "Elon Musk",
+    "uploader_id": "elonmusk",
+    "channel_is_verified": null,
+    "upload_date": "20261016",
+    "release_date": null,
+    "timestamp": 1792115878,
+    "release_timestamp": null,
+    "webpage_url": "https://x.com/elonmusk/status/2110913107094606330",
+    "description": "Turns out the future does have flying cars https://t.co/6fexPp6SXI"
+  }
+]

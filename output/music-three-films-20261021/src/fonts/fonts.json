@@ -1,0 +1,50 @@
+{
+ "licence": "SIL Open Font License 1.1 (Noto, via Google Fonts)",
+ "characters": 454,
+ "faces": [
+  {
+   "family_in_pages": "Noto Sans CJK SC",
+   "google_family": "Noto Sans SC",
+   "weight": 400,
+   "file": "NotoSansSC-400.woff2",
+   "bytes": 59108,
+   "sha256": "828fd8e9a61eb03560ca92f99e65ee6e98225d89a82aec9fdc6ef24daeec9f11",
+   "request": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400&text=%20%21%22%23%24%25%26%27%28%29%2A%2B%2C-.%2F0123456789%3A%3B%3C%3D%3E%3F%40ABCDEFGHIJKLMNOPQRSTUVWXYZ%5B%5C%5D%5E_%60abcdefghijklmno…",
+   "codepoints": 454,
+   "not_in_subset": ""
+  },
+  {
+   "family_in_pages": "Noto Sans CJK SC",
+   "google_family": "Noto Sans SC",
+   "weight": 700,
+   "file": "NotoSansSC-700.woff2",
+   "bytes": 60128,
+   "sha256": "dc1c22cb2c8ecdc661b3af7b90f02dbcc3843344903dba479c022689b337c5fc",
+   "request": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&text=%20%21%22%23%24%25%26%27%28%29%2A%2B%2C-.%2F0123456789%3A%3B%3C%3D%3E%3F%40ABCDEFGHIJKLMNOPQRSTUVWXYZ%5B%5C%5D%5E_%60abcdefghijklmno…",
+   "codepoints": 454,
+   "not_in_subset": ""
+  },
+  {
+   "family_in_pages": "Noto Serif CJK SC",
+   "google_family": "Noto Serif SC",
+   "weight": 700,
+   "file": "NotoSerifSC-700.woff2",
+   "bytes": 79168,
+   "sha256": "a132867b72ad0c6d1835388329d43d27593d25ed07673e5b76640d7cc2c4c50b",
+   "request": "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&text=%20%21%22%23%24%25%26%27%28%29%2A%2B%2C-.%2F0123456789%3A%3B%3C%3D%3E%3F%40ABCDEFGHIJKLMNOPQRSTUVWXYZ%5B%5C%5D%5E_%60abcdefghijklmn…",
+   "codepoints": 454,
+   "not_in_subset": ""
+  },
+  {
+   "family_in_pages": "Noto Sans Mono CJK SC",
+   "google_family": "Noto Sans Mono",
+   "weight": 700,
+   "file": "NotoSansMono-700.woff2",
+   "bytes": 7376,
+   "sha256": "5f3e23b4c127a712b3e0f89456098aee5bfd4ece6e2b55903e052c322e1180b5",
+   "request": "https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@700&text=%20%21%22%23%24%25%26%27%28%29%2A%2B%2C-.%2F0123456789%3A%3B%3C%3D%3E%3F%40ABCDEFGHIJKLMNOPQRSTUVWXYZ%5B%5C%5D%5E_%60abcdefghijklm…",
+   "codepoints": 117,
+   "not_in_subset": ""
+  }
+ ]
+}

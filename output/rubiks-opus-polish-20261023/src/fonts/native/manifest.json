@@ -1,0 +1,49 @@
+{
+  "licence": "SIL OFL 1.1, same source glyphs as fonts.json",
+  "fonts": [
+    {
+      "family": "F-Sans",
+      "weight": 400,
+      "file": "sans-400.ttf",
+      "sources": [
+        "sans-400-0.woff2",
+        "sans-400-1.woff2"
+      ],
+      "codepoints": 473,
+      "sha256": "20e36a2148cf2d9730d50909ed5735178c66efabf364411e8e369998b465643d"
+    },
+    {
+      "family": "F-Sans",
+      "weight": 700,
+      "file": "sans-700.ttf",
+      "sources": [
+        "sans-700-0.woff2",
+        "sans-700-1.woff2"
+      ],
+      "codepoints": 473,
+      "sha256": "08ed5e07f9824178d8776bcf9fa25baa31d0717697409ef64e714bf66bab68a4"
+    },
+    {
+      "family": "F-Sans",
+      "weight": 900,
+      "file": "sans-900.ttf",
+      "sources": [
+        "sans-900-0.woff2",
+        "sans-900-1.woff2"
+      ],
+      "codepoints": 473,
+      "sha256": "c34419329f907d4784d755a095efa8750b56ac5611bcd1fd0c5f4b1dea9120ea"
+    },
+    {
+      "family": "F-Serif",
+      "weight": 900,
+      "file": "serif-900.ttf",
+      "sources": [
+        "serif-900-0.woff2",
+        "serif-900-1.woff2"
+      ],
+      "codepoints": 473,
+      "sha256": "9a7218bc3b35f36db971861a8d6d3e230e5d233cc006da2b0a5ec9d91df2d38e"
+    }
+  ]
+}

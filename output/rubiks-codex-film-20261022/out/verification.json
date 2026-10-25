@@ -1,0 +1,139 @@
+{
+  "failures": [],
+  "prefixStates": 259,
+  "animatedTurnEndpoints": 253,
+  "methodGoals": {
+    "lbl": {
+      "ok": true,
+      "solved": true,
+      "stages": [
+        {
+          "id": "cross",
+          "before": false,
+          "reached": true,
+          "kept": true,
+          "ok": true
+        },
+        {
+          "id": "corners",
+          "before": false,
+          "reached": true,
+          "kept": true,
+          "ok": true
+        },
+        {
+          "id": "middle",
+          "before": false,
+          "reached": true,
+          "kept": true,
+          "ok": true
+        },
+        {
+          "id": "llcross",
+          "before": false,
+          "reached": true,
+          "kept": true,
+          "ok": true
+        },
+        {
+          "id": "llface",
+          "before": false,
+          "reached": true,
+          "kept": true,
+          "ok": true
+        },
+        {
+          "id": "llcorners",
+          "before": false,
+          "reached": true,
+          "kept": true,
+          "ok": true
+        },
+        {
+          "id": "lledges",
+          "before": false,
+          "reached": true,
+          "kept": true,
+          "ok": true
+        }
+      ]
+    },
+    "cfop": {
+      "ok": true,
+      "solved": true,
+      "stages": [
+        {
+          "id": "cross",
+          "before": false,
+          "reached": true,
+          "kept": true,
+          "ok": true
+        },
+        {
+          "id": "f2l",
+          "before": false,
+          "reached": true,
+          "kept": true,
+          "ok": true
+        },
+        {
+          "id": "oll",
+          "before": false,
+          "reached": true,
+          "kept": true,
+          "ok": true
+        },
+        {
+          "id": "pll",
+          "before": false,
+          "reached": true,
+          "kept": true,
+          "ok": true
+        }
+      ]
+    },
+    "roux": {
+      "ok": true,
+      "solved": true,
+      "stages": [
+        {
+          "id": "fb",
+          "before": false,
+          "reached": true,
+          "kept": true,
+          "ok": true
+        },
+        {
+          "id": "sb",
+          "before": false,
+          "reached": true,
+          "kept": true,
+          "ok": true
+        },
+        {
+          "id": "cmll",
+          "before": false,
+          "reached": true,
+          "kept": true,
+          "ok": true
+        },
+        {
+          "id": "lse",
+          "before": false,
+          "reached": true,
+          "kept": true,
+          "ok": true
+        }
+      ]
+    }
+  },
+  "deterministicFrames": 4,
+  "captionCount": 90,
+  "superflipVerified": true,
+  "mathVerified": true,
+  "maxCaptionLines": 2,
+  "maxChineseCaptionCharsPerSecond": 6.6,
+  "frames": 5348,
+  "duration": 178.26666666666668,
+  "events": 249
+}

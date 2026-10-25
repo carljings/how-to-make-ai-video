@@ -1,0 +1,23 @@
+{
+ "family": "Noto Sans SC",
+ "license": "SIL Open Font License 1.1 (Google Fonts)",
+ "chars": " ·→一上下为么之了什低你出到却原听回因在复大头它实小少就开律意拍智曲期来正没测现的示等脑节落规该这那重音预首！，：？",
+ "files": [
+  {
+   "weight": 500,
+   "file": "NotoSansSC-500.woff2",
+   "bytes": 8808,
+   "sha256": "f37dc3994a2615c64bf8bda232613a0f201565871e2f67d646c963f41b8d88a7",
+   "css": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&text=%20%C2%B7%E2%86%92%E4%B8%80%E4%B8%8A%E4%B8%8B%E4%B8%BA%E4%B9%88%E4%B9%8B%E4%BA%86%E4%BB%80%E4%BD%8E%E4%BD%A0%E5%87%BA%E5%88%B0%E5%8D%B4%E5%8E%9F%E5%90%AC%E5%9B%9E%E5%9B%A0%E5%9C%A8%E5%A4%8D%E5%A4%A7%E5%A4%B4%E5%AE%83%E5%AE%9E%E5%B0%8F%E5%B0%91%E5%B0%B1%E5%BC%80%E5%BE%8B%E6%84%8F%E6%8B%8D%E6%99%BA%E6%9B%B2%E6%9C%9F%E6%9D%A5%E6%AD%A3%E6%B2%A1%E6%B5%8B%E7%8E%B0%E7%9A%84%E7%A4%BA%E7%AD%89%E8%84%91%E8%8A%82%E8%90%BD%E8%A7%84%E8%AF%A5%E8%BF%99%E9%82%A3%E9%87%8D%E9%9F%B3%E9%A2%84%E9%A6%96%EF%BC%81%EF%BC%8C%EF%BC%9A%EF%BC%9F",
+   "src": "https://fonts.gstatic.com/l/font?kit=k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG-3FnYlNbPzT7HF7XjZM7f0I0la1mO_xAtbUb-T2tx1t4BCkYv-1OJT7YR3NCtI4U4VjrpTnb0aaEEJ8UCrzz32k_4IgJyqop6JhQV2-nvgooL4TY9rctmuVlCNnhYxvU-YuQDKkcXfW5Cx4LJ3fmBMFoRHcJgB9pzPNc0fJPezv3yejCAWQpfhR1p8on5QA_G-BoMflg4QkLlCSdhtS_qkjofSjTpPnsFVqToC7QtiU3gT-8F_htCiIrIQ&skey=cf0bb10b5602fdc3&v=v41"
+  },
+  {
+   "weight": 900,
+   "file": "NotoSansSC-900.woff2",
+   "bytes": 8944,
+   "sha256": "63e339602fb8ad29dc62d1aeee0a2381bd12f47403891fe71104fab838c1a324",
+   "css": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@900&text=%20%C2%B7%E2%86%92%E4%B8%80%E4%B8%8A%E4%B8%8B%E4%B8%BA%E4%B9%88%E4%B9%8B%E4%BA%86%E4%BB%80%E4%BD%8E%E4%BD%A0%E5%87%BA%E5%88%B0%E5%8D%B4%E5%8E%9F%E5%90%AC%E5%9B%9E%E5%9B%A0%E5%9C%A8%E5%A4%8D%E5%A4%A7%E5%A4%B4%E5%AE%83%E5%AE%9E%E5%B0%8F%E5%B0%91%E5%B0%B1%E5%BC%80%E5%BE%8B%E6%84%8F%E6%8B%8D%E6%99%BA%E6%9B%B2%E6%9C%9F%E6%9D%A5%E6%AD%A3%E6%B2%A1%E6%B5%8B%E7%8E%B0%E7%9A%84%E7%A4%BA%E7%AD%89%E8%84%91%E8%8A%82%E8%90%BD%E8%A7%84%E8%AF%A5%E8%BF%99%E9%82%A3%E9%87%8D%E9%9F%B3%E9%A2%84%E9%A6%96%EF%BC%81%EF%BC%8C%EF%BC%9A%EF%BC%9F",
+   "src": "https://fonts.gstatic.com/l/font?kit=k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG3bCnYlNbPzT7HF7XjZM7f0I0la1mO_xAtbUb-T2tx1t4BCkYv-1OJT7YR3NCtI4U4VjrpTnb0aaEEJ8UCrzz32k_4IgJyqop6JhQV2-nvgooL4TY9rctmuVlCNnhYxvU-YuQDKkcXfW5Cx4LJ3fmBMFoRHcJgB9pzPNc0fJPezv3yejCAWQpfhR1p8on5QA_G-BoMflg4QkLlCSdhtS_qkjofSjTpPnsFVqToC7QtiU3gT-8F_htCiIrIQ&skey=cf0bb10b5602fdc3&v=v41"
+  }
+ ]
+}

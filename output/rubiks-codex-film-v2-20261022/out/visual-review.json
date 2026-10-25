@@ -1,0 +1,46 @@
+{
+  "videoSha256": "b881c299b94fecf8416dad8eb37e882fdf363e36d38f390b40228562953b80cd",
+  "renderSignature": "6f1bfe217e654504dc394b06288433387fbd62755ab87e189dfcd9b352eec269",
+  "nativeContactSheets": 3,
+  "nativeTimePoints": 20,
+  "encodedMotionSheets": [
+    "encoded-opening.jpg",
+    "encoded-hook-reveal.jpg",
+    "encoded-explosion.jpg",
+    "encoded-states.jpg",
+    "encoded-proof.jpg",
+    "encoded-methods.jpg",
+    "encoded-average.jpg",
+    "encoded-results.jpg",
+    "encoded-ending.jpg"
+  ],
+  "framesPerMotionSheet": 8,
+  "encodedMobileSizeSnapshots": [
+    "encoded-method-mobile.png",
+    "encoded-pair-mobile.png",
+    "encoded-metric-mobile.png",
+    "encoded-landing-mobile.png",
+    "encoded-final-mobile.png"
+  ],
+  "dimensionsOfMobileSnapshots": [
+    360,
+    640
+  ],
+  "reviewMode": "Sampled frames and motion strips; not a full continuous viewing",
+  "observations": [
+    "Close-up cube turns pull back into a complete restored cube",
+    "The sixth-place reveal is legible and answers itself later through the average",
+    "Corners and edges separate into spatial orbits",
+    "The camera pulls back into a field of states",
+    "Proof state groups settle into distinct readable representatives",
+    "The superflip completes a verified twenty-move sequence",
+    "CFOP highlights the actual final C6/E11 pair from the left-back slot",
+    "Fastest and slowest cards leave the five-result set",
+    "The single-result card turns into a final-round average card",
+    "The final question appears after the cube settles, and does not cover its face",
+    "The URL remains clear below the final cube"
+  ],
+  "subjectiveListeningPerformed": false,
+  "physicalPhoneReview": false,
+  "userAestheticAcceptance": false
+}

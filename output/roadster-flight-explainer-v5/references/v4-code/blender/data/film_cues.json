@@ -1,0 +1,341 @@
+{
+ "about": "Single cue table for picture, captions and sound. Times are seconds on the 75 s film timeline (30 fps). Narration starts/ends are measured from the usable WAVs; phrase starts are offline-ASR estimates mapped onto the approved text (not forced alignment). Source shot cuts are the canonical clip times (first 14 s unchanged).",
+ "fps": 30,
+ "duration_s": 75,
+ "voice": "zh-CN-YunxiNeural, rate -3%",
+ "source_cuts_s": [
+  0.85085,
+  2.2022,
+  5.15515
+ ],
+ "scenes": [
+  {
+   "id": "01",
+   "start_s": 0,
+   "end_s": 5.5
+  },
+  {
+   "id": "02",
+   "start_s": 5.5,
+   "end_s": 14
+  },
+  {
+   "id": "03",
+   "start_s": 14,
+   "end_s": 27
+  },
+  {
+   "id": "04",
+   "start_s": 27,
+   "end_s": 40
+  },
+  {
+   "id": "05",
+   "start_s": 40,
+   "end_s": 52.1
+  },
+  {
+   "id": "06",
+   "start_s": 52.1,
+   "end_s": 64.5
+  },
+  {
+   "id": "07",
+   "start_s": 64.5,
+   "end_s": 75
+  }
+ ],
+ "lines": [
+  {
+   "id": "01",
+   "scene_start_s": 0,
+   "scene_end_s": 5.5,
+   "audio_start_s": 0,
+   "audio_end_s": 2.955,
+   "audio_file": "clip-01-usable.wav",
+   "audio_sha256": "1bfc327794a9eff3c73794bee18a4fd9bcc09834baa1d5af0b7dc6ae48716455",
+   "text": "没有翅膀，这辆车凭什么离开地面？",
+   "timing_method": "asr-index",
+   "phrases": [
+    {
+     "text": "没有翅膀",
+     "start_s": 0.0,
+     "end_s": 1.35
+    },
+    {
+     "text": "这辆车凭什么离开地面",
+     "start_s": 1.35,
+     "end_s": 2.955
+    }
+   ]
+  },
+  {
+   "id": "02",
+   "scene_start_s": 5.5,
+   "scene_end_s": 14,
+   "audio_start_s": 5.5,
+   "audio_end_s": 13.937,
+   "audio_file": "clip-02-usable.wav",
+   "audio_sha256": "c9027eb712c5d9297dbd8c95e766cf6f8cf4da3cf2e5e3a926e74e7a773e7bfc",
+   "text": "马斯克发帖：原来未来真有飞行汽车。特斯拉称，它用到了多模式吸力系统和冷气推进器。",
+   "timing_method": "asr-index",
+   "phrases": [
+    {
+     "text": "马斯克发帖",
+     "start_s": 5.5,
+     "end_s": 6.9
+    },
+    {
+     "text": "原来未来真有飞行汽车",
+     "start_s": 6.9,
+     "end_s": 9.28
+    },
+    {
+     "text": "特斯拉称",
+     "start_s": 9.28,
+     "end_s": 9.98
+    },
+    {
+     "text": "它用到了多模式吸力系统和冷气推进器",
+     "start_s": 9.98,
+     "end_s": 13.937
+    }
+   ]
+  },
+  {
+   "id": "03",
+   "scene_start_s": 14,
+   "scene_end_s": 27,
+   "audio_start_s": 14,
+   "audio_end_s": 24.519,
+   "audio_file": "clip-03-usable.wav",
+   "audio_sha256": "ce45b690bcb4544258c3dcdbe92ae7e5000949daf2ed43666c6613e9d8fd06fe",
+   "text": "先分清贴地和腾空。抽走车底一些空气，气压变低，外界压力把车压向路面。吸附朝向路面，不一定朝下。",
+   "timing_method": "asr-index",
+   "phrases": [
+    {
+     "text": "先分清贴地和腾空",
+     "start_s": 14.0,
+     "end_s": 16.18
+    },
+    {
+     "text": "抽走车底一些空气",
+     "start_s": 16.18,
+     "end_s": 17.74
+    },
+    {
+     "text": "气压变低",
+     "start_s": 17.74,
+     "end_s": 18.96
+    },
+    {
+     "text": "外界压力把车压向路面",
+     "start_s": 18.96,
+     "end_s": 21.9
+    },
+    {
+     "text": "吸附朝向路面",
+     "start_s": 21.9,
+     "end_s": 23.2
+    },
+    {
+     "text": "不一定朝下",
+     "start_s": 23.2,
+     "end_s": 24.519
+    }
+   ]
+  },
+  {
+   "id": "04",
+   "scene_start_s": 27,
+   "scene_end_s": 40,
+   "audio_start_s": 27,
+   "audio_end_s": 37.596,
+   "audio_file": "clip-04-usable.wav",
+   "audio_sha256": "01d9d4c35ed457582bd949b89137f8c98b35a5638ff97b0cad5416b3b95fb619",
+   "text": "可离开路面，就不能靠这样吸附。压缩气体从喷口冲出，车受到相反的推力。这里不靠燃烧，靠的是喷气的反作用。",
+   "timing_method": "asr-index",
+   "phrases": [
+    {
+     "text": "可离开路面",
+     "start_s": 27.0,
+     "end_s": 27.92
+    },
+    {
+     "text": "就不能靠这样吸附",
+     "start_s": 27.92,
+     "end_s": 29.98
+    },
+    {
+     "text": "压缩气体从喷口冲出",
+     "start_s": 29.98,
+     "end_s": 32.18
+    },
+    {
+     "text": "车受到相反的推力",
+     "start_s": 32.18,
+     "end_s": 34.6
+    },
+    {
+     "text": "这里不靠燃烧",
+     "start_s": 34.6,
+     "end_s": 35.76
+    },
+    {
+     "text": "靠的是喷气的反作用",
+     "start_s": 35.76,
+     "end_s": 37.596
+    }
+   ]
+  },
+  {
+   "id": "05",
+   "scene_start_s": 40,
+   "scene_end_s": 52.1,
+   "audio_start_s": 40,
+   "audio_end_s": 51.727,
+   "audio_file": "clip-05-usable.wav",
+   "audio_sha256": "726efb11dee130b034f623fc06ef70b5b756754ba08e41b7e011a6708d9dab0b",
+   "text": "推力的作用线偏离重心，就会产生力矩，让车转动。不同喷口配合调节，可以改变姿态。腾空翻转，却不等于稳定悬停。",
+   "timing_method": "asr-index",
+   "phrases": [
+    {
+     "text": "推力的作用线偏离重心",
+     "start_s": 40.0,
+     "end_s": 42.18
+    },
+    {
+     "text": "就会产生力矩",
+     "start_s": 42.18,
+     "end_s": 43.9
+    },
+    {
+     "text": "让车转动",
+     "start_s": 43.9,
+     "end_s": 45.26
+    },
+    {
+     "text": "不同喷口配合调节",
+     "start_s": 45.26,
+     "end_s": 47.22
+    },
+    {
+     "text": "可以改变姿态",
+     "start_s": 47.22,
+     "end_s": 48.78
+    },
+    {
+     "text": "腾空翻转",
+     "start_s": 48.78,
+     "end_s": 50.14
+    },
+    {
+     "text": "却不等于稳定悬停",
+     "start_s": 50.14,
+     "end_s": 51.727
+    }
+   ]
+  },
+  {
+   "id": "06",
+   "scene_start_s": 52.1,
+   "scene_end_s": 64.5,
+   "audio_start_s": 52.1,
+   "audio_end_s": 64.211,
+   "audio_file": "clip-06-usable.wav",
+   "audio_sha256": "5c9a9fdee6c8521562fcfaed233a8bba57134f854e57fd502aa16eb10e07aa75",
+   "text": "气从哪来？特斯拉称，车内可用的空间里，分布着多个碳纤维缠绕的压力容器。每喷一次，气就少一点；用掉的，不会自己回来。",
+   "timing_method": "asr-index",
+   "phrases": [
+    {
+     "text": "气从哪来",
+     "start_s": 52.1,
+     "end_s": 53.52
+    },
+    {
+     "text": "特斯拉称",
+     "start_s": 53.52,
+     "end_s": 54.82
+    },
+    {
+     "text": "车内可用的空间里",
+     "start_s": 54.82,
+     "end_s": 56.18
+    },
+    {
+     "text": "分布着多个碳纤维缠绕的压力容器",
+     "start_s": 56.18,
+     "end_s": 59.72
+    },
+    {
+     "text": "每喷一次",
+     "start_s": 59.72,
+     "end_s": 60.56
+    },
+    {
+     "text": "气就少一点",
+     "start_s": 60.56,
+     "end_s": 61.84
+    },
+    {
+     "text": "用掉的",
+     "start_s": 61.84,
+     "end_s": 62.9
+    },
+    {
+     "text": "不会自己回来",
+     "start_s": 62.9,
+     "end_s": 64.211
+    }
+   ]
+  },
+  {
+   "id": "07",
+   "scene_start_s": 64.5,
+   "scene_end_s": 75,
+   "audio_start_s": 64.5,
+   "audio_end_s": 74.586,
+   "audio_file": "clip-07-usable.wav",
+   "audio_sha256": "4b8ff3931ec71c20a5be4d2621800268ff9860f5bed1ab807a3bf12f20763e4a",
+   "text": "悬停，不只要推力平衡重力，还得控制运动。演示不等于能通勤。飞多久，还得看气量、能量和安全。",
+   "timing_method": "asr-index",
+   "phrases": [
+    {
+     "text": "悬停",
+     "start_s": 64.5,
+     "end_s": 65.5
+    },
+    {
+     "text": "不只要推力平衡重力",
+     "start_s": 65.5,
+     "end_s": 67.4
+    },
+    {
+     "text": "还得控制运动",
+     "start_s": 67.4,
+     "end_s": 69.1
+    },
+    {
+     "text": "演示不等于能通勤",
+     "start_s": 69.1,
+     "end_s": 71.16
+    },
+    {
+     "text": "飞多久",
+     "start_s": 71.16,
+     "end_s": 72.18
+    },
+    {
+     "text": "还得看气量",
+     "start_s": 72.18,
+     "end_s": 73.44
+    },
+    {
+     "text": "能量和安全",
+     "start_s": 73.44,
+     "end_s": 74.586
+    }
+   ]
+  }
+ ]
+}

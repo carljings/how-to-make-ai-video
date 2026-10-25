@@ -1,0 +1,4 @@
+《AI 也会刷分》 r2 — frozen by Opus 5.5 (claude-opus-5-5, max) at 2026-10-21T16:16:54Z
+r2 = r1 + one caption in src/copy.js (126.10–128.32 s: "早在 AI 之前，就有人说过：" → "不只是 AI，早就有人说过：";
+AI as a field predates Goodhart 1975 and Strathern 1997), plus the post-render tools tools/finish.py and tools/review.py
+(they never draw frames). Picture = r1 chunks except 03780-03869, re-rendered from r2 (the only frames the caption touches: 3783–3850).

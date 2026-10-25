@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../fonts/fonts.css">
+<title>A · P2 · 鼓槌砸下来之前，谁会先跳？</title>
+<style>
+  html, body { margin: 0; background: #000; width: 1080px; height: 1920px; overflow: hidden; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+  #stage canvas { display: block; position: absolute; left: 0; top: 0; }
+  .shade { position: absolute; left: 0; top: 0; width: 1080px; height: 640px; z-index: 1; background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,0)); }
+  .shadeb { position: absolute; left: 0; bottom: 0; width: 1080px; height: 700px; z-index: 1; background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.42)); }
+  .vignette { position: absolute; inset: 0; z-index: 1; background: radial-gradient(ellipse 78% 62% at 50% 46%, rgba(0,0,0,0) 55%, rgba(0,0,0,.5) 100%); }
+  .flash { position: absolute; inset: 0; z-index: 5; background: #fff; opacity: 0; }
+  .subs, .labels { position: absolute; inset: 0; z-index: 3; pointer-events: none; font-family: "Noto Sans CJK SC", sans-serif; }
+  .cue { position: absolute; color: #f7f3ec; font-weight: 700; transform-origin: 50% 50%; }
+  .cue em { font-style: normal; color: #ffb648; }
+  .cue.main { left: 76px; top: 176px; width: 920px; font-size: 76px; line-height: 1.22; letter-spacing: 1px; text-shadow: 0 4px 22px rgba(0,0,0,.95), 0 0 3px #000; transform-origin: 0 50%; }
+  .cue.sub { left: 76px; top: 372px; width: 920px; font-size: 54px; line-height: 1.3; color: #ffd9a0; text-shadow: 0 3px 18px rgba(0,0,0,.95), 0 0 3px #000; transform-origin: 0 50%; }
+  .cue.big { left: 0; width: 1080px; top: 168px; text-align: center; font-size: 132px; letter-spacing: 6px; text-shadow: 0 6px 34px rgba(0,0,0,.95), 0 0 4px #000; }
+  .cue.note { left: 76px; top: 1408px; width: 828px; font-size: 26px; font-weight: 400; line-height: 1.5; color: #ece6dc;
+    background: rgba(0,0,0,.62); padding: 12px 18px; border-radius: 10px; border-left: 4px solid #ffb648; }
+  .lab { position: absolute; font-size: 36px; font-weight: 700; color: #fff; white-space: nowrap; text-shadow: 0 2px 10px rgba(0,0,0,.95);
+    background: rgba(0,0,0,.55); padding: 4px 14px 7px; border-radius: 8px; }
+  .lab small { display: block; font-size: 25px; font-weight: 400; color: #e7dccb; }
+  .lab.cool { color: #9fe6ff; } .lab.warm { color: #ffc46b; }
+  svg.lines { position: absolute; inset: 0; }
+  .chart { position: absolute; left: 76px; top: 1176px; width: 868px; height: 216px; background: rgba(0,0,0,.6); border-radius: 12px; overflow: hidden; }
+  .chart .row { position: absolute; left: 20px; font-size: 25px; color: #e9e4dc; }
+  .chart .tick { position: absolute; width: 4px; margin-left: -2px; background: rgba(255,255,255,.9); }
+  .chart .small { position: absolute; width: 2px; margin-left: -1px; background: rgba(255,255,255,.3); }
+  .chart .mk { position: absolute; width: 20px; height: 20px; margin-left: -10px; border-radius: 50%; }
+  .chart .now { position: absolute; width: 2px; background: #ffb648; box-shadow: 0 0 10px #ffb648; }
+  .meter { position: absolute; left: 76px; top: 1092px; width: 868px; height: 290px; background: rgba(0,0,0,.62); border-radius: 12px; }
+  .meter .ttl { position: absolute; left: 22px; top: 14px; font-size: 27px; color: #ffd9a0; font-weight: 700; }
+  .meter .bar { position: absolute; bottom: 58px; width: 150px; margin-left: -75px; border-radius: 8px 8px 0 0; }
+  .meter .lb { position: absolute; bottom: 14px; width: 220px; margin-left: -110px; text-align: center; font-size: 29px; color: #e9e4dc; }
+  .meter .val { position: absolute; width: 220px; margin-left: -110px; text-align: center; font-size: 30px; font-weight: 700; color: #fff; }
+  .meter .eq { position: absolute; top: 12px; right: 24px; text-align: right; font-size: 30px; font-weight: 700; color: #9fe6ff; }
+  .chart .br { position: absolute; height: 0; border-top: 3px solid #ffd9a0; }
+  .chart .brl { position: absolute; font-size: 25px; font-weight: 700; color: #ffd9a0; transform: translateX(-50%); }
+  .stamp { position: absolute; right: 70px; top: 1000px; font: 700 26px "Noto Sans CJK SC", sans-serif; color: #ffb648; letter-spacing: 3px;
+    border: 3px solid #ffb648; padding: 6px 14px; border-radius: 6px; background: rgba(0,0,0,.45); }
+</style>
+<script type="importmap">
+{ "imports": { "three": "../../vendor/three/build/three.module.js", "three/addons/": "../../vendor/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<div id="stage"><div class="vignette"></div><div class="shade"></div><div class="shadeb"></div><div class="flash" id="flash"></div></div>
+<script type="module" src="./scene.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+{
+  "sampleRate": 48000,
+  "samples": 8524800,
+  "duration": 177.6,
+  "voiceGainDb": -1.081,
+  "voiceFiles": 18,
+  "music": "Original FM keys, plucked ostinato, marimba, harmonic bass, drums, D-minor motif to D-major cadence",
+  "seed": 2026102202,
+  "sections": [
+    {
+      "name": "suspense",
+      "start": 0,
+      "end": 10.0,
+      "bpm": 112,
+      "energy": 0.55
+    },
+    {
+      "name": "origin",
+      "start": 10.0,
+      "end": 21.5,
+      "bpm": 96,
+      "energy": 0.35
+    },
+    {
+      "name": "explore",
+      "start": 21.5,
+      "end": 46.666666666666664,
+      "bpm": 104,
+      "energy": 0.6
+    },
+    {
+      "name": "proof",
+      "start": 46.666666666666664,
+      "end": 78.53333333333333,
+      "bpm": 112,
+      "energy": 0.8
+    },
+    {
+      "name": "methods",
+      "start": 78.53333333333333,
+      "end": 112.2,
+      "bpm": 124,
+      "energy": 1.0
+    },
+    {
+      "name": "planning",
+      "start": 112.2,
+      "end": 118.96666666666667,
+      "bpm": 104,
+      "energy": 0.25
+    },
+    {
+      "name": "competition",
+      "start": 118.96666666666667,
+      "end": 164.66666666666666,
+      "bpm": 120,
+      "energy": 0.9
+    }
+  ],
+  "duckDb": -3.48,
+  "musicSceneLevels": [
+    {
+      "scene": "hook",
+      "targetVsVoiceDb": -9,
+      "gain": 0.61247
+    },
+    {
+      "scene": "history",
+      "targetVsVoiceDb": -10.5,
+      "gain": 0.50424
+    },
+    {
+      "scene": "pieces",
+      "targetVsVoiceDb": -9,
+      "gain": 0.53332
+    },
+    {
+      "scene": "constraints",
+      "targetVsVoiceDb": -10.5,
+      "gain": 0.50304
+    },
+    {
+      "scene": "count",
+      "targetVsVoiceDb": -9,
+      "gain": 0.60725
+    },
+    {
+      "scene": "metric",
+      "targetVsVoiceDb": -9,
+      "gain": 0.50966
+    },
+    {
+      "scene": "compute",
+      "targetVsVoiceDb": -9,
+      "gain": 0.51544
+    },
+    {
+      "scene": "bound",
+      "targetVsVoiceDb": -9,
+      "gain": 0.51019
+    },
+    {
+      "scene": "lbl",
+      "targetVsVoiceDb": -8,
+      "gain": 0.42945
+    },
+    {
+      "scene": "cfop",
+      "targetVsVoiceDb": -8,
+      "gain": 0.41702
+    },
+    {
+      "scene": "roux",
+      "targetVsVoiceDb": -8,
+      "gain": 0.5189
+    },
+    {
+      "scene": "inspection",
+      "targetVsVoiceDb": -10.5,
+      "gain": 0.65135
+    },
+    {
+      "scene": "average",
+      "targetVsVoiceDb": -9,
+      "gain": 0.40516
+    },
+    {
+      "scene": "hefei",
+      "targetVsVoiceDb": -9,
+      "gain": 0.40363
+    },
+    {
+      "scene": "beijing",
+      "targetVsVoiceDb": -9,
+      "gain": 0.45238
+    },
+    {
+      "scene": "guangzhou",
+      "targetVsVoiceDb": -9,
+      "gain": 0.45715
+    },
+    {
+      "scene": "guilin",
+      "targetVsVoiceDb": -9,
+      "gain": 0.43515
+    },
+    {
+      "scene": "ending",
+      "targetVsVoiceDb": -9,
+      "gain": 0.30462
+    }
+  ],
+  "events": 248,
+  "landingSeconds": 174.53327083333332,
+  "targetLufs": -14,
+  "loudnormFirstPass": {
+    "input_i": "-22.40",
+    "input_tp": "-2.75",
+    "input_lra": "3.50",
+    "input_thresh": "-32.64",
+    "output_i": "-15.37",
+    "output_tp": "-2.00",
+    "output_lra": "2.70",
+    "output_thresh": "-25.46",
+    "normalization_type": "dynamic",
+    "target_offset": "1.37"
+  },
+  "pretrim": {
+    "input_i": "-14.71",
+    "input_tp": "-1.97",
+    "input_lra": "2.40",
+    "input_thresh": "-24.77",
+    "output_i": "-14.22",
+    "output_tp": "-2.00",
+    "output_lra": "2.30",
+    "output_thresh": "-24.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "finalGainDb": 0.7100000000000009,
+  "masterSha256": "2da4599be50cb5eaa6500ff6f3e3330b1c3942cded70c77926d17164898a1be8",
+  "timeStretch": false,
+  "subjectiveListeningPerformed": false
+}

@@ -1,0 +1,16 @@
+{
+  "name": "clawd-10s-v2-20261020",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Clawd 10 s style preview v2: the user's original BGM (one contiguous passage, tools/bgm.py) + a three.js domino-cascade picture rendered in headless Chrome. Opus 5.5.",
+  "scripts": {
+    "bgm": "python3 tools/bgm.py",
+    "stills": "node tools/render.mjs --stills",
+    "render": "node tools/render.mjs --video",
+    "verify": "node tools/verify.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  }
+}

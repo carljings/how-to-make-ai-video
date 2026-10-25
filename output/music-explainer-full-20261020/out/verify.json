@@ -1,0 +1,143 @@
+{
+  "file": "out/music-explainer-full.mp4",
+  "sha256": "47c43073da14e986d8bdd43f440ffedce3be029911fce32f9661877d0a27c158",
+  "bytes": 9314146,
+  "picture_sha256": "086f3268da1a3c92bcbfc4e2d404af6011498c536892444acd983ddcebfe1f3d",
+  "bgm_sha256": "0bc354b4adf3f1e615133e622113c96ba2bd09b9f02382f42a9bdc22ae732a20",
+  "loudness": {
+    "I_lufs": -10.9,
+    "TP_dbtp": -1
+  },
+  "aac_vs_wav": {
+    "lag_samples_48k": 0,
+    "r": 0.999910081005085
+  },
+  "clawd_rgb": [
+    {
+      "frame": 0,
+      "rgb": [
+        214,
+        117,
+        84
+      ]
+    },
+    {
+      "frame": 1213,
+      "rgb": [
+        214,
+        117,
+        84
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "video 1080×1920 h264 yuv420p bt709",
+      "ok": true,
+      "got": "1080×1920 h264 yuv420p bt709"
+    },
+    {
+      "name": "30 fps, 1214 frames",
+      "ok": true,
+      "got": "30/1 1214"
+    },
+    {
+      "name": "picture and audio 40.467 s (±40 ms)",
+      "ok": true,
+      "got": "v 40.466667 a 40.466000"
+    },
+    {
+      "name": "AAC stereo 48 kHz",
+      "ok": true,
+      "got": "aac 2 48000"
+    },
+    {
+      "name": "strict decode (no errors)",
+      "ok": true,
+      "got": "clean"
+    },
+    {
+      "name": "reference audio = the user's original BGM (sha256)",
+      "ok": true,
+      "got": "6987131efbeb44cc19e106b9db1d4f0b10aba55263c8f37531b973b0ef144b61"
+    },
+    {
+      "name": "each film segment = its source passage at the construction's exact sample offset (lag 0, r ≥ 0.9999; placement vs the nominal map < 1 sample)",
+      "ok": true,
+      "got": [
+        {
+          "film_s": [
+            0.05,
+            23.325899999999997
+          ],
+          "offset_samples_44k1": -697221,
+          "source_s0": 15.86,
+          "lag_samples_44k1": 0,
+          "correlation": 1,
+          "placement_vs_nominal_map_us": 0
+        },
+        {
+          "film_s": [
+            23.5259,
+            37.746399999999994
+          ],
+          "offset_samples_44k1": 616316,
+          "source_s0": 9.550476,
+          "lag_samples_44k1": 0,
+          "correlation": 1,
+          "placement_vs_nominal_map_us": 19.5
+        }
+      ]
+    },
+    {
+      "name": "bgm.wav is the one bgm_full.py reported",
+      "ok": true,
+      "got": "0bc354b4adf3f1e615133e622113c96ba2bd09b9f02382f42a9bdc22ae732a20"
+    },
+    {
+      "name": "muxed AAC aligned with bgm.wav (|lag| ≤ 48 samples, r ≥ 0.98)",
+      "ok": true,
+      "got": {
+        "lag_samples_48k": 0,
+        "r": 0.99991
+      }
+    },
+    {
+      "name": "no overload: AAC true peak ≤ −0.5 dBTP",
+      "ok": true,
+      "got": {
+        "I_lufs": -10.9,
+        "TP_dbtp": -1
+      }
+    },
+    {
+      "name": "src/cues.js = regenerated cues",
+      "ok": true,
+      "got": true
+    },
+    {
+      "name": "Clawd fill decodes as brand orange #d97757 (±8 per channel)",
+      "ok": true,
+      "got": [
+        {
+          "frame": 0,
+          "rgb": [
+            214,
+            117,
+            84
+          ]
+        },
+        {
+          "frame": 1213,
+          "rgb": [
+            214,
+            117,
+            84
+          ]
+        }
+      ]
+    }
+  ],
+  "all_pass": true,
+  "listening": "none — measurements only"
+}

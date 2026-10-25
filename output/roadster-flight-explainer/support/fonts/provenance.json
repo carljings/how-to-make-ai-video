@@ -1,0 +1,35 @@
+{
+  "derived_family": "Roadster Film Sans",
+  "source_family": "Noto Sans SC",
+  "source_version": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603",
+  "source_repository": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+  "source_download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+  "source_size_bytes": 17772300,
+  "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+  "github_git_blob_sha": "fb0637bafbcd804fe32152370a1225990745b4bc",
+  "retrieved_date": "2026-10-17",
+  "license": "SIL Open Font License 1.1",
+  "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+  "license_file": "OFL-NotoSansSC.txt",
+  "license_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+  "weights": [
+    500,
+    700,
+    900
+  ],
+  "source_inputs": [
+    {
+      "file": "blender/data/film_cues.json",
+      "sha256": "42d936064856f7e0393d659c7e4ec4e49035e57dfd5b00e8607f1f13184ec900"
+    },
+    {
+      "file": "blender/film.py",
+      "sha256": "6ca6ea7d1698793f6bbe4773503cb78747d92e8d4872661ca72d6414b335df8e"
+    },
+    {
+      "file": "blender/diagram.py",
+      "sha256": "57269f7d8464fed42458fe7f5236149392694100f038224290945f716040e6bf"
+    }
+  ],
+  "coverage_scope": "Current approved narration, Chinese film.py/diagram.py strings, explicitly requested persistent/source/cover candidate labels, printable ASCII and selected symbols. Coverage candidates do not authorize new visible content."
+}

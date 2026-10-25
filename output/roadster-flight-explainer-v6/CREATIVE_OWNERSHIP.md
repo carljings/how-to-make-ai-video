@@ -1,0 +1,1 @@
+Human explicitly requested text-only explanation, no spoken voice, greater technological awe. Opus5.5 freely directs this new v6. Write treatment/storyboard then implement; no generic approval questionnaire. Preserve old versions. No paid external media, purchases, global installs or account/config changes.

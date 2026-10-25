@@ -1,0 +1,111 @@
+{
+  "file": "out/clawd-style-preview.mp4",
+  "sha256": "e49103bd218ba48b8b699b9d32932fd3f319575830f94f3ea9f9fc91c518a202",
+  "bytes": 48336352,
+  "picture_sha256": "eacac874a68114d0a62aa9454f6e51cf173a5760e36021f58ce63a883ceded4d",
+  "music_sha256": "a5126d6e9e0fd010a6d8c00f5d3af5ed897f625e676e3e87c1923c690aae0800",
+  "loudness": {
+    "I_lufs": -14.2,
+    "TP_dbtp": -1.6
+  },
+  "kick_offsets_ms": {
+    "rule_wav": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "drop_aac": [
+      0,
+      10,
+      -14,
+      2,
+      -4
+    ]
+  },
+  "checks": [
+    {
+      "name": "video 1080×1920 h264 yuv420p",
+      "ok": true,
+      "got": "1080×1920 h264 yuv420p"
+    },
+    {
+      "name": "30 fps",
+      "ok": true,
+      "got": "30/1"
+    },
+    {
+      "name": "frames = 240",
+      "ok": true,
+      "got": "240"
+    },
+    {
+      "name": "audio 48 kHz stereo",
+      "ok": true,
+      "got": "48000 2"
+    },
+    {
+      "name": "audio length = picture length (±25 ms)",
+      "ok": true,
+      "got": "a 8.000000 v 8.000000"
+    },
+    {
+      "name": "integrated loudness −14 ± 0.5 LUFS (muxed AAC)",
+      "ok": true,
+      "got": -14.2
+    },
+    {
+      "name": "true peak ≤ −1.2 dBTP (muxed AAC)",
+      "ok": true,
+      "got": -1.6
+    },
+    {
+      "name": "the gap is a gap (≥ 25 dB below the drop)",
+      "ok": true,
+      "got": {
+        "gap_db": -37.5,
+        "drop_db": -8.1
+      }
+    },
+    {
+      "name": "tail silent ≥ 0.25 s (≤ −60 dBFS)",
+      "ok": true,
+      "got": -120
+    },
+    {
+      "name": "rule-section kick cues vs WAV attacks within ±5 ms",
+      "ok": true,
+      "got": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "drop / final kick cues vs muxed AAC within ±25 ms (dense; informative)",
+      "ok": true,
+      "got": [
+        0,
+        10,
+        -14,
+        2,
+        -4
+      ]
+    },
+    {
+      "name": "last frame black (mean luma ≤ 20/255)",
+      "ok": true,
+      "got": 0
+    },
+    {
+      "name": "regenerated cues.js identical to src/cues.js",
+      "ok": true,
+      "got": true
+    }
+  ],
+  "all_pass": true,
+  "listening": "none — meters only; no human listening is claimed"
+}

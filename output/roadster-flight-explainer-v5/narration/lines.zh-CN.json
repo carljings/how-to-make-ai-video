@@ -1,0 +1,33 @@
+{
+  "about": "Roadster v5 'AIR, REVEALED' narration. Exact Chinese lines (do not paraphrase). Synthesize EACH line as a separate clip and provide per-clip word/character boundaries (start,end seconds relative to the clip's trimmed start). The film timeline places clips at nominal_start_s; picture events are keyed to word times, so small differences are absorbed automatically.",
+  "voice": {"preferred": "zh-CN-YunjianNeural", "rate": "+0%", "note": "confident, punchy, suspenseful; Codex may tune rate within -4%..+4% by ear. Keep one voice for the whole film."},
+  "prototype_lines": ["V01", "V02", "V03", "V04", "V05"],
+  "lines": [
+    {"id": "V01", "text": "连灰都往下掉，它凭什么不掉？", "nominal_start_s": 0.25, "keys": ["往下掉", "不掉"]},
+    {"id": "V02", "text": "你可能以为，它是被吸住的。", "nominal_start_s": 3.40, "keys": ["吸"]},
+    {"id": "V03", "text": "其实，是空气把它压上去的。", "nominal_start_s": 6.30, "keys": ["空气", "压"]},
+    {"id": "V04", "text": "风扇把车底缝里的空气抽走，", "nominal_start_s": 9.60, "keys": ["风扇", "抽走"]},
+    {"id": "V05", "text": "外面压得重，缝里压得轻，", "nominal_start_s": 12.70, "keys": ["外面", "缝里"]},
+    {"id": "V06", "text": "车就被死死按在坡上，轮胎才抓得住。", "nominal_start_s": 15.50, "keys": ["按", "抓"]},
+    {"id": "V07", "text": "墙上、顶上，这股力始终压向坡面。", "nominal_start_s": 19.60, "keys": ["墙上", "顶上", "始终"]},
+    {"id": "V08", "text": "可坡，总有尽头。", "nominal_start_s": 24.30, "keys": ["尽头"]},
+    {"id": "V09", "text": "缝一敞开，就压不住了。", "nominal_start_s": 26.50, "keys": ["敞开", "压不住"]},
+    {"id": "V10", "text": "这时，它换上自带的高压气：", "nominal_start_s": 30.30, "keys": ["自带"]},
+    {"id": "V11", "text": "气往下喷，车就被往上推。", "nominal_start_s": 33.50, "keys": ["喷", "推"]},
+    {"id": "V12", "text": "另一场演示里，", "nominal_start_s": 37.90, "keys": []},
+    {"id": "V13", "text": "喷气偏离重心，", "nominal_start_s": 40.20, "keys": ["偏离重心"]},
+    {"id": "V14", "text": "它就整个翻了过来。", "nominal_start_s": 42.00, "keys": ["翻"]},
+    {"id": "V15", "text": "在坡上，借的是空气的力；", "nominal_start_s": 45.30, "keys": ["借"]},
+    {"id": "V16", "text": "在空中，花的是自己的气。", "nominal_start_s": 48.00, "keys": ["花"]},
+    {"id": "V17", "text": "自己的气，总有喷完的时候。", "nominal_start_s": 50.80, "keys": ["喷完"]}
+  ],
+  "on_screen_text": [
+    "CG重建 · 据特斯拉 2026.10.16 发布的视频",
+    "CG重建 · 据马斯克 2026.10.16 发布的视频",
+    "原理示意 · 非实拍",
+    "另一场演示",
+    "画面中可见细线，作用未公开",
+    "空气压力（示意）", "重力", "风扇（示意）", "储气（示意）", "喷气（示意）",
+    "空气现形", "借", "花", "吸", "压"
+  ]
+}

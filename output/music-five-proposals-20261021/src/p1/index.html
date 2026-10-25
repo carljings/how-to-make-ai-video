@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>P1 · 一万个Clawd，能同时点头吗？</title>
+<style>
+  html, body { margin: 0; background: #000; width: 1080px; height: 1920px; overflow: hidden; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+  #stage canvas { display: block; position: absolute; left: 0; top: 0; }
+  .shade { position: absolute; left: 0; top: 0; width: 1080px; height: 640px; z-index: 1; pointer-events: none; background: linear-gradient(rgba(2,3,16,.62), rgba(2,3,16,0)); }
+  .subs, .labels { z-index: 2; position: absolute; inset: 0; pointer-events: none; font-family: "Noto Sans CJK SC", "Noto Sans SC", sans-serif; }
+  .cue { position: absolute; color: #fff; font-weight: 700; }
+  .cue em { font-style: normal; color: #ffe14d; }
+  .cue.main { left: 72px; top: 180px; width: 920px; font-size: 84px; line-height: 1.17; letter-spacing: 1px;
+    text-shadow: 0 5px 26px rgba(0, 0, 18, .95), 0 0 4px rgba(0, 0, 0, .9); }
+  .cue.big { left: 0; width: 1080px; top: 610px; text-align: center; font-size: 210px; letter-spacing: 6px;
+    text-shadow: 0 0 40px rgba(255, 70, 160, .75), 0 8px 30px rgba(0, 0, 0, .9); }
+  .cue.count { left: 0; width: 1080px; top: 520px; text-align: center; font-size: 460px; line-height: 1; color: #ffe14d;
+    text-shadow: 0 0 60px rgba(255, 225, 77, .6), 0 10px 40px rgba(0, 0, 0, .9); }
+  .cue.note { left: 72px; top: 1392px; width: 836px; font-size: 28px; font-weight: 400; line-height: 1.45; color: #e6eaff;
+    background: rgba(6, 8, 26, .66); padding: 12px 18px; border-radius: 12px; }
+  .lab { position: absolute; color: #8ff4ff; font-size: 34px; font-weight: 700; white-space: nowrap;
+    text-shadow: 0 0 12px rgba(0, 220, 255, .55), 0 3px 10px rgba(0, 0, 0, .9); }
+  .lab small { display: block; font-size: 24px; font-weight: 400; color: #cdeff5; }
+  svg.lines { position: absolute; inset: 0; }
+  .strip { position: absolute; left: 110px; top: 1238px; width: 860px; height: 110px; }
+  .strip .dot { position: absolute; top: 34px; width: 34px; height: 34px; margin-left: -17px; border-radius: 50%; background: #ffffff; opacity: .85; }
+  .strip .dot.next { background: transparent; border: 4px dashed #8ff4ff; width: 30px; height: 30px; box-shadow: 0 0 18px rgba(0, 230, 255, .8); }
+  .strip .bar { position: absolute; top: 49px; left: 0; width: 860px; height: 4px; background: rgba(255, 255, 255, .35); }
+  .strip .head { position: absolute; top: 12px; width: 4px; height: 80px; background: #ffe14d; box-shadow: 0 0 14px #ffe14d; }
+  .strip .t { position: absolute; top: 80px; font-size: 24px; color: #fff; transform: translateX(-50%); white-space: nowrap; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "../../node_modules/three/build/three.module.js", "three/addons/": "../../node_modules/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<div id="stage"><div class="shade"></div></div>
+<script type="module" src="./scene.js"></script>
+</body>
+</html>

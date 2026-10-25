@@ -1,0 +1,1 @@
+ACTUAL body01 native1080METAL64 proof34items166.8sec0warnings;20exactRemotioncompositions. Codex viewedcontact and will inspect largeframes; source isFULL_READY snapshot. Allfiles realrenders. Actual newmaster generated locally -14.1LUFS/-2dBTP. No finalfullfilm rendered yet.

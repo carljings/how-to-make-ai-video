@@ -1,0 +1,100 @@
+{
+ "about": "Film soundtrack = the user-supplied music, its own material only. Times in seconds. film = source + offset per segment.",
+ "source": "reference-audio.m4a",
+ "sample_rate": 48000,
+ "segments": [
+  {
+   "name": "S1 song as is",
+   "source": [
+    0.0,
+    32.8484
+   ],
+   "film": [
+    0.0,
+    32.8484
+   ],
+   "offset": 0.0
+  },
+  {
+   "name": "S2 3rd build bar again + drop + 2 bars",
+   "source": [
+    30.693,
+    37.1035
+   ],
+   "film": [
+    32.8234,
+    39.2339
+   ],
+   "offset": 2.1304
+  },
+  {
+   "name": "S3 final downbeat = the song’s first-drop hit, low-pass sweep + exponential fade",
+   "source": [
+    3.038,
+    5.815
+   ],
+   "film": [
+    39.2089,
+    41.9859
+   ],
+   "offset": 36.1709,
+   "tail": {
+    "hold_s": 0.35,
+    "lowpass_hz": [
+     12000,
+     150
+    ],
+    "sweep_s": 1.6,
+    "decay_tau_s": 0.45,
+    "final_linear_fade_s": 0.06
+   }
+  }
+ ],
+ "crossfade_s": 0.025,
+ "crossfade_ends_before_attack_s": 0.002,
+ "events_film": {
+  "drop1": 3.065,
+  "drop2": 20.0911,
+  "build3_original": 30.72,
+  "build3_repeat": 32.8504,
+  "drop3": 34.9808,
+  "final_hit": 39.2359,
+  "end": 42.4359
+ },
+ "bars_film": [
+  0.937,
+  3.065,
+  5.193,
+  7.321,
+  9.449,
+  11.577,
+  13.705,
+  15.833,
+  17.961,
+  20.089,
+  22.217,
+  24.345,
+  26.473,
+  28.601,
+  30.729,
+  32.8594,
+  34.9874,
+  37.1154,
+  39.2359
+ ],
+ "gain_db": -3.0,
+ "gain_reason": "source decoded true peak +1.7 dBTP (AAC overs); static trim for headroom; no compression/limiter/duck",
+ "loudness": {
+  "source_I_lufs": -8.3,
+  "source_TP_dbtp": 1.7,
+  "master_I_lufs": -11.4,
+  "master_TP_dbtp": -1.3
+ },
+ "splice_step_check": {
+  "p999_all": 0.29647,
+  "at_S2": 0.25936,
+  "at_S3": 0.38032
+ },
+ "master": "out/audio/master.wav",
+ "end_s": 42.4359
+}
