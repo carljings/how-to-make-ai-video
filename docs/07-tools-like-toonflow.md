@@ -4,6 +4,8 @@
 
 Checked **8 October 2026**. This chapter records the research, price snapshots and choices for an “Inventor Cat” Douyin account, replacing its 5 October list. Evidence comes from official repositories, licences, documentation, releases and selected source files. **The newly researched tools were not installed, paid for or tested on the same film.** A documented feature is not proof that it works on this machine.
 
+**16 October follow-up:** [Named hit-video production workflows](hit-video-workflows.md) checks creator disclosures, LibTV's published interface and the repository's Nobel V3 API route. It supplements this dated catalogue without claiming a new full-market or same-script benchmark.
+
 ## Existing science-production baseline
 
 The user has completed three practice science films with **Opus 5.5**: AI History, entropy, and neutrinos, and explicitly wants new videos next. Retain these as technical experience; see [Chapter 8](08-douyin-science-growth.md) for the million-view experiment plan. Model attribution comes from the user; the [neutrino credits](https://github.com/carljings/neutrino-film/blob/main/CREDITS.md) also record Claude Opus 5.5 / Claude Code. Authenticated GitHub API reads verified repositories, READMEs, source entry points and release assets. The films were not replayed or rendered in this round; specifications below come from repository documentation/code, not a new media probe.

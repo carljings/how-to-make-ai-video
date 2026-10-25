@@ -8,6 +8,8 @@
 
 > **Newer verification.** This page retains the 5 October snapshot and was not rechecked item by item in this round. See [Chapter 7](07-tools-like-toonflow.md) for studio features, automation, licences and price conditions verified on 8 October. Do not treat the old versions, prices or “no interface found” statements below as current conclusions.
 
+> **16 October correction.** Unbenchmarked “best”, “fastest” and “cheapest” recommendations have been qualified below. See [actual hit-video workflows](hit-video-workflows.md) for creator interviews, current LibTV price conditions and the distinction between a studio and a model API.
+
 ## At a glance
 
 | | **即梦 Jimeng** (Dreamina) | **小云雀 Xiaoyunque** | **LibTV** | **LiblibAI 哩布哩布** | **TapNow** | **Flova** |
@@ -18,14 +20,14 @@
 | **Video models** | Seedance 2.0, 2.5 | Seedance 2.0, 2.5 | 20+: Kling 3.0/O3, Seedance 2.0/2.5, Wan 3.0, MiniMax H3, Vidu, PixVerse… | Aggregated models (e.g. Kling) | Seedance 2.0/2.5, Kling O3, Wan 3.0, Veo… | Seedance 2.5/2.0, MiniMax H3, Veo 3.1, Kling; Suno for music |
 | **How you work** | Canvas + agent chat, or single generations | Chat with the agent; canvas, 3D director stage, shot previs | Canvas + nodes (script → 9/25-grid storyboard → shots → edit), LibTV Agent, 3D-BOX | Web UI, ComfyUI-style workflows | Tapflow node canvas, storyboard extraction from reference footage, TapTV templates | Conversational agent as "executive director": script → storyboard → shots → audio → edit |
 | **Agent / API access** | **Official CLI** `dreamina` (uses your account's credits) | None found | **Official agent skills** + OpenAPI key, CLI | Open API (liblib.art/apis), image-focused | None public | None public |
-| **Price signal** | Standard ¥199/mo for 4,000 credits (first month ¥119); 66 free credits/day | First month ¥39; daily free credits | Seedance 2.0 720p from **¥0.46/s** (annual plan); 100 credits on sign-up | Cheapest in a 7-tool test (below) | $15 / $60 / $115 / $360 per month (1,500–36,000 "Tapies"); $1 ≈ 100 Tapies | Starter–Pro plans; Seedance 2.5 720p from **$0.045/s** on an annual promo |
-| **Best for** | Newest Seedance first; best single-shot quality | Fastest finished Douyin video; cheapest way into Seedance | Short dramas and 漫剧 with recurring characters; many models in one place; agent-driven production | Custom styles and characters (LoRA); images to feed video | Ads, TVC, e-commerce; remaking a reference spot | Letting an agent drive a whole film; English UI |
+| **Price signal** | Standard ¥199/mo for 4,000 credits (first month ¥119); 66 free credits/day | First month ¥39; daily free credits | Seedance 2.0 720p from **¥0.46/s** (annual plan); 100 credits on sign-up | Lowest reported charge in one mixed-model test (below) | $15 / $60 / $115 / $360 per month (1,500–36,000 "Tapies"); $1 ≈ 100 Tapies | Starter–Pro plans; Seedance 2.5 720p from **$0.045/s** on an annual promo |
+| **Typical use; not tested rankings** | ByteDance's creative interface for Seedance | Agent-led script-to-video workflow | Short dramas and 漫剧 with recurring characters; many models in one place; agent-driven production | Custom styles and characters (LoRA); images to feed video | Ads, TVC, e-commerce; remaking a reference spot | Letting an agent drive a whole film; English UI |
 
 ## The six, briefly
 
 **即梦 Jimeng** is ByteDance's flagship creative platform and the home of its own models. Seedance 2.0 arrived in early 2026, and **Seedance 2.5** launched on 31 July 2026: up to 30 s per clip, up to 50 reference files (30 images, 10 videos, 10 audio clips), local edits, native 4K. The infinite canvas has an agent built into its input box. Since the end of March 2026 there has been an **official command-line tool** (`curl -fsSL https://jimeng.jianying.com/cli | bash`). It has subcommands such as `text2video`, `image2video`, `frames2video` and `multimodal2video` that use your own account's credits, so an agent like Claude Code can generate directly. The weak spots are price and queues: early-2026 reports describe hours of queuing on lower tiers and fast price rises.
 
-**小云雀 Xiaoyunque** is the 剪映 team's *agent* product. You type one sentence and it plans the script, generates the shots, adds voice and edits a finished video (智能成片), with digital humans, short-drama and marketing modes, an infinite canvas, a 3D director stage and shot previs. It gets ByteDance's newest models (Seedance 2.0, then 2.5) at a lower price than 即梦, and you sign in with your Douyin account. No public API or CLI was found, so it is for working by hand.
+**小云雀 Xiaoyunque** is the 剪映 team's *agent* product. You type one sentence and it plans the script, generates the shots, adds voice and edits a finished video (智能成片), with digital humans, short-drama and marketing modes, an infinite canvas, a 3D director stage and shot previs. It integrates ByteDance's models (Seedance 2.0, then 2.5), and you sign in with your Douyin account. Different plans and promotions do not establish that it is cheaper than 即梦. This research found no public API or CLI; that leaves public automation unverified, rather than proving manual operation is the only route.
 
 **LibTV** (launched 18 March 2026) is LiblibAI's answer to the canvas-studio format and the closest thing to Toonflow among the six. It turns a script into storyboards (9- or 25-panel grids), batch images and video on one canvas, and includes character turnarounds, multi-angle and relighting tools. It runs 20+ video models, so you can pick per shot. It was designed for both people and agents: the official [`libtv-labs/libtv-skills`](https://github.com/libtv-labs/libtv-skills) (1.1k★) lets an agent create sessions, send generation instructions, upload files and download results with an access key.
 
@@ -33,7 +35,7 @@
 
 **TapNow** (Tamar AI, 2025) targets commercial work: ads, TVCs, e-commerce. Its standout feature is **reverse storyboarding**: upload a reference ad and it breaks it into editable shots and prompts. TapTV has remixable templates. It's priced in US dollars and aimed at teams (up to 100 members, invoices, concurrency limits). At the listed rates, Seedance 2.0 720p costs 24 Tapies per second, about $0.24/s at the base top-up rate.
 
-**Flova** is the most "agent-first" of the six: you talk to a director-agent and it runs script → storyboard → shots → music/voice → edit, choosing models per scene (Seedance 2.5, MiniMax H3, Veo 3.1, Kling, Suno). Plans include watermark-free export and commercial use, and the current Seedance 2.5 promo is among the cheapest per second. No public API exists; a community Claude Code plugin drives the website through a browser.
+**Flova** uses an agent-led workflow: you talk to a director-agent and it runs script → storyboard → shots → music/voice → edit, choosing models per scene (Seedance 2.5, MiniMax H3, Veo 3.1, Kling, Suno). Plans advertise watermark-free export, commercial use and a low promotional Seedance 2.5 rate; a comparable finished-film cost was not tested. No public API was found in this research; a community Claude Code plugin drives the website through a browser.
 
 ## Cost per second
 
@@ -58,8 +60,8 @@ List prices seen on 5 October 2026: LibTV Seedance 2.0 720p from ¥0.46/s (annua
 | Drive generation from Claude Code or another agent | **即梦 CLI** (Seedance only), or **LibTV skills** (many models) |
 | Make a short drama / 漫剧 with the same characters across 15+ clips | **LibTV**, or open-source **Toonflow** (below) |
 | Make an ad or remake a reference spot | **TapNow** |
-| Get a finished Douyin video from one sentence, cheaply | **小云雀** |
-| Get the newest, best Seedance results | **即梦** |
+| Try an agent-led workflow from a short brief | **小云雀** |
+| Use ByteDance's creative interface for Seedance | **即梦** |
 | Lock a custom character or art style | **LiblibAI** (LoRA), then animate in any of the others |
 | Let an agent make the whole film, in English | **Flova** |
 

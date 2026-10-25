@@ -9,3 +9,8 @@ output/optogenetics-film-v2/tools/opus-benchmark/
 output/optogenetics-film-v2/voice/sample.*
 
 .agent/
+.omc/
+.review/
+.impeccable/
+.font-env/
+*.parts/

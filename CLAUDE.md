@@ -2,6 +2,11 @@
 
 A guide to making AI video, with templates, ffmpeg tools and a code-rendered starter film. See README.md for the map.
 
+## Default workflow for Xiaochuan Science (user preference, 21 October 2026)
+
+- Use Canvas-based, deterministic frame-by-frame animation as the default for future science videos. The user preferred the extended music film C to the preceding versions and explicitly requested this default.
+- By default, real Claude Opus 5.5 at max effort owns creative direction, copy, storyboards, visuals, animation code, rendering decisions and visual review. Codex provides research, fact-checking and technical assistance, and executes production commands when explicitly assigned by Opus or directly authorized by the user. An explicit user assignment takes precedence over this default.
+
 ## Making a video here
 
 - Start from `templates/brief.md`. Write `storyboard.md` and get it approved before generating shots or writing scene code.
