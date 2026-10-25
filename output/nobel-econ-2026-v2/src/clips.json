@@ -1,0 +1,29 @@
+{
+  "source": "1080p",
+  "clips": [
+    {
+      "id": "seg1",
+      "file": "clips/seg1.mp4",
+      "src": "clips/seg1-1080p.mp4",
+      "dur": 15.0417
+    },
+    {
+      "id": "seg2",
+      "file": "clips/seg2.mp4",
+      "src": "clips/seg2-1080p.mp4",
+      "dur": 15.0417
+    },
+    {
+      "id": "seg3",
+      "file": "clips/seg3.mp4",
+      "src": "clips/seg3-1080p.mp4",
+      "dur": 15.0417
+    },
+    {
+      "id": "seg4",
+      "file": "clips/seg4.mp4",
+      "src": "clips/seg4-1080p.mp4",
+      "dur": 15.0417
+    }
+  ]
+}

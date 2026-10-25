@@ -1,0 +1,46 @@
+{
+  "checked": "2026-10-13",
+  "pass": [
+    "the film uses the 1080p Seedance finals: clips/seg1-1080p.mp4, clips/seg2-1080p.mp4, clips/seg3-1080p.mp4, clips/seg4-1080p.mp4",
+    "frame 0 shows the whole question (both lines)",
+    "every subtitle stays at least 0.5 s",
+    "subtitle lines are at most 15 characters: longest 13",
+    "subtitles stay inside the film",
+    "headline lines are at most 12 characters: longest 10",
+    "the laureates are named on screen and in the subtitles",
+    "fonts cover every character used",
+    "frames are pure functions of time: 8 frames rendered twice in different orders",
+    "video 1080×1920, 24 fps, 1444 frames: 1080×1920 24/1 1444",
+    "H.264 High, yuv420p, BT.709: h264 High yuv420p bt709 tv",
+    "AAC 48 kHz stereo",
+    "audio and video start together and last 60.17 s: 60.181 s",
+    "decodes end to end without errors",
+    "loudness about −10 LUFS (the user's target): -10.2 LUFS, range 2.2 LU",
+    "true peak at or under −1.5 dBTP: -2.3 dBTP",
+    "sound starts on frame 0 (first 200 ms not silent): -14.630766 dB RMS"
+  ],
+  "fail": [],
+  "media": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "24/1",
+    "frames": 1444,
+    "duration": 60.181,
+    "sizeMB": 39,
+    "loudness": {
+      "I": -10.2,
+      "TP": -2.3,
+      "LRA": 2.2
+    }
+  },
+  "frameHashes": {
+    "0": "aa7a0bc0c0840968b6b65dc913d52ed25083910ad56d346e07fd2c4736b946a2",
+    "30": "cef6a8bc5c60bda3f59495a4c41985ea067947314d52e807b098a20c5bd3febf",
+    "250": "ccc40ccb54c8b083240d92ff5675729b6389ce97586eb278a97250629b518f94",
+    "400": "18bd2144b0f90446d5f6d9d5eb68fd55f13e9779243f41d268cd0b66cee46213",
+    "640": "77ca9260e49e7de918689c8e944e8f202ff6375d230f24ddb67d77d30ad93475",
+    "900": "9a25720d621d5596d926010b0e8aa0463a4c4d973d7d90d4f42b78b6aad908a0",
+    "1250": "79ff86c96b30ad1277c88120f601b22a527465d5f57986d2066fdfce0ad54195",
+    "1420": "7423524d2346d6b3306d418ee77a2b40580b3569ba15646ca64983304c06f451"
+  }
+}
