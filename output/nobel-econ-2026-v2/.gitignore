@@ -1,0 +1,18 @@
+node_modules
+out/.sheet/
+out/.timeline.mjs
+out/.score-test.m4a
+out/score-raw.wav
+out/sheet-*.jpg
+clips/*.raw.*
+refs/*.tmp*
+out/mix-raw.wav
+out/music.wav
+out/seedance.wav
+/audio/
+public/clips/
+public/mix.wav
+# Seedance clips stay local (regenerate with scripts/ark.py, then prep.mjs)
+/clips/
+tasks/*.log
+scripts/__pycache__/

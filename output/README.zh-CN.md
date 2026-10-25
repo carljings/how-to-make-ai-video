@@ -13,6 +13,8 @@ GitHub用于制作成果归档。抖音发布是独立动作，须按实际上�
 | 光遗传学V1 · 保留的首版 | [MP4](optogenetics-film/out/optogenetics.mp4) · [源码包](optogenetics-film/out/optogenetics-v1-source.zip) |
 | 2026诺贝尔经济学奖V3 · 52秒竖屏、黏土小镇寓言（一句话，让整个小镇破产了）、中文旁白，Seedance 2.5 + Remotion | [MP4](nobel-econ-2026-v3/out/nobel-econ-2026-v3.mp4) · [封面](nobel-econ-2026-v3/out/cover.jpg) · [拼图](nobel-econ-2026-v3/out/nobel-econ-2026-v3.sheet.jpg) |
 | 诺奖V3源码和制作记录 | [项目说明](nobel-econ-2026-v3/README.zh-CN.md) · [发布工作稿](nobel-econ-2026-v3/publish-copy.md) · [事实出处](nobel-econ-2026-v3/sources.md) · [制作日志](nobel-econ-2026-v3/production-log.md) |
+| 诺奖V2 · 60秒竖屏、黏土微缩讲解片、中文旁白，Seedance 2.5 + Remotion；未采用，由V3取代 | [MP4](nobel-econ-2026-v2/out/nobel-econ-2026-v2.mp4) · [封面](nobel-econ-2026-v2/out/cover.jpg) · [拼图](nobel-econ-2026-v2/out/nobel-econ-2026-v2.sheet.jpg) · [项目说明](nobel-econ-2026-v2/README.zh-CN.md) · [制作日志](nobel-econ-2026-v2/production-log.md) |
+| 诺奖V1 · 58秒竖屏、屏幕文字和动态图形、无旁白，全部用Remotion制作；未采用 | [MP4](nobel-econ-2026/out/nobel-econ-2026.mp4) · [封面](nobel-econ-2026/out/cover.jpg) · [拼图](nobel-econ-2026/out/nobel-econ-2026.sheet.jpg) · [项目说明](nobel-econ-2026/README.zh-CN.md) · [事实出处](nobel-econ-2026/sources.md) |
 | 发明家猫头像 · 4个版本及提示词 | [头像文件](imagegen/) |
 | AI视频工具比较 | [第7章](../docs/zh-CN/07-tools-like-toonflow.md) |
 | 抖音内容测试与制作标准 | [第8章](../docs/zh-CN/08-douyin-science-growth.md) |

@@ -1,0 +1,11 @@
+node_modules
+out/.sheet/
+out/.timeline.mjs
+out/.score-test.m4a
+out/score-raw.wav
+out/music.wav
+out/frames/
+out/render-*.log
+out/sheet-*.jpg
+out/draft*.mp4
+public/score.wav

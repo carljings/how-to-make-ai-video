@@ -1,0 +1,54 @@
+{
+  "checked": "2026-10-13",
+  "pass": [
+    "scenes cover 0–58 s without gaps",
+    "every scene cut sits on a beat",
+    "frame 0 shows the whole question (both lines of the first beat)",
+    "text beats never overlap",
+    "every text beat stays at least 1.5 s",
+    "text lines are at most 10 characters: longest 9",
+    "no beat asks for more than 6 characters a second: fastest 5.8/s",
+    "every scene after the hook has its own text",
+    "fonts cover every character used",
+    "frames are pure functions of time: 13 frames rendered twice in different orders",
+    "video 1080×1920, 30 fps, 1740 frames: 1080×1920 30/1 1740",
+    "H.264 High, yuv420p, BT.709 limited range: h264 High yuv420p bt709 tv",
+    "AAC 48 kHz stereo",
+    "audio and video start together and last 58 s: 58.005 s",
+    "decodes end to end without errors",
+    "loudness about −10 LUFS (the user's target for this film): -10.2 LUFS, range 3.2 LU",
+    "true peak at or under −1.5 dBTP: -3.3 dBTP",
+    "sound starts on frame 0 (first 100 ms not silent): -10.613209 dB RMS"
+  ],
+  "fail": [],
+  "media": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1740,
+    "duration": 58.005,
+    "video": "h264 High yuv420p bt709",
+    "audio": "aac 48000 Hz 2 ch",
+    "sizeMB": 21,
+    "loudness": {
+      "I": -10.2,
+      "TP": -3.3,
+      "LRA": 3.2
+    }
+  },
+  "frameHashes": {
+    "0": "69c107a90eff189b69c0af03b92743233e40fca53e3eb0f90f1a5063eb63cf23",
+    "20": "5307409dacea303273f6d655aebf1babf8b57abf9e932ba578325101e9c68105",
+    "156": "d8ba75a6fe5cbc866a1c88b873cdd77a24872a192eef96e63d887b2c5c482d13",
+    "291": "937faa11b383a50fb17fae824bf1848053ab6d1699d71035c292adb07c869616",
+    "426": "ae85599df3c78846e7f2ee14b6e8b90aecc70fbc047f4170586874b3f6de3d7d",
+    "606": "5b759f33832a73e8d5a0e38b23bc41211f77900d7eb04146e42ae1867e671569",
+    "786": "ae4a3d25fef36341107144243657448107a245b53746e3322fda3c0f41b92122",
+    "951": "815aef2f9fb6f5761c50993c35d69927a8b6f86e28a9088e678c90515eeec5fd",
+    "1131": "a10f49935ee37bdaef3a2daadee6b670fed649fc09763c7d5b8159943669d732",
+    "1266": "0c91d609ac0ec55dcfdbddfa99e2e6f7ec0cfbe27f37473cce40785c262b24c5",
+    "1416": "3ecf75500847dad8e322c85509a5d32798687d633e7666d1d2d56e82bb711389",
+    "1521": "2832df2254711cb64489271ef5aa4750bb2500753d5da091165e5f0a0abcf13e",
+    "1686": "6e292f09ce760ac2a40bef68388ce762a096ae469368ca0a1eb6111b3ec570fb"
+  }
+}
