@@ -73,6 +73,7 @@ Write the *same* description of each character's look in every prompt, word for 
 | Hands, objects merging | Hide hands, simplify props, cut away sooner |
 | Floaty physics, slow motion | Ask for "real-time speed"; trim the clip; cut on the action |
 | Lip-sync off | Shorter lines; or generate without dialogue and add voice later (Chapter 4) |
+| Expression doesn't change (MiniMax H3) | One facial beat per shot: split into 2–3 s shots ([Chapter 9](09-skills-plugins-tools.md#what-these-projects-teach)) |
 | Clip ends on a messy frame | Trim the tail in `shots.txt` (`clip.mp4 0 9.2`) |
 
 ## Rights and labels
