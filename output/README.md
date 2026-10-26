@@ -6,6 +6,7 @@ GitHub archives the production work. Douyin publication is a separate action and
 
 | Result | Files |
 |---|---|
+| Rubik's Cube r6 · r5's full cut (2:06) with an impact layer: shockwaves, sticker bursts, light rays, camera shake and bloom on every big moment | [MP4](https://github.com/carljings/how-to-make-ai-video/releases/download/rubiks-r6-20261025/rubiks-r6-full.mp4) · [source and log](rubiks-r6-20261025/README.md) · [Douyin copy](rubiks-r6-20261025/publish/发布文案-r6.md) |
 | Recent archive · 18–25 October: Rubik's Cube r4, earlier film iterations, music explainers, Roadster films, AI reward-hacking film, covers and publishing copy | [Archive index and downloads](archive-20261025/README.md) · [media checksums](archive-20261025/MEDIA_SHA256SUMS) |
 | Companion cube trainer experiment · source archive, not deployed | [Trial source and limitations](../experiments/cube-trainer-20261022/README.md) |
 | Optogenetics V2 · 75 seconds, portrait, Mandarin narration | [MP4](optogenetics-film-v2/out/optogenetics-v2.mp4) · [source ZIP](optogenetics-film-v2/out/optogenetics-v2-source.zip) · [captions](optogenetics-film-v2/out/optogenetics-v2.srt) · [poster](optogenetics-film-v2/out/poster.jpg) |
