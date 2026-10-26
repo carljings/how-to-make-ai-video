@@ -6,6 +6,7 @@ GitHub用于制作成果归档。抖音发布是独立动作，须按实际上�
 
 | 成果 | 文件 |
 |---|---|
+| 魔方 r6 · r5 full 版（2:06）加冲击动效：每个重要时刻有冲击波、贴纸碎片、光芒、镜头震动和泛光 | [MP4](https://github.com/carljings/how-to-make-ai-video/releases/download/rubiks-r6-20261025/rubiks-r6-full.mp4) · [源码与日志](rubiks-r6-20261025/README.zh-CN.md) · [抖音文案](rubiks-r6-20261025/publish/发布文案-r6.md) |
 | 10月18–25日近期归档：魔方r4及历史迭代、音乐科普、特斯拉影片、AI刷分片、封面与发布文案 | [归档索引与成片下载](archive-20261025/README.zh-CN.md) · [媒体校验和](archive-20261025/MEDIA_SHA256SUMS) |
 | 配套魔方训练试作 · 仅源码归档，未部署 | [试作源码与能力边界](../experiments/cube-trainer-20261022/README.md) |
 | 光遗传学V2 · 75秒竖屏、中文旁白 | [MP4](optogenetics-film-v2/out/optogenetics-v2.mp4) · [源码包](optogenetics-film-v2/out/optogenetics-v2-source.zip) · [字幕](optogenetics-film-v2/out/optogenetics-v2.srt) · [封面](optogenetics-film-v2/out/poster.jpg) |
