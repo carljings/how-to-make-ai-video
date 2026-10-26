@@ -6,6 +6,7 @@ GitHub用于制作成果归档。抖音发布是独立动作，须按实际上�
 
 | 成果 | 文件 |
 |---|---|
+| 魔方 r5 · r4 的三个完播版本：full 2:06、mid 2:31、light 2:39（6 秒内给出 2.51 → 20 的承诺，20 之后新增钩子） | [full](https://github.com/carljings/how-to-make-ai-video/releases/download/rubiks-r5-20261025/rubiks-r5-full.mp4) · [mid](https://github.com/carljings/how-to-make-ai-video/releases/download/rubiks-r5-20261025/rubiks-r5-mid.mp4) · [light](https://github.com/carljings/how-to-make-ai-video/releases/download/rubiks-r5-20261025/rubiks-r5-light.mp4) · [源码与日志](rubiks-r5-20261025/README.zh-CN.md) · [抖音文案](rubiks-r5-20261025/publish/发布文案-r5.md) |
 | 10月18–25日近期归档：魔方r4及历史迭代、音乐科普、特斯拉影片、AI刷分片、封面与发布文案 | [归档索引与成片下载](archive-20261025/README.zh-CN.md) · [媒体校验和](archive-20261025/MEDIA_SHA256SUMS) |
 | 配套魔方训练试作 · 仅源码归档，未部署 | [试作源码与能力边界](../experiments/cube-trainer-20261022/README.md) |
 | 光遗传学V2 · 75秒竖屏、中文旁白 | [MP4](optogenetics-film-v2/out/optogenetics-v2.mp4) · [源码包](optogenetics-film-v2/out/optogenetics-v2-source.zip) · [字幕](optogenetics-film-v2/out/optogenetics-v2.srt) · [封面](optogenetics-film-v2/out/poster.jpg) |
