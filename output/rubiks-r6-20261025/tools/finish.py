@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""finish.py — master the score to −14 LUFS / true peak ≤ −1.5 dBTP, mux it with the picture, verify the result.
+"""finish.py — master the score to −14 LUFS (FINISH_LUFS to change) / true peak ≤ −1.5 dBTP, mux it with the picture, verify the result.
 
     python3 -I tools/finish.py out/picture.mp4 out/audio/score-raw.wav OUT.mp4 [duration]
 
@@ -32,10 +32,12 @@ FPS = 30
 frames = round(duration * FPS)
 if abs(frames - duration * FPS) > 1e-6:
     raise SystemExit('duration must be an integer number of 30 fps frames')
-master = str(Path(raw).with_name(Path(raw).stem.removesuffix('-raw') + '-master.wav'))
 # limiter ceiling (linear, at 4x sample rate); r5 uses 0.68 because AAC added up to 1.1 dB of true peak at 0.74
 import os
 LIMIT = float(os.environ.get('FINISH_LIMIT', '0.74'))
+# loudness target; the repo rule is -14 LUFS, Douyin uploads have used -10 at the user's choice
+TARGET = float(os.environ.get('FINISH_LUFS', '-14'))
+master = str(Path(raw).with_name(Path(raw).stem.removesuffix('-raw') + ('-master.wav' if TARGET == -14 else f'-master{TARGET:g}.wav')))
 
 
 def run(args):
@@ -77,15 +79,15 @@ if (abs(float(pa['duration']) - duration) > 0.001
 src_i, src_tp, src_lra = measure(raw)
 if not all(math.isfinite(x) for x in (src_i, src_tp, src_lra)):
     raise SystemExit('raw score has invalid loudness measurements')
-gain = -14 - src_i
+gain = TARGET - src_i
 for _ in range(5):
     r = run(['ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-i', raw, '-af',
              f'volume={gain:.2f}dB,aresample=192000,alimiter=limit={LIMIT}:attack=3:release=80:level=disabled,aresample=48000',
              '-c:a', 'pcm_s16le', master])
     i, tp, lra = measure(master)
-    if abs(i + 14) < 0.3:
+    if abs(i - TARGET) < 0.3:
         break
-    gain += -14 - i
+    gain += TARGET - i
 print(f'master: {src_i:.1f} → {i:.1f} LUFS, true peak {tp:.1f} dBTP, LRA {lra:.1f} LU (gain {gain:+.1f} dB)')
 
 r = run(['ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-i', pic, '-i', master, '-map', '0:v', '-map', '1:a',
@@ -112,7 +114,7 @@ report['pass'] = (report['video']['frames'] == frames and v['r_frame_rate'] == '
                   and abs(report['audio']['duration'] - duration) < 0.05
                   and abs(report['audio']['duration'] - report['video']['duration']) < 0.05
                   and a['codec_name'] == 'aac' and int(a['sample_rate']) == 48000 and a['channels'] == 2
-                  and abs(fi + 14) <= 0.5 and ftp <= -1.5 and decoded.returncode == 0 and not dec)
+                  and abs(fi - TARGET) <= 0.5 and ftp <= -1.5 and decoded.returncode == 0 and not dec)
 with Path(out).with_suffix('.verify.json').open('w') as f:
     json.dump(report, f, ensure_ascii=False, indent=1)
 print(json.dumps(report, ensure_ascii=False, indent=1))

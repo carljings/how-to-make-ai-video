@@ -1,0 +1,25 @@
+{
+ "file": "out/rubiks-r6-full-loud.mp4",
+ "bytes": 66131087,
+ "duration": 126.5,
+ "expected_duration": 126.5,
+ "expected_frames": 3795,
+ "video": {
+  "codec": "h264",
+  "size": "1080x1920",
+  "fps": "30/1",
+  "frames": 3795,
+  "duration": 126.5
+ },
+ "audio": {
+  "codec": "aac",
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration": 126.5,
+  "lufs": -10.28,
+  "true_peak_dbtp": -1.9,
+  "lra": 3.7
+ },
+ "decode_errors": null,
+ "pass": true
+}

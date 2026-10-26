@@ -2,7 +2,7 @@
 
 **English** · [简体中文](README.zh-CN.md)
 
-r6 is r5's `full` cut (126.5 s, same timeline, captions and score) with motion built to make viewers say "wow". The user's note on r5: "the motion effects is not very cool and amazing, you should let watcher eyes lit up". Movie: `out/rubiks-r6-full.mp4`.
+r6 is r5's `full` cut (126.5 s, same timeline, captions and score) with motion built to make viewers say "wow". The user's note on r5: "the motion effects is not very cool and amazing, you should let watcher eyes lit up". Movie: `out/rubiks-r6-full.mp4` (−14 LUFS), plus `out/rubiks-r6-full-loud.mp4` (−10 LUFS, the same picture) for Douyin, where the user has chosen louder masters before.
 
 New in `src/lib/fx.js` and `src/hero.js`, all pure functions of film time (seeded randomness, no state):
 

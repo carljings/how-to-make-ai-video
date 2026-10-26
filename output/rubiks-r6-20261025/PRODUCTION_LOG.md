@@ -24,4 +24,8 @@ After r5, the user chose the full cut and asked for stronger motion: "use the fu
 - One sheet tile at 29.9 s looked washed out. It is r4's single-frame flash into the "20 steps" act, present in r5 at the same frames (luma 73 → 101). The flash frames on every hit are r5's, about 15–20 % brighter because of the bloom pulse; they are single frames seconds apart.
 - Known trade-off: the red dust from the stamp crosses "广州决赛 · 第 6" for about 0.4 s before it settles. The caption above carries the same words.
 
+## Louder master for Douyin
+
+For the Douyin upload, `tools/finish.py` gained a `FINISH_LUFS` target (default −14). `out/rubiks-r6-full-loud.mp4` re-masters the same score to −10 LUFS, with the same limiter ceiling (0.68), and copies the picture unchanged. Verify: −10.28 LUFS, true peak −1.9 dBTP, 3795 frames, pass. Loudness range falls from 5.8 to 3.7 LU, so the hits are a little flatter.
+
 Limits: no one has listened to the score; no physical-phone test; whether the effects raise retention is untested.
