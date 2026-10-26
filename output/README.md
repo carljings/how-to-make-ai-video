@@ -6,6 +6,7 @@ GitHub archives the production work. Douyin publication is a separate action and
 
 | Result | Files |
 |---|---|
+| Rubik's Cube r5 · three retention cuts of r4: full 2:06, mid 2:31, light 2:39 (2.51 → 20 promise by 6 s, a new hook after the 20) | [full](https://github.com/carljings/how-to-make-ai-video/releases/download/rubiks-r5-20261025/rubiks-r5-full.mp4) · [mid](https://github.com/carljings/how-to-make-ai-video/releases/download/rubiks-r5-20261025/rubiks-r5-mid.mp4) · [light](https://github.com/carljings/how-to-make-ai-video/releases/download/rubiks-r5-20261025/rubiks-r5-light.mp4) · [source and log](rubiks-r5-20261025/README.md) · [Douyin copy](rubiks-r5-20261025/publish/发布文案-r5.md) |
 | Recent archive · 18–25 October: Rubik's Cube r4, earlier film iterations, music explainers, Roadster films, AI reward-hacking film, covers and publishing copy | [Archive index and downloads](archive-20261025/README.md) · [media checksums](archive-20261025/MEDIA_SHA256SUMS) |
 | Companion cube trainer experiment · source archive, not deployed | [Trial source and limitations](../experiments/cube-trainer-20261022/README.md) |
 | Optogenetics V2 · 75 seconds, portrait, Mandarin narration | [MP4](optogenetics-film-v2/out/optogenetics-v2.mp4) · [source ZIP](optogenetics-film-v2/out/optogenetics-v2-source.zip) · [captions](optogenetics-film-v2/out/optogenetics-v2.srt) · [poster](optogenetics-film-v2/out/poster.jpg) |
